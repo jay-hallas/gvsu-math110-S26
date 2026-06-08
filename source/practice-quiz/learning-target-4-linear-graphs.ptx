@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt4-practice-quiz">
+  <title>Learning Target 4: Linear Graphs</title>
+  <objectives>
+    <ul>
+      <li>Given a linear graph, identify the slope in the context, the vertical intercept, horizontal intercept, evaluate <m>f(a)</m>, find <m>x</m> given <m>f(a)</m> and make the equation of the line. </li>
+    </ul>
+  </objectives>
+
+  <!-- ============================================================
+       PROBLEM 1: Abstract line, f(x) = (3/2)x - 3
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt4-line1">
+      <title>Reading a Line</title>
+      <introduction>
+        <p>
+          Use the graph of the line <m>y = f(x)</m> below to answer the questions. Read your values directly from the grid.
+        </p>
+        <image width="55%">
+          <shortdescription>A line on a coordinate grid passing through (0, -3) and (2, 0), rising 3 units for every 2 units to the right.</shortdescription>
+          <description>
+            <p>
+              A straight line on a coordinate grid with x from negative 1 to 7 and y from negative 5 to 7. The line passes through the points (0, negative 3), (2, 0), (4, 3), and (6, 6), rising 3 units for every 2 units it moves to the right.
+            </p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="lt4-line1-graph">
+            <diagram dimensions="(360,360)" margins="(30,30,12,12)">
+              <coordinates bbox="(-1.5,-5.5,7.5,7.5)">
+                <grid-axes hticks="(-1,1,7)" hlabels="(-1,1,7)" vticks="(-5,1,7)" vlabels="(-5,1,7)"
+                           spacings="((-1,1,7),(-5,1,7))" xlabel="x" ylabel="y"/>
+                <line p1="(0,-3)" p2="(2,0)" infinite="yes" stroke="purple" thickness="2.5"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </introduction>
+
+      <task workspace="1.25in">
+        <statement><p>Find the slope of the line.</p></statement>
+        <answer>
+          <p>
+            Between
+            <m>(0,-3)</m>
+            and
+            <m>(2,0)</m>
+            the line rises
+            <m>3</m>
+            and runs
+            <m>2</m>
+            , so the slope is
+            <m>\frac{3}{2}</m>
+            .
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>Find the vertical intercept.</p></statement>
+        <answer><p>The line crosses the <m>y</m>-axis at <m>(0,-3)</m>, so the vertical intercept is <m>-3</m>.</p></answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>Find the horizontal intercept.</p></statement>
+        <answer><p>The line crosses the <m>x</m>-axis at <m>(2,0)</m>, so the horizontal intercept is <m>2</m>.</p></answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>Evaluate <m>f(4)</m>.</p></statement>
+        <answer><p>At <m>x=4</m> the line passes through <m>(4,3)</m>, so <m>f(4)=3</m>.</p></answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>Find the value of <m>x</m> for which <m>f(x)=6</m>.</p></statement>
+        <answer><p>The line reaches a height of <m>6</m> at the point <m>(6,6)</m>, so <m>f(x)=6</m> when <m>x=6</m>.</p></answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>Write the equation of the line.</p></statement>
+        <answer>
+          <p>
+            Using the slope
+            <m>\frac{3}{2}</m>
+            and vertical intercept
+            <m>-3</m>
+            , the equation is
+            <m>y = \frac{3}{2}x - 3</m>
+            .
+          </p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 2: Abstract line, f(x) = -2x + 8
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt4-line2">
+      <title>Reading Another Line</title>
+      <introduction>
+        <p>
+          Use the graph of the line <m>y = f(x)</m> below to answer the questions. Read your values directly from the grid.
+        </p>
+        <image width="55%">
+          <shortdescription>A line on a coordinate grid passing through (0, 8) and (4, 0), falling 2 units for every 1 unit to the right.</shortdescription>
+          <description>
+            <p>
+              A straight line on a coordinate grid with x from negative 1 to 6 and y from negative 1 to 9. The line passes through the points (0, 8), (1, 6), (2, 4), (3, 2), and (4, 0), falling 2 units for every 1 unit it moves to the right.
+            </p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="lt4-line2-graph">
+            <diagram dimensions="(360,360)" margins="(30,30,12,12)">
+              <coordinates bbox="(-1.5,-1.5,6.5,9.5)">
+                <grid-axes hticks="(-1,1,6)" hlabels="(-1,1,6)" vticks="(-1,1,9)" vlabels="(-1,1,9)"
+                           spacings="((-1,1,6),(-1,1,9))" xlabel="x" ylabel="y"/>
+                <line p1="(0,8)" p2="(1,6)" infinite="yes" stroke="purple" thickness="2.5"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </introduction>
+
+      <task workspace="1.25in">
+        <statement><p>Find the slope of the line.</p></statement>
+        <answer>
+          <p>
+            Between
+            <m>(0,8)</m>
+            and
+            <m>(1,6)</m>
+            the line falls
+            <m>2</m>
+            and runs
+            <m>1</m>
+            , so the slope is
+            <m>-2</m>
+            .
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>Find the vertical intercept.</p></statement>
+        <answer><p>The line crosses the <m>y</m>-axis at <m>(0,8)</m>, so the vertical intercept is <m>8</m>.</p></answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>Find the horizontal intercept.</p></statement>
+        <answer><p>The line crosses the <m>x</m>-axis at <m>(4,0)</m>, so the horizontal intercept is <m>4</m>.</p></answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>Evaluate <m>f(1)</m>.</p></statement>
+        <answer><p>At <m>x=1</m> the line passes through <m>(1,6)</m>, so <m>f(1)=6</m>.</p></answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>Find the value of <m>x</m> for which <m>f(x)=2</m>.</p></statement>
+        <answer><p>The line is at height <m>2</m> at the point <m>(3,2)</m>, so <m>f(x)=2</m> when <m>x=3</m>.</p></answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>Write the equation of the line.</p></statement>
+        <answer>
+          <p>Using the slope <m>-2</m> and vertical intercept <m>8</m>, the equation is <m>y = -2x + 8</m>.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 3: Applied - event venue cost
+       ============================================================ -->
+ <page>
+    <exercise xml:id="lt4-venue">
+      <title>Renting an Event Venue</title>
+      <introduction>
+        <p>
+          An event venue charges a fixed booking fee plus an hourly rate for the time you reserve. The graph shows the total cost <m>C</m> of renting the venue for <m>t</m> hours.
+        </p>
+        <image width="80%">
+          <shortdescription>A line showing total rental cost versus time in hours: it starts at 400 dollars when time is 0 and rises by 150 dollars for each additional hour, reaching 1600 dollars at 8 hours.</shortdescription>
+          <description>
+            <p>
+              A straight line on a grid with time in hours on the horizontal axis (0 to 8) and total cost in dollars on the vertical axis (0 to 1600). The line begins at 400 dollars when the time is 0 hours and rises steadily, passing through (4, 1000) and reaching 1600 dollars at 8 hours. 
+            </p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="lt4-venue-graph">
+            <diagram dimensions="(560,360)" margins="(70,55,120,18)">
+              <coordinates bbox="(-0.5,-100,8.6,1700)">
+                <grid-axes hticks="(0,1,8)" hlabels="(0,1,8)" vticks="(0,100,1600)" vlabels="(0,200,1600)"
+                           spacings="((0,1,8),(0,100,1600))" h-zero-label="yes">
+                  <xlabel alignment="se">Time (hours)</xlabel>
+                  <ylabel alignment="ne">Cost (dollars)</ylabel>
+                </grid-axes>
+                <line endpoints="((0,400),(8,1600))" stroke="purple" thickness="3"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </introduction>
+
+      <task workspace="1.5in">
+        <statement><p>What is the venue's hourly rate? Explain how the slope of the line gives this rate.</p></statement>
+        <answer>
+          <p>
+            The slope is the rate of change of cost with respect to time. Reading two points that fall on the grid, from
+            <m>(0,400)</m>
+            to
+            <m>(4,1000)</m>
+            the cost rises
+            <m>\$600</m>
+            over
+            <m>4</m>
+            hours, a slope of
+            <m>\frac{600}{4}=150</m>
+            . So the venue charges
+            <m>\$150</m>
+            per hour.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>Find the vertical intercept. What does it represent in this situation?</p></statement>
+        <answer>
+          <p>
+            The line meets the vertical axis at
+            <m>(0,400)</m>
+            , so the vertical intercept is
+            <m>\$400</m>
+            . This is the fixed booking fee charged for
+            <m>0</m>
+            hours of rental—the cost before any hourly charges are added.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>Evaluate <m>f(4)</m> and explain what it tells you.</p></statement>
+        <answer>
+          <p>
+            At
+            <m>t=4</m>
+            hours the line is at
+            <m>(4,1000)</m>
+            , so
+            <m>f(4)=1000</m>
+            . Renting the venue for
+            <m>4</m>
+            hours costs
+            <m>\$1000</m>
+            .
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement><p>You have a budget of <m>\$1300</m>. Find the value of <m>t</m> for which <m>f(t)=1300</m>, and explain what it means.</p></statement>
+        <answer>
+          <p>
+            The line reaches
+            <m>\$1300</m>
+            at the point
+            <m>(6,1300)</m>
+            , so
+            <m>f(t)=1300</m>
+            when
+            <m>t=6</m>
+            . With
+            <m>\$1300</m>
+            you can rent the venue for
+            <m>6</m>
+            hours.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>Write an equation for the total cost <m>C</m> of renting the venue for <m>t</m> hours.</p></statement>
+        <answer>
+          <p>Using the hourly rate <m>150</m> as the slope and the booking fee <m>400</m> as the vertical intercept, the equation is <m>C = 150t + 400</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement><p>Use your equation to find the horizontal intercept. Does it make sense in this situation?</p></statement>
+        <answer>
+          <p>
+            The horizontal intercept is where the cost is
+            <m>0</m>
+            . Setting
+            <m>150t + 400 = 0</m>
+            gives
+            <m>t = -\frac{400}{150} = -\frac{8}{3} \approx -2.7</m>
+            hours. A negative time has no meaning here, and the cost is never actually
+            <m>\$0</m>
+            (the booking fee alone is
+            <m>\$400</m>
+            ), so the horizontal intercept does not make sense in this context.
+          </p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>
