@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: denver                         *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Learning Target 4: Linear Graphs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script type="module">import { startMathJax } from './_static/pretext/js/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Algebra">
+<meta property="book:author" content=" Professor Jamie Hallas ">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.1.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.dcab57465a404e85.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.79fbb790b185d712.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Algebra</span> <span class="subtitle">MTH 110</span></a></h1>
+<p class="byline">Professor Jamie Hallas</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="lt3-practice-quiz.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="handouts.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="homework.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-documents.html" class="internal"><span class="title">Course Documents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="title">Syllabus</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-course-info" class="internal"><span class="title">Course Information</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-assessments" class="internal"><span class="title">Assessments and Grades</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-notes.html" class="internal"><span class="title">Course Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-01.html" class="internal"><span class="title">Week 1</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-3" class="internal"><span class="title">Monday 8/22</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-4" class="internal"><span class="title">Wednesday 8/24</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-5" class="internal"><span class="title">Friday 8/26</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-02.html" class="internal"><span class="title">Week 2</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-2" class="internal"><span class="title">Monday</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-3" class="internal"><span class="title">Wednesday</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-4" class="internal"><span class="title">Friday</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="activities.html" class="internal"><span class="title">In-Class Activities</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="handouts.html" class="internal"><span class="title">Practice Quizzes</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt2-practice-quiz.html" class="internal"><span class="title">Learning Target 2: Reading Qualitative Graphs</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt3-practice-quiz.html" class="internal"><span class="title">Learning Target 3: Linear Patterns</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="lt4-practice-quiz.html" class="internal"><span class="title">Learning Target 4: Linear Graphs</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="homework.html" class="internal"><span class="title">Homework</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="hide-solutions-options"><div class="hide-option">
+<label for="hide-answer-checkbox">Hide answers</label><input type="checkbox" id="hide-answer-checkbox">
+</div></div>
+<div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="worksheet" id="lt4-practice-quiz" data-margins="0.75in 0.75in 0.75in 0.75in">
+<h2 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Learning Target 4: Linear Graphs</span><div class="print-links"><a href="?printpreview=lt4-practice-quiz" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h2>
+<article class="objectives goal-like" id="lt4-practice-quiz-2"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ul class="disc" id="lt4-practice-quiz-2-1">
+<li id="lt4-practice-quiz-2-1-1">
+<div class="para" id="p-derived-lt4-practice-quiz-2-1-1">Given a linear graph, identify the slope in the context, the vertical intercept, horizontal intercept, evaluate <span class="process-math">\(f(a)\text{,}\)</span> find <span class="process-math">\(x\)</span> given <span class="process-math">\(f(a)\)</span> and make the equation of the line.</div>
+<div class="autopermalink" data-description="Objective"><a href="#lt4-practice-quiz-2-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives"><a href="#lt4-practice-quiz-2" title="Copy heading and permalink for Objectives" aria-label="Copy heading and permalink for Objectives">🔗</a></div>
+</article><section class="onepage" id="lt4-practice-quiz-3">
+<article class="exercise exercise-like" id="lt4-line1"><h3 class="heading">
+<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Reading a Line.</span>
+</h3>
+<div class="introduction" id="lt4-line1-2">
+<div class="para" id="lt4-line1-2-1">Use the graph of the line <span class="process-math">\(y = f(x)\)</span> below to answer the questions. Read your values directly from the grid.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;">
+<img src="generated/prefigure/lt4-line1-graph.svg" role="img" class="contained" alt="A line on a coordinate grid passing through (0, -3) and (2, 0), rising 3 units for every 2 units to the right."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="lt4-line1-2-2-description">
+<div class="para" id="lt4-line1-2-2-2-1">A straight line on a coordinate grid with x from negative 1 to 7 and y from negative 5 to 7. The line passes through the points (0, negative 3), (2, 0), (4, 3), and (6, 6), rising 3 units for every 2 units it moves to the right.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line1-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+</div>
+<article class="task exercise-like" id="lt4-line1-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="lt4-line1-3-1-1">Find the slope of the line.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-line1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-line1-3-2-1">Between <span class="process-math">\((0,-3)\)</span> and <span class="process-math">\((2,0)\)</span> the line rises <span class="process-math">\(3\)</span> and runs <span class="process-math">\(2\)</span> , so the slope is <span class="process-math">\(\frac{3}{2}\)</span> .<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.a.1"><a href="#lt4-line1-3-2" title="Copy heading and permalink for Answer 1.a.1" aria-label="Copy heading and permalink for Answer 1.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" data-description="Task 1.a"><a href="#lt4-line1-3" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-line1-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="lt4-line1-4-1-1">Find the vertical intercept.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-line1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-line1-4-2-1">The line crosses the <span class="process-math">\(y\)</span>-axis at <span class="process-math">\((0,-3)\text{,}\)</span> so the vertical intercept is <span class="process-math">\(-3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt4-line1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.b.1"><a href="#lt4-line1-4-2" title="Copy heading and permalink for Answer 1.b.1" aria-label="Copy heading and permalink for Answer 1.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 1.b"><a href="#lt4-line1-4" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-line1-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="lt4-line1-5-1-1">Find the horizontal intercept.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line1-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-line1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-line1-5-2-1">The line crosses the <span class="process-math">\(x\)</span>-axis at <span class="process-math">\((2,0)\text{,}\)</span> so the horizontal intercept is <span class="process-math">\(2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt4-line1-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.c.1"><a href="#lt4-line1-5-2" title="Copy heading and permalink for Answer 1.c.1" aria-label="Copy heading and permalink for Answer 1.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 1.c"><a href="#lt4-line1-5" title="Copy heading and permalink for Task 1.c" aria-label="Copy heading and permalink for Task 1.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-line1-6"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="lt4-line1-6-1-1">Evaluate <span class="process-math">\(f(4)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt4-line1-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-line1-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-line1-6-2-1">At <span class="process-math">\(x=4\)</span> the line passes through <span class="process-math">\((4,3)\text{,}\)</span> so <span class="process-math">\(f(4)=3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt4-line1-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.d.1"><a href="#lt4-line1-6-2" title="Copy heading and permalink for Answer 1.d.1" aria-label="Copy heading and permalink for Answer 1.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 1.d"><a href="#lt4-line1-6" title="Copy heading and permalink for Task 1.d" aria-label="Copy heading and permalink for Task 1.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-line1-7"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="lt4-line1-7-1-1">Find the value of <span class="process-math">\(x\)</span> for which <span class="process-math">\(f(x)=6\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt4-line1-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-line1-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-line1-7-2-1">The line reaches a height of <span class="process-math">\(6\)</span> at the point <span class="process-math">\((6,6)\text{,}\)</span> so <span class="process-math">\(f(x)=6\)</span> when <span class="process-math">\(x=6\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt4-line1-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.e.1"><a href="#lt4-line1-7-2" title="Copy heading and permalink for Answer 1.e.1" aria-label="Copy heading and permalink for Answer 1.e.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" data-description="Task 1.e"><a href="#lt4-line1-7" title="Copy heading and permalink for Task 1.e" aria-label="Copy heading and permalink for Task 1.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-line1-8"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="lt4-line1-8-1-1">Write the equation of the line.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line1-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-line1-8-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-line1-8-2-1">Using the slope <span class="process-math">\(\frac{3}{2}\)</span> and vertical intercept <span class="process-math">\(-3\)</span> , the equation is <span class="process-math">\(y = \frac{3}{2}x - 3\)</span> .<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line1-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.f.1"><a href="#lt4-line1-8-2" title="Copy heading and permalink for Answer 1.f.1" aria-label="Copy heading and permalink for Answer 1.f.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" data-description="Task 1.f"><a href="#lt4-line1-8" title="Copy heading and permalink for Task 1.f" aria-label="Copy heading and permalink for Task 1.f">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet Exercise 1: Reading a Line"><a href="#lt4-line1" title="Copy heading and permalink for Worksheet Exercise 1: Reading a Line" aria-label="Copy heading and permalink for Worksheet Exercise 1: Reading a Line">🔗</a></div>
+</article></section><section class="onepage" id="lt4-practice-quiz-4">
+<article class="exercise exercise-like" id="lt4-line2"><h3 class="heading">
+<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Reading Another Line.</span>
+</h3>
+<div class="introduction" id="lt4-line2-2">
+<div class="para" id="lt4-line2-2-1">Use the graph of the line <span class="process-math">\(y = f(x)\)</span> below to answer the questions. Read your values directly from the grid.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;">
+<img src="generated/prefigure/lt4-line2-graph.svg" role="img" class="contained" alt="A line on a coordinate grid passing through (0, 8) and (4, 0), falling 2 units for every 1 unit to the right."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="lt4-line2-2-2-description">
+<div class="para" id="lt4-line2-2-2-2-1">A straight line on a coordinate grid with x from negative 1 to 6 and y from negative 1 to 9. The line passes through the points (0, 8), (1, 6), (2, 4), (3, 2), and (4, 0), falling 2 units for every 1 unit it moves to the right.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line2-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+</div>
+<article class="task exercise-like" id="lt4-line2-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="lt4-line2-3-1-1">Find the slope of the line.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-line2-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-line2-3-2-1">Between <span class="process-math">\((0,8)\)</span> and <span class="process-math">\((1,6)\)</span> the line falls <span class="process-math">\(2\)</span> and runs <span class="process-math">\(1\)</span> , so the slope is <span class="process-math">\(-2\)</span> .<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 2.a.1"><a href="#lt4-line2-3-2" title="Copy heading and permalink for Answer 2.a.1" aria-label="Copy heading and permalink for Answer 2.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" data-description="Task 2.a"><a href="#lt4-line2-3" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-line2-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="lt4-line2-4-1-1">Find the vertical intercept.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-line2-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-line2-4-2-1">The line crosses the <span class="process-math">\(y\)</span>-axis at <span class="process-math">\((0,8)\text{,}\)</span> so the vertical intercept is <span class="process-math">\(8\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt4-line2-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 2.b.1"><a href="#lt4-line2-4-2" title="Copy heading and permalink for Answer 2.b.1" aria-label="Copy heading and permalink for Answer 2.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 2.b"><a href="#lt4-line2-4" title="Copy heading and permalink for Task 2.b" aria-label="Copy heading and permalink for Task 2.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-line2-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="lt4-line2-5-1-1">Find the horizontal intercept.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-line2-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-line2-5-2-1">The line crosses the <span class="process-math">\(x\)</span>-axis at <span class="process-math">\((4,0)\text{,}\)</span> so the horizontal intercept is <span class="process-math">\(4\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt4-line2-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 2.c.1"><a href="#lt4-line2-5-2" title="Copy heading and permalink for Answer 2.c.1" aria-label="Copy heading and permalink for Answer 2.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 2.c"><a href="#lt4-line2-5" title="Copy heading and permalink for Task 2.c" aria-label="Copy heading and permalink for Task 2.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-line2-6"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="lt4-line2-6-1-1">Evaluate <span class="process-math">\(f(1)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt4-line2-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-line2-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-line2-6-2-1">At <span class="process-math">\(x=1\)</span> the line passes through <span class="process-math">\((1,6)\text{,}\)</span> so <span class="process-math">\(f(1)=6\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt4-line2-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 2.d.1"><a href="#lt4-line2-6-2" title="Copy heading and permalink for Answer 2.d.1" aria-label="Copy heading and permalink for Answer 2.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 2.d"><a href="#lt4-line2-6" title="Copy heading and permalink for Task 2.d" aria-label="Copy heading and permalink for Task 2.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-line2-7"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="lt4-line2-7-1-1">Find the value of <span class="process-math">\(x\)</span> for which <span class="process-math">\(f(x)=2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt4-line2-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-line2-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-line2-7-2-1">The line is at height <span class="process-math">\(2\)</span> at the point <span class="process-math">\((3,2)\text{,}\)</span> so <span class="process-math">\(f(x)=2\)</span> when <span class="process-math">\(x=3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt4-line2-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 2.e.1"><a href="#lt4-line2-7-2" title="Copy heading and permalink for Answer 2.e.1" aria-label="Copy heading and permalink for Answer 2.e.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" data-description="Task 2.e"><a href="#lt4-line2-7" title="Copy heading and permalink for Task 2.e" aria-label="Copy heading and permalink for Task 2.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-line2-8"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="lt4-line2-8-1-1">Write the equation of the line.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-line2-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-line2-8-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-line2-8-2-1">Using the slope <span class="process-math">\(-2\)</span> and vertical intercept <span class="process-math">\(8\text{,}\)</span> the equation is <span class="process-math">\(y = -2x + 8\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt4-line2-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 2.f.1"><a href="#lt4-line2-8-2" title="Copy heading and permalink for Answer 2.f.1" aria-label="Copy heading and permalink for Answer 2.f.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" data-description="Task 2.f"><a href="#lt4-line2-8" title="Copy heading and permalink for Task 2.f" aria-label="Copy heading and permalink for Task 2.f">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet Exercise 2: Reading Another Line"><a href="#lt4-line2" title="Copy heading and permalink for Worksheet Exercise 2: Reading Another Line" aria-label="Copy heading and permalink for Worksheet Exercise 2: Reading Another Line">🔗</a></div>
+</article></section><section class="onepage" id="lt4-practice-quiz-5">
+<article class="exercise exercise-like" id="lt4-venue"><h3 class="heading">
+<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Renting an Event Venue.</span>
+</h3>
+<div class="introduction" id="lt4-venue-2">
+<div class="para" id="lt4-venue-2-1">An event venue charges a fixed booking fee plus an hourly rate for the time you reserve. The graph shows the total cost <span class="process-math">\(C\)</span> of renting the venue for <span class="process-math">\(t\)</span> hours.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-venue-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;">
+<img src="generated/prefigure/lt4-venue-graph.svg" role="img" class="contained" alt="A line showing total rental cost versus time in hours: it starts at 400 dollars when time is 0 and rises by 150 dollars for each additional hour, reaching 1600 dollars at 8 hours."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="lt4-venue-2-2-description">
+<div class="para" id="lt4-venue-2-2-2-1">A straight line on a grid with time in hours on the horizontal axis (0 to 8) and total cost in dollars on the vertical axis (0 to 1600). The line begins at 400 dollars when the time is 0 hours and rises steadily, passing through (4, 1000) and reaching 1600 dollars at 8 hours.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-venue-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+</div>
+<article class="task exercise-like" id="lt4-venue-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="lt4-venue-3-1-1">What is the venue’s hourly rate? Explain how the slope of the line gives this rate.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-venue-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-venue-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-venue-3-2-1">The slope is the rate of change of cost with respect to time. Reading two points that fall on the grid, from <span class="process-math">\((0,400)\)</span> to <span class="process-math">\((4,1000)\)</span> the cost rises <span class="process-math">\(\$600\)</span> over <span class="process-math">\(4\)</span> hours, a slope of <span class="process-math">\(\frac{600}{4}=150\)</span> . So the venue charges <span class="process-math">\(\$150\)</span> per hour.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-venue-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.a.1"><a href="#lt4-venue-3-2" title="Copy heading and permalink for Answer 3.a.1" aria-label="Copy heading and permalink for Answer 3.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" data-description="Task 3.a"><a href="#lt4-venue-3" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-venue-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="lt4-venue-4-1-1">Find the vertical intercept. What does it represent in this situation?<div class="autopermalink" data-description="Paragraph"><a href="#lt4-venue-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-venue-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-venue-4-2-1">The line meets the vertical axis at <span class="process-math">\((0,400)\)</span> , so the vertical intercept is <span class="process-math">\(\$400\)</span> . This is the fixed booking fee charged for <span class="process-math">\(0\)</span> hours of rental—the cost before any hourly charges are added.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-venue-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.b.1"><a href="#lt4-venue-4-2" title="Copy heading and permalink for Answer 3.b.1" aria-label="Copy heading and permalink for Answer 3.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" data-description="Task 3.b"><a href="#lt4-venue-4" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-venue-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="lt4-venue-5-1-1">Evaluate <span class="process-math">\(f(4)\)</span> and explain what it tells you.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-venue-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-venue-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-venue-5-2-1">At <span class="process-math">\(t=4\)</span> hours the line is at <span class="process-math">\((4,1000)\)</span> , so <span class="process-math">\(f(4)=1000\)</span> . Renting the venue for <span class="process-math">\(4\)</span> hours costs <span class="process-math">\(\$1000\)</span> .<div class="autopermalink" data-description="Paragraph"><a href="#lt4-venue-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.c.1"><a href="#lt4-venue-5-2" title="Copy heading and permalink for Answer 3.c.1" aria-label="Copy heading and permalink for Answer 3.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" data-description="Task 3.c"><a href="#lt4-venue-5" title="Copy heading and permalink for Task 3.c" aria-label="Copy heading and permalink for Task 3.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-venue-6"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="lt4-venue-6-1-1">You have a budget of <span class="process-math">\(\$1300\text{.}\)</span> Find the value of <span class="process-math">\(t\)</span> for which <span class="process-math">\(f(t)=1300\text{,}\)</span> and explain what it means.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-venue-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-venue-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-venue-6-2-1">The line reaches <span class="process-math">\(\$1300\)</span> at the point <span class="process-math">\((6,1300)\)</span> , so <span class="process-math">\(f(t)=1300\)</span> when <span class="process-math">\(t=6\)</span> . With <span class="process-math">\(\$1300\)</span> you can rent the venue for <span class="process-math">\(6\)</span> hours.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-venue-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.d.1"><a href="#lt4-venue-6-2" title="Copy heading and permalink for Answer 3.d.1" aria-label="Copy heading and permalink for Answer 3.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" data-description="Task 3.d"><a href="#lt4-venue-6" title="Copy heading and permalink for Task 3.d" aria-label="Copy heading and permalink for Task 3.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-venue-7"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="lt4-venue-7-1-1">Write an equation for the total cost <span class="process-math">\(C\)</span> of renting the venue for <span class="process-math">\(t\)</span> hours.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-venue-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-venue-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-venue-7-2-1">Using the hourly rate <span class="process-math">\(150\)</span> as the slope and the booking fee <span class="process-math">\(400\)</span> as the vertical intercept, the equation is <span class="process-math">\(C = 150t + 400\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt4-venue-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.e.1"><a href="#lt4-venue-7-2" title="Copy heading and permalink for Answer 3.e.1" aria-label="Copy heading and permalink for Answer 3.e.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" data-description="Task 3.e"><a href="#lt4-venue-7" title="Copy heading and permalink for Task 3.e" aria-label="Copy heading and permalink for Task 3.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt4-venue-8"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="lt4-venue-8-1-1">Use your equation to find the horizontal intercept. Does it make sense in this situation?<div class="autopermalink" data-description="Paragraph"><a href="#lt4-venue-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt4-venue-8-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt4-venue-8-2-1">The horizontal intercept is where the cost is <span class="process-math">\(0\)</span> . Setting <span class="process-math">\(150t + 400 = 0\)</span> gives <span class="process-math">\(t = -\frac{400}{150} = -\frac{8}{3} \approx -2.7\)</span> hours. A negative time has no meaning here, and the cost is never actually <span class="process-math">\(\$0\)</span> (the booking fee alone is <span class="process-math">\(\$400\)</span> ), so the horizontal intercept does not make sense in this context.<div class="autopermalink" data-description="Paragraph"><a href="#lt4-venue-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.f.1"><a href="#lt4-venue-8-2" title="Copy heading and permalink for Answer 3.f.1" aria-label="Copy heading and permalink for Answer 3.f.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" data-description="Task 3.f"><a href="#lt4-venue-8" title="Copy heading and permalink for Task 3.f" aria-label="Copy heading and permalink for Task 3.f">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet Exercise 3: Renting an Event Venue"><a href="#lt4-venue" title="Copy heading and permalink for Worksheet Exercise 3: Renting an Event Venue" aria-label="Copy heading and permalink for Worksheet Exercise 3: Renting an Event Venue">🔗</a></div>
+</article></section><div class="autopermalink" data-description="Worksheet: Learning Target 4: Linear Graphs"><a href="#lt4-practice-quiz" title="Copy heading and permalink for Worksheet: Learning Target 4: Linear Graphs" aria-label="Copy heading and permalink for Worksheet: Learning Target 4: Linear Graphs">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="lt3-practice-quiz.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="homework.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
