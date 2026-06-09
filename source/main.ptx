@@ -57,6 +57,7 @@
     <xi:include href="./practice-quiz/learning-target-2-functions-descriptions.ptx"/>
      <xi:include href="./practice-quiz/learning-target-3-linear-forms.ptx"/>
        <xi:include href="./practice-quiz/learning-target-4-linear-graphs.ptx"/>
+        <xi:include href="./practice-quiz/learning-target-5-linear-model.ptx"/>
     </chapter>
 
     <chapter xml:id="homework">

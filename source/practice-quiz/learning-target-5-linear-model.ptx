@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt5-practice-quiz">
+  <title>Learning Target 5: Linear Models</title>
+  <objectives>
+    <ul>
+      <li>Given a linear word situation, make an equation, identify and explain the meaning of slope in the context, identify and explain the y-intercept in the context, find <m>f(a)</m> and explain its meaning, find <m>x</m> given <m>f(a)</m> and explain its meaning, and determine what inputs make sense.</li>
+    </ul>
+  </objectives>
+
+  <!-- ============================================================
+       PROBLEM 1: Dining dollars (slope + intercept given)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt5-dining">
+      <title>Dining Dollars</title>
+      <introduction>
+        <p>
+          Professor Hallas starts the semester with <m>375</m> dining dollars on a campus meal account. Each visit to the cafe costs <m>\$10</m>.
+        </p>
+      </introduction>
+
+      <task workspace="0.6in">
+        <statement>
+          <p>Pick variables to describe this situation, and indicate what each variable represents (including units).</p>
+          <tabular halign="left">
+            <col width="22%"/>
+            <col width="26%"/>
+            <col width="52%"/>
+            <row bottom="medium">
+              <cell></cell>
+              <cell>Variable (letter)</cell>
+              <cell>Meaning of the variable (including units)</cell>
+            </row>
+            <row bottom="minor">
+              <cell>Independent</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Dependent</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <tabular halign="left">
+            <col width="22%"/>
+            <col width="26%"/>
+            <col width="52%"/>
+            <row bottom="medium">
+              <cell></cell>
+              <cell>Variable (letter)</cell>
+              <cell>Meaning of the variable (including units)</cell>
+            </row>
+            <row bottom="minor">
+              <cell>Independent</cell>
+              <cell><m>v</m></cell>
+              <cell>Number of visits to the cafe</cell>
+            </row>
+            <row>
+              <cell>Dependent</cell>
+              <cell><m>D</m></cell>
+              <cell>Dining dollars remaining (dollars)</cell>
+            </row>
+          </tabular>
+        </answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>What is the slope of your model, and what does it mean in the context of this situation?</p></statement>
+        <answer><p>The slope is <m>-10</m>. It means that with each visit to the cafe, the balance decreases by <m>\$10</m>.</p></answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>What is the y-intercept of your model, and what does it mean in the context of this situation?</p></statement>
+        <answer><p>The y-intercept is <m>(0,375)</m>. It means that before any visits, the account started with <m>375</m> dining dollars.</p></answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>Write an equation to model the dining dollars remaining. Show your thinking. Be careful which variables you use.</p></statement>
+        <answer>
+          <p>
+            Using <m>y = mx + b</m> with the variables <m>D</m> and <m>v</m>, substitute the slope <m>-10</m> for <m>m</m> and the starting value <m>375</m> for <m>b</m>:
+            <m>D = -10v + 375</m>.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>According to your model, how many dining dollars remain after <m>12</m> visits? (That is, find <m>f(12)</m>.) Show your thinking.</p></statement>
+        <answer>
+          <p>
+            Substitute <m>v = 12</m>:
+            <m>D = -10(12) + 375 = 255</m>.
+            After <m>12</m> visits, <m>255</m> dining dollars remain.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement><p>After how many visits will <m>75</m> dining dollars remain? (That is, find <m>v</m> so that <m>f(v) = 75</m>.) Show your thinking.</p></statement>
+        <answer>
+          <p>
+            Set <m>D = 75</m> and solve:
+            <m>75 = -10v + 375</m>, so <m>10v = 300</m> and <m>v = 30</m>.
+            After <m>30</m> visits, <m>75</m> dining dollars remain.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>What inputs make sense in this situation? Explain.</p></statement>
+        <answer>
+          <p>
+            The input is a whole number of visits, <m>v = 0, 1, 2, \ldots</m>, and the balance cannot go negative. After <m>37</m> visits only <m>\$5</m> remains, which is not enough for a <m>38</m>th <m>\$10</m> visit, so the inputs that make sense are the whole numbers from <m>0</m> to <m>37</m>.
+          </p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 2: Mercy healing (two points given)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt5-mercy">
+      <title>Healing in Overwatch</title>
+      <introduction>
+        <p>
+          In the game <em>Overwatch</em>, the support hero Mercy heals a teammate at a steady rate (assume no other effects, such as passive regeneration or healing reduction). A low-health teammate is being healed: after <m>2</m> seconds they are at <m>183</m> HP, and after <m>5</m> seconds they are at <m>348</m> HP. The teammate's maximum health is <m>750</m> HP.
+        </p>
+      </introduction>
+
+      <task workspace="0.6in">
+        <statement>
+          <p>Pick variables to describe this situation, and indicate what each variable represents (including units).</p>
+          <tabular halign="left">
+            <col width="22%"/>
+            <col width="26%"/>
+            <col width="52%"/>
+            <row bottom="medium">
+              <cell></cell>
+              <cell>Variable (letter)</cell>
+              <cell>Meaning of the variable (including units)</cell>
+            </row>
+            <row bottom="minor">
+              <cell>Independent</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Dependent</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <tabular halign="left">
+            <col width="22%"/>
+            <col width="26%"/>
+            <col width="52%"/>
+            <row bottom="medium">
+              <cell></cell>
+              <cell>Variable (letter)</cell>
+              <cell>Meaning of the variable (including units)</cell>
+            </row>
+            <row bottom="minor">
+              <cell>Independent</cell>
+              <cell><m>t</m></cell>
+              <cell>Time since healing began (seconds)</cell>
+            </row>
+            <row>
+              <cell>Dependent</cell>
+              <cell><m>H</m></cell>
+              <cell>Teammate's health (HP)</cell>
+            </row>
+          </tabular>
+        </answer>
+      </task>
+
+      <task workspace="1.75in">
+        <statement><p>Write a linear equation to model the teammate's health. Show your thinking.</p></statement>
+        <answer>
+          <p>
+            Treat the data as two points, <m>(t, H) \to (2, 183)</m> and <m>(5, 348)</m>.
+          </p>
+          <p>
+            Slope: <m>\dfrac{348 - 183}{5 - 2} = \dfrac{165}{3} = 55</m>.
+          </p>
+          <p>
+            Substitute <m>(2, 183)</m> into <m>H = 55t + b</m>: <m>183 = 55(2) + b</m>, so <m>b = 73</m>.
+          </p>
+          <p>
+            Final equation: <m>H = 55t + 73</m>.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>What is the slope of your model, and what does it mean in the context of this situation?</p></statement>
+        <answer><p>The slope is <m>55</m>. It means Mercy restores <m>55</m> HP each second.</p></answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>What is the y-intercept of your model, and what does it mean in the context of this situation?</p></statement>
+        <answer><p>The y-intercept is <m>(0, 73)</m>. It means the teammate had <m>73</m> HP at the moment healing began.</p></answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>According to your model, how much health does the teammate have after <m>8</m> seconds? (That is, find <m>f(8)</m>.) Show your thinking.</p></statement>
+        <answer>
+          <p>
+            Substitute <m>t = 8</m>:
+            <m>H = 55(8) + 73 = 513</m>.
+            After <m>8</m> seconds, the teammate has <m>513</m> HP.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement><p>According to your model, how long until the teammate reaches full health (<m>750</m> HP)? Show your thinking.</p></statement>
+        <answer>
+          <p>
+            Set <m>H = 750</m> and solve:
+            <m>750 = 55t + 73</m>, so <m>55t = 677</m> and <m>t = \dfrac{677}{55} \approx 12.31</m> seconds.
+            It takes about <m>12.31</m> seconds to reach full health.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement><p>What inputs make sense in this situation? Explain.</p></statement>
+        <answer>
+          <p>
+            Time cannot be negative, so <m>t \ge 0</m>. Also, health cannot exceed the maximum of <m>750</m> HP, so the linear model only applies until the teammate is fully healed, at about <m>t \approx 12.31</m> seconds. The inputs that make sense are roughly <m>0 \le t \le 12.31</m> seconds.
+          </p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 3: Gym membership (slope + intercept given)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt5-gym">
+      <title>Gym Membership</title>
+      <introduction>
+        <p>
+          A gym membership has a one-time registration fee plus a fixed monthly charge. The registration fee is <m>\$50</m>, and the membership costs <m>\$25</m> per month.
+        </p>
+      </introduction>
+
+      <task workspace="0.6in">
+        <statement>
+          <p>Pick variables to describe this situation, and indicate what each variable represents (including units).</p>
+          <tabular halign="left">
+            <col width="22%"/>
+            <col width="26%"/>
+            <col width="52%"/>
+            <row bottom="medium">
+              <cell></cell>
+              <cell>Variable (letter)</cell>
+              <cell>Meaning of the variable (including units)</cell>
+            </row>
+            <row bottom="minor">
+              <cell>Independent</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Dependent</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <tabular halign="left">
+            <col width="22%"/>
+            <col width="26%"/>
+            <col width="52%"/>
+            <row bottom="medium">
+              <cell></cell>
+              <cell>Variable (letter)</cell>
+              <cell>Meaning of the variable (including units)</cell>
+            </row>
+            <row bottom="minor">
+              <cell>Independent</cell>
+              <cell><m>m</m></cell>
+              <cell>Number of months of membership</cell>
+            </row>
+            <row>
+              <cell>Dependent</cell>
+              <cell><m>C</m></cell>
+              <cell>Total amount paid (dollars)</cell>
+            </row>
+          </tabular>
+        </answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>What is the slope of your model, and what does it mean in the context of this situation?</p></statement>
+        <answer><p>The slope is <m>25</m>. It means the total cost increases by <m>\$25</m> for each additional month of membership.</p></answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>What is the y-intercept of your model, and what does it mean in the context of this situation?</p></statement>
+        <answer><p>The y-intercept is <m>(0, 50)</m>. It is the <m>\$50</m> registration fee, paid at the start before any monthly charges (at <m>0</m> months).</p></answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>Write an equation to model the total amount paid. Show your thinking. Be careful which variables you use.</p></statement>
+        <answer>
+          <p>
+            Using <m>y = mx + b</m> with the variables <m>C</m> and <m>m</m>, substitute the slope <m>25</m> and the registration fee <m>50</m> as the y-intercept:
+            <m>C = 25m + 50</m>.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>According to your model, how much will you have paid in total after <m>12</m> months? (That is, find <m>f(12)</m>.) Show your thinking.</p></statement>
+        <answer>
+          <p>
+            Substitute <m>m = 12</m>:
+            <m>C = 25(12) + 50 = 350</m>.
+            After <m>12</m> months, you will have paid <m>\$350</m>.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement><p>After how many months will the total amount paid reach <m>\$425</m>? (That is, find <m>m</m> so that <m>f(m) = 425</m>.) Show your thinking.</p></statement>
+        <answer>
+          <p>
+            Set <m>C = 425</m> and solve:
+            <m>425 = 25m + 50</m>, so <m>25m = 375</m> and <m>m = 15</m>.
+            After <m>15</m> months, the total paid reaches <m>\$425</m>.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>What inputs make sense in this situation? Explain.</p></statement>
+        <answer>
+          <p>
+            The input is a whole number of months, <m>m = 0, 1, 2, \ldots</m>; a negative number of months has no meaning. There is no fixed upper limit, since the membership can continue, so the inputs that make sense are the whole numbers <m>m \ge 0</m>.
+          </p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 4: Tanaka maximum heart rate (two points given)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt5-tanaka">
+      <title>Estimating Maximum Heart Rate</title>
+      <introduction>
+        <p>
+          Exercise scientists estimate a person's maximum heart rate from their age, and the relationship is linear. Two estimates are given: a <m>20</m>-year-old has an estimated maximum heart rate of <m>194</m> bpm, and a <m>40</m>-year-old has an estimated maximum heart rate of <m>180</m> bpm.
+        </p>
+      </introduction>
+
+      <task workspace="0.6in">
+        <statement>
+          <p>Pick variables to describe this situation, and indicate what each variable represents (including units).</p>
+          <tabular halign="left">
+            <col width="22%"/>
+            <col width="26%"/>
+            <col width="52%"/>
+            <row bottom="medium">
+              <cell></cell>
+              <cell>Variable (letter)</cell>
+              <cell>Meaning of the variable (including units)</cell>
+            </row>
+            <row bottom="minor">
+              <cell>Independent</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Dependent</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <tabular halign="left">
+            <col width="22%"/>
+            <col width="26%"/>
+            <col width="52%"/>
+            <row bottom="medium">
+              <cell></cell>
+              <cell>Variable (letter)</cell>
+              <cell>Meaning of the variable (including units)</cell>
+            </row>
+            <row bottom="minor">
+              <cell>Independent</cell>
+              <cell><m>a</m></cell>
+              <cell>Age (years)</cell>
+            </row>
+            <row>
+              <cell>Dependent</cell>
+              <cell><m>H</m></cell>
+              <cell>Estimated maximum heart rate (bpm)</cell>
+            </row>
+          </tabular>
+        </answer>
+      </task>
+
+      <task workspace="1.75in">
+        <statement><p>Write a linear equation to model the estimated maximum heart rate. Show your thinking.</p></statement>
+        <answer>
+          <p>
+            Treat the data as two points, <m>(a, H) \to (20, 194)</m> and <m>(40, 180)</m>.
+          </p>
+          <p>
+            Slope: <m>\dfrac{180 - 194}{40 - 20} = \dfrac{-14}{20} = -0.7</m>.
+          </p>
+          <p>
+            Substitute <m>(20, 194)</m> into <m>H = -0.7a + b</m>: <m>194 = -0.7(20) + b = -14 + b</m>, so <m>b = 208</m>.
+          </p>
+          <p>
+            Final equation: <m>H = 208 - 0.7a</m>. (This is the Tanaka formula, <m>\text{HRmax} = 208 - 0.7 \times \text{age}</m>, used by exercise physiologists.)
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>What is the slope of your model, and what does it mean in the context of this situation?</p></statement>
+        <answer><p>The slope is <m>-0.7</m>. It means the estimated maximum heart rate decreases by <m>0.7</m> bpm for each additional year of age.</p></answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>What is the y-intercept of your model, and what does it mean in the context of this situation?</p></statement>
+        <answer>
+          <p>
+            The y-intercept is <m>(0, 208)</m>, the model's value at age <m>0</m>. A newborn is not a meaningful input for this formula, so <m>208</m> does not have a realistic interpretation here—it is the mathematical y-intercept rather than a true maximum heart rate at birth.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>Use your model to estimate the maximum heart rate of a <m>50</m>-year-old. (That is, find <m>f(50)</m>.) Show your thinking.</p></statement>
+        <answer>
+          <p>
+            Substitute <m>a = 50</m>:
+            <m>H = 208 - 0.7(50) = 208 - 35 = 173</m>.
+            The estimated maximum heart rate of a <m>50</m>-year-old is <m>173</m> bpm.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement><p>For what age does the model predict a maximum heart rate of <m>187</m> bpm? (That is, find <m>a</m> so that <m>f(a) = 187</m>.) Show your thinking.</p></statement>
+        <answer>
+          <p>
+            Set <m>H = 187</m> and solve:
+            <m>187 = 208 - 0.7a</m>, so <m>0.7a = 21</m> and <m>a = 30</m>.
+            The model predicts a maximum heart rate of <m>187</m> bpm at age <m>30</m>.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>What inputs make sense in this situation? Explain.</p></statement>
+        <answer>
+          <p>
+            The input is a person's age, so <m>a</m> should be positive, and the formula is intended for human ages—roughly the teens through about <m>80</m> to <m>90</m> years. Age <m>0</m>, negative ages, and very large ages do not give meaningful estimates.
+          </p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>
