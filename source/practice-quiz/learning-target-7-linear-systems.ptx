@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt7-practice-quiz">
+  <title>Learning Target 7: Systems of Linear Equations</title>
+  <objectives>
+    <ul>
+      <li>Given a system of linear equations, or a word situation, or data sets create a system of equations as applicable and solve the system.</li>
+    </ul>
+  </objectives>
+
+  <!-- ============================================================
+       PROBLEM 1: Protein powder and granola bars (nutrition)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt7-protein">
+      <title>Hitting a Protein Goal</title>
+      <introduction>
+        <p>
+          One scoop of protein powder provides <m>24</m> grams of protein and <m>120</m> calories. One granola bar provides <m>10</m> grams of protein and <m>200</m> calories. You want a snack made of scoops and bars that provides exactly <m>68</m> grams of protein and exactly <m>640</m> calories.
+        </p>
+      </introduction>
+
+      <task workspace="1in">
+        <statement><p>Define your variables and write a system of equations that models this situation.</p></statement>
+        <answer>
+          <p>Let <m>p</m> be the number of scoops of protein powder and <m>b</m> be the number of granola bars.</p>
+          <p>The system is:</p>
+          <p>
+            <md>
+              <mrow>24p + 10b = 68</mrow>
+              <mrow>120p + 200b = 640</mrow>
+            </md>
+          </p>
+          <p>The first equation counts grams of protein, and the second counts calories.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>Graph both equations in Desmos and identify the solution.</p></statement>
+        <answer><p>In Desmos, enter the equations using <m>x</m> for scoops and <m>y</m> for bars. The two lines cross at <m>(2, 2)</m>, so the solution is <m>p = 2</m> and <m>b = 2</m>.</p></answer>
+      </task>
+
+      <task workspace="1.75in">
+        <statement><p>Solve the system algebraically to confirm your answer.</p></statement>
+        <answer>
+          <p>Multiply the first equation by <m>5</m> so the protein-powder terms match the second equation:</p>
+          <p><m>120p + 50b = 340</m></p>
+          <p>Subtract this from the calorie equation:</p>
+          <p><m>(120p + 200b) - (120p + 50b) = 640 - 340</m></p>
+          <p><m>150b = 300</m>, so <m>b = 2</m>.</p>
+          <p>Substitute <m>b = 2</m> into the protein equation: <m>24p + 10(2) = 68</m>, so <m>24p = 48</m> and <m>p = 2</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.75in">
+        <statement><p>Interpret the solution in the context of the situation.</p></statement>
+        <answer><p>You should use <m>2</m> scoops of protein powder and <m>2</m> granola bars to get exactly <m>68</m> grams of protein and <m>640</m> calories.</p></answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 2: Two-point and three-point shots (basketball)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt7-basketball">
+      <title>Twos and Threes</title>
+      <introduction>
+        <p>
+          In a game, a basketball player makes <m>12</m> shots from the field, each one a two-point shot or a three-point shot, and scores <m>27</m> points in total. You want to find how many of each kind of shot the player made.
+        </p>
+      </introduction>
+
+      <task workspace="1in">
+        <statement><p>Define your variables and write a system of equations that models this situation.</p></statement>
+        <answer>
+          <p>Let <m>x</m> be the number of two-point shots and <m>y</m> be the number of three-point shots.</p>
+          <p>The system is:</p>
+          <p>
+            <md>
+              <mrow>x + y = 12</mrow>
+              <mrow>2x + 3y = 27</mrow>
+            </md>
+          </p>
+          <p>The first equation counts shots, and the second counts points.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>Graph both equations in Desmos and identify the solution.</p></statement>
+        <answer><p>Graphing both lines in Desmos, they cross at <m>(9, 3)</m>, so the solution is <m>x = 9</m> and <m>y = 3</m>.</p></answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement><p>Solve the system algebraically to confirm your answer.</p></statement>
+        <answer>
+          <p>Solve the first equation for <m>x</m>: <m>x = 12 - y</m>.</p>
+          <p>Substitute into the points equation:</p>
+          <p><m>2(12 - y) + 3y = 27</m></p>
+          <p><m>24 - 2y + 3y = 27</m></p>
+          <p><m>24 + y = 27</m>, so <m>y = 3</m>.</p>
+          <p>Then <m>x = 12 - 3 = 9</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.75in">
+        <statement><p>Interpret the solution in the context of the situation.</p></statement>
+        <answer><p>The player made <m>9</m> two-point shots and <m>3</m> three-point shots.</p></answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 3: General admission and VIP tickets (live event)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt7-tickets">
+      <title>Selling Show Tickets</title>
+      <introduction>
+        <p>
+          A concert sells two kinds of tickets: general admission for <m>\$40</m> each and VIP for <m>\$90</m> each. The show sells <m>200</m> tickets in all and brings in <m>\$11{,}000</m>. You want to find how many of each kind of ticket were sold.
+        </p>
+      </introduction>
+
+      <task workspace="1in">
+        <statement><p>Define your variables and write a system of equations that models this situation.</p></statement>
+        <answer>
+          <p>Let <m>g</m> be the number of general-admission tickets and <m>v</m> be the number of VIP tickets.</p>
+          <p>The system is:</p>
+          <p>
+            <md>
+              <mrow>g + v = 200</mrow>
+              <mrow>40g + 90v = 11000</mrow>
+            </md>
+          </p>
+          <p>The first equation counts tickets, and the second counts dollars.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement><p>Graph both equations in Desmos and identify the solution.</p></statement>
+        <answer><p>Graphing both lines in Desmos, they cross at <m>(140, 60)</m>, so the solution is <m>g = 140</m> and <m>v = 60</m>.</p></answer>
+      </task>
+
+      <task workspace="1.75in">
+        <statement><p>Solve the system algebraically to confirm your answer.</p></statement>
+        <answer>
+          <p>Solve the first equation for <m>g</m>: <m>g = 200 - v</m>.</p>
+          <p>Substitute into the dollars equation:</p>
+          <p><m>40(200 - v) + 90v = 11000</m></p>
+          <p><m>8000 - 40v + 90v = 11000</m></p>
+          <p><m>8000 + 50v = 11000</m></p>
+          <p><m>50v = 3000</m>, so <m>v = 60</m>.</p>
+          <p>Then <m>g = 200 - 60 = 140</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.75in">
+        <statement><p>Interpret the solution in the context of the situation.</p></statement>
+        <answer><p>The concert sold <m>140</m> general-admission tickets and <m>60</m> VIP tickets.</p></answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 4: Number of solutions and modifying a constant
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt7-solutions">
+      <title>How Many Solutions?</title>
+      <introduction>
+        <p>
+          Consider the following system of linear equations:
+        </p>
+        <p>
+          <md>
+            <mrow>2x + 3y = 6</mrow>
+            <mrow>4x + 6y = 18</mrow>
+          </md>
+        </p>
+      </introduction>
+
+      <task workspace="1.5in">
+        <statement><p>Graph both equations in Desmos. How many solutions does the system have? Explain what the graph shows.</p></statement>
+        <answer>
+          <p>Rewriting each equation in slope-intercept form gives <m>y = -\frac{2}{3}x + 2</m> and <m>y = -\frac{2}{3}x + 3</m>. Both lines have slope <m>-\frac{2}{3}</m> but different vertical intercepts (<m>2</m> and <m>3</m>), so they are parallel and never cross. The system has no solution.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement><p>Solve the system algebraically. How does the algebra confirm your answer from the previous part?</p></statement>
+        <answer>
+          <p>Multiply the first equation by <m>2</m>: <m>4x + 6y = 12</m>. Subtract this from the second equation:</p>
+          <p><m>(4x + 6y) - (4x + 6y) = 18 - 12</m></p>
+          <p><m>0 = 6</m></p>
+          <p>This statement is false, which means no pair <m>(x, y)</m> can satisfy both equations. That agrees with the graph: the lines are parallel, so there is no solution.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.75in">
+        <statement><p>Change the constant on the right side of the second equation from <m>18</m> to a new value <m>A</m> so that the system has infinitely many solutions. What is <m>A</m>, and how do you know?</p></statement>
+        <answer>
+          <p>Notice that the left side of the second equation is twice the left side of the first, since <m>4x + 6y = 2(2x + 3y)</m>. For the two equations to describe the same line, the right side must follow the same pattern: <m>A = 2(6) = 12</m>.</p>
+          <p>With <m>A = 12</m>, the second equation is exactly <m>2</m> times the first, so both equations represent the same line. Every point on that line satisfies both equations, so the system has infinitely many solutions.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement><p>Is there any value of <m>A</m> that makes the system have exactly one solution? Explain.</p></statement>
+        <answer>
+          <p>No. The left side of the second equation is always twice the left side of the first, so the two lines always have the same slope. Changing <m>A</m> only shifts the second line up or down. The lines are therefore either parallel and separate (no solution, when <m>A \neq 12</m>) or the very same line (infinitely many solutions, when <m>A = 12</m>). Lines with equal slopes never cross at a single point, so no value of <m>A</m> can give exactly one solution.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>
