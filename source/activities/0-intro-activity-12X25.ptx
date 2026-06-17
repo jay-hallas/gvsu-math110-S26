@@ -1,0 +1,35 @@
+<worksheet xml:id="mth110-multifaceted-thinking">
+  <title>12 Times 25</title>
+
+  <introduction>
+    <p>Name: <fillin characters="40"/></p>
+    <p>The goal of this activity is less about the actual mathematics and more about detailing our thought process, communicating mathematical ideas to others, and showcasing the diversity of thought that can occur in math.</p>
+  </introduction>
+
+  <page>
+    <exercise workspace="4.5in">
+      <statement>
+        <p>Consider the basic arithmetic problem: evaluate <m>12 \cdot 25</m> without using a calculator.</p>
+        <p>Perform this computation, but be as detailed in your thought process as possible. Can you develop one or more of the following?</p>
+        <ol>
+          <li>The steps for one or more processes that result in the answer.</li>
+          <li>A diagram, picture, or illustration that visualizes the solution.</li>
+          <li>A written summary of what your thought process was in solving this problem.</li>
+          <li>A context (word problem) for which this evaluation would be the solution.</li>
+          <li>A different type of work related to the question that is not included in this list.</li>
+        </ol>
+        <p>Spend at least five minutes on your own writing down or drawing as much as you can related to the problem and the prompts above, using the space provided.</p>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="5in">
+      <statement>
+        <p>Now compare your work with a classmate or two. Write down any new strategies, representations, or ideas you learned from a classmate that were different from your own approach.</p>
+      </statement>
+    </exercise>
+
+  </page>
+
+</worksheet>

@@ -38,19 +38,79 @@
     </chapter>
 
 
-    <chapter xml:id="activities">
-      <title>In-Class Activities</title>
 
-      <introduction>
-        <p>
-          These are copies of the in-class activities distributed during the semester.
-        </p>
-      </introduction>
+<chapter xml:id="ch-activities" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Activities</title>
+  <introduction>
+    <p>
+      This chapter collects in-class activities organized by theme. Each activity
+      is a worksheet kept in its own file and pulled in here, so printed copies
+      carry reserved working space and controlled page breaks.
+    </p>
+    <!--
+      Page margins and a name/date header are set in the publication file, inside
+      <publication><common><worksheet ...>, not on the worksheets themselves.
+      Each activity is a subsection whose title is the activity name. To activate
+      one, uncomment its xi:include and delete the placeholder paragraph. The
+      href is relative to THIS file.
+    -->
+  </introduction>
 
-      <!-- Remove the example and replace with your own activities -->
- 
-      <!-- Add more xi:include files here to include them in the main course -->
-    </chapter>
+  <section xml:id="sec-rethinking-mathematics">
+    <title>Rethinking Mathematics: Curiosity and Community</title>
+    
+     <xi:include href="./activities/0-intro-activity-12X25.ptx"/> 
+      <xi:include href="./activities/0-intro-activity-44.ptx"/> 
+  </section>
+
+  <section xml:id="sec-functions-graphs">
+    <title>Functions and Graphs: Interpreting Mathematical Stories</title>
+    <subsection xml:id="act-functions-graphs-stories">
+      <title>Activity Title Here</title>
+      <p>Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.</p>
+      <!-- <xi:include href="./activities/functions-graphs-stories.ptx"/> -->
+    </subsection>
+  </section>
+
+  <section xml:id="sec-linear-patterns">
+    <title>Linear Patterns and Problem Solving</title>
+    <subsection xml:id="act-linear-patterns-problem-solving">
+      <title>Activity Title Here</title>
+      <p>Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.</p>
+      <!-- <xi:include href="./activities/linear-patterns-problem-solving.ptx"/> -->
+    </subsection>
+  </section>
+
+  <section xml:id="sec-exponential-change">
+    <title>Exponential Change and Modeling</title>
+    <subsection xml:id="act-exponential-change-modeling">
+      <title>Activity Title Here</title>
+      <p>Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.</p>
+      <!-- <xi:include href="./activities/exponential-change-modeling.ptx"/> -->
+    </subsection>
+  </section>
+
+  <section xml:id="sec-inverses-logarithms">
+    <title>Inverses and Logarithms: Reversing Steps</title>
+    <subsection xml:id="act-inverses-logarithms-reversing">
+      <title>Activity Title Here</title>
+      <p>Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.</p>
+      <!-- <xi:include href="./activities/inverses-logarithms-reversing.ptx"/> -->
+    </subsection>
+  </section>
+
+  <section xml:id="sec-quadratic-relationships">
+    <title>Quadratic Relationships and Applications</title>
+    <subsection xml:id="act-quadratic-relationships-applications">
+      <title>Activity Title Here</title>
+      <p>Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.</p>
+      <!-- <xi:include href="./activities/quadratic-relationships-applications.ptx"/> -->
+    </subsection>
+  </section>
+
+</chapter>
+
+
 
     <chapter xml:id="handouts">
       <title>Practice Quizzes</title>

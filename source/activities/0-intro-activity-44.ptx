@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-four-fours">
+  <introduction>
+    <p>Name: <fillin characters="40"/></p>
+    <p>In this activity you will build the whole numbers from 1 to 20 using exactly four 4's each time. The goal is to play, to notice patterns, and to compare the many different ways a single number can be written.</p>
+    <p>Rules: use exactly four 4's, no more and no fewer. You may combine them with addition, subtraction, multiplication, division, and parentheses. You may also use exponents, square roots (for example <m>\sqrt{4} = 2</m>), factorials (note that <m>4! = 24</m>), a decimal point (for example <m>.4</m>), and you may join 4's together to make <m>44</m> or <m>444</m>.</p>
+    <p>As an example, <m>4 + 4 + 4 + 4 = 16</m> uses exactly four 4's, so 16 is filled in for you in the table.</p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>Write each number from 1 to 20 as an expression that uses exactly four 4's. Fill in as many as you can; you do not have to go in order.</p>
+        <tabular top="medium" bottom="medium" left="medium" right="medium" halign="center" valign="middle">
+          <col halign="center" right="minor" width="12%"/>
+          <col halign="left" right="medium" width="38%"/>
+          <col halign="center" right="minor" width="12%"/>
+          <col halign="left" width="38%"/>
+          <row header="yes" bottom="medium">
+            <cell>Number</cell><cell>Expression using four 4's</cell>
+            <cell>Number</cell><cell>Expression using four 4's</cell>
+          </row>
+          <row bottom="minor"><cell>1<m>\rule{0pt}{3em}</m></cell><cell></cell><cell>11</cell><cell></cell></row>
+          <row bottom="minor"><cell>2<m>\rule{0pt}{3em}</m></cell><cell></cell><cell>12</cell><cell></cell></row>
+          <row bottom="minor"><cell>3<m>\rule{0pt}{3em}</m></cell><cell></cell><cell>13</cell><cell></cell></row>
+          <row bottom="minor"><cell>4<m>\rule{0pt}{3em}</m></cell><cell></cell><cell>14</cell><cell></cell></row>
+          <row bottom="minor"><cell>5<m>\rule{0pt}{3em}</m></cell><cell></cell><cell>15</cell><cell></cell></row>
+          <row bottom="minor"><cell>6<m>\rule{0pt}{3em}</m></cell><cell></cell><cell>16</cell><cell><m>4 + 4 + 4 + 4</m></cell></row>
+          <row bottom="minor"><cell>7<m>\rule{0pt}{3em}</m></cell><cell></cell><cell>17</cell><cell></cell></row>
+          <row bottom="minor"><cell>8<m>\rule{0pt}{3em}</m></cell><cell></cell><cell>18</cell><cell></cell></row>
+          <row bottom="minor"><cell>9<m>\rule{0pt}{3em}</m></cell><cell></cell><cell>19</cell><cell></cell></row>
+          <row><cell>10<m>\rule{0pt}{3em}</m></cell><cell></cell><cell>20</cell><cell></cell></row>
+        </tabular>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="3.5in">
+      <statement>
+        <p>Now compare with a classmate or two. Write down any expressions you did not find on your own, and note which numbers were the hardest, along with what finally helped.</p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>
