@@ -118,19 +118,16 @@
      <xi:include href="./practice-quiz/learning-target-3-linear-forms.ptx"/>
        <xi:include href="./practice-quiz/learning-target-4-linear-graphs.ptx"/>
         <xi:include href="./practice-quiz/learning-target-5-linear-model.ptx"/>
-         <xi:include href="./practice-quiz/learning-target-6-linear-regression.ptx"/>
-          <xi:include href="./practice-quiz/learning-target-7-linear-systems.ptx"/>
+          <xi:include href="./practice-quiz/learning-target-6-linear-systems.ptx"/>
     </chapter>
 
-    <chapter xml:id="homework">
-      <title>Homework</title>
 
-      <!-- Include homework files -->
-      <!--<xi:include href="./homework/homework01.ptx"/>-->
-
+    <chapter xml:id="tech">
+      <title>Desmos SKill Practice</title>
+       <xi:include href="./desmos-skills/desmos-skill-1-linear-regression.ptx"/>
     </chapter>
 
-    <!-- Include additional chapters for other categories -->
+
 
     </book>
   </pretext>
