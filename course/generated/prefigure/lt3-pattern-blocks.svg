@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="lt3-pattern-blocks-figure" width="670" height="190" viewBox="0 0 670 190">
   <defs>
-    <clipPath id="lt3-pattern-blocks-clipPath-0">
+    <clipPath id="lt3-pattern-blocks-__clipPath-0">
       <rect x="5.0" y="5.0" width="660.0" height="180.0"/>
     </clipPath>
-    <clipPath id="lt3-pattern-blocks-clipPath-1">
+    <clipPath id="lt3-pattern-blocks-__clipPath-1">
       <rect x="5.0" y="5.0" width="660.0" height="180.0"/>
     </clipPath>
   </defs>
-  <g id="lt3-pattern-blocks-group-0">
-    <g id="lt3-pattern-blocks-group-1-case_1-case_1">
-      <g id="lt3-pattern-blocks-group-2-case_1-col_0-case_1-col_0">
-        <path id="lt3-pattern-blocks-path-0-case_1-col_0-row_0" d="M 12.7 137.8 L 24.2 137.8 L 24.2 112.2 L 12.7 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-1-case_1-col_0-row_1" d="M 12.7 107.8 L 24.2 107.8 L 24.2 82.2 L 12.7 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+  <g id="lt3-pattern-blocks-__group-0">
+    <g id="lt3-pattern-blocks-__group-1-case_1">
+      <g id="lt3-pattern-blocks-__group-2-case_1-col_0">
+        <path id="lt3-pattern-blocks-__path-0-case_1-col_0-row_0" d="M 12.7 137.8 L 24.2 137.8 L 24.2 112.2 L 12.7 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-1-case_1-col_0-row_1" d="M 12.7 107.8 L 24.2 107.8 L 24.2 82.2 L 12.7 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-3-case_1-col_1-case_1-col_1">
-        <path id="lt3-pattern-blocks-path-2-case_1-col_1-row_0" d="M 26.2 137.8 L 37.7 137.8 L 37.7 112.2 L 26.2 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-3-case_1-col_1-row_1" d="M 26.2 107.8 L 37.7 107.8 L 37.7 82.2 L 26.2 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-3-case_1-col_1">
+        <path id="lt3-pattern-blocks-__path-2-case_1-col_1-row_0" d="M 26.2 137.8 L 37.7 137.8 L 37.7 112.2 L 26.2 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-3-case_1-col_1-row_1" d="M 26.2 107.8 L 37.7 107.8 L 37.7 82.2 L 26.2 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-4-case_1-col_2-case_1-col_2">
-        <path id="lt3-pattern-blocks-path-4-case_1-col_2-row_0" d="M 39.7 137.8 L 51.1 137.8 L 51.1 112.2 L 39.7 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-5-case_1-col_2-row_1" d="M 39.7 107.8 L 51.1 107.8 L 51.1 82.2 L 39.7 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-4-case_1-col_2">
+        <path id="lt3-pattern-blocks-__path-4-case_1-col_2-row_0" d="M 39.7 137.8 L 51.1 137.8 L 51.1 112.2 L 39.7 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-5-case_1-col_2-row_1" d="M 39.7 107.8 L 51.1 107.8 L 51.1 82.2 L 39.7 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
     </g>
-    <g id="lt3-pattern-blocks-label-0-case_1" transform="translate(45.4,167.0) translate(-25.4,-6.6)">
-      <g id="lt3-pattern-blocks-g-0">
+    <g id="lt3-pattern-blocks-__label-0-case_1" transform="translate(45.4,167.0) translate(-25.4,-6.6)">
+      <g id="lt3-pattern-blocks-__g-0">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.384px" width="50.856px" height="13.144px" role="img" focusable="false" viewBox="0 -705 2810 726" x="0.0" y="0.0">
           <defs>
             <path id="lt3-pattern-blocks-MJX-2-TEX-N-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"/>
@@ -50,26 +50,26 @@
         </svg>
       </g>
     </g>
-    <g id="lt3-pattern-blocks-group-5-case_2-case_2">
-      <g id="lt3-pattern-blocks-group-6-case_2-col_0-case_2-col_0">
-        <path id="lt3-pattern-blocks-path-6-case_2-col_0-row_0" d="M 147.4 137.8 L 158.9 137.8 L 158.9 112.2 L 147.4 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-7-case_2-col_0-row_1" d="M 147.4 107.8 L 158.9 107.8 L 158.9 82.2 L 147.4 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+    <g id="lt3-pattern-blocks-__group-5-case_2">
+      <g id="lt3-pattern-blocks-__group-6-case_2-col_0">
+        <path id="lt3-pattern-blocks-__path-6-case_2-col_0-row_0" d="M 147.4 137.8 L 158.9 137.8 L 158.9 112.2 L 147.4 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-7-case_2-col_0-row_1" d="M 147.4 107.8 L 158.9 107.8 L 158.9 82.2 L 147.4 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-7-case_2-col_1-case_2-col_1">
-        <path id="lt3-pattern-blocks-path-8-case_2-col_1-row_0" d="M 160.9 137.8 L 172.4 137.8 L 172.4 112.2 L 160.9 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-9-case_2-col_1-row_1" d="M 160.9 107.8 L 172.4 107.8 L 172.4 82.2 L 160.9 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-7-case_2-col_1">
+        <path id="lt3-pattern-blocks-__path-8-case_2-col_1-row_0" d="M 160.9 137.8 L 172.4 137.8 L 172.4 112.2 L 160.9 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-9-case_2-col_1-row_1" d="M 160.9 107.8 L 172.4 107.8 L 172.4 82.2 L 160.9 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-8-case_2-col_2-case_2-col_2">
-        <path id="lt3-pattern-blocks-path-10-case_2-col_2-row_0" d="M 174.4 137.8 L 185.8 137.8 L 185.8 112.2 L 174.4 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-11-case_2-col_2-row_1" d="M 174.4 107.8 L 185.8 107.8 L 185.8 82.2 L 174.4 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-8-case_2-col_2">
+        <path id="lt3-pattern-blocks-__path-10-case_2-col_2-row_0" d="M 174.4 137.8 L 185.8 137.8 L 185.8 112.2 L 174.4 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-11-case_2-col_2-row_1" d="M 174.4 107.8 L 185.8 107.8 L 185.8 82.2 L 174.4 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-9-case_2-col_3-case_2-col_3">
-        <path id="lt3-pattern-blocks-path-12-case_2-col_3-row_0" d="M 187.8 137.8 L 199.3 137.8 L 199.3 112.2 L 187.8 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-13-case_2-col_3-row_1" d="M 187.8 107.8 L 199.3 107.8 L 199.3 82.2 L 187.8 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-9-case_2-col_3">
+        <path id="lt3-pattern-blocks-__path-12-case_2-col_3-row_0" d="M 187.8 137.8 L 199.3 137.8 L 199.3 112.2 L 187.8 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-13-case_2-col_3-row_1" d="M 187.8 107.8 L 199.3 107.8 L 199.3 82.2 L 187.8 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
     </g>
-    <g id="lt3-pattern-blocks-label-1-case_2" transform="translate(180.1,167.0) translate(-25.4,-6.6)">
-      <g id="lt3-pattern-blocks-g-1">
+    <g id="lt3-pattern-blocks-__label-1-case_2" transform="translate(180.1,167.0) translate(-25.4,-6.6)">
+      <g id="lt3-pattern-blocks-__g-1">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.384px" width="50.856px" height="13.144px" role="img" focusable="false" viewBox="0 -705 2810 726" x="0.0" y="0.0">
           <defs>
             <path id="lt3-pattern-blocks-MJX-3-TEX-N-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"/>
@@ -96,30 +96,30 @@
         </svg>
       </g>
     </g>
-    <g id="lt3-pattern-blocks-group-10-case_3-case_3">
-      <g id="lt3-pattern-blocks-group-11-case_3-col_0-case_3-col_0">
-        <path id="lt3-pattern-blocks-path-14-case_3-col_0-row_0" d="M 282.1 137.8 L 293.6 137.8 L 293.6 112.2 L 282.1 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-15-case_3-col_0-row_1" d="M 282.1 107.8 L 293.6 107.8 L 293.6 82.2 L 282.1 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+    <g id="lt3-pattern-blocks-__group-10-case_3">
+      <g id="lt3-pattern-blocks-__group-11-case_3-col_0">
+        <path id="lt3-pattern-blocks-__path-14-case_3-col_0-row_0" d="M 282.1 137.8 L 293.6 137.8 L 293.6 112.2 L 282.1 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-15-case_3-col_0-row_1" d="M 282.1 107.8 L 293.6 107.8 L 293.6 82.2 L 282.1 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-12-case_3-col_1-case_3-col_1">
-        <path id="lt3-pattern-blocks-path-16-case_3-col_1-row_0" d="M 295.6 137.8 L 307.1 137.8 L 307.1 112.2 L 295.6 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-17-case_3-col_1-row_1" d="M 295.6 107.8 L 307.1 107.8 L 307.1 82.2 L 295.6 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-12-case_3-col_1">
+        <path id="lt3-pattern-blocks-__path-16-case_3-col_1-row_0" d="M 295.6 137.8 L 307.1 137.8 L 307.1 112.2 L 295.6 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-17-case_3-col_1-row_1" d="M 295.6 107.8 L 307.1 107.8 L 307.1 82.2 L 295.6 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-13-case_3-col_2-case_3-col_2">
-        <path id="lt3-pattern-blocks-path-18-case_3-col_2-row_0" d="M 309.1 137.8 L 320.5 137.8 L 320.5 112.2 L 309.1 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-19-case_3-col_2-row_1" d="M 309.1 107.8 L 320.5 107.8 L 320.5 82.2 L 309.1 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-13-case_3-col_2">
+        <path id="lt3-pattern-blocks-__path-18-case_3-col_2-row_0" d="M 309.1 137.8 L 320.5 137.8 L 320.5 112.2 L 309.1 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-19-case_3-col_2-row_1" d="M 309.1 107.8 L 320.5 107.8 L 320.5 82.2 L 309.1 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-14-case_3-col_3-case_3-col_3">
-        <path id="lt3-pattern-blocks-path-20-case_3-col_3-row_0" d="M 322.5 137.8 L 334.0 137.8 L 334.0 112.2 L 322.5 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-21-case_3-col_3-row_1" d="M 322.5 107.8 L 334.0 107.8 L 334.0 82.2 L 322.5 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-14-case_3-col_3">
+        <path id="lt3-pattern-blocks-__path-20-case_3-col_3-row_0" d="M 322.5 137.8 L 334.0 137.8 L 334.0 112.2 L 322.5 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-21-case_3-col_3-row_1" d="M 322.5 107.8 L 334.0 107.8 L 334.0 82.2 L 322.5 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-15-case_3-col_4-case_3-col_4">
-        <path id="lt3-pattern-blocks-path-22-case_3-col_4-row_0" d="M 336.0 137.8 L 347.5 137.8 L 347.5 112.2 L 336.0 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-23-case_3-col_4-row_1" d="M 336.0 107.8 L 347.5 107.8 L 347.5 82.2 L 336.0 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-15-case_3-col_4">
+        <path id="lt3-pattern-blocks-__path-22-case_3-col_4-row_0" d="M 336.0 137.8 L 347.5 137.8 L 347.5 112.2 L 336.0 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-23-case_3-col_4-row_1" d="M 336.0 107.8 L 347.5 107.8 L 347.5 82.2 L 336.0 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
     </g>
-    <g id="lt3-pattern-blocks-label-2-case_3" transform="translate(314.8,167.0) translate(-25.4,-6.6)">
-      <g id="lt3-pattern-blocks-g-2">
+    <g id="lt3-pattern-blocks-__label-2-case_3" transform="translate(314.8,167.0) translate(-25.4,-6.6)">
+      <g id="lt3-pattern-blocks-__g-2">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="50.856px" height="13.160px" role="img" focusable="false" viewBox="0 -705 2810 727" x="0.0" y="0.0">
           <defs>
             <path id="lt3-pattern-blocks-MJX-4-TEX-N-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"/>
@@ -146,34 +146,34 @@
         </svg>
       </g>
     </g>
-    <g id="lt3-pattern-blocks-group-16-case_4-case_4">
-      <g id="lt3-pattern-blocks-group-17-case_4-col_0-case_4-col_0">
-        <path id="lt3-pattern-blocks-path-24-case_4-col_0-row_0" d="M 416.8 137.8 L 428.3 137.8 L 428.3 112.2 L 416.8 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-25-case_4-col_0-row_1" d="M 416.8 107.8 L 428.3 107.8 L 428.3 82.2 L 416.8 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+    <g id="lt3-pattern-blocks-__group-16-case_4">
+      <g id="lt3-pattern-blocks-__group-17-case_4-col_0">
+        <path id="lt3-pattern-blocks-__path-24-case_4-col_0-row_0" d="M 416.8 137.8 L 428.3 137.8 L 428.3 112.2 L 416.8 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-25-case_4-col_0-row_1" d="M 416.8 107.8 L 428.3 107.8 L 428.3 82.2 L 416.8 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-18-case_4-col_1-case_4-col_1">
-        <path id="lt3-pattern-blocks-path-26-case_4-col_1-row_0" d="M 430.3 137.8 L 441.7 137.8 L 441.7 112.2 L 430.3 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-27-case_4-col_1-row_1" d="M 430.3 107.8 L 441.7 107.8 L 441.7 82.2 L 430.3 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-18-case_4-col_1">
+        <path id="lt3-pattern-blocks-__path-26-case_4-col_1-row_0" d="M 430.3 137.8 L 441.7 137.8 L 441.7 112.2 L 430.3 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-27-case_4-col_1-row_1" d="M 430.3 107.8 L 441.7 107.8 L 441.7 82.2 L 430.3 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-19-case_4-col_2-case_4-col_2">
-        <path id="lt3-pattern-blocks-path-28-case_4-col_2-row_0" d="M 443.8 137.8 L 455.2 137.8 L 455.2 112.2 L 443.8 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-29-case_4-col_2-row_1" d="M 443.8 107.8 L 455.2 107.8 L 455.2 82.2 L 443.8 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-19-case_4-col_2">
+        <path id="lt3-pattern-blocks-__path-28-case_4-col_2-row_0" d="M 443.8 137.8 L 455.2 137.8 L 455.2 112.2 L 443.8 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-29-case_4-col_2-row_1" d="M 443.8 107.8 L 455.2 107.8 L 455.2 82.2 L 443.8 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-20-case_4-col_3-case_4-col_3">
-        <path id="lt3-pattern-blocks-path-30-case_4-col_3-row_0" d="M 457.2 137.8 L 468.7 137.8 L 468.7 112.2 L 457.2 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-31-case_4-col_3-row_1" d="M 457.2 107.8 L 468.7 107.8 L 468.7 82.2 L 457.2 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-20-case_4-col_3">
+        <path id="lt3-pattern-blocks-__path-30-case_4-col_3-row_0" d="M 457.2 137.8 L 468.7 137.8 L 468.7 112.2 L 457.2 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-31-case_4-col_3-row_1" d="M 457.2 107.8 L 468.7 107.8 L 468.7 82.2 L 457.2 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-21-case_4-col_4-case_4-col_4">
-        <path id="lt3-pattern-blocks-path-32-case_4-col_4-row_0" d="M 470.7 137.8 L 482.2 137.8 L 482.2 112.2 L 470.7 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-33-case_4-col_4-row_1" d="M 470.7 107.8 L 482.2 107.8 L 482.2 82.2 L 470.7 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-21-case_4-col_4">
+        <path id="lt3-pattern-blocks-__path-32-case_4-col_4-row_0" d="M 470.7 137.8 L 482.2 137.8 L 482.2 112.2 L 470.7 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-33-case_4-col_4-row_1" d="M 470.7 107.8 L 482.2 107.8 L 482.2 82.2 L 470.7 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-22-case_4-col_5-case_4-col_5">
-        <path id="lt3-pattern-blocks-path-34-case_4-col_5-row_0" d="M 484.2 137.8 L 495.6 137.8 L 495.6 112.2 L 484.2 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-35-case_4-col_5-row_1" d="M 484.2 107.8 L 495.6 107.8 L 495.6 82.2 L 484.2 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-22-case_4-col_5">
+        <path id="lt3-pattern-blocks-__path-34-case_4-col_5-row_0" d="M 484.2 137.8 L 495.6 137.8 L 495.6 112.2 L 484.2 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-35-case_4-col_5-row_1" d="M 484.2 107.8 L 495.6 107.8 L 495.6 82.2 L 484.2 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
     </g>
-    <g id="lt3-pattern-blocks-label-3-case_4" transform="translate(449.5,167.0) translate(-25.4,-6.6)">
-      <g id="lt3-pattern-blocks-g-3">
+    <g id="lt3-pattern-blocks-__label-3-case_4" transform="translate(449.5,167.0) translate(-25.4,-6.6)">
+      <g id="lt3-pattern-blocks-__g-3">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.384px" width="50.856px" height="13.144px" role="img" focusable="false" viewBox="0 -705 2810 726" x="0.0" y="0.0">
           <defs>
             <path id="lt3-pattern-blocks-MJX-5-TEX-N-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"/>
@@ -200,38 +200,38 @@
         </svg>
       </g>
     </g>
-    <g id="lt3-pattern-blocks-group-23-case_5-case_5">
-      <g id="lt3-pattern-blocks-group-24-case_5-col_0-case_5-col_0">
-        <path id="lt3-pattern-blocks-path-36-case_5-col_0-row_0" d="M 551.5 137.8 L 563.0 137.8 L 563.0 112.2 L 551.5 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-37-case_5-col_0-row_1" d="M 551.5 107.8 L 563.0 107.8 L 563.0 82.2 L 551.5 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+    <g id="lt3-pattern-blocks-__group-23-case_5">
+      <g id="lt3-pattern-blocks-__group-24-case_5-col_0">
+        <path id="lt3-pattern-blocks-__path-36-case_5-col_0-row_0" d="M 551.5 137.8 L 563.0 137.8 L 563.0 112.2 L 551.5 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-37-case_5-col_0-row_1" d="M 551.5 107.8 L 563.0 107.8 L 563.0 82.2 L 551.5 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-25-case_5-col_1-case_5-col_1">
-        <path id="lt3-pattern-blocks-path-38-case_5-col_1-row_0" d="M 565.0 137.8 L 576.4 137.8 L 576.4 112.2 L 565.0 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-39-case_5-col_1-row_1" d="M 565.0 107.8 L 576.4 107.8 L 576.4 82.2 L 565.0 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-25-case_5-col_1">
+        <path id="lt3-pattern-blocks-__path-38-case_5-col_1-row_0" d="M 565.0 137.8 L 576.4 137.8 L 576.4 112.2 L 565.0 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-39-case_5-col_1-row_1" d="M 565.0 107.8 L 576.4 107.8 L 576.4 82.2 L 565.0 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-26-case_5-col_2-case_5-col_2">
-        <path id="lt3-pattern-blocks-path-40-case_5-col_2-row_0" d="M 578.5 137.8 L 589.9 137.8 L 589.9 112.2 L 578.5 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-41-case_5-col_2-row_1" d="M 578.5 107.8 L 589.9 107.8 L 589.9 82.2 L 578.5 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-26-case_5-col_2">
+        <path id="lt3-pattern-blocks-__path-40-case_5-col_2-row_0" d="M 578.5 137.8 L 589.9 137.8 L 589.9 112.2 L 578.5 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-41-case_5-col_2-row_1" d="M 578.5 107.8 L 589.9 107.8 L 589.9 82.2 L 578.5 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-27-case_5-col_3-case_5-col_3">
-        <path id="lt3-pattern-blocks-path-42-case_5-col_3-row_0" d="M 591.9 137.8 L 603.4 137.8 L 603.4 112.2 L 591.9 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-43-case_5-col_3-row_1" d="M 591.9 107.8 L 603.4 107.8 L 603.4 82.2 L 591.9 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-27-case_5-col_3">
+        <path id="lt3-pattern-blocks-__path-42-case_5-col_3-row_0" d="M 591.9 137.8 L 603.4 137.8 L 603.4 112.2 L 591.9 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-43-case_5-col_3-row_1" d="M 591.9 107.8 L 603.4 107.8 L 603.4 82.2 L 591.9 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-28-case_5-col_4-case_5-col_4">
-        <path id="lt3-pattern-blocks-path-44-case_5-col_4-row_0" d="M 605.4 137.8 L 616.8 137.8 L 616.8 112.2 L 605.4 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-45-case_5-col_4-row_1" d="M 605.4 107.8 L 616.8 107.8 L 616.8 82.2 L 605.4 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-28-case_5-col_4">
+        <path id="lt3-pattern-blocks-__path-44-case_5-col_4-row_0" d="M 605.4 137.8 L 616.8 137.8 L 616.8 112.2 L 605.4 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-45-case_5-col_4-row_1" d="M 605.4 107.8 L 616.8 107.8 L 616.8 82.2 L 605.4 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-29-case_5-col_5-case_5-col_5">
-        <path id="lt3-pattern-blocks-path-46-case_5-col_5-row_0" d="M 618.9 137.8 L 630.3 137.8 L 630.3 112.2 L 618.9 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-47-case_5-col_5-row_1" d="M 618.9 107.8 L 630.3 107.8 L 630.3 82.2 L 618.9 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-29-case_5-col_5">
+        <path id="lt3-pattern-blocks-__path-46-case_5-col_5-row_0" d="M 618.9 137.8 L 630.3 137.8 L 630.3 112.2 L 618.9 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-47-case_5-col_5-row_1" d="M 618.9 107.8 L 630.3 107.8 L 630.3 82.2 L 618.9 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
-      <g id="lt3-pattern-blocks-group-30-case_5-col_6-case_5-col_6">
-        <path id="lt3-pattern-blocks-path-48-case_5-col_6-row_0" d="M 632.3 137.8 L 643.8 137.8 L 643.8 112.2 L 632.3 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
-        <path id="lt3-pattern-blocks-path-49-case_5-col_6-row_1" d="M 632.3 107.8 L 643.8 107.8 L 643.8 82.2 L 632.3 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+      <g id="lt3-pattern-blocks-__group-30-case_5-col_6">
+        <path id="lt3-pattern-blocks-__path-48-case_5-col_6-row_0" d="M 632.3 137.8 L 643.8 137.8 L 643.8 112.2 L 632.3 112.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
+        <path id="lt3-pattern-blocks-__path-49-case_5-col_6-row_1" d="M 632.3 107.8 L 643.8 107.8 L 643.8 82.2 L 632.3 82.2 Z" stroke="black" stroke-width="2" fill="mediumpurple"/>
       </g>
     </g>
-    <g id="lt3-pattern-blocks-label-4-case_5" transform="translate(584.2,167.0) translate(-25.4,-6.6)">
-      <g id="lt3-pattern-blocks-g-4">
+    <g id="lt3-pattern-blocks-__label-4-case_5" transform="translate(584.2,167.0) translate(-25.4,-6.6)">
+      <g id="lt3-pattern-blocks-__g-4">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="50.856px" height="13.160px" role="img" focusable="false" viewBox="0 -705 2810 727" x="0.0" y="0.0">
           <defs>
             <path id="lt3-pattern-blocks-MJX-6-TEX-N-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"/>
