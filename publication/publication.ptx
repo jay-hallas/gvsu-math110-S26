@@ -12,10 +12,10 @@
 <publication>
   <common>
     <!-- Level at which are html files generated (chapter/section/etc): -->
-      <chunking level="2" />
+      <chunking level="3" />
 
     <!-- Depth for table of contents.  0 means no TOC -->
-      <!--<tableofcontents level="1" />-->
+      <tableofcontents level="3" />
 
     <!-- Visibility of exercise components where they first appear.          -->
     <!-- There are four components (statement/hint/answer/solution) for each -->
@@ -39,7 +39,6 @@
     <!-- QR code image: set path to an image to put in center of QR codes -->
       <!-- <qrcode image="image.png" /> -->
   </common>
-
 
   <!-- Set where external assets and generated assets will be   -->
   <!-- stored or created.  Directories are relative to the main -->
@@ -112,6 +111,17 @@
   <!-- The embed-button makes it easy to copy the code for an iframe into your LMS -->
   <html embed-button="yes">
 
+
+  <tableofcontents focused="yes" preexpanded-levels="1"/>
+  <css
+      theme="denver"
+      primary-color="#386F94"
+      primary-color-dark="#5192BD"
+      provide-dark-mode="yes"
+  />
+
+
+
     <!-- A possible attribute for the html tag above is @short-answer-responses, with values either "always" or "graded".  As in: -->
     <!--<html short-answer-responses="always">-->
 
@@ -145,12 +155,7 @@
     <!-- override defaults.  Ex:<css theme="denver"/>          -->
     <!-- See also                                              -->
     <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
-    <css
-        theme="denver"
-        primary-color="#386F94"
-        primary-color-dark="#5192BD"
-        provide-dark-mode="yes"
-    />
+   
 
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search
     feature (but then variant should be set to none to avoid conflict) -->

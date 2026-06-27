@@ -59,8 +59,17 @@
   <section xml:id="sec-rethinking-mathematics">
     <title>Rethinking Mathematics: Curiosity and Community</title>
     
-     <xi:include href="./activities/0-intro-activity-12X25.ptx"/> 
+  <subsection xml:id="act-intro-strategies">
+      <title>12 Times 25</title>
+      <xi:include href="./activities/0-intro-activity-12X25.ptx"/> 
+    </subsection>
+
+  <subsection xml:id="act-intro-44">
+      <title>The Four Fours</title>
       <xi:include href="./activities/0-intro-activity-44.ptx"/> 
+    </subsection>
+    
+     
   </section>
 
   <section xml:id="sec-functions-graphs">
