@@ -1,72 +1,126 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "syllabus",
+  "id": "sec-course-info",
   "level": "1",
-  "url": "syllabus.html",
-  "type": "Section",
+  "url": "sec-course-info.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Syllabus",
-  "body": " Syllabus        Course Information  This is the syllabus for course name (MATH xxx, section xxx) for [term] 20xx. It is a [n] credit course.    Instructor  Prof. Lastname, Office Location, prof.lastname@example.edu .    Student Hours  TBD    Class meets  course times and location.    Course Description  course description from catalog    Prerequisite  list of prerequisites    Textbook and course materials   textbook name by textbook author.       Course Overview        Assessments and Grades     "
+  "title": "Course Information",
+  "body": " Course Information  This is the syllabus for course name (MATH xxx, section xxx) for [term] 20xx. It is a [n] credit course.    Instructor  Prof. Lastname, Office Location, prof.lastname@example.edu .    Student Hours  TBD    Class meets  course times and location.    Course Description  course description from catalog    Prerequisite  list of prerequisites    Textbook and course materials   textbook name by textbook author.       Course Overview     "
 },
 {
   "id": "sec-course-info-2",
   "level": "2",
-  "url": "syllabus.html#sec-course-info-2",
+  "url": "sec-course-info.html#sec-course-info-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "course name (MATH xxx, section xxx) "
 },
 {
-  "id": "notes-week-01",
+  "id": "sec-assessments",
   "level": "1",
-  "url": "notes-week-01.html",
-  "type": "Section",
+  "url": "sec-assessments.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 1",
-  "body": " Week 1   This is an outline of the topics we covered in the first week of class.     Monday 8\/22      Wednesday 8\/24      Friday 8\/26     "
+  "title": "Assessments and Grades",
+  "body": " Assessments and Grades    "
 },
 {
-  "id": "notes-week-02",
+  "id": "notes-week-01-3",
   "level": "1",
-  "url": "notes-week-02.html",
-  "type": "Section",
+  "url": "notes-week-01-3.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 2",
-  "body": " Week 2   Monday      Wednesday      Friday     "
+  "title": "Monday 8\/22",
+  "body": " Monday 8\/22    "
 },
 {
-  "id": "sec-rethinking-mathematics",
+  "id": "notes-week-01-4",
   "level": "1",
-  "url": "sec-rethinking-mathematics.html",
-  "type": "Section",
+  "url": "notes-week-01-4.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Rethinking Mathematics: Curiosity and Community",
-  "body": " Rethinking Mathematics: Curiosity and Community   12 Times 25   Name:  The goal of this activity is less about the actual mathematics and more about detailing our thought process, communicating mathematical ideas to others, and showcasing the diversity of thought that can occur in math.      Consider the basic arithmetic problem: evaluate without using a calculator.  Perform this computation, but be as detailed in your thought process as possible. Can you develop one or more of the following?   The steps for one or more processes that result in the answer.  A diagram, picture, or illustration that visualizes the solution.  A written summary of what your thought process was in solving this problem.  A context (word problem) for which this evaluation would be the solution.  A different type of work related to the question that is not included in this list.   Spend at least five minutes on your own writing down or drawing as much as you can related to the problem and the prompts above, using the space provided.        Now compare your work with a classmate or two. Write down any new strategies, representations, or ideas you learned from a classmate that were different from your own approach.        Name:  In this activity you will build the whole numbers from 1 to 20 using exactly four 4's each time. The goal is to play, to notice patterns, and to compare the many different ways a single number can be written.  Rules: use exactly four 4's, no more and no fewer. You may combine them with addition, subtraction, multiplication, division, and parentheses. You may also use exponents, square roots (for example ), factorials (note that ), a decimal point (for example ), and you may join 4's together to make or .  As an example, uses exactly four 4's, so 16 is filled in for you in the table.      Write each number from 1 to 20 as an expression that uses exactly four 4's. Fill in as many as you can; you do not have to go in order.        Number Expression using four 4's  Number Expression using four 4's   1 11  2 12  3 13  4 14  5 15  6 16  7 17  8 18  9 19  10 20         Now compare with a classmate or two. Write down any expressions you did not find on your own, and note which numbers were the hardest, along with what finally helped.      "
+  "title": "Wednesday 8\/24",
+  "body": " Wednesday 8\/24    "
 },
 {
-  "id": "mth110-multifaceted-thinking-3-1",
+  "id": "notes-week-01-5",
+  "level": "1",
+  "url": "notes-week-01-5.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday 8\/26",
+  "body": " Friday 8\/26    "
+},
+{
+  "id": "notes-week-02-2",
+  "level": "1",
+  "url": "notes-week-02-2.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday",
+  "body": " Monday    "
+},
+{
+  "id": "notes-week-02-3",
+  "level": "1",
+  "url": "notes-week-02-3.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Wednesday",
+  "body": " Wednesday    "
+},
+{
+  "id": "notes-week-02-4",
+  "level": "1",
+  "url": "notes-week-02-4.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday",
+  "body": " Friday    "
+},
+{
+  "id": "act-intro-strategies",
+  "level": "1",
+  "url": "act-intro-strategies.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "12 Times 25",
+  "body": " 12 Times 25    Name:  The goal of this activity is less about the actual mathematics and more about detailing our thought process, communicating mathematical ideas to others, and showcasing the diversity of thought that can occur in math.      Consider the basic arithmetic problem: evaluate without using a calculator.  Perform this computation, but be as detailed in your thought process as possible. Can you develop one or more of the following?   The steps for one or more processes that result in the answer.  A diagram, picture, or illustration that visualizes the solution.  A written summary of what your thought process was in solving this problem.  A context (word problem) for which this evaluation would be the solution.  A different type of work related to the question that is not included in this list.   Spend at least five minutes on your own writing down or drawing as much as you can related to the problem and the prompts above, using the space provided.        Now compare your work with a classmate or two. Write down any new strategies, representations, or ideas you learned from a classmate that were different from your own approach.      "
+},
+{
+  "id": "mth110-multifaceted-thinking-2-1",
   "level": "2",
-  "url": "sec-rethinking-mathematics.html#mth110-multifaceted-thinking-3-1",
+  "url": "act-intro-strategies.html#mth110-multifaceted-thinking-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
   "body": "  Consider the basic arithmetic problem: evaluate without using a calculator.  Perform this computation, but be as detailed in your thought process as possible. Can you develop one or more of the following?   The steps for one or more processes that result in the answer.  A diagram, picture, or illustration that visualizes the solution.  A written summary of what your thought process was in solving this problem.  A context (word problem) for which this evaluation would be the solution.  A different type of work related to the question that is not included in this list.   Spend at least five minutes on your own writing down or drawing as much as you can related to the problem and the prompts above, using the space provided.   "
 },
 {
-  "id": "mth110-multifaceted-thinking-4-1",
+  "id": "mth110-multifaceted-thinking-3-1",
   "level": "2",
-  "url": "sec-rethinking-mathematics.html#mth110-multifaceted-thinking-4-1",
+  "url": "act-intro-strategies.html#mth110-multifaceted-thinking-3-1",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
   "body": "  Now compare your work with a classmate or two. Write down any new strategies, representations, or ideas you learned from a classmate that were different from your own approach.   "
 },
 {
+  "id": "act-intro-44",
+  "level": "1",
+  "url": "act-intro-44.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "The Four Fours",
+  "body": " The Four Fours    Name:  In this activity you will build the whole numbers from 1 to 20 using exactly four 4's each time. The goal is to play, to notice patterns, and to compare the many different ways a single number can be written.  Rules: use exactly four 4's, no more and no fewer. You may combine them with addition, subtraction, multiplication, division, and parentheses. You may also use exponents, square roots (for example ), factorials (note that ), a decimal point (for example ), and you may join 4's together to make or .  As an example, uses exactly four 4's, so 16 is filled in for you in the table.      Write each number from 1 to 20 as an expression that uses exactly four 4's. Fill in as many as you can; you do not have to go in order.        Number Expression using four 4's  Number Expression using four 4's   1 11  2 12  3 13  4 14  5 15  6 16  7 17  8 18  9 19  10 20         Now compare with a classmate or two. Write down any expressions you did not find on your own, and note which numbers were the hardest, along with what finally helped.      "
+},
+{
   "id": "ws-four-fours-2-1",
   "level": "2",
-  "url": "sec-rethinking-mathematics.html#ws-four-fours-2-1",
+  "url": "act-intro-44.html#ws-four-fours-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
@@ -75,56 +129,56 @@ var ptx_lunr_docs = [
 {
   "id": "ws-four-fours-3-1",
   "level": "2",
-  "url": "sec-rethinking-mathematics.html#ws-four-fours-3-1",
+  "url": "act-intro-44.html#ws-four-fours-3-1",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
   "body": "  Now compare with a classmate or two. Write down any expressions you did not find on your own, and note which numbers were the hardest, along with what finally helped.   "
 },
 {
-  "id": "sec-functions-graphs",
+  "id": "act-functions-graphs-stories",
   "level": "1",
-  "url": "sec-functions-graphs.html",
-  "type": "Section",
+  "url": "act-functions-graphs-stories.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Functions and Graphs: Interpreting Mathematical Stories",
-  "body": " Functions and Graphs: Interpreting Mathematical Stories   Activity Title Here  Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.    "
+  "title": "Activity Title Here",
+  "body": " Activity Title Here  Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.   "
 },
 {
-  "id": "sec-linear-patterns",
+  "id": "act-linear-patterns-problem-solving",
   "level": "1",
-  "url": "sec-linear-patterns.html",
-  "type": "Section",
+  "url": "act-linear-patterns-problem-solving.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Linear Patterns and Problem Solving",
-  "body": " Linear Patterns and Problem Solving   Activity Title Here  Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.    "
+  "title": "Activity Title Here",
+  "body": " Activity Title Here  Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.   "
 },
 {
-  "id": "sec-exponential-change",
+  "id": "act-exponential-change-modeling",
   "level": "1",
-  "url": "sec-exponential-change.html",
-  "type": "Section",
+  "url": "act-exponential-change-modeling.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Exponential Change and Modeling",
-  "body": " Exponential Change and Modeling   Activity Title Here  Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.    "
+  "title": "Activity Title Here",
+  "body": " Activity Title Here  Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.   "
 },
 {
-  "id": "sec-inverses-logarithms",
+  "id": "act-inverses-logarithms-reversing",
   "level": "1",
-  "url": "sec-inverses-logarithms.html",
-  "type": "Section",
+  "url": "act-inverses-logarithms-reversing.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Inverses and Logarithms: Reversing Steps",
-  "body": " Inverses and Logarithms: Reversing Steps   Activity Title Here  Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.    "
+  "title": "Activity Title Here",
+  "body": " Activity Title Here  Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.   "
 },
 {
-  "id": "sec-quadratic-relationships",
+  "id": "act-quadratic-relationships-applications",
   "level": "1",
-  "url": "sec-quadratic-relationships.html",
-  "type": "Section",
+  "url": "act-quadratic-relationships-applications.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Quadratic Relationships and Applications",
-  "body": " Quadratic Relationships and Applications   Activity Title Here  Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.    "
+  "title": "Activity Title Here",
+  "body": " Activity Title Here  Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.   "
 },
 {
   "id": "lt2-practice-quiz",
