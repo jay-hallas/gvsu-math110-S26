@@ -28,60 +28,6 @@ var ptx_lunr_docs = [
   "body": " Assessments and Grades    "
 },
 {
-  "id": "notes-week-01-3",
-  "level": "1",
-  "url": "notes-week-01-3.html",
-  "type": "Subsection",
-  "number": "",
-  "title": "Monday 8\/22",
-  "body": " Monday 8\/22    "
-},
-{
-  "id": "notes-week-01-4",
-  "level": "1",
-  "url": "notes-week-01-4.html",
-  "type": "Subsection",
-  "number": "",
-  "title": "Wednesday 8\/24",
-  "body": " Wednesday 8\/24    "
-},
-{
-  "id": "notes-week-01-5",
-  "level": "1",
-  "url": "notes-week-01-5.html",
-  "type": "Subsection",
-  "number": "",
-  "title": "Friday 8\/26",
-  "body": " Friday 8\/26    "
-},
-{
-  "id": "notes-week-02-2",
-  "level": "1",
-  "url": "notes-week-02-2.html",
-  "type": "Subsection",
-  "number": "",
-  "title": "Monday",
-  "body": " Monday    "
-},
-{
-  "id": "notes-week-02-3",
-  "level": "1",
-  "url": "notes-week-02-3.html",
-  "type": "Subsection",
-  "number": "",
-  "title": "Wednesday",
-  "body": " Wednesday    "
-},
-{
-  "id": "notes-week-02-4",
-  "level": "1",
-  "url": "notes-week-02-4.html",
-  "type": "Subsection",
-  "number": "",
-  "title": "Friday",
-  "body": " Friday    "
-},
-{
   "id": "act-intro-strategies",
   "level": "1",
   "url": "act-intro-strategies.html",
@@ -136,13 +82,94 @@ var ptx_lunr_docs = [
   "body": "  Now compare with a classmate or two. Write down any expressions you did not find on your own, and note which numbers were the hardest, along with what finally helped.   "
 },
 {
-  "id": "act-functions-graphs-stories",
+  "id": "act-functions-graphs-distance",
   "level": "1",
-  "url": "act-functions-graphs-stories.html",
+  "url": "act-functions-graphs-distance.html",
   "type": "Subsection",
   "number": "",
-  "title": "Activity Title Here",
-  "body": " Activity Title Here  Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.   "
+  "title": "Distance from Start",
+  "body": " Distance from Start   Activity: Distance from Home     Interpreting Distance-Time Graphs   The qualitative graph below represents a student's car journey from campus to a coffee shop and back over a period of time. Let be the time elapsed since leaving home, and let be the student's distance from home. The graph is divided into five distinct intervals labeled A, B, C, D, and E.   A qualitative distance-time graph of a car journey with five labeled intervals.   A piecewise linear graph with five segments labeled A through E. Segment A rises gradually, B is flat, C rises steeply, D is flat at a higher level, and E falls steeply back to zero.        Identify the independent and dependent variables in this scenario and justify your reasoning.      Given that the student is driving a car, what real-world behavior could explain the horizontal line during interval B?      Compare the speed of the car during interval A to its speed during interval C. How does the graph visually communicate this difference?      Describe what is occurring during interval D and interval E in the context of the story.         Sketching Distance-Time Scenarios   Read the story below carefully and construct a corresponding qualitative graph.   Scenario: An individual leaves home to go for a morning run.  They start by jogging at a steady, moderate pace for 10 minutes.  Suddenly, they realize they might have dropped their keys. They stop completely and search their pockets for 2 minutes.  They turn around and walk slowly back toward home for 5 minutes before finally spotting their keys on the ground.  They pause for 1 minute to pick up the keys and tie their shoe.  Once ready, they sprint very fast straight back home to make up for the lost time.       Identify the independent and dependent variables for your graph, including appropriate units.   Independent variable:     Dependent variable:        Sketch a qualitative graph on the axes below that illustrates the entire scenario. Label each segment of your graph to correspond with the phases of the journey.   Blank axes for sketching the runner's distance from home over time.   Blank coordinate axes with Time on the horizontal axis and Distance from Home on the vertical axis, for student sketching.         In the context of a journey starting and ending at home, what do the horizontal intercepts (the -intercepts) represent on this graph?       "
+},
+{
+  "id": "ex-interpret-graph",
+  "level": "2",
+  "url": "act-functions-graphs-distance.html#ex-interpret-graph",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Interpreting Distance-Time Graphs.",
+  "body": " Interpreting Distance-Time Graphs   The qualitative graph below represents a student's car journey from campus to a coffee shop and back over a period of time. Let be the time elapsed since leaving home, and let be the student's distance from home. The graph is divided into five distinct intervals labeled A, B, C, D, and E.   A qualitative distance-time graph of a car journey with five labeled intervals.   A piecewise linear graph with five segments labeled A through E. Segment A rises gradually, B is flat, C rises steeply, D is flat at a higher level, and E falls steeply back to zero.        Identify the independent and dependent variables in this scenario and justify your reasoning.      Given that the student is driving a car, what real-world behavior could explain the horizontal line during interval B?      Compare the speed of the car during interval A to its speed during interval C. How does the graph visually communicate this difference?      Describe what is occurring during interval D and interval E in the context of the story.    "
+},
+{
+  "id": "ex-sketch-graph",
+  "level": "2",
+  "url": "act-functions-graphs-distance.html#ex-sketch-graph",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Sketching Distance-Time Scenarios.",
+  "body": " Sketching Distance-Time Scenarios   Read the story below carefully and construct a corresponding qualitative graph.   Scenario: An individual leaves home to go for a morning run.  They start by jogging at a steady, moderate pace for 10 minutes.  Suddenly, they realize they might have dropped their keys. They stop completely and search their pockets for 2 minutes.  They turn around and walk slowly back toward home for 5 minutes before finally spotting their keys on the ground.  They pause for 1 minute to pick up the keys and tie their shoe.  Once ready, they sprint very fast straight back home to make up for the lost time.       Identify the independent and dependent variables for your graph, including appropriate units.   Independent variable:     Dependent variable:        Sketch a qualitative graph on the axes below that illustrates the entire scenario. Label each segment of your graph to correspond with the phases of the journey.   Blank axes for sketching the runner's distance from home over time.   Blank coordinate axes with Time on the horizontal axis and Distance from Home on the vertical axis, for student sketching.         In the context of a journey starting and ending at home, what do the horizontal intercepts (the -intercepts) represent on this graph?    "
+},
+{
+  "id": "act-functions-graphs-haircut",
+  "level": "1",
+  "url": "act-functions-graphs-haircut.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Examining Hair Growth",
+  "body": " Examining Hair Growth   Activity: Analyzing Hair Growth   The graph below represents the length of Alex's hair on any given day. Let represent the number of days since September 1st, recorded over a 300-day tracking period.   Function Vocabulary Reference   Variables (Independent and Dependent): Quantities that change. The independent variable is the input, and the dependent variable is the output.  Domain and Range: The domain is all possible inputs. The range is all possible outputs.  Intercepts: Where the graph crosses the horizontal or vertical axes. The vertical intercept is your starting point on day zero. The horizontal intercept is when the tracked value drops to exactly zero.  Increasing\/Decreasing: Whether the graph goes up or down as you read left to right.     Alex's hair length (in inches) over days since September 1st. Dashed vertical segments indicate haircuts.   A piecewise graph of hair length over 300 days. Hair grows from 1 inch to 2 inches between day 0 and day 60, then drops to 0.5 inches (haircut). It grows from 0.5 to 2.5 inches between day 60 and day 180, then drops to 0 (shaved). It then grows from 0 to 2 inches between day 180 and day 300.         Interpreting Key Events    What happened on day 60? On day 180?      Variables and Axes    This graphical function shows a relationship between two variables. What are they?      Identify the independent and dependent variables in this graphical function and which axis (vertical or horizontal) each one is associated with.         Domain and Range    What is the domain of this function?      What is the range of this function?      Coordinates and Intercepts    Each input is associated with an output. For a generic function, we write the pair of values together like this: . For this function, each pair of values would be . List one point on the graph and explain its meaning in terms of the variables in this function.      Identify the meaning of the vertical intercept of this graph. Be sure to reference the specific starting date in your explanation.      Identify the meaning of the horizontal intercept of this graph.      Based on the graph, on what day(s) is Alex's hair exactly 1.5 inches long?      Increasing and Decreasing Intervals    Consider the periods of time between Alex's haircuts. Is this function increasing or decreasing during those intervals? Explain why your response makes sense in the context of this specific scenario.       "
+},
+{
+  "id": "fig-hair-growth",
+  "level": "2",
+  "url": "act-functions-graphs-haircut.html#fig-hair-growth",
+  "type": "Figure",
+  "number": "3",
+  "title": "",
+  "body": " Alex's hair length (in inches) over days since September 1st. Dashed vertical segments indicate haircuts.   A piecewise graph of hair length over 300 days. Hair grows from 1 inch to 2 inches between day 0 and day 60, then drops to 0.5 inches (haircut). It grows from 0.5 to 2.5 inches between day 60 and day 180, then drops to 0 (shaved). It then grows from 0 to 2 inches between day 180 and day 300.    "
+},
+{
+  "id": "ex-key-events",
+  "level": "2",
+  "url": "act-functions-graphs-haircut.html#ex-key-events",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Interpreting Key Events.",
+  "body": " Interpreting Key Events    What happened on day 60? On day 180?    "
+},
+{
+  "id": "ex-variables",
+  "level": "2",
+  "url": "act-functions-graphs-haircut.html#ex-variables",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Variables and Axes.",
+  "body": " Variables and Axes    This graphical function shows a relationship between two variables. What are they?      Identify the independent and dependent variables in this graphical function and which axis (vertical or horizontal) each one is associated with.    "
+},
+{
+  "id": "ex-domain-range",
+  "level": "2",
+  "url": "act-functions-graphs-haircut.html#ex-domain-range",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Domain and Range.",
+  "body": " Domain and Range    What is the domain of this function?      What is the range of this function?    "
+},
+{
+  "id": "ex-intercepts",
+  "level": "2",
+  "url": "act-functions-graphs-haircut.html#ex-intercepts",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Coordinates and Intercepts.",
+  "body": " Coordinates and Intercepts    Each input is associated with an output. For a generic function, we write the pair of values together like this: . For this function, each pair of values would be . List one point on the graph and explain its meaning in terms of the variables in this function.      Identify the meaning of the vertical intercept of this graph. Be sure to reference the specific starting date in your explanation.      Identify the meaning of the horizontal intercept of this graph.      Based on the graph, on what day(s) is Alex's hair exactly 1.5 inches long?    "
+},
+{
+  "id": "ex-increasing-decreasing",
+  "level": "2",
+  "url": "act-functions-graphs-haircut.html#ex-increasing-decreasing",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Increasing and Decreasing Intervals.",
+  "body": " Increasing and Decreasing Intervals    Consider the periods of time between Alex's haircuts. Is this function increasing or decreasing during those intervals? Explain why your response makes sense in the context of this specific scenario.    "
 },
 {
   "id": "act-linear-patterns-problem-solving",
@@ -150,8 +177,125 @@ var ptx_lunr_docs = [
   "url": "act-linear-patterns-problem-solving.html",
   "type": "Subsection",
   "number": "",
-  "title": "Activity Title Here",
-  "body": " Activity Title Here  Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.   "
+  "title": "Linear Patterns",
+  "body": " Linear Patterns   Activity: Visual Patterns   For each of the following patterns, complete the following steps:  Draw Case 4 and Case 5.  Complete the table.  Determine whether the growth is linear and explain how you know.  If linear, find an equation for the number of blocks ( ) in terms of the case number ( ).  Check that your equation works by plugging in some cases from the table to see that they match.        Pattern 1    A U-shaped block pattern. Case 1 has a row of 3 blocks across the top with 1 block hanging below each end (5 total). Each subsequent case adds one block to each of the two side columns.   Three completed U-shaped block figures for Cases 1, 2, and 3, followed by two dashed empty boxes for students to draw Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  5 7 9        Is the growth linear ? Circle one: Yes \/ No . Explain how you know.      If linear, write an equation for the number of shapes in terms of the case number . Then check your equation using at least two values from the table.  Equation:       Pattern 2    A rectangular grid of circles. Case 1 is a single column of 3 circles, Case 2 is a 2-by-3 grid (6 circles), Case 3 is a 3-by-3 grid (9 circles).   Three completed grids of green circles for Cases 1, 2, and 3, followed by two dashed empty boxes for students to draw Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  3 6 9        Is the growth linear ? Circle one: Yes \/ No . Explain how you know.      If linear, write an equation for the number of shapes in terms of the case number . Then check your equation using at least two values from the table.  Equation:          Pattern 3    A square grid of stars. Case 1 has 1 star, Case 2 has a 2-by-2 grid (4 stars), Case 3 has a 3-by-3 grid (9 stars).   Three completed square grids of teal five-pointed stars for Cases 1, 2, and 3, followed by two dashed empty boxes for Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  1 4 9        Is the growth linear ? Circle one: Yes \/ No . Explain how you know.      If linear, write an equation for the number of shapes in terms of the case number . Then check your equation using at least two values from the table.  Equation:       Pattern 4    A staircase arrangement of triangles. Case 1 has a single row of 3 triangles on the bottom (3 total). Case 2 adds a row of 2 triangles above (5 total). Case 3 adds another row of 1 triangle (7 total -- wait, check original: Case 3 = 7).   Three staircase arrangements of purple triangles for Cases 1, 2, and 3, followed by two dashed empty boxes for Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  3 5 7        Is the growth linear ? Circle one: Yes \/ No . Explain how you know.      If linear, write an equation for the number of shapes in terms of the case number . Then check your equation using at least two values from the table.  Equation:          Pattern 5    A growing arrangement of hexagons. Case 1 has 5 hexagons in a single row. Case 2 adds a second row of 4 hexagons above (9 total). Case 3 adds a third row of 4 hexagons (13 total).   Three arrangements of brick-red hexagons for Cases 1, 2, and 3, followed by two dashed empty boxes for Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  5 9 13        Is the growth linear ? Circle one: Yes \/ No . Explain how you know.      If linear, write an equation for the number of shapes in terms of the case number . Then check your equation using at least two values from the table.  Equation:        "
+},
+{
+  "id": "ex-pattern-1",
+  "level": "2",
+  "url": "act-linear-patterns-problem-solving.html#ex-pattern-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Pattern 1.",
+  "body": " Pattern 1    A U-shaped block pattern. Case 1 has a row of 3 blocks across the top with 1 block hanging below each end (5 total). Each subsequent case adds one block to each of the two side columns.   Three completed U-shaped block figures for Cases 1, 2, and 3, followed by two dashed empty boxes for students to draw Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  5 7 9        Is the growth linear ? Circle one: Yes \/ No . Explain how you know.      If linear, write an equation for the number of shapes in terms of the case number . Then check your equation using at least two values from the table.  Equation:     "
+},
+{
+  "id": "ex-pattern-2",
+  "level": "2",
+  "url": "act-linear-patterns-problem-solving.html#ex-pattern-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Pattern 2.",
+  "body": " Pattern 2    A rectangular grid of circles. Case 1 is a single column of 3 circles, Case 2 is a 2-by-3 grid (6 circles), Case 3 is a 3-by-3 grid (9 circles).   Three completed grids of green circles for Cases 1, 2, and 3, followed by two dashed empty boxes for students to draw Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  3 6 9        Is the growth linear ? Circle one: Yes \/ No . Explain how you know.      If linear, write an equation for the number of shapes in terms of the case number . Then check your equation using at least two values from the table.  Equation:     "
+},
+{
+  "id": "ex-pattern-3",
+  "level": "2",
+  "url": "act-linear-patterns-problem-solving.html#ex-pattern-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Pattern 3.",
+  "body": " Pattern 3    A square grid of stars. Case 1 has 1 star, Case 2 has a 2-by-2 grid (4 stars), Case 3 has a 3-by-3 grid (9 stars).   Three completed square grids of teal five-pointed stars for Cases 1, 2, and 3, followed by two dashed empty boxes for Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  1 4 9        Is the growth linear ? Circle one: Yes \/ No . Explain how you know.      If linear, write an equation for the number of shapes in terms of the case number . Then check your equation using at least two values from the table.  Equation:     "
+},
+{
+  "id": "ex-pattern-4",
+  "level": "2",
+  "url": "act-linear-patterns-problem-solving.html#ex-pattern-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Pattern 4.",
+  "body": " Pattern 4    A staircase arrangement of triangles. Case 1 has a single row of 3 triangles on the bottom (3 total). Case 2 adds a row of 2 triangles above (5 total). Case 3 adds another row of 1 triangle (7 total -- wait, check original: Case 3 = 7).   Three staircase arrangements of purple triangles for Cases 1, 2, and 3, followed by two dashed empty boxes for Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  3 5 7        Is the growth linear ? Circle one: Yes \/ No . Explain how you know.      If linear, write an equation for the number of shapes in terms of the case number . Then check your equation using at least two values from the table.  Equation:     "
+},
+{
+  "id": "ex-pattern-5",
+  "level": "2",
+  "url": "act-linear-patterns-problem-solving.html#ex-pattern-5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Pattern 5.",
+  "body": " Pattern 5    A growing arrangement of hexagons. Case 1 has 5 hexagons in a single row. Case 2 adds a second row of 4 hexagons above (9 total). Case 3 adds a third row of 4 hexagons (13 total).   Three arrangements of brick-red hexagons for Cases 1, 2, and 3, followed by two dashed empty boxes for Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  5 9 13        Is the growth linear ? Circle one: Yes \/ No . Explain how you know.      If linear, write an equation for the number of shapes in terms of the case number . Then check your equation using at least two values from the table.  Equation:     "
+},
+{
+  "id": "act-linear-finding-equations",
+  "level": "1",
+  "url": "act-linear-finding-equations.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Finding Equations of Lines",
+  "body": " Finding Equations of Lines   Finding Equations for Linear Functions   For each representation, determine the slope, identify the -intercept, and write an equation in the form .       Graph (positive slope)    A line with positive slope passing through , , and .   A coordinate grid from x equals negative 2 to 4 and y equals negative 1 to 5. A blue line passes through the points (0,1), (2,2), and (4,3), showing a positive slope.        Identify the slope. Explain how you know you are correct.      Identify the -intercept. Explain how you know you are correct.      Write the equation:         Two Points   A line passes through the points and .     Identify the slope. Explain how you know you are correct.      Identify the -intercept. Explain how you know you are correct.      Write the equation:        Table of Values      0 2 4 6     4 7 10 13       Identify the slope. Explain how you know you are correct.      Identify the -intercept. Explain how you know you are correct.      Write the equation:           Graph (negative slope)    A line with negative slope passing through , , and .   A coordinate grid from x equals negative 2 to 4 and y equals negative 1 to 5. A red line passes through the points (0,4), (2,2), and (4,0), showing a negative slope.        Identify the slope. Explain how you know you are correct.      Identify the -intercept. Explain how you know you are correct.      Write the equation:        Verbal Description   A gym charges a $25 sign-up fee plus $12 per month.     Identify the slope. Explain how you know you are correct.      Identify the -intercept. Explain how you know you are correct.      Write the equation:        Standard Form   A line is given by .     Identify the slope. Explain how you know you are correct.      Identify the -intercept. Explain how you know you are correct.      Write the equation:        Reflection   Choose one representation above and explain how you found the slope and the -intercept.      "
+},
+{
+  "id": "ex-graph-positive",
+  "level": "2",
+  "url": "act-linear-finding-equations.html#ex-graph-positive",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Graph (positive slope).",
+  "body": " Graph (positive slope)    A line with positive slope passing through , , and .   A coordinate grid from x equals negative 2 to 4 and y equals negative 1 to 5. A blue line passes through the points (0,1), (2,2), and (4,3), showing a positive slope.        Identify the slope. Explain how you know you are correct.      Identify the -intercept. Explain how you know you are correct.      Write the equation:      "
+},
+{
+  "id": "ex-two-points",
+  "level": "2",
+  "url": "act-linear-finding-equations.html#ex-two-points",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Two Points.",
+  "body": " Two Points   A line passes through the points and .     Identify the slope. Explain how you know you are correct.      Identify the -intercept. Explain how you know you are correct.      Write the equation:     "
+},
+{
+  "id": "ex-table-values",
+  "level": "2",
+  "url": "act-linear-finding-equations.html#ex-table-values",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Table of Values.",
+  "body": " Table of Values      0 2 4 6     4 7 10 13       Identify the slope. Explain how you know you are correct.      Identify the -intercept. Explain how you know you are correct.      Write the equation:     "
+},
+{
+  "id": "ex-graph-negative",
+  "level": "2",
+  "url": "act-linear-finding-equations.html#ex-graph-negative",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Graph (negative slope).",
+  "body": " Graph (negative slope)    A line with negative slope passing through , , and .   A coordinate grid from x equals negative 2 to 4 and y equals negative 1 to 5. A red line passes through the points (0,4), (2,2), and (4,0), showing a negative slope.        Identify the slope. Explain how you know you are correct.      Identify the -intercept. Explain how you know you are correct.      Write the equation:     "
+},
+{
+  "id": "ex-verbal",
+  "level": "2",
+  "url": "act-linear-finding-equations.html#ex-verbal",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Verbal Description.",
+  "body": " Verbal Description   A gym charges a $25 sign-up fee plus $12 per month.     Identify the slope. Explain how you know you are correct.      Identify the -intercept. Explain how you know you are correct.      Write the equation:     "
+},
+{
+  "id": "ex-standard-form",
+  "level": "2",
+  "url": "act-linear-finding-equations.html#ex-standard-form",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Standard Form.",
+  "body": " Standard Form   A line is given by .     Identify the slope. Explain how you know you are correct.      Identify the -intercept. Explain how you know you are correct.      Write the equation:     "
+},
+{
+  "id": "ex-reflection",
+  "level": "2",
+  "url": "act-linear-finding-equations.html#ex-reflection",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Reflection.",
+  "body": " Reflection   Choose one representation above and explain how you found the slope and the -intercept.   "
 },
 {
   "id": "act-exponential-change-modeling",
@@ -179,6 +323,42 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Activity Title Here",
   "body": " Activity Title Here  Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.   "
+},
+{
+  "id": "writing-assignment-1",
+  "level": "1",
+  "url": "writing-assignment-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Writing Assignment 1",
+  "body": " Writing Assignment 1   This assignment covers qualitative graphs and visual patterns from Chapter 1.    For each graph question, explain your reasoning in complete sentences.  For pattern questions, show how you identified the pattern and justify your formula.  Be as detailed as possible in showing your logical reasoning.        Qualitative Graphs: A Pizza's Journey   A frozen pizza is placed into a hot oven to bake. Once it is done, it is left on the counter to cool while the family eats dinner. After dinner, the leftover slices are placed in the refrigerator and left there until the temperature stabilizes. Later that evening, one slice is reheated in the microwave.  On the axes below, sketch a qualitative graph of the pizza's internal temperature over time . Focus on the overall shape and direction of each segment. Draw and label each segment A through E as described in the parts below.   Note: for this assignment, you may use line segments to make your graph.    Axes for sketching the pizza's temperature over time.   Blank coordinate axes with t on the horizontal axis and T in degrees F on the vertical axis, for student sketching.       Segment A: In the oven   Draw the segment representing the frozen pizza heating up in the oven. In one sentence, describe what is happening to the temperature.     Segment B: Cooling on the counter   Draw the segment representing the pizza cooling at room temperature while the family eats. In one sentence, explain why this segment should end at a higher temperature than segment A began.     Segment C: Going into the fridge   Draw the segment representing the leftover slices cooling down in the refrigerator. In one sentence, explain why this segment should end lower than segment B ended.     Segment D: Sitting in the fridge   Draw the segment representing the pizza sitting in the refrigerator after it has fully cooled. In one sentence, describe what the graph looks like during this phase and why.     Segment E: Reheated in the microwave   Draw the segment representing a slice being reheated in the microwave. In one sentence, explain how the speed of reheating compares to the original oven heating in segment A, and how your graph shows that.         Visual Pattern A   Observe the growth of the following L-shaped configuration across four cases.   L-shaped block patterns for Cases 1 through 4.   Four L-shaped configurations of square blocks. Case 1 has 2 blocks, Case 2 has 5 blocks, Case 3 has 8 blocks, and Case 4 has 11 blocks. Each case adds one block to the vertical arm and two blocks to the horizontal arm.        Complete the table for the total number of square blocks in Case 5.      Case ( )  1  2  3  4  5    Blocks ( )  2  5  8  11         Is the growth of this pattern linear ? Explain how you know.      Write an equation for the total number of blocks in terms of the case number .         Visual Pattern B   Observe the doubling growth behavior of the following stars.   Star patterns for Cases 1 through 4, doubling each time.   Four groups of five-pointed stars. Case 1 has 1 star, Case 2 has 2 stars, Case 3 has 4 stars arranged in a 2 by 2 grid, and Case 4 has 8 stars arranged in a 4 by 2 grid.        Is the growth of this pattern linear ? Explain why or why not.      Explain how the number of stars is changing between cases and use that pattern to determine the total number of stars that will appear in Case 5 .      "
+},
+{
+  "id": "ex-pizza-graph",
+  "level": "2",
+  "url": "writing-assignment-1.html#ex-pizza-graph",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Qualitative Graphs: A Pizza’s Journey.",
+  "body": " Qualitative Graphs: A Pizza's Journey   A frozen pizza is placed into a hot oven to bake. Once it is done, it is left on the counter to cool while the family eats dinner. After dinner, the leftover slices are placed in the refrigerator and left there until the temperature stabilizes. Later that evening, one slice is reheated in the microwave.  On the axes below, sketch a qualitative graph of the pizza's internal temperature over time . Focus on the overall shape and direction of each segment. Draw and label each segment A through E as described in the parts below.   Note: for this assignment, you may use line segments to make your graph.    Axes for sketching the pizza's temperature over time.   Blank coordinate axes with t on the horizontal axis and T in degrees F on the vertical axis, for student sketching.       Segment A: In the oven   Draw the segment representing the frozen pizza heating up in the oven. In one sentence, describe what is happening to the temperature.     Segment B: Cooling on the counter   Draw the segment representing the pizza cooling at room temperature while the family eats. In one sentence, explain why this segment should end at a higher temperature than segment A began.     Segment C: Going into the fridge   Draw the segment representing the leftover slices cooling down in the refrigerator. In one sentence, explain why this segment should end lower than segment B ended.     Segment D: Sitting in the fridge   Draw the segment representing the pizza sitting in the refrigerator after it has fully cooled. In one sentence, describe what the graph looks like during this phase and why.     Segment E: Reheated in the microwave   Draw the segment representing a slice being reheated in the microwave. In one sentence, explain how the speed of reheating compares to the original oven heating in segment A, and how your graph shows that.    "
+},
+{
+  "id": "ex-pattern-lshape",
+  "level": "2",
+  "url": "writing-assignment-1.html#ex-pattern-lshape",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Visual Pattern A.",
+  "body": " Visual Pattern A   Observe the growth of the following L-shaped configuration across four cases.   L-shaped block patterns for Cases 1 through 4.   Four L-shaped configurations of square blocks. Case 1 has 2 blocks, Case 2 has 5 blocks, Case 3 has 8 blocks, and Case 4 has 11 blocks. Each case adds one block to the vertical arm and two blocks to the horizontal arm.        Complete the table for the total number of square blocks in Case 5.      Case ( )  1  2  3  4  5    Blocks ( )  2  5  8  11         Is the growth of this pattern linear ? Explain how you know.      Write an equation for the total number of blocks in terms of the case number .    "
+},
+{
+  "id": "ex-pattern-stars",
+  "level": "2",
+  "url": "writing-assignment-1.html#ex-pattern-stars",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Visual Pattern B.",
+  "body": " Visual Pattern B   Observe the doubling growth behavior of the following stars.   Star patterns for Cases 1 through 4, doubling each time.   Four groups of five-pointed stars. Case 1 has 1 star, Case 2 has 2 stars, Case 3 has 4 stars arranged in a 2 by 2 grid, and Case 4 has 8 stars arranged in a 4 by 2 grid.        Is the growth of this pattern linear ? Explain why or why not.      Explain how the number of stars is changing between cases and use that pattern to determine the total number of stars that will appear in Case 5 .    "
 },
 {
   "id": "lt2-practice-quiz",
