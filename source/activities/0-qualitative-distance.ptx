@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="activity-distance-from-home"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Activity: Distance from Home</title>
+
+
+  <!-- ===================================================
+       PAGE 1: Interpreting a given graph
+       =================================================== -->
+  <page>
+    <exercise xml:id="ex-interpret-graph">
+      <title>Interpreting Distance-Time Graphs</title>
+      <introduction>
+        <p>
+          The qualitative graph below represents a student's car journey from campus to a coffee
+          shop and back over a period of time. Let <m>t</m> be the time elapsed since leaving
+          home, and let <m>D</m> be the student's distance from home. The graph is divided into
+          five distinct intervals labeled A, B, C, D, and E.
+        </p>
+        <figure xml:id="fig-distance-given">
+          <caption>A qualitative distance-time graph of a car journey with five labeled intervals.</caption>
+          <image xml:id="img-distance-given" width="75%">
+            <shortdescription>A piecewise linear graph with five segments labeled A through E. Segment A rises gradually, B is flat, C rises steeply, D is flat at a higher level, and E falls steeply back to zero.</shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=1.2]
+                \draw[black, thick, ->] (0,0) -- (8.5,0) node[right] {$t$ (time)};
+                \draw[black, thick, ->] (0,0) -- (0,4.5) node[above] {$D$ (distance)};
+                \draw[blue, ultra thick] (0,0)   -- (2.0,1.0) node[midway, above left,  black] {A};
+                \draw[blue, ultra thick] (2.0,1.0) -- (3.5,1.0) node[midway, above,      black] {B};
+                \draw[blue, ultra thick] (3.5,1.0) -- (4.5,3.5) node[midway, above left,  black] {C};
+                \draw[blue, ultra thick] (4.5,3.5) -- (6.5,3.5) node[midway, above,      black] {D};
+                \draw[blue, ultra thick] (6.5,3.5) -- (8.0,0)   node[midway, above right, black] {E};
+                \draw[dashed, gray] (2.0,0) -- (2.0,1.0);
+                \draw[dashed, gray] (3.5,0) -- (3.5,1.0);
+                \draw[dashed, gray] (4.5,0) -- (4.5,3.5);
+                \draw[dashed, gray] (6.5,0) -- (6.5,3.5);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="ex-interpret-a" workspace="0.8in">
+        <statement>
+          <p>
+            Identify the independent and dependent variables in this scenario and justify your
+            reasoning.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-interpret-b" workspace="0.8in">
+        <statement>
+          <p>
+            Given that the student is driving a car, what real-world behavior could explain the
+            horizontal line during interval B?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-interpret-c" workspace="0.8in">
+        <statement>
+          <p>
+            Compare the speed of the car during interval A to its speed during interval C. How does
+            the graph visually communicate this difference?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-interpret-d" workspace="1.0in">
+        <statement>
+          <p>
+            Describe what is occurring during interval D and interval E in the context of the story.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ===================================================
+       PAGE 2: Sketching a graph from a story
+       =================================================== -->
+  <page>
+    <exercise xml:id="ex-sketch-graph">
+      <title>Sketching Distance-Time Scenarios</title>
+      <introduction>
+        <p>
+          Read the story below carefully and construct a corresponding qualitative graph.
+        </p>
+        <p>
+          <em>Scenario:</em> An individual leaves home to go for a morning run.
+          <ol>
+            <li><p>They start by jogging at a steady, moderate pace for 10 minutes.</p></li>
+            <li><p>Suddenly, they realize they might have dropped their keys. They stop completely
+            and search their pockets for 2 minutes.</p></li>
+            <li><p>They turn around and walk slowly back toward home for 5 minutes before finally
+            spotting their keys on the ground.</p></li>
+            <li><p>They pause for 1 minute to pick up the keys and tie their shoe.</p></li>
+            <li><p>Once ready, they sprint very fast straight back home to make up for the lost
+            time.</p></li>
+          </ol>
+        </p>
+      </introduction>
+
+      <task xml:id="ex-sketch-variables">
+        <statement>
+          <p>
+            Identify the independent and dependent variables for your graph, including appropriate
+            units.
+          </p>
+          <p>
+            <em>Independent variable:</em> <fillin characters="40"/>
+          </p>
+          <p>
+            <em>Dependent variable:</em> <fillin characters="40"/>
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-sketch-draw">
+        <statement>
+          <p>
+            Sketch a qualitative graph on the axes below that illustrates the entire scenario.
+            Label each segment of your graph to correspond with the phases of the journey.
+          </p>
+          <figure xml:id="fig-sketch-axes">
+            <caption>Blank axes for sketching the runner's distance from home over time.</caption>
+            <image xml:id="img-sketch-axes" width="80%">
+              <shortdescription>Blank coordinate axes with Time on the horizontal axis and Distance from Home on the vertical axis, for student sketching.</shortdescription>
+              <latex-image>
+                \begin{tikzpicture}[scale=1.5]
+                  \draw[black, thick, ->] (0,0) -- (8.5,0) node[right] {Time};
+                  \draw[black, thick, ->] (0,0) -- (0,4.5) node[above] {Distance from Home};
+                \end{tikzpicture}
+              </latex-image>
+            </image>
+          </figure>
+        </statement>
+      </task>
+
+      <task xml:id="ex-sketch-intercepts" workspace="1.0in">
+        <statement>
+          <p>
+            In the context of a journey starting and ending at home, what do the horizontal
+            intercepts (the <m>t</m>-intercepts) represent on this graph?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>

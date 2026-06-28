@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="worksheet-linear-equations"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Finding Equations for Linear Functions</title>
+
+  <introduction>
+    <p>
+      For each representation, determine the slope, identify the <m>y</m>-intercept, and write
+      an equation in the form <m>y = mx + b</m>.
+    </p>
+  </introduction>
+
+  <!-- ===================================================
+       PAGE 1: Rows 1-3
+       =================================================== -->
+  <page>
+
+    <!-- ROW 1: Positive-slope graph -->
+    <exercise xml:id="ex-graph-positive">
+      <title>Graph (positive slope)</title>
+      <introduction>
+        <figure xml:id="fig-graph-positive">
+          <caption>A line with positive slope passing through <m>(0,1)</m>, <m>(2,2)</m>, and <m>(4,3)</m>.</caption>
+          <image xml:id="img-graph-positive" width="45%">
+            <shortdescription>A coordinate grid from x equals negative 2 to 4 and y equals negative 1 to 5. A blue line passes through the points (0,1), (2,2), and (4,3), showing a positive slope.</shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[x=0.5cm, y=0.5cm]
+                \draw[step=1, gray!18, very thin] (-2,-1) grid (4,5);
+                \draw[->, gray!55, thick] (-2.25,0) -- (4.4,0);
+                \draw[->, gray!55, thick] (0,-1.25) -- (0,5.4);
+                \draw[blue, very thick] (-2,0) -- (4,3);
+                \fill[black] (0,1) circle (1.7pt);
+                \fill[black] (2,2) circle (1.7pt);
+                \fill[black] (4,3) circle (1.7pt);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="ex-graph-positive-slope" workspace="1.9in">
+        <statement>
+          <p>
+            Identify the slope. Explain how you know you are correct.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-graph-positive-intercept" workspace="1.9in">
+        <statement>
+          <p>
+            Identify the <m>y</m>-intercept. Explain how you know you are correct.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-graph-positive-equation">
+        <statement>
+          <p>
+            Write the equation: <m>y =</m> <fillin characters="20"/>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <!-- ROW 2: Two points -->
+    <exercise xml:id="ex-two-points">
+      <title>Two Points</title>
+      <introduction>
+        <p>A line passes through the points <m>(2, 1)</m> and <m>(6, 13)</m>.</p>
+      </introduction>
+
+      <task xml:id="ex-two-points-slope" workspace="1.9in">
+        <statement>
+          <p>Identify the slope. Explain how you know you are correct.</p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-two-points-intercept" workspace="1.9in">
+        <statement>
+          <p>Identify the <m>y</m>-intercept. Explain how you know you are correct.</p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-two-points-equation">
+        <statement>
+          <p>Write the equation: <m>y =</m> <fillin characters="20"/></p>
+        </statement>
+      </task>
+    </exercise>
+
+    <!-- ROW 3: Table of values -->
+    <exercise xml:id="ex-table-values">
+      <title>Table of Values</title>
+      <introduction>
+        <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+          <row header="yes" bottom="minor">
+            <cell><m>x</m></cell>
+            <cell>0</cell><cell>2</cell><cell>4</cell><cell>6</cell>
+          </row>
+          <row>
+            <cell><m>y</m></cell>
+            <cell>4</cell><cell>7</cell><cell>10</cell><cell>13</cell>
+          </row>
+        </tabular>
+      </introduction>
+
+      <task xml:id="ex-table-slope" workspace="1.9in">
+        <statement>
+          <p>Identify the slope. Explain how you know you are correct.</p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-table-intercept" workspace="1.9in">
+        <statement>
+          <p>Identify the <m>y</m>-intercept. Explain how you know you are correct.</p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-table-equation">
+        <statement>
+          <p>Write the equation: <m>y =</m> <fillin characters="20"/></p>
+        </statement>
+      </task>
+    </exercise>
+
+  </page>
+
+  <!-- ===================================================
+       PAGE 2: Rows 4-6 and reflection
+       =================================================== -->
+  <page>
+
+    <!-- ROW 4: Negative-slope graph -->
+    <exercise xml:id="ex-graph-negative">
+      <title>Graph (negative slope)</title>
+      <introduction>
+        <figure xml:id="fig-graph-negative">
+          <caption>A line with negative slope passing through <m>(0,4)</m>, <m>(2,2)</m>, and <m>(4,0)</m>.</caption>
+          <image xml:id="img-graph-negative" width="45%">
+            <shortdescription>A coordinate grid from x equals negative 2 to 4 and y equals negative 1 to 5. A red line passes through the points (0,4), (2,2), and (4,0), showing a negative slope.</shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[x=0.5cm, y=0.5cm]
+                \draw[step=1, gray!18, very thin] (-2,-1) grid (4,5);
+                \draw[->, gray!55, thick] (-2.25,0) -- (4.4,0);
+                \draw[->, gray!55, thick] (0,-1.25) -- (0,5.4);
+                \draw[red!70!black, very thick] (-1,5) -- (4,0);
+                \fill[black] (0,4) circle (1.7pt);
+                \fill[black] (2,2) circle (1.7pt);
+                \fill[black] (4,0) circle (1.7pt);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="ex-graph-negative-slope" workspace="1.9in">
+        <statement>
+          <p>Identify the slope. Explain how you know you are correct.</p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-graph-negative-intercept" workspace="1.9in">
+        <statement>
+          <p>Identify the <m>y</m>-intercept. Explain how you know you are correct.</p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-graph-negative-equation">
+        <statement>
+          <p>Write the equation: <m>y =</m> <fillin characters="20"/></p>
+        </statement>
+      </task>
+    </exercise>
+
+    <!-- ROW 5: Verbal description -->
+    <exercise xml:id="ex-verbal">
+      <title>Verbal Description</title>
+      <introduction>
+        <p>A gym charges a $25 sign-up fee plus $12 per month.</p>
+      </introduction>
+
+      <task xml:id="ex-verbal-slope" workspace="1.9in">
+        <statement>
+          <p>Identify the slope. Explain how you know you are correct.</p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-verbal-intercept" workspace="1.9in">
+        <statement>
+          <p>Identify the <m>y</m>-intercept. Explain how you know you are correct.</p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-verbal-equation">
+        <statement>
+          <p>Write the equation: <m>y =</m> <fillin characters="20"/></p>
+        </statement>
+      </task>
+    </exercise>
+
+    <!-- ROW 6: Standard form -->
+    <exercise xml:id="ex-standard-form">
+      <title>Standard Form</title>
+      <introduction>
+        <p>A line is given by <m>3x + 2y = 10</m>.</p>
+      </introduction>
+
+      <task xml:id="ex-standard-slope" workspace="1.9in">
+        <statement>
+          <p>Identify the slope. Explain how you know you are correct.</p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-standard-intercept" workspace="1.9in">
+        <statement>
+          <p>Identify the <m>y</m>-intercept. Explain how you know you are correct.</p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-standard-equation">
+        <statement>
+          <p>Write the equation: <m>y =</m> <fillin characters="20"/></p>
+        </statement>
+      </task>
+    </exercise>
+
+    <!-- Reflection -->
+    <exercise xml:id="ex-reflection" workspace="3in">
+      <title>Reflection</title>
+      <statement>
+        <p>
+          Choose one representation above and explain how you found the slope and the
+          <m>y</m>-intercept.
+        </p>
+      </statement>
+    </exercise>
+
+  </page>
+
+</worksheet>

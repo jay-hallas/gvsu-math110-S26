@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="activity-hair-growth"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Activity: Analyzing Hair Growth</title>
+
+  <introduction>
+    <p>
+      The graph below represents the length of Alex's hair on any given day. Let <m>t</m>
+      represent the number of days since September 1st, recorded over a 300-day tracking period.
+    </p>
+
+    <p>
+      <em>Function Vocabulary Reference</em>
+      <ul>
+        <li><p><em>Variables (Independent and Dependent):</em> Quantities that change. The
+        independent variable is the input, and the dependent variable is the output.</p></li>
+        <li><p><em>Domain and Range:</em> The domain is all possible inputs. The range is all
+        possible outputs.</p></li>
+        <li><p><em>Intercepts:</em> Where the graph crosses the horizontal or vertical axes.
+        The vertical intercept is your starting point on day zero. The horizontal intercept is
+        when the tracked value drops to exactly zero.</p></li>
+        <li><p><em>Increasing/Decreasing:</em> Whether the graph goes up or down as you read
+        left to right.</p></li>
+      </ul>
+    </p>
+
+    <figure xml:id="fig-hair-growth">
+      <caption>
+        Alex's hair length <m>L</m> (in inches) over <m>t</m> days since September 1st.
+        Dashed vertical segments indicate haircuts.
+      </caption>
+      <image xml:id="img-hair-growth" width="80%">
+        <shortdescription>
+          A piecewise graph of hair length over 300 days. Hair grows from 1 inch to 2 inches
+          between day 0 and day 60, then drops to 0.5 inches (haircut). It grows from 0.5 to
+          2.5 inches between day 60 and day 180, then drops to 0 (shaved). It then grows from
+          0 to 2 inches between day 180 and day 300.
+        </shortdescription>
+        <latex-image>
+          \begin{tikzpicture}[scale=0.9]
+            \draw[step=1cm, gray, very thin, dashed] (0,0) grid (10,5);
+            \draw[black, thick, ->] (0,0) -- (10.5,0) node[right] {$t$ (days)};
+            \draw[black, thick, ->] (0,0) -- (0,5.5)  node[above] {$L$ (inches)};
+            \foreach \x in {1,2,3,4,5,6,7,8,9,10}
+              \draw (\x cm,2pt) -- (\x cm,-2pt)
+                node[below] {$\number\numexpr\x*30\relax$};
+            \node[below left] at (0,0) {0};
+            \foreach \y in {1,2,3,4,5}
+              \draw (2pt,\y cm) -- (-2pt,\y cm) node[left] {$\y$};
+            % Growth segment 1: day 0-60
+            \draw[blue, ultra thick] (0,1) -- (2,2);
+            % Haircut at day 60
+            \draw[blue, ultra thick, dashed] (2,2) -- (2,0.5);
+            % Growth segment 2: day 60-180
+            \draw[blue, ultra thick] (2,0.5) -- (6,2.5);
+            % Shaved at day 180
+            \draw[blue, ultra thick, dashed] (6,2.5) -- (6,0);
+            % Growth segment 3: day 180-300
+            \draw[blue, ultra thick] (6,0) -- (10,2);
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </figure>
+  </introduction>
+
+  <!-- ===================================================
+       PAGE 1: Key events, variables
+       =================================================== -->
+  <page>
+    <exercise xml:id="ex-key-events">
+      <title>Interpreting Key Events</title>
+      <task xml:id="ex-key-events-a" workspace="0.4in">
+        <statement>
+          <p>What happened on day 60? On day 180?</p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="ex-variables">
+      <title>Variables and Axes</title>
+      <task xml:id="ex-variables-a" workspace="0.3in">
+        <statement>
+          <p>
+            This graphical function shows a relationship between two variables. What are they?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-variables-b" workspace="0.4in">
+        <statement>
+          <p>
+            Identify the independent and dependent variables in this graphical function and which
+            axis (vertical or horizontal) each one is associated with.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ===================================================
+       PAGE 2: Domain/range, intercepts, increasing/decreasing
+       =================================================== -->
+  <page>
+    <exercise xml:id="ex-domain-range">
+      <title>Domain and Range</title>
+      <task xml:id="ex-domain" workspace="0.5in">
+        <statement>
+          <p>What is the domain of this function?</p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-range" workspace="0.5in">
+        <statement>
+          <p>What is the range of this function?</p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="ex-intercepts">
+      <title>Coordinates and Intercepts</title>
+      <task xml:id="ex-intercepts-a" workspace="0.6in">
+        <statement>
+          <p>
+            Each input is associated with an output. For a generic function, we write the pair
+            of values together like this: <m>(x, y)</m>. For this function, each pair of values
+            would be <m>(t, L)</m>. List one point on the graph and explain its meaning in terms
+            of the variables in this function.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-intercepts-b" workspace="0.6in">
+        <statement>
+          <p>
+            Identify the meaning of the vertical intercept of this graph. Be sure to reference
+            the specific starting date in your explanation.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-intercepts-c" workspace="0.6in">
+        <statement>
+          <p>Identify the meaning of the horizontal intercept of this graph.</p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-intercepts-d" workspace="0.6in">
+        <statement>
+          <p>Based on the graph, on what day(s) is Alex's hair exactly 1.5 inches long?</p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="ex-increasing-decreasing">
+      <title>Increasing and Decreasing Intervals</title>
+      <task xml:id="ex-increasing-a" workspace="0.8in">
+        <statement>
+          <p>
+            Consider the periods of time <em>between</em> Alex's haircuts. Is this function
+            increasing or decreasing during those intervals? Explain why your response makes sense
+            in the context of this specific scenario.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>

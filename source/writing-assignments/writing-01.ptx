@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="writing-assignment-1"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Writing Assignment 1</title>
+
+
+  <introduction>
+    <p>
+      This assignment covers qualitative graphs and visual patterns from Chapter 1.
+    </p>
+    <p>
+      <ul>
+        <li><p>For each graph question, explain your reasoning in complete sentences.</p></li>
+        <li><p>For pattern questions, show how you identified the pattern and justify your formula.</p></li>
+        <li><p>Be as detailed as possible in showing your logical reasoning.</p></li>
+      </ul>
+    </p>
+  
+  </introduction>
+
+  <!-- ===================================================
+       PAGE 1: Qualitative Graphs (Pizza)
+       =================================================== -->
+  <page>
+    <exercise xml:id="ex-pizza-graph">
+      <title>Qualitative Graphs: A Pizza's Journey</title>
+      <introduction>
+        <p>
+          A frozen pizza is placed into a hot oven to bake. Once it is done, it is left on the
+          counter to cool while the family eats dinner. After dinner, the leftover slices are placed
+          in the refrigerator and left there until the temperature stabilizes. Later that evening,
+          one slice is reheated in the microwave.
+        </p>
+        <p>
+          On the axes below, sketch a qualitative graph of the pizza's internal temperature
+          <m>T</m> over time <m>t</m>. Focus on the overall shape and direction of each segment.
+          Draw and label each segment A through E as described in the parts below.
+        </p>
+        <p>
+          <em>Note: for this assignment, you may use line segments to make your graph.</em>
+        </p>
+        <figure xml:id="fig-pizza-axes">
+          <caption>Axes for sketching the pizza's temperature over time.</caption>
+          <image xml:id="img-pizza-axes" width="70%">
+            <shortdescription>Blank coordinate axes with t on the horizontal axis and T in degrees F on the vertical axis, for student sketching.</shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=1.1]
+                \draw[black, thick, ->] (0,0) -- (9.5,0) node[right] {$t$};
+                \draw[black, thick, ->] (0,0) -- (0,3.3) node[above] {$T$ ($^\circ$F)};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="ex-pizza-a">
+        <title>Segment A: In the oven</title>
+        <statement>
+          <p>
+            Draw the segment representing the frozen pizza heating up in the oven. In one sentence,
+            describe what is happening to the temperature.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-pizza-b">
+        <title>Segment B: Cooling on the counter</title>
+        <statement>
+          <p>
+            Draw the segment representing the pizza cooling at room temperature while the family
+            eats. In one sentence, explain why this segment should end at a higher temperature than
+            segment A began.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-pizza-c">
+        <title>Segment C: Going into the fridge</title>
+        <statement>
+          <p>
+            Draw the segment representing the leftover slices cooling down in the refrigerator. In
+            one sentence, explain why this segment should end lower than segment B ended.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-pizza-d">
+        <title>Segment D: Sitting in the fridge</title>
+        <statement>
+          <p>
+            Draw the segment representing the pizza sitting in the refrigerator after it has fully
+            cooled. In one sentence, describe what the graph looks like during this phase and why.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-pizza-e">
+        <title>Segment E: Reheated in the microwave</title>
+        <statement>
+          <p>
+            Draw the segment representing a slice being reheated in the microwave. In one sentence,
+            explain how the speed of reheating compares to the original oven heating in segment A,
+            and how your graph shows that.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ===================================================
+       PAGE 2: Visual Pattern A (L-shape, linear)
+       =================================================== -->
+  <page>
+    <exercise xml:id="ex-pattern-lshape">
+      <title>Visual Pattern A</title>
+      <introduction>
+        <p>
+          Observe the growth of the following L-shaped configuration across four cases.
+        </p>
+        <figure xml:id="fig-lshape-cases">
+          <caption>L-shaped block patterns for Cases 1 through 4.</caption>
+          <image xml:id="img-lshape-cases" width="90%">
+            <shortdescription>Four L-shaped configurations of square blocks. Case 1 has 2 blocks, Case 2 has 5 blocks, Case 3 has 8 blocks, and Case 4 has 11 blocks. Each case adds one block to the vertical arm and two blocks to the horizontal arm.</shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.4]
+                % Case 1 (2 blocks)
+                \begin{scope}[shift={(0,0)}]
+                  \draw[fill=blue!20, thick] (0,0) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (1,0) rectangle ++(1,1);
+                  \node at (1, -1) {Case 1};
+                \end{scope}
+                % Case 2 (5 blocks)
+                \begin{scope}[shift={(4,0)}]
+                  \draw[fill=blue!20, thick] (0,0) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (0,1) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (1,0) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (2,0) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (3,0) rectangle ++(1,1);
+                  \node at (1.5, -1) {Case 2};
+                \end{scope}
+                % Case 3 (8 blocks)
+                \begin{scope}[shift={(10,0)}]
+                  \draw[fill=blue!20, thick] (0,0) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (0,1) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (0,2) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (1,0) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (2,0) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (3,0) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (4,0) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (5,0) rectangle ++(1,1);
+                  \node at (2.5, -1) {Case 3};
+                \end{scope}
+                % Case 4 (11 blocks)
+                \begin{scope}[shift={(18,0)}]
+                  \draw[fill=blue!20, thick] (0,0) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (0,1) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (0,2) rectangle ++(1,1);
+                  \draw[fill=blue!20, thick] (0,3) rectangle ++(1,1);
+                  \foreach \x in {1,2,3,4,5,6,7} {
+                    \draw[fill=blue!20, thick] (\x,0) rectangle ++(1,1);
+                  }
+                  \node at (3.5, -1) {Case 4};
+                \end{scope}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="ex-lshape-table">
+        <statement>
+          <p>
+            Complete the table for the total number of square blocks <m>y</m> in Case 5.
+          </p>
+          <tabular halign="center" top="major" bottom="major" left="minor" right="minor">
+            <col width="30%"/>
+            <col/><col/><col/><col/><col/>
+            <row header="yes" bottom="minor">
+              <cell>Case (<m>n</m>)</cell>
+              <cell>1</cell>
+              <cell>2</cell>
+              <cell>3</cell>
+              <cell>4</cell>
+              <cell>5</cell>
+            </row>
+            <row>
+              <cell>Blocks (<m>y</m>)</cell>
+              <cell>2</cell>
+              <cell>5</cell>
+              <cell>8</cell>
+              <cell>11</cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </statement>
+      </task>
+
+      <task xml:id="ex-lshape-linear" workspace="1in">
+        <statement>
+          <p>
+            Is the growth of this pattern <em>linear</em>? Explain how you know.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-lshape-formula" workspace="1in">
+        <statement>
+          <p>
+            Write an equation for the total number of blocks <m>y</m> in terms of the case
+            number <m>n</m>.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ===================================================
+       PAGE 3: Visual Pattern B (stars, exponential)
+       =================================================== -->
+  <page>
+    <exercise xml:id="ex-pattern-stars">
+      <title>Visual Pattern B</title>
+      <introduction>
+        <p>
+          Observe the doubling growth behavior of the following stars.
+        </p>
+        <figure xml:id="fig-star-cases">
+          <caption>Star patterns for Cases 1 through 4, doubling each time.</caption>
+          <image xml:id="img-star-cases" width="80%">
+            <shortdescription>Four groups of five-pointed stars. Case 1 has 1 star, Case 2 has 2 stars, Case 3 has 4 stars arranged in a 2 by 2 grid, and Case 4 has 8 stars arranged in a 4 by 2 grid.</shortdescription>
+            <latex-image>
+              \usetikzlibrary{shapes.geometric}
+              \begin{tikzpicture}[scale=0.5]
+                % Case 1 (1 star)
+                \begin{scope}[shift={(0,0)}]
+                  \node[star, star points=5, fill=teal!30, draw=black, thick, minimum size=0.6cm] at (0,0) {};
+                  \node at (0, -1.5) {Case 1};
+                \end{scope}
+                % Case 2 (2 stars)
+                \begin{scope}[shift={(4,0)}]
+                  \node[star, star points=5, fill=teal!30, draw=black, thick, minimum size=0.6cm] at (0,0) {};
+                  \node[star, star points=5, fill=teal!30, draw=black, thick, minimum size=0.6cm] at (1,0) {};
+                  \node at (0.5, -1.5) {Case 2};
+                \end{scope}
+                % Case 3 (4 stars)
+                \begin{scope}[shift={(9,0)}]
+                  \foreach \x in {0,1} \foreach \y in {0,1}
+                    \node[star, star points=5, fill=teal!30, draw=black, thick, minimum size=0.6cm] at (\x,\y) {};
+                  \node at (0.5, -1.5) {Case 3};
+                \end{scope}
+                % Case 4 (8 stars)
+                \begin{scope}[shift={(15,0)}]
+                  \foreach \x in {0,1,2,3} \foreach \y in {0,1}
+                    \node[star, star points=5, fill=teal!30, draw=black, thick, minimum size=0.6cm] at (\x,\y) {};
+                  \node at (1.5, -1.5) {Case 4};
+                \end{scope}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="ex-stars-linear" workspace="1.2in">
+        <statement>
+          <p>
+            Is the growth of this pattern <em>linear</em>? Explain why or why not.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-stars-count" workspace="1.2in">
+        <statement>
+          <p>
+            Explain how the number of stars is changing between cases and use that pattern to
+            determine the total number of stars that will appear in <em>Case 5</em>.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>

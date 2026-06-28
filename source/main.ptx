@@ -21,7 +21,7 @@
       <!-- Other documents could go here, like a schedule, project description, etc. -->
     </chapter>
 
-    <chapter xml:id="course-notes">
+  <!--  <chapter xml:id="course-notes">
       <title>Course Notes</title>
 
       <introduction>
@@ -33,9 +33,9 @@
 
       <xi:include href="./notes/week01.ptx"/>
       <xi:include href="./notes/week02.ptx"/>
-      <!-- etc. -->
+       etc. 
 
-    </chapter>
+    </chapter>-->
 
 
 
@@ -74,19 +74,25 @@
 
   <section xml:id="sec-functions-graphs">
     <title>Functions and Graphs: Interpreting Mathematical Stories</title>
-    <subsection xml:id="act-functions-graphs-stories">
-      <title>Activity Title Here</title>
-      <p>Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.</p>
-      <!-- <xi:include href="./activities/functions-graphs-stories.ptx"/> -->
+    <subsection xml:id="act-functions-graphs-distance">
+      <title>Distance from Start</title>
+    <xi:include href="./activities/0-qualitative-distance.ptx"/> 
+    </subsection>
+      <subsection xml:id="act-functions-graphs-haircut">
+      <title>Examining Hair Growth</title>
+     <xi:include href="./activities/0-qualitative-haircut.ptx"/> 
     </subsection>
   </section>
 
   <section xml:id="sec-linear-patterns">
     <title>Linear Patterns and Problem Solving</title>
     <subsection xml:id="act-linear-patterns-problem-solving">
-      <title>Activity Title Here</title>
-      <p>Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.</p>
-      <!-- <xi:include href="./activities/linear-patterns-problem-solving.ptx"/> -->
+      <title>Linear Patterns</title>
+      <xi:include href="./activities/1-linear-patterns.ptx"/> 
+    </subsection>
+       <subsection xml:id="act-linear-finding-equations">
+      <title>Finding Equations of Lines</title>
+      <xi:include href="./activities/1-linear-graphequations.ptx"/> 
     </subsection>
   </section>
 
@@ -119,6 +125,12 @@
 
 </chapter>
 
+
+    <chapter xml:id="writing">
+      <title>Writing Assignments</title>
+    <xi:include href="./writing-assignments/writing-01.ptx"/>
+
+    </chapter>
 
 
     <chapter xml:id="handouts">
