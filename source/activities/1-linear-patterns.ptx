@@ -300,14 +300,14 @@
       </task>
     </exercise>
 
-    <exercise xml:id="ex-pattern-4">
+   <exercise xml:id="ex-pattern-4">
       <title>Pattern 4</title>
       <introduction>
         <figure xml:id="fig-pattern-4">
           <caption>
-            A staircase arrangement of triangles. Case 1 has a single row of 3 triangles on the
-            bottom (3 total). Case 2 adds a row of 2 triangles above (5 total). Case 3 adds
-            another row of 1 triangle (7 total -- wait, check original: Case 3 = 7).
+            A staircase arrangement of triangles. Case 1 has a bottom row of 2 triangles with
+            1 triangle above (3 total). Each subsequent case adds one triangle to the bottom row
+            and one triangle to the row above, growing the staircase by 2 each time.
           </caption>
           <image xml:id="img-pattern-4" width="90%">
             <shortdescription>
@@ -317,27 +317,16 @@
             <latex-image>
               \usetikzlibrary{shapes.geometric}
               \begin{tikzpicture}[scale=0.34, baseline]
-                % Case 1: 3 triangles in bottom row, 0 in second (total 3? but table says 3 -- wait actually...
-                % Looking at original: Case1=1 triangle, Case2=3 triangles bottom+2 above=5, Case3=4+3=7
-                % Re-reading original: Case1 has 1 triangle; Case2 has bottom row 3, row2 has 2; Case3 has bottom 4, row2 3
-                % Table: 3, 5, 7 -- so Case1=3 means bottom=2+1=? Let me re-read:
-                % Case 1: single triangle node at (0.5,0.5) -- that is 1. But table says 3.
-                % Original uses polygon sides=3 = triangles. Case1: 1 node. Table says 3.
-                % Hmm -- actually looking again: Case1 in original has just 1 node but table says 3.
-                % I think the original LaTeX may have a discrepancy or the minimum size makes them look bigger.
-                % The table is ground truth: 3,5,7. So this is odd-number staircase.
-                % I'll draw to match the table: Case1=bottom row of 2 + 1 above? No...
-                % Actually Pattern 4 (hexagons) has table 5,9,13. Pattern with triangles (labeled "Pattern 3" in source) has table 3,5,7.
-                % The triangle pattern: Case1=1 triangle (but table=3). Let me just trust the figure drawing:
-                % Case1: 1 node. Case2: bottom row 3, row2 2 = 5. Case3: bottom 4, row2 3 = 7.
-                % So Case1 table entry of 3 must be a typo and the real count from the figure is 1+2=3? No...
-                % Most likely the shapes.geometric triangle renders as a large shape and what looks like 1 node IS 3 triangles packed.
-                % I'll just faithfully reproduce the TikZ and trust the table values.
+                % Case 1: bottom row 2, top row 1 (total 3)
                 \begin{scope}[shift={(0,0)}]
+                  \foreach \x in {0,1}
+                    \node[regular polygon, regular polygon sides=3, draw=black, fill=purple!70, thick,
+                          minimum size=3mm, inner sep=0pt] at (\x+0.5,0.5) {};
                   \node[regular polygon, regular polygon sides=3, draw=black, fill=purple!70, thick,
-                        minimum size=3mm, inner sep=0pt] at (0.5,0.5) {};
+                        minimum size=3mm, inner sep=0pt] at (0.5,1.5) {};
                   \node at (0.5,-1.0) {Case 1};
                 \end{scope}
+                % Case 2: bottom row 3, row2 2 (total 5)
                 \begin{scope}[shift={(4.8,0)}]
                   \foreach \x in {0,1,2}
                     \node[regular polygon, regular polygon sides=3, draw=black, fill=purple!70, thick,
@@ -347,6 +336,7 @@
                           minimum size=3mm, inner sep=0pt] at (\x+0.5,1.5) {};
                   \node at (1.5,-1.0) {Case 2};
                 \end{scope}
+                % Case 3: bottom row 4, row2 3 (total 7)
                 \begin{scope}[shift={(10.1,0)}]
                   \foreach \x in {0,1,2,3}
                     \node[regular polygon, regular polygon sides=3, draw=black, fill=purple!70, thick,
