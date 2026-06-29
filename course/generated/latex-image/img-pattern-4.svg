@@ -12,6 +12,10 @@
 </defs>
 <path transform="matrix(1.00003,0,0,-1.00008,10.127975,67.34111)" d="M4.81888 9.07089 1.13654 2.69289H8.50122Z" fill="#d24d79"/>
 <path transform="matrix(1.00003,0,0,-1.00008,10.127975,67.34111)" stroke-width=".79701" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M4.81888 9.07089 1.13654 2.69289H8.50122Z"/>
+<path transform="matrix(1.00003,0,0,-1.00008,10.127975,67.34111)" d="M14.4567 9.07089 10.77435 2.69289H18.13904Z" fill="#d24d79"/>
+<path transform="matrix(1.00003,0,0,-1.00008,10.127975,67.34111)" stroke-width=".79701" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M14.4567 9.07089 10.77435 2.69289H18.13904Z"/>
+<path transform="matrix(1.00003,0,0,-1.00008,10.127975,67.34111)" d="M4.81888 18.70871 1.13654 12.3307H8.50122Z" fill="#d24d79"/>
+<path transform="matrix(1.00003,0,0,-1.00008,10.127975,67.34111)" stroke-width=".79701" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M4.81888 18.70871 1.13654 12.3307H8.50122Z"/>
 <use data-text="C" xlink:href="#font_1_42" transform="matrix(9.962899,0,0,-9.963397,.5356903,80.38216)"/>
 <use data-text="a" xlink:href="#font_1_28" transform="matrix(9.962899,0,0,-9.963397,7.7289125,80.38216)"/>
 <use data-text="s" xlink:href="#font_1_98" transform="matrix(9.962899,0,0,-9.963397,12.710358,80.38216)"/>
