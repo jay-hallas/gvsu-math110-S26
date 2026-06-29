@@ -90,6 +90,11 @@
       <title>Linear Patterns</title>
       <xi:include href="./activities/1-linear-patterns.ptx"/> 
     </subsection>
+
+        <subsection xml:id="act-linear-patterns-problem-solving-2">
+      <title>Linear Patterns II</title>
+      <xi:include href="./activities/1-linear-pattern2.ptx"/> 
+    </subsection>
        <subsection xml:id="act-linear-finding-equations">
       <title>Finding Equations of Lines</title>
       <xi:include href="./activities/1-linear-graphequations.ptx"/> 
@@ -135,6 +140,7 @@
 
     <chapter xml:id="handouts">
       <title>Practice Quizzes</title>
+      <xi:include href="./practice-quiz/learning-target-1-functions-draw.ptx"/>
     <xi:include href="./practice-quiz/learning-target-2-functions-descriptions.ptx"/>
      <xi:include href="./practice-quiz/learning-target-3-linear-forms.ptx"/>
        <xi:include href="./practice-quiz/learning-target-4-linear-graphs.ptx"/>

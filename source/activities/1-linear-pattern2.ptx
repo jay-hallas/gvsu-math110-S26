@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="activity-visual-patterns-2"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Activity: Visual Patterns (Set 2)</title>
+
+  <introduction>
+    <p>
+      For each of the following patterns, complete the following steps:
+      <ul>
+        <li><p>Draw Case 4 and Case 5.</p></li>
+        <li><p>Complete the table.</p></li>
+        <li><p>Determine whether the growth is <em>linear</em> and explain how you know.</p></li>
+        <li><p>If linear, find an equation for the number of shapes (<m>y</m>) in terms of the
+        case number (<m>n</m>).</p></li>
+        <li><p>Check that your equation works by plugging in some cases from the table to see
+        that they match.</p></li>
+      </ul>
+    </p>
+  </introduction>
+
+  
+  <page>
+
+    <exercise xml:id="ex2-pattern-1">
+      <title>Pattern 1</title>
+      <introduction>
+        <figure xml:id="fig2-pattern-1">
+          <caption>
+            A growing plus-sign shape made of orange squares. Case 1 has a center block with
+            one block extending up, down, left, and right (5 total). Each subsequent case adds
+            one block to each of the four arms.
+          </caption>
+          <image xml:id="img2-pattern-1" width="90%">
+            <shortdescription>
+              Three plus-sign figures made of orange squares for Cases 1, 2, and 3, followed
+              by two dashed empty boxes for students to draw Cases 4 and 5.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.38, baseline]
+
+                % ---- Case 1: center + arms of length 1 (5 total) ----
+                \begin{scope}[shift={(0,0)}]
+                  % center
+                  \draw[fill=orange!70, draw=black, thick] (1,1) rectangle ++(1,1);
+                  % up
+                  \draw[fill=orange!70, draw=black, thick] (1,2) rectangle ++(1,1);
+                  % down
+                  \draw[fill=orange!70, draw=black, thick] (1,0) rectangle ++(1,1);
+                  % left
+                  \draw[fill=orange!70, draw=black, thick] (0,1) rectangle ++(1,1);
+                  % right
+                  \draw[fill=orange!70, draw=black, thick] (2,1) rectangle ++(1,1);
+                  \node at (1.5,-0.7) {Case 1};
+                \end{scope}
+
+                % ---- Case 2: arms of length 2 (9 total) ----
+                \begin{scope}[shift={(5.5,0)}]
+                  % center
+                  \draw[fill=orange!70, draw=black, thick] (2,2) rectangle ++(1,1);
+                  % up arm
+                  \draw[fill=orange!70, draw=black, thick] (2,3) rectangle ++(1,1);
+                  \draw[fill=orange!70, draw=black, thick] (2,4) rectangle ++(1,1);
+                  % down arm
+                  \draw[fill=orange!70, draw=black, thick] (2,1) rectangle ++(1,1);
+                  \draw[fill=orange!70, draw=black, thick] (2,0) rectangle ++(1,1);
+                  % left arm
+                  \draw[fill=orange!70, draw=black, thick] (1,2) rectangle ++(1,1);
+                  \draw[fill=orange!70, draw=black, thick] (0,2) rectangle ++(1,1);
+                  % right arm
+                  \draw[fill=orange!70, draw=black, thick] (3,2) rectangle ++(1,1);
+                  \draw[fill=orange!70, draw=black, thick] (4,2) rectangle ++(1,1);
+                  \node at (2.5,-0.7) {Case 2};
+                \end{scope}
+
+                % ---- Case 3: arms of length 3 (13 total) ----
+                \begin{scope}[shift={(13.5,0)}]
+                  % center
+                  \draw[fill=orange!70, draw=black, thick] (3,3) rectangle ++(1,1);
+                  % up arm
+                  \draw[fill=orange!70, draw=black, thick] (3,4) rectangle ++(1,1);
+                  \draw[fill=orange!70, draw=black, thick] (3,5) rectangle ++(1,1);
+                  \draw[fill=orange!70, draw=black, thick] (3,6) rectangle ++(1,1);
+                  % down arm
+                  \draw[fill=orange!70, draw=black, thick] (3,2) rectangle ++(1,1);
+                  \draw[fill=orange!70, draw=black, thick] (3,1) rectangle ++(1,1);
+                  \draw[fill=orange!70, draw=black, thick] (3,0) rectangle ++(1,1);
+                  % left arm
+                  \draw[fill=orange!70, draw=black, thick] (2,3) rectangle ++(1,1);
+                  \draw[fill=orange!70, draw=black, thick] (1,3) rectangle ++(1,1);
+                  \draw[fill=orange!70, draw=black, thick] (0,3) rectangle ++(1,1);
+                  % right arm
+                  \draw[fill=orange!70, draw=black, thick] (4,3) rectangle ++(1,1);
+                  \draw[fill=orange!70, draw=black, thick] (5,3) rectangle ++(1,1);
+                  \draw[fill=orange!70, draw=black, thick] (6,3) rectangle ++(1,1);
+                  \node at (3.5,-0.7) {Case 3};
+                \end{scope}
+
+                % ---- Case 4 blank ----
+                \begin{scope}[shift={(23.5,0)}]
+                  \draw[dashed, gray] (-0.4,-0.4) rectangle (8.4,8.4);
+                  \node at (4.0,-1.1) {Case 4};
+                \end{scope}
+
+                % ---- Case 5 blank ----
+                \begin{scope}[shift={(34.5,0)}]
+                  \draw[dashed, gray] (-0.4,-0.4) rectangle (10.4,10.4);
+                  \node at (5.0,-1.1) {Case 5};
+                \end{scope}
+
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="ex2-pattern-1-table">
+        <statement>
+          <p>Complete the table.</p>
+          <tabular halign="center" top="major" bottom="major" left="minor" right="minor">
+            <row header="yes" bottom="minor">
+              <cell>Case (<m>n</m>)</cell>
+              <cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>5</cell>
+            </row>
+            <row>
+              <cell>Shapes</cell>
+              <cell>5</cell><cell>9</cell><cell>13</cell><cell></cell><cell></cell>
+            </row>
+          </tabular>
+        </statement>
+      </task>
+
+      <task xml:id="ex2-pattern-1-linear" workspace="0.9cm">
+        <statement>
+          <p>
+            Is the growth <em>linear</em>? Circle one: <em>Yes</em> / <em>No</em>. Explain how
+            you know.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex2-pattern-1-equation" workspace="0.9cm">
+        <statement>
+          <p>
+            If linear, write an equation for the number of shapes <m>y</m> in terms of the case
+            number <m>n</m>. Then check your equation using at least two values from the table.
+          </p>
+          <p><em>Equation:</em> <fillin characters="30"/></p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="ex2-pattern-2">
+      <title>Pattern 2</title>
+      <introduction>
+        <figure xml:id="fig2-pattern-2">
+          <caption>
+            A growing staircase of stacked columns of red squares. Case 1 has a single column
+            of 2 squares. Case 2 adds a taller column of 3 squares to the right (5 total).
+            Case 3 adds another column of 4 squares to the right (9 total). Each new case
+            adds a column one block taller than the previous one.
+          </caption>
+          <image xml:id="img2-pattern-2" width="75%">
+            <shortdescription>
+              Three staircase arrangements of red squares for Cases 1, 2, and 3, followed by
+              two dashed empty boxes for students to draw Cases 4 and 5.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.38, baseline]
+                % Case 1: column of 2 (total 2)
+                \begin{scope}[shift={(0,0)}]
+                  \foreach \y in {0,1}
+                    \draw[fill=red!60, draw=black, thick] (0,\y) rectangle ++(1,1);
+                  \node at (0.5,-1.0) {Case 1};
+                \end{scope}
+                % Case 2: col1=2, col2=3 (total 5)
+                \begin{scope}[shift={(3.5,0)}]
+                  \foreach \y in {0,1}
+                    \draw[fill=red!60, draw=black, thick] (0,\y) rectangle ++(1,1);
+                  \foreach \y in {0,1,2}
+                    \draw[fill=red!60, draw=black, thick] (1.4,\y) rectangle ++(1,1);
+                  \node at (1.2,-1.0) {Case 2};
+                \end{scope}
+                % Case 3: col1=2, col2=3, col3=4 (total 9)
+                \begin{scope}[shift={(8.5,0)}]
+                  \foreach \y in {0,1}
+                    \draw[fill=red!60, draw=black, thick] (0,\y) rectangle ++(1,1);
+                  \foreach \y in {0,1,2}
+                    \draw[fill=red!60, draw=black, thick] (1.4,\y) rectangle ++(1,1);
+                  \foreach \y in {0,1,2,3}
+                    \draw[fill=red!60, draw=black, thick] (2.8,\y) rectangle ++(1,1);
+                  \node at (1.9,-1.0) {Case 3};
+                \end{scope}
+                % Case 4 (blank)
+                \begin{scope}[shift={(15.5,0)}]
+                  \draw[dashed, gray] (-0.4,-0.4) rectangle (5.8,5.8);
+                  \node at (2.5,-1.0) {Case 4};
+                \end{scope}
+                % Case 5 (blank)
+                \begin{scope}[shift={(23.5,0)}]
+                  \draw[dashed, gray] (-0.4,-0.4) rectangle (7.2,7.0);
+                  \node at (3.2,-1.0) {Case 5};
+                \end{scope}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="ex2-pattern-2-table">
+        <statement>
+          <p>Complete the table.</p>
+          <tabular halign="center" top="major" bottom="major" left="minor" right="minor">
+            <row header="yes" bottom="minor">
+              <cell>Case (<m>n</m>)</cell>
+              <cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>5</cell>
+            </row>
+            <row>
+              <cell>Shapes</cell>
+              <cell>2</cell><cell>5</cell><cell>9</cell><cell></cell><cell></cell>
+            </row>
+          </tabular>
+        </statement>
+      </task>
+
+      <task xml:id="ex2-pattern-2-linear" workspace="0.9cm">
+        <statement>
+          <p>
+            Is the growth <em>linear</em>? Circle one: <em>Yes</em> / <em>No</em>. Explain how
+            you know.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex2-pattern-2-equation" workspace="0.9cm">
+        <statement>
+          <p>
+            If linear, write an equation for the number of shapes <m>y</m> in terms of the case
+            number <m>n</m>. Then check your equation using at least two values from the table.
+          </p>
+          <p><em>Equation:</em> <fillin characters="30"/></p>
+        </statement>
+      </task>
+    </exercise>
+
+  </page>
+
+  
+  <page>
+
+    <exercise xml:id="ex2-pattern-3">
+      <title>Pattern 3</title>
+      <introduction>
+        <figure xml:id="fig2-pattern-3">
+          <caption>
+            A growing T-shape made of teal squares. Case 1 has a row of 3 squares across the
+            top with 1 square below the center (4 total). Each subsequent case adds one square
+            to each end of the top row and one square below the stem.
+          </caption>
+          <image xml:id="img2-pattern-3" width="90%">
+            <shortdescription>
+              Three T-shaped block figures made of teal squares for Cases 1, 2, and 3,
+              followed by two dashed empty boxes for students to draw Cases 4 and 5.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.38, baseline]
+                % Case 1: top row 3, stem 1 (total 4)
+                \begin{scope}[shift={(0,0)}]
+                  \foreach \x in {0,1,2}
+                    \draw[fill=teal!60, draw=black, thick] (\x,1) rectangle ++(1,1);
+                  \draw[fill=teal!60, draw=black, thick] (1,0) rectangle ++(1,1);
+                  \node at (1.5,-0.7) {Case 1};
+                \end{scope}
+                % Case 2: top row 5, stem 2 (total 7)
+                \begin{scope}[shift={(6.0,0)}]
+                  \foreach \x in {0,1,2,3,4}
+                    \draw[fill=teal!60, draw=black, thick] (\x,2) rectangle ++(1,1);
+                  \foreach \y in {0,1}
+                    \draw[fill=teal!60, draw=black, thick] (2,\y) rectangle ++(1,1);
+                  \node at (2.5,-0.7) {Case 2};
+                \end{scope}
+                % Case 3: top row 7, stem 3 (total 10)
+                \begin{scope}[shift={(14.5,0)}]
+                  \foreach \x in {0,1,2,3,4,5,6}
+                    \draw[fill=teal!60, draw=black, thick] (\x,3) rectangle ++(1,1);
+                  \foreach \y in {0,1,2}
+                    \draw[fill=teal!60, draw=black, thick] (3,\y) rectangle ++(1,1);
+                  \node at (3.5,-0.7) {Case 3};
+                \end{scope}
+                % Case 4 (blank)
+                \begin{scope}[shift={(25.0,0)}]
+                  \draw[dashed, gray] (-0.4,-0.4) rectangle (9.4,5.4);
+                  \node at (4.5,-1.1) {Case 4};
+                \end{scope}
+                % Case 5 (blank)
+                \begin{scope}[shift={(37.0,0)}]
+                  \draw[dashed, gray] (-0.4,-0.4) rectangle (11.4,6.4);
+                  \node at (5.5,-1.1) {Case 5};
+                \end{scope}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="ex2-pattern-3-table">
+        <statement>
+          <p>Complete the table.</p>
+          <tabular halign="center" top="major" bottom="major" left="minor" right="minor">
+            <row header="yes" bottom="minor">
+              <cell>Case (<m>n</m>)</cell>
+              <cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>5</cell>
+            </row>
+            <row>
+              <cell>Shapes</cell>
+              <cell>4</cell><cell>7</cell><cell>10</cell><cell></cell><cell></cell>
+            </row>
+          </tabular>
+        </statement>
+      </task>
+
+      <task xml:id="ex2-pattern-3-linear" workspace="0.9cm">
+        <statement>
+          <p>
+            Is the growth <em>linear</em>? Circle one: <em>Yes</em> / <em>No</em>. Explain how
+            you know.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex2-pattern-3-equation" workspace="0.9cm">
+        <statement>
+          <p>
+            If linear, write an equation for the number of shapes <m>y</m> in terms of the case
+            number <m>n</m>. Then check your equation using at least two values from the table.
+          </p>
+          <p><em>Equation:</em> <fillin characters="30"/></p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="ex2-pattern-4">
+      <title>Pattern 4</title>
+      <introduction>
+        <figure xml:id="fig2-pattern-4">
+          <caption>
+            A growing arrangement of purple squares arranged in columns of 5. Case 1 has one
+            column of 5 squares. Each subsequent case adds one more full column of 5 squares
+            to the right, with a small gap between columns to make each addition clear.
+          </caption>
+          <image xml:id="img2-pattern-4" width="85%">
+            <shortdescription>
+              Three arrangements of purple squares stacked in columns of 5 for Cases 1, 2,
+              and 3, followed by two dashed empty boxes for students to draw Cases 4 and 5.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.38, baseline]
+                % Case 1: 1 column of 5 (total 5)
+                \begin{scope}[shift={(0,0)}]
+                  \foreach \y in {0,1,2,3,4}
+                    \draw[fill=purple!60, draw=black, thick] (0,\y) rectangle ++(1,1);
+                  \node at (0.5,-0.8) {Case 1};
+                \end{scope}
+                % Case 2: 2 columns of 5 (total 10)
+                \begin{scope}[shift={(3.5,0)}]
+                  \foreach \x in {0,1} \foreach \y in {0,1,2,3,4}
+                    \draw[fill=purple!60, draw=black, thick] (\x*1.4,\y) rectangle ++(1,1);
+                  \node at (1.2,-0.8) {Case 2};
+                \end{scope}
+                % Case 3: 3 columns of 5 (total 15)
+                \begin{scope}[shift={(9.0,0)}]
+                  \foreach \x in {0,1,2} \foreach \y in {0,1,2,3,4}
+                    \draw[fill=purple!60, draw=black, thick] (\x*1.4,\y) rectangle ++(1,1);
+                  \node at (1.9,-0.8) {Case 3};
+                \end{scope}
+                % Case 4 (blank)
+                \begin{scope}[shift={(16.5,0)}]
+                  \draw[dashed, gray] (-0.4,-0.4) rectangle (6.0,5.8);
+                  \node at (2.8,-1.2) {Case 4};
+                \end{scope}
+                % Case 5 (blank)
+                \begin{scope}[shift={(25.0,0)}]
+                  \draw[dashed, gray] (-0.4,-0.4) rectangle (7.4,5.8);
+                  \node at (3.5,-1.2) {Case 5};
+                \end{scope}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="ex2-pattern-4-table">
+        <statement>
+          <p>Complete the table.</p>
+          <tabular halign="center" top="major" bottom="major" left="minor" right="minor">
+            <row header="yes" bottom="minor">
+              <cell>Case (<m>n</m>)</cell>
+              <cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>5</cell>
+            </row>
+            <row>
+              <cell>Shapes</cell>
+              <cell>5</cell><cell>10</cell><cell>15</cell><cell></cell><cell></cell>
+            </row>
+          </tabular>
+        </statement>
+      </task>
+
+      <task xml:id="ex2-pattern-4-linear" workspace="0.9cm">
+        <statement>
+          <p>
+            Is the growth <em>linear</em>? Circle one: <em>Yes</em> / <em>No</em>. Explain how
+            you know.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex2-pattern-4-equation" workspace="0.9cm">
+        <statement>
+          <p>
+            If linear, write an equation for the number of shapes <m>y</m> in terms of the case
+            number <m>n</m>. Then check your equation using at least two values from the table.
+          </p>
+          <p><em>Equation:</em> <fillin characters="30"/></p>
+        </statement>
+      </task>
+    </exercise>
+
+  </page>
+
+  
+  <page>
+
+    <exercise xml:id="ex2-tables">
+      <title>Is It Linear? Tables Only</title>
+      <introduction>
+        <p>
+          For each table below, decide whether the relationship shown is <em>linear</em> or
+          <em>not linear</em>. Explain how you know. If it is linear, write an equation for
+          <m>y</m> in terms of <m>x</m>.
+        </p>
+      </introduction>
+
+      <task xml:id="ex2-table-a" workspace="1.5in">
+        <statement>
+          <tabular halign="center" top="major" bottom="major" left="minor" right="minor">
+            <row header="yes" bottom="minor">
+              <cell><m>x</m></cell>
+              <cell>0</cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell>
+            </row>
+            <row>
+              <cell><m>y</m></cell>
+              <cell>3</cell><cell>4.5</cell><cell>6</cell><cell>7.5</cell><cell>9</cell>
+            </row>
+          </tabular>
+          <p>Linear or not linear? Explain. If linear, write an equation.</p>
+        </statement>
+        <answer>
+          <p>
+            Linear. The <m>y</m>-values increase by <m>1.5</m> each time <m>x</m> increases
+            by <m>1</m>, so the rate of change is constant. The vertical intercept is
+            <m>3</m>, giving the equation <m>y = 1.5x + 3</m>.
+          </p>
+        </answer>
+      </task>
+
+      <task xml:id="ex2-table-b" workspace="1.5in">
+        <statement>
+          <tabular halign="center" top="major" bottom="major" left="minor" right="minor">
+            <row header="yes" bottom="minor">
+              <cell><m>x</m></cell>
+              <cell>0</cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell>
+            </row>
+            <row>
+              <cell><m>y</m></cell>
+              <cell>20</cell><cell>17.5</cell><cell>15</cell><cell>12.5</cell><cell>10</cell>
+            </row>
+          </tabular>
+          <p>Linear or not linear? Explain. If linear, write an equation.</p>
+        </statement>
+        <answer>
+          <p>
+            Linear. The <m>y</m>-values decrease by <m>2.5</m> each time <m>x</m> increases
+            by <m>1</m>, so the rate of change is constant (and negative). The vertical
+            intercept is <m>20</m>, giving the equation <m>y = -2.5x + 20</m>.
+          </p>
+        </answer>
+      </task>
+
+      <task xml:id="ex2-table-c" workspace="1.5in">
+        <statement>
+          <tabular halign="center" top="major" bottom="major" left="minor" right="minor">
+            <row header="yes" bottom="minor">
+              <cell><m>x</m></cell>
+              <cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>5</cell>
+            </row>
+            <row>
+              <cell><m>y</m></cell>
+              <cell>1</cell><cell>2</cell><cell>6</cell><cell>24</cell><cell>120</cell>
+            </row>
+          </tabular>
+          <p>Linear or not linear? Explain. If linear, write an equation.</p>
+        </statement>
+        <answer>
+          <p>
+            Not linear. The differences between consecutive <m>y</m>-values are <m>1, 4, 18,
+            96</m> -- these are not constant, so the rate of change is not constant. In fact
+            each <m>y</m>-value is the factorial of <m>x</m>: <m>1! = 1</m>, <m>2! = 2</m>,
+            <m>3! = 6</m>, <m>4! = 24</m>, <m>5! = 120</m>. The growth is far too rapid to
+            be linear.
+          </p>
+        </answer>
+      </task>
+
+      <task xml:id="ex2-table-d" workspace="1.5in">
+        <statement>
+          <tabular halign="center" top="major" bottom="major" left="minor" right="minor">
+            <row header="yes" bottom="minor">
+              <cell><m>x</m></cell>
+              <cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>5</cell>
+            </row>
+            <row>
+              <cell><m>y</m></cell>
+              <cell>4</cell><cell>9</cell><cell>11</cell><cell>18</cell><cell>20</cell>
+            </row>
+          </tabular>
+          <p>Linear or not linear? Explain. If linear, write an equation.</p>
+        </statement>
+        <answer>
+          <p>
+            Not linear. The differences between consecutive <m>y</m>-values are <m>5, 2, 7,
+            2</m> -- these are not constant, so the relationship is not linear. There is no
+            single steady rate of change.
+          </p>
+        </answer>
+      </task>
+
+    </exercise>
+
+  </page>
+
+</worksheet>
