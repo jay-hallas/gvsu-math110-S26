@@ -99,14 +99,31 @@
       <title>Finding Equations of Lines</title>
       <xi:include href="./activities/1-linear-graphequations.ptx"/> 
     </subsection>
+
+       <subsection xml:id="act-linear-applications-4">
+      <title>Linear Applications</title>
+      <xi:include href="./activities/1-linear-applications-1.ptx"/>
+      <xi:include href="./activities/1-linear-applications-2.ptx"/>
+      
+    </subsection>
+
+      <subsection xml:id="act-linear-systems">
+      <title>Systems of Linear Equations</title>
+      <xi:include href="./activities/1-linear-systems-basic.ptx"/>
+      <xi:include href="./activities/1-linear-systems-modeling.ptx"/>
+    </subsection>
+
+      <subsection xml:id="act-linear-regression">
+      <title>Linear Regression</title>
+      <xi:include href="./activities/1-linear-regression.ptx"/>
+    </subsection>
   </section>
 
   <section xml:id="sec-exponential-change">
     <title>Exponential Change and Modeling</title>
-    <subsection xml:id="act-exponential-change-modeling">
-      <title>Activity Title Here</title>
-      <p>Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.</p>
-      <!-- <xi:include href="./activities/exponential-change-modeling.ptx"/> -->
+    <subsection xml:id="act-exponential-patterns">
+      <title>Comparing Linear and Exponential Patterns</title>
+  <xi:include href="./activities/2-exponential-pattern-1.ptx"/> 
     </subsection>
   </section>
 

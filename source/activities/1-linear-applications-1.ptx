@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="activity-modeling-linear-1"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Activity: Modeling with Linear Functions</title>
+
+  <introduction>
+    <p>
+      A linear function can be written as <m>y = mx + b</m>, where <m>m</m> is the slope
+      (rate of change) and <m>b</m> is the <m>y</m>-intercept (starting value). If you know
+      the rate of change and one value of the function, you can substitute and solve for
+      whichever piece is missing.
+    </p>
+  </introduction>
+
+  <page>
+
+    <exercise xml:id="ex-lm1-example1">
+      <title>Example</title>
+      <statement>
+        <p>
+          A tree is currently 4 feet tall and grows 1.5 feet per year. Write a linear equation
+          for the height <m>h</m> of the tree after <m>t</m> years.
+        </p>
+        <p>
+          Slope (rate of change): <m>m = 1.5</m>. Starting value (<m>y</m>-intercept):
+          <m>b = 4</m>. Equation: <m>h = 1.5t + 4</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="ex-lm1-q1" workspace="2cm">
+      <statement>
+        <p>
+          A streaming service starts you off with a $25 gift card balance, and each song
+          purchase costs $3. Write a linear equation for your remaining balance <m>B</m>
+          after purchasing <m>n</m> songs.
+        </p>
+        <p>
+          Slope: <fillin characters="10"/>
+          <m>\quad</m>
+          <m>y</m>-intercept: <fillin characters="10"/>
+          <m>\quad</m>
+          Equation: <fillin characters="18"/>
+        </p>
+        <p>
+          <em>Follow-up:</em> How many total songs can you buy using the gift card?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Slope: <m>m = -3</m>; <m>y</m>-intercept: <m>b = 25</m>;
+          Equation: <m>B = -3n + 25</m>.
+          Follow-up: Set <m>B = 0</m> and solve to get <m>n = 25/3 \approx 8.3</m>,
+          so you can buy 8 songs.
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="ex-lm1-q2" workspace="2cm">
+      <statement>
+        <p>
+          A plumber charges a $60 service call fee plus $45 per hour of labor. Write a linear
+          equation for the total cost <m>C</m> after <m>h</m> hours of work.
+        </p>
+        <p>
+          Slope: <fillin characters="10"/>
+          <m>\quad</m>
+          <m>y</m>-intercept: <fillin characters="10"/>
+          <m>\quad</m>
+          Equation: <fillin characters="18"/>
+        </p>
+        <p>
+          <em>Follow-up:</em> How much will three hours of work cost?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Slope: <m>m = 45</m>; <m>y</m>-intercept: <m>b = 60</m>;
+          Equation: <m>C = 45h + 60</m>.
+          Follow-up: <m>C = 45(3) + 60 = 195</m>, so three hours costs $195.
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="ex-lm1-q3" workspace="2.5cm">
+      <statement>
+        <p>
+          A person opens a new savings account and deposits $125 per month. After 4 months,
+          there is $900 in the account. Write a linear equation for the balance <m>B</m>
+          after <m>x</m> months.
+        </p>
+        <p>
+          <em>Hint:</em> Use the rate of change and the known value to solve for the
+          <m>y</m>-intercept first.
+        </p>
+        <p>
+          Slope: <fillin characters="10"/>
+          <m>\quad</m>
+          <m>y</m>-intercept: <fillin characters="10"/>
+          <m>\quad</m>
+          Equation: <fillin characters="18"/>
+        </p>
+        <p>
+          <em>Follow-up:</em> How long will it take to save up $1500?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Slope: <m>m = 125</m>. Substituting the known point <m>(4, 900)</m>:
+          <m>900 = 125(4) + b</m>, so <m>b = 400</m>.
+          Equation: <m>B = 125x + 400</m>.
+          Follow-up: Set <m>B = 1500</m> and solve to get <m>x = 8.8</m>,
+          so it takes about 9 full months.
+        </p>
+      </answer>
+    </exercise>
+
+  </page>
+
+  <page>
+
+    <exercise xml:id="ex-lm1-example2">
+      <title>Example</title>
+      <statement>
+        <p>
+          A candle is 8 inches tall after burning for 2 hours, and 5 inches tall after
+          burning for 6 hours. Write a linear equation for the height <m>h</m> of the
+          candle after <m>t</m> hours.
+        </p>
+        <p>
+          Step 1: Find the slope using both points <m>(2, 8)</m> and <m>(6, 5)</m>:
+          <md>
+            m = \frac{5 - 8}{6 - 2} = \frac{-3}{4} = -0.75
+          </md>
+        </p>
+        <p>
+          Step 2: Substitute one point and the slope into <m>y = mx + b</m> to solve
+          for <m>b</m>. Using <m>(2, 8)</m>:
+          <md>
+            8 = (-0.75)(2) + b \quad \Rightarrow \quad 8 = -1.5 + b \quad \Rightarrow \quad b = 9.5
+          </md>
+        </p>
+        <p>
+          Equation: <m>h = -0.75t + 9.5</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="ex-lm1-q4" workspace="1.5cm">
+      <title>Car Value</title>
+      <introduction>
+        <p>
+          A car's value was $18,000 after 1 year of ownership and $14,400 after 3 years
+          of ownership. Write a linear equation for the car's value <m>V</m> after
+          <m>t</m> years.
+        </p>
+      </introduction>
+      <task xml:id="ex-lm1-q4-slope">
+        <statement>
+          <p>Step 1: Find the slope using both points.</p>
+        </statement>
+        <answer>
+          <p>
+            <m>m = \dfrac{14400 - 18000}{3 - 1} = \dfrac{-3600}{2} = -1800</m>
+          </p>
+        </answer>
+      </task>
+      <task xml:id="ex-lm1-q4-intercept">
+        <statement>
+          <p>Step 2: Substitute one point and the slope to solve for <m>b</m>.</p>
+        </statement>
+        <answer>
+          <p>
+            Using <m>(1, 18000)</m>: <m>18000 = -1800(1) + b</m>, so <m>b = 19800</m>.
+          </p>
+        </answer>
+      </task>
+      <task xml:id="ex-lm1-q4-equation">
+        <statement>
+          <p>Write the equation: <fillin characters="30"/></p>
+        </statement>
+        <answer>
+          <p><m>V = -1800t + 19800</m></p>
+        </answer>
+      </task>
+    </exercise>
+
+    <exercise xml:id="ex-lm1-q5" workspace="1.5cm">
+      <title>Gym Membership</title>
+      <introduction>
+        <p>
+          A gym had 220 members after 3 months and 340 members after 8 months. Write a
+          linear equation for the number of members <m>M</m> after <m>t</m> months.
+        </p>
+      </introduction>
+      <task xml:id="ex-lm1-q5-slope">
+        <statement>
+          <p>Step 1: Find the slope using both points.</p>
+        </statement>
+        <answer>
+          <p>
+            <m>m = \dfrac{340 - 220}{8 - 3} = \dfrac{120}{5} = 24</m>
+          </p>
+        </answer>
+      </task>
+      <task xml:id="ex-lm1-q5-intercept">
+        <statement>
+          <p>Step 2: Substitute one point and the slope to solve for <m>b</m>.</p>
+        </statement>
+        <answer>
+          <p>
+            Using <m>(3, 220)</m>: <m>220 = 24(3) + b</m>, so <m>b = 148</m>.
+          </p>
+        </answer>
+      </task>
+      <task xml:id="ex-lm1-q5-equation">
+        <statement>
+          <p>Write the equation: <fillin characters="30"/></p>
+        </statement>
+        <answer>
+          <p><m>M = 24t + 148</m></p>
+        </answer>
+      </task>
+    </exercise>
+
+  </page>
+
+</worksheet>

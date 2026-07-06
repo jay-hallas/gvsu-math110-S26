@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="activity-linear-regression"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Activity: Linear Regression in Desmos</title>
+
+  <introduction>
+    <p>
+      Below is a table of data with nutrition information for sandwiches from a historical
+      McDonald's menu. Note that some items listed here are no longer on the current menu.
+    </p>
+  </introduction>
+
+  <page>
+
+    <tabular halign="center" top="major" bottom="major" left="minor" right="minor">
+      <row header="yes" bottom="minor">
+        <cell halign="left">Sandwich</cell>
+        <cell>Total Fat (g)</cell>
+        <cell>Total Calories</cell>
+      </row>
+      <row>
+        <cell halign="left">Hamburger</cell>
+        <cell>9</cell>
+        <cell>260</cell>
+      </row>
+      <row>
+        <cell halign="left">Cheeseburger</cell>
+        <cell>13</cell>
+        <cell>320</cell>
+      </row>
+      <row>
+        <cell halign="left">Quarter Pounder</cell>
+        <cell>21</cell>
+        <cell>420</cell>
+      </row>
+      <row>
+        <cell halign="left">Quarter Pounder with Cheese</cell>
+        <cell>30</cell>
+        <cell>530</cell>
+      </row>
+      <row>
+        <cell halign="left">Big Mac</cell>
+        <cell>31</cell>
+        <cell>560</cell>
+      </row>
+      <row>
+        <cell halign="left">Arch Sandwich Special</cell>
+        <cell>31</cell>
+        <cell>550</cell>
+      </row>
+      <row>
+        <cell halign="left">Arch Special with Bacon</cell>
+        <cell>34</cell>
+        <cell>590</cell>
+      </row>
+      <row>
+        <cell halign="left">Crispy Chicken</cell>
+        <cell>25</cell>
+        <cell>500</cell>
+      </row>
+      <row>
+        <cell halign="left">Fish Fillet</cell>
+        <cell>28</cell>
+        <cell>560</cell>
+      </row>
+      <row>
+        <cell halign="left">Grilled Chicken</cell>
+        <cell>20</cell>
+        <cell>440</cell>
+      </row>
+      <row>
+        <cell halign="left">Grilled Chicken Light</cell>
+        <cell>5</cell>
+        <cell>300</cell>
+      </row>
+    </tabular>
+
+    <p>
+      <em>Discussion:</em> Before you start, talk with your group. Do you think there is a
+      relationship between the fat grams and the total calories in fast food?
+    </p>
+
+    <p>
+      <em>Getting the regression line in Desmos:</em>
+      <ol>
+        <li><p><em>Enter the data.</em> Click the plus sign (<m>+</m>) to add a table and
+        type in the values above. The columns will be labeled <m>x_1</m> and
+        <m>y_1</m>.</p></li>
+        <li><p><em>Find the regression line.</em> In a new line below the table, type
+        <m>y_1 \sim mx_1 + b</m> and press Enter. Desmos will fit a line to your
+        data and display the values of <m>m</m> and <m>b</m>.</p></li>
+        <li><p><em>Get more decimal places.</em> Type <m>m</m> or <m>b</m> alone in a
+        new line to see the full precision values.</p></li>
+      </ol>
+    </p>
+
+    <p>
+      <em>Regression equation</em> (round parameters to 3 decimal places):
+      <m>y = </m> <fillin characters="30"/>
+    </p>
+
+  </page>
+
+  <page>
+
+    <exercise xml:id="ex-reg-relationship" workspace="2cm">
+      <statement>
+        <p>
+          Look at your graphed equation along with the data points. Does there seem to be
+          a relationship between the number of fat grams and the number of calories in
+          fast food?
+        </p>
+      </statement>
+      <answer>
+        <p>Yes; there is a strong positive linear relationship between fat grams and
+        calories.</p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="ex-reg-predict-calories" workspace="2cm">
+      <statement>
+        <p>
+          How many calories would you expect in a sandwich that has 22 grams of fat?
+        </p>
+      </statement>
+      <answer>
+        <p><m>y = 11.794(22) + 192.444 \approx 451.9</m> calories.</p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="ex-reg-predict-fat" workspace="2cm">
+      <statement>
+        <p>
+          How many grams of fat would you expect in a sandwich that has 350 calories?
+        </p>
+      </statement>
+      <answer>
+        <p><m>350 = 11.794x + 192.444</m>, so <m>x \approx 13.4</m> grams of fat.</p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="ex-reg-slope" workspace="2.5cm">
+      <statement>
+        <p>
+          What is the slope of your model? Write one sentence describing what it means in
+          the context of this problem.
+        </p>
+      </statement>
+      <answer>
+        <p>The slope is <m>m \approx 11.794</m>. For every additional gram of fat, the
+        expected number of calories increases by about 11.794.</p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="ex-reg-yintercept" workspace="2.5cm">
+      <statement>
+        <p>
+          What is the vertical intercept of your model? Write one sentence describing what
+          it means in the context of this problem.
+        </p>
+      </statement>
+      <answer>
+        <p>The vertical intercept is approximately <m>(0, 192.444)</m>. A sandwich with
+        zero grams of fat is predicted to have about 192 calories.</p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="ex-reg-xintercept" workspace="2.5cm">
+      <statement>
+        <p>
+          What is the horizontal intercept of your model? Write one sentence describing
+          what it means in the context of this problem. Does this value make practical
+          sense?
+        </p>
+      </statement>
+      <answer>
+        <p>The horizontal intercept is approximately <m>(-16.3, 0)</m>. This would
+        represent a sandwich with zero calories but negative fat, which is not possible.
+        The intercept does not have a meaningful real-world interpretation here.</p>
+      </answer>
+    </exercise>
+
+  </page>
+
+</worksheet>

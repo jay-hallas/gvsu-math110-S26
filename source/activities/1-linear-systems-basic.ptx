@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="activity-systems-graphing"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Activity: Solving Systems of Linear Equations</title>
+
+  <introduction>
+    <p>
+      A <term>system of linear equations</term> is a pair of equations considered together.
+      The solution is any point <m>(x, y)</m> that satisfies both equations; geometrically,
+      it is where the two lines intersect.
+    </p>
+    <p>
+      There are three possible outcomes:
+      <ul>
+        <li><p><em>One solution:</em> the lines intersect at exactly one point. Write the
+        solution as an ordered pair <m>(x, y)</m>.</p></li>
+        <li><p><em>No solution:</em> the lines are parallel and never meet. The system is
+        inconsistent.</p></li>
+        <li><p><em>Infinitely many solutions:</em> the lines are identical and overlap
+        completely.</p></li>
+      </ul>
+    </p>
+    <p>
+      For each problem: <em>(a)</em> match each line in the graph to one of the two equations
+      given, <em>(b)</em> identify the system type (one solution, no solution, or infinite
+      solutions), and <em>(c)</em> state the solution if one exists.
+    </p>
+  </introduction>
+
+
+
+  <page>
+
+    <sidebyside widths="48% 48%" margins="1% 1%" valign="top">
+      <image xml:id="img-systems-q1">
+        <shortdescription>
+          Coordinate plane showing two intersecting lines. A solid navy line passes through
+          the points (0, negative 1) and (2, 3), labeled Line 1. A dashed blue line passes
+          through the points (0, 5) and (5, 0), labeled Line 2. The lines cross at (2, 3),
+          marked with a red dot.
+        </shortdescription>
+        <latex-image>
+          \begin{tikzpicture}
+            \draw[gray!30, thin] (-3.2,-3.2) grid (5.2,6.2);
+            \draw[->, thick] (-3.3,0) -- (5.3,0) node[right, font=\small] {$x$};
+            \draw[->, thick] (0,-3.3) -- (0,6.3) node[above, font=\small] {$y$};
+            \foreach \x in {-3,-2,-1,1,2,3,4,5}
+              \draw (\x,0.08)--(\x,-0.08) node[below, font=\tiny] {\x};
+            \foreach \y in {-3,-2,-1,1,2,3,4,5,6}
+              \draw (0.08,\y)--(-0.08,\y) node[left, font=\tiny] {\y};
+            \draw[black, very thick, domain=-1:3.5, samples=2]
+              plot (\x, {2*\x - 1});
+            \draw[black!60, very thick, dashed, domain=-1:5.2, samples=2]
+              plot (\x, {-\x + 5});
+            \filldraw[black] (2,3) circle (2.5pt);
+            \node[font=\small\bfseries, above left] at (-0.8,-2.6) {Line 1};
+            \node[font=\small\bfseries, above right] at (4.5,0.4) {Line 2};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <exercise xml:id="ex-systems-q1" workspace="4cm">
+        <statement>
+          <p><em>Equations:</em> <m>y = -x + 5</m> and <m>y = 2x - 1</m></p>
+          <p>(a) Match each line to its equation:</p>
+          <p>Line 1 (solid): <fillin characters="20"/></p>
+          <p>Line 2 (dashed): <fillin characters="20"/></p>
+          <p>(b) System type (circle one): one solution / no solution / infinite solutions</p>
+          <p>(c) Solution (if any): <m>(x, y) = </m><fillin characters="12"/></p>
+        </statement>
+        <answer>
+          <p>
+            Line 1: <m>y = 2x - 1</m>; Line 2: <m>y = -x + 5</m>.
+            One solution; <m>(2, 3)</m>.
+          </p>
+        </answer>
+      </exercise>
+    </sidebyside>
+</page>
+<page>
+    <sidebyside widths="48% 48%" margins="1% 1%" valign="top">
+      <image xml:id="img-systems-q2">
+        <shortdescription>
+          Coordinate plane showing two parallel lines with the same slope. A solid navy line
+          crosses the y-axis at 2, labeled Line 1. A dashed blue line crosses the y-axis at
+          negative 2, labeled Line 2. The lines do not intersect.
+        </shortdescription>
+        <latex-image>
+          \begin{tikzpicture}
+            \draw[gray!30, thin] (-3.2,-4.2) grid (3.2,6.2);
+            \draw[->, thick] (-3.3,0) -- (3.3,0) node[right, font=\small] {$x$};
+            \draw[->, thick] (0,-4.3) -- (0,6.3) node[above, font=\small] {$y$};
+            \foreach \x in {-3,-2,-1,1,2,3}
+              \draw (\x,0.08)--(\x,-0.08) node[below, font=\tiny] {\x};
+            \foreach \y in {-4,-3,-2,-1,1,2,3,4,5,6}
+              \draw (0.08,\y)--(-0.08,\y) node[left, font=\tiny] {\y};
+            \draw[black, very thick, domain=-1.3:1.4, samples=2]
+              plot (\x, {3*\x + 2});
+            \draw[black!60, very thick, dashed, domain=-0.7:2.0, samples=2]
+              plot (\x, {3*\x - 2});
+            \node[font=\small\bfseries, right] at (1.45,6.1) {Line 1};
+            \node[font=\small\bfseries, right] at (2.05,4.1) {Line 2};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      
+      <exercise xml:id="ex-systems-q2" workspace="4cm">
+        <statement>
+          <p><em>Equations:</em> <m>y = 3x - 2</m> and <m>y = 3x + 2</m></p>
+          <p>(a) Match each line to its equation:</p>
+          <p>Line 1 (solid): <fillin characters="20"/></p>
+          <p>Line 2 (dashed): <fillin characters="20"/></p>
+          <p>(b) System type (circle one): one solution / no solution / infinite solutions</p>
+          <p>(c) Solution (if any): <fillin characters="25"/></p>
+        </statement>
+        <answer>
+          <p>
+            Line 1: <m>y = 3x + 2</m>; Line 2: <m>y = 3x - 2</m>.
+            No solution (parallel lines).
+          </p>
+        </answer>
+      </exercise>
+    </sidebyside>
+
+  </page>
+
+  <page>
+
+    <sidebyside widths="48% 48%" margins="1% 1%" valign="top">
+      <image xml:id="img-systems-q3">
+        <shortdescription>
+          Coordinate plane showing a single line, labeled both Line 1 (solid) and Line 2
+          (dashed), since the two equations describe the same line. The line passes through
+          (0, negative 3) and (2, 1).
+        </shortdescription>
+        <latex-image>
+          \begin{tikzpicture}
+            \draw[gray!30, thin] (-2.2,-5.2) grid (4.2,5.2);
+            \draw[->, thick] (-2.3,0) -- (4.3,0) node[right, font=\small] {$x$};
+            \draw[->, thick] (0,-5.3) -- (0,5.3) node[above, font=\small] {$y$};
+            \foreach \x in {-2,-1,1,2,3,4}
+              \draw (\x,0.08)--(\x,-0.08) node[below, font=\tiny] {\x};
+            \foreach \y in {-5,-4,-3,-2,-1,1,2,3,4,5}
+              \draw (0.08,\y)--(-0.08,\y) node[left, font=\tiny] {\y};
+            \draw[black, very thick, domain=-1:4.2, samples=2]
+              plot (\x, {2*\x - 3});
+            \draw[black!60, very thick, dashed, domain=-1:4.2, samples=2]
+              plot (\x, {2*\x - 3});
+            \node[font=\small\bfseries, above left] at (0.5,-2.0) {Line 1};
+            \node[font=\small\bfseries, below right] at (2.5,2.1) {Line 2};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <exercise xml:id="ex-systems-q3" workspace="5cm">
+        <statement>
+          <p><em>Equations:</em> <m>y = 2x - 3</m> and <m>4x - 2y = 6</m></p>
+          <p>
+            <em>Note:</em> Line 1 and Line 2 overlap completely in this graph.
+          </p>
+          <p>(a) Match each line to its equation:</p>
+          <p>Line 1 (solid): <fillin characters="20"/></p>
+          <p>Line 2 (dashed): <fillin characters="20"/></p>
+          <p>(b) System type (circle one): one solution / no solution / infinite solutions</p>
+          <p>(c) Solution (if any): <fillin characters="25"/></p>
+        </statement>
+        <answer>
+          <p>
+            Both equations describe the same line; <m>4x - 2y = 6</m> simplifies to
+            <m>y = 2x - 3</m>. Infinite solutions.
+          </p>
+        </answer>
+      </exercise>
+    </sidebyside>
+
+    <sidebyside widths="48% 48%" margins="1% 1%" valign="top">
+      <image xml:id="img-systems-q4">
+        <shortdescription>
+          Coordinate plane showing two intersecting lines. A solid navy line with a gentle
+          positive slope crosses the y-axis at 1, labeled Line 1. A dashed blue line with
+          a steep negative slope crosses the y-axis at 6, labeled Line 2. The lines cross
+          at (2, 2), marked with a red dot.
+        </shortdescription>
+        <latex-image>
+          \begin{tikzpicture}
+            \draw[gray!30, thin] (-2.2,-1.2) grid (5.2,7.2);
+            \draw[->, thick] (-2.3,0) -- (5.3,0) node[right, font=\small] {$x$};
+            \draw[->, thick] (0,-1.3) -- (0,7.3) node[above, font=\small] {$y$};
+            \foreach \x in {-2,-1,1,2,3,4,5}
+              \draw (\x,0.08)--(\x,-0.08) node[below, font=\tiny] {\x};
+            \foreach \y in {-1,1,2,3,4,5,6,7}
+              \draw (0.08,\y)--(-0.08,\y) node[left, font=\tiny] {\y};
+            \draw[black, very thick, domain=-2:5.2, samples=2]
+              plot (\x, {0.5*\x + 1});
+            \draw[black!60, very thick, dashed, domain=-0.5:3.7, samples=2]
+              plot (\x, {-2*\x + 6});
+            \filldraw[black] (2,2) circle (2.5pt);
+            \node[font=\small\bfseries, right] at (4.8,3.5) {Line 1};
+            \node[font=\small\bfseries, right] at (0.2,6.5) {Line 2};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <exercise xml:id="ex-systems-q4" workspace="4cm">
+        <statement>
+          <p><em>Equations:</em> <m>y = -2x + 6</m> and <m>y = \tfrac{1}{2}x + 1</m></p>
+          <p>(a) Match each line to its equation:</p>
+          <p>Line 1 (solid): <fillin characters="20"/></p>
+          <p>Line 2 (dashed): <fillin characters="20"/></p>
+          <p>(b) System type (circle one): one solution / no solution / infinite solutions</p>
+          <p>(c) Solution (if any): <m>(x, y) = </m><fillin characters="12"/></p>
+        </statement>
+        <answer>
+          <p>
+            Line 1: <m>y = \tfrac{1}{2}x + 1</m>; Line 2: <m>y = -2x + 6</m>.
+            One solution; <m>(2, 2)</m>.
+          </p>
+        </answer>
+      </exercise>
+    </sidebyside>
+
+
+  </page>
+
+</worksheet>

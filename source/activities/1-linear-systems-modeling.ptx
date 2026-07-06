@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="activity-modeling-systems"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Activity: Modeling Real-World Scenarios with Linear Systems</title>
+
+  <introduction>
+    <p>
+      For each scenario below, work through the following steps in order.
+      <ol>
+        <li><p>Define your variables clearly.</p></li>
+        <li><p>Write a system of two linear equations that fits the situation.</p></li>
+        <li><p>Graph both equations in Desmos to find their intersection.</p></li>
+        <li><p>Sketch your graph on the provided grid; choose your own scale, label both
+        axes, and mark the intersection point.</p></li>
+        <li><p>State the solution, explain what it means in context, and verify it
+        satisfies both equations.</p></li>
+      </ol>
+    </p>
+  </introduction>
+
+  <page>
+
+    <p>
+      <em>Worked Example.</em> A store sells small candles for $4 each and large candles
+      for $9 each. A customer buys a total of 8 candles and spends exactly $42. How many
+      of each size did they buy?
+    </p>
+
+    <p>
+      Let <m>x</m> = number of small candles purchased. Let <m>y</m> = number of large
+      candles purchased.
+    </p>
+
+    <sidebyside widths="52% 44%" margins="0% 0%" valign="top">
+      <stack>
+        <tabular halign="left" top="major" bottom="major" left="minor" right="minor">
+          <row header="yes" bottom="minor">
+            <cell>What it tracks</cell>
+            <cell>Equation</cell>
+          </row>
+          <row>
+            <cell>Total candles bought</cell>
+            <cell><m>x + y = 8</m></cell>
+          </row>
+          <row>
+            <cell>Total amount spent</cell>
+            <cell><m>4x + 9y = 42</m></cell>
+          </row>
+        </tabular>
+        <p>
+          The intersection is at <m>(x, y) = (6, 2)</m>, so the customer bought 6 small
+          candles and 2 large candles.
+        </p>
+        <p>
+          Check: <m>6 + 2 = 8</m> &#x2713; and <m>4(6) + 9(2) = 42</m> &#x2713;
+        </p>
+        <p>
+          <em>Note:</em> as long as you define your variables consistently, it is fine if
+          you assigned <m>x</m> and <m>y</m> the other way around. Your intersection point
+          will have the coordinates swapped, but your conclusion will be equivalent.
+        </p>
+      </stack>
+      <image xml:id="img-example-candles" width="90%">
+        <shortdescription>
+          Coordinate plane showing two intersecting lines for the candle example. A solid
+          line for x plus y equals 8 and a dashed line for 4x plus 9y equals 42 cross at
+          the point (6, 2), marked with a dot.
+        </shortdescription>
+        <latex-image>
+          \begin{tikzpicture}[scale=0.38]
+            \draw[gray!30, thin] (0,0) grid (10,10);
+            \draw[->, thick] (0,0) -- (10.6,0) node[right, font=\small] {$x$};
+            \draw[->, thick] (0,0) -- (0,10.6) node[above, font=\small] {$y$};
+            \foreach \x in {2,4,6,8,10}
+              \draw (\x,0.1)--(\x,-0.1) node[below, font=\tiny] {\x};
+            \foreach \y in {2,4,6,8,10}
+              \draw (0.1,\y)--(-0.1,\y) node[left, font=\tiny] {\y};
+            \draw[black, very thick, domain=0:8, samples=2] plot (\x, {8 - \x});
+            \draw[black!60, very thick, dashed, domain=0:10, samples=2]
+              plot (\x, {(42 - 4*\x)/9});
+            \filldraw[black] (6,2) circle (3pt);
+            \node[font=\tiny\bfseries, above right] at (0,8) {$x+y=8$};
+            \node[font=\tiny\bfseries, above right] at (0,4.67) {$4x+9y=42$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </sidebyside>
+
+  </page>
+
+  <page>
+
+    <exercise xml:id="ex-systems-protein">
+      <title>Hitting a Protein Goal</title>
+      <introduction>
+        <p>
+          An athlete is planning their evening meal to hit exact nutrition targets. The meal
+          will consist of grilled chicken breast and black beans only.
+          <ul>
+            <li><p>One serving of grilled chicken breast provides 30 grams of protein and
+            costs $2.50.</p></li>
+            <li><p>One serving of black beans provides 7 grams of protein and costs
+            $0.50.</p></li>
+          </ul>
+          The athlete needs this meal to provide exactly 81 grams of protein and cost
+          exactly $6.50. How many servings of each should they prepare?
+        </p>
+      </introduction>
+
+      <task xml:id="ex-sp-vars">
+        <statement>
+          <p>Define your variables.</p>
+          <p>Let <m>x = </m> <fillin characters="35"/></p>
+          <p>Let <m>y = </m> <fillin characters="35"/></p>
+        </statement>
+        <answer>
+          <p><m>x</m> = number of servings of grilled chicken breast;
+          <m>y</m> = number of servings of black beans.</p>
+        </answer>
+      </task>
+
+      <task xml:id="ex-sp-equations">
+        <statement>
+          <p>Write two equations that describe this situation.</p>
+          <tabular halign="left" top="major" bottom="major" left="minor" right="minor">
+            <row header="yes" bottom="minor">
+              <cell>What the equation tracks</cell>
+              <cell>Equation</cell>
+            </row>
+            <row>
+              <cell>Total protein (grams)</cell>
+              <cell><fillin characters="25"/></cell>
+            </row>
+            <row>
+              <cell>Total cost (dollars)</cell>
+              <cell><fillin characters="25"/></cell>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <p>Protein: <m>30x + 7y = 81</m>; Cost: <m>2.5x + 0.5y = 7.5</m>.</p>
+        </answer>
+      </task>
+
+      <task xml:id="ex-sp-graph" workspace="6cm">
+        <statement>
+          <p>
+            Graph the system in Desmos. Sketch both lines on the grid below; choose your
+            own scale, label both axes, and mark the intersection point.
+          </p>
+          <image xml:id="img-sp-grid" width="45%">
+            <shortdescription>
+              Blank square coordinate grid with unlabeled axes for students to sketch
+              their own graph of the system.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.45]
+                \draw[gray!30, thin] (0,0) grid (8,8);
+                \draw[->, thick] (0,0) -- (8.6,0) node[right, font=\small] {$x$};
+                \draw[->, thick] (0,0) -- (0,8.6) node[above, font=\small] {$y$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+      </task>
+
+      <task xml:id="ex-sp-solution">
+        <statement>
+          <p>State the coordinates of the intersection point:
+          <m>(x, y) = </m><fillin characters="14"/></p>
+        </statement>
+        <answer>
+          <p><m>(2, 3)</m></p>
+        </answer>
+      </task>
+
+      <task xml:id="ex-sp-meaning" workspace="1.8cm">
+        <statement>
+          <p>What does this solution mean in the context of the athlete's meal? Write a
+          complete sentence.</p>
+        </statement>
+        <answer>
+          <p>The athlete should prepare 2 servings of grilled chicken breast and 3 servings
+          of black beans to get exactly 81 grams of protein for $7.50.</p>
+        </answer>
+      </task>
+
+      <task xml:id="ex-sp-check" workspace="2.5cm">
+        <statement>
+          <p>Check your answer by substituting your values back into both equations.</p>
+        </statement>
+        <answer>
+          <p>Protein: <m>30(2) + 7(3) = 60 + 21 = 81</m>. Cost: <m>2.5(2) + 0.5(3) = 5 + 1.50 = 7.50</m>.</p>
+        </answer>
+      </task>
+
+    </exercise>
+
+  </page>
+
+  <page>
+
+    <exercise xml:id="ex-systems-basketball">
+      <title>Two-Pointers and Three-Pointers</title>
+      <introduction>
+        <p>
+          During a stretch of a basketball game, a team scored 72 points using only 2-point
+          field goals and 3-point field goals (no free throws). They made 31 successful
+          baskets in total. How many 2-pointers and how many 3-pointers did they make?
+        </p>
+      </introduction>
+
+      <task xml:id="ex-bb-vars">
+        <statement>
+          <p>Define your variables.</p>
+          <p>Let <m>x = </m> <fillin characters="35"/></p>
+          <p>Let <m>y = </m> <fillin characters="35"/></p>
+        </statement>
+        <answer>
+          <p><m>x</m> = number of 2-point field goals;
+          <m>y</m> = number of 3-point field goals.</p>
+        </answer>
+      </task>
+
+      <task xml:id="ex-bb-equations">
+        <statement>
+          <p>Write two equations that describe this situation.</p>
+          <tabular halign="left" top="major" bottom="major" left="minor" right="minor">
+            <row header="yes" bottom="minor">
+              <cell>What the equation tracks</cell>
+              <cell>Equation</cell>
+            </row>
+            <row>
+              <cell>Total baskets made</cell>
+              <cell><fillin characters="25"/></cell>
+            </row>
+            <row>
+              <cell>Total points scored</cell>
+              <cell><fillin characters="25"/></cell>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <p>Baskets: <m>x + y = 31</m>; Points: <m>2x + 3y = 72</m>.</p>
+        </answer>
+      </task>
+
+      <task xml:id="ex-bb-graph" workspace="6cm">
+        <statement>
+          <p>
+            Graph the system in Desmos. Sketch both lines on the grid below; choose your
+            own scale, label both axes, and mark the intersection point.
+          </p>
+          <image xml:id="img-bb-grid" width="55%">
+            <shortdescription>
+              Blank square coordinate grid with unlabeled axes for students to sketch
+              their own graph of the system.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.55]
+                \draw[gray!30, thin] (0,0) grid (10,10);
+                \draw[->, thick] (0,0) -- (10.6,0) node[right, font=\small] {$x$};
+                \draw[->, thick] (0,0) -- (0,10.6) node[above, font=\small] {$y$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+      </task>
+
+      <task xml:id="ex-bb-solution">
+        <statement>
+          <p>State the coordinates of the intersection point:
+          <m>(x, y) = </m><fillin characters="14"/></p>
+        </statement>
+        <answer>
+          <p><m>(21, 10)</m></p>
+        </answer>
+      </task>
+
+      <task xml:id="ex-bb-meaning" workspace="1.8cm">
+        <statement>
+          <p>What does this solution mean in the context of the basketball game? Write a
+          complete sentence.</p>
+        </statement>
+        <answer>
+          <p>The team made 21 two-point field goals and 10 three-point field goals during
+          that stretch of the game.</p>
+        </answer>
+      </task>
+
+      <task xml:id="ex-bb-check" workspace="2.5cm">
+        <statement>
+          <p>Check your answer by substituting your values back into both equations.</p>
+        </statement>
+        <answer>
+          <p>Baskets: <m>21 + 10 = 31</m>. Points: <m>2(21) + 3(10) = 42 + 30 = 72</m>.</p>
+        </answer>
+      </task>
+
+    </exercise>
+
+  </page>
+
+  <page>
+
+    <exercise xml:id="ex-systems-tickets">
+      <title>Selling Concert Tickets</title>
+      <introduction>
+        <p>
+          A student entertainment board is organizing an outdoor concert on campus. They are
+          selling two types of tickets: General Admission at $15 each and VIP Lawn Passes
+          at $35 each. The venue holds exactly 450 people. If every seat is filled and total
+          ticket revenue comes to exactly $8,250, how many of each type of ticket did they
+          sell?
+        </p>
+      </introduction>
+
+      <task xml:id="ex-tk-vars">
+        <statement>
+          <p>Define your variables.</p>
+          <p>Let <m>x = </m> <fillin characters="35"/></p>
+          <p>Let <m>y = </m> <fillin characters="35"/></p>
+        </statement>
+        <answer>
+          <p><m>x</m> = number of General Admission tickets sold;
+          <m>y</m> = number of VIP Lawn Passes sold.</p>
+        </answer>
+      </task>
+
+      <task xml:id="ex-tk-equations">
+        <statement>
+          <p>Write two equations that describe this situation.</p>
+          <tabular halign="left" top="major" bottom="major" left="minor" right="minor">
+            <row header="yes" bottom="minor">
+              <cell>What the equation tracks</cell>
+              <cell>Equation</cell>
+            </row>
+            <row>
+              <cell>Total tickets sold</cell>
+              <cell><fillin characters="25"/></cell>
+            </row>
+            <row>
+              <cell>Total revenue (dollars)</cell>
+              <cell><fillin characters="25"/></cell>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <p>Tickets: <m>x + y = 450</m>; Revenue: <m>15x + 35y = 8250</m>.</p>
+        </answer>
+      </task>
+
+      <task xml:id="ex-tk-graph" workspace="6cm">
+        <statement>
+          <p>
+            Graph the system in Desmos. Sketch both lines on the grid below; choose your
+            own scale, label both axes, and mark the intersection point.
+          </p>
+          <image xml:id="img-tk-grid" width="55%">
+            <shortdescription>
+              Blank square coordinate grid with unlabeled axes for students to sketch
+              their own graph of the system.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.55]
+                \draw[gray!30, thin] (0,0) grid (10,10);
+                \draw[->, thick] (0,0) -- (10.6,0) node[right, font=\small] {$x$};
+                \draw[->, thick] (0,0) -- (0,10.6) node[above, font=\small] {$y$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+      </task>
+
+      <task xml:id="ex-tk-solution">
+        <statement>
+          <p>State the coordinates of the intersection point:
+          <m>(x, y) = </m><fillin characters="14"/></p>
+        </statement>
+        <answer>
+          <p><m>(300, 150)</m></p>
+        </answer>
+      </task>
+
+      <task xml:id="ex-tk-meaning" workspace="1.8cm">
+        <statement>
+          <p>What does this solution mean in the context of the concert? Write a complete
+          sentence.</p>
+        </statement>
+        <answer>
+          <p>The board sold 300 General Admission tickets and 150 VIP Lawn Passes to fill
+          the venue and bring in exactly $8,250 in revenue.</p>
+        </answer>
+      </task>
+
+      <task xml:id="ex-tk-check" workspace="2.5cm">
+        <statement>
+          <p>Check your answer by substituting your values back into both equations.</p>
+        </statement>
+        <answer>
+          <p>Tickets: <m>300 + 150 = 450</m>. Revenue: <m>15(300) + 35(150) = 4500 + 5250 = 8250</m>.</p>
+        </answer>
+      </task>
+
+    </exercise>
+
+  </page>
+
+</worksheet>

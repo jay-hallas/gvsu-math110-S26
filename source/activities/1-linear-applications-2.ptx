@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="activity-modeling-linear-2"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Activity: Modeling with Linear Functions II</title>
+
+  <introduction>
+    <p>
+      A linear function can be written as <m>y = mx + b</m>, where <m>m</m> is the slope
+      (rate of change) and <m>b</m> is the <m>y</m>-intercept (starting value). If you know
+      the rate of change and one value of the function, you can substitute and solve for
+      whichever piece is missing.
+    </p>
+    <p>
+      Pay attention to the sign of the slope. If a quantity is increasing, the slope is
+      positive. If a quantity is decreasing, the slope is negative.
+    </p>
+  </introduction>
+
+  <page>
+
+    <exercise xml:id="ex-lm2-example1">
+      <title>Example</title>
+      <statement>
+        <p>
+          A student has $200 in their dining account and spends about $25 per week. Write a
+          linear equation for the remaining balance <m>B</m> after <m>w</m> weeks.
+        </p>
+        <p>
+          Slope (rate of change): <m>m = -25</m> (negative because the balance is decreasing).
+          Starting value (<m>y</m>-intercept): <m>b = 200</m>.
+          Equation: <m>B = -25w + 200</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="ex-lm2-q1" workspace="2cm">
+      <statement>
+        <p>
+          Your phone plan comes with 15 GB of data for the month, and you use about 2.5 GB
+          per week. Write a linear equation for your remaining data <m>D</m> (in GB) after
+          <m>w</m> weeks.
+        </p>
+        <p>
+          Slope: <fillin characters="10"/>
+          <m>\quad</m>
+          <m>y</m>-intercept: <fillin characters="10"/>
+          <m>\quad</m>
+          Equation: <fillin characters="18"/>
+        </p>
+        <p>
+          <em>Follow-up:</em> After how many weeks will your data run out?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Slope: <m>m = -2.5</m>; <m>y</m>-intercept: <m>b = 15</m>;
+          Equation: <m>D = -2.5w + 15</m>.
+          Follow-up: Set <m>D = 0</m> and solve to get <m>w = 6</m>,
+          so the data runs out after 6 weeks.
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="ex-lm2-q2" workspace="2cm">
+      <statement>
+        <p>
+          A campus coffee shop has a loyalty program. You currently have 50 points, and you
+          earn 15 points for every visit. Write a linear equation for your total points
+          <m>P</m> after <m>v</m> visits.
+        </p>
+        <p>
+          Slope: <fillin characters="10"/>
+          <m>\quad</m>
+          <m>y</m>-intercept: <fillin characters="10"/>
+          <m>\quad</m>
+          Equation: <fillin characters="18"/>
+        </p>
+        <p>
+          <em>Follow-up:</em> A free drink requires 200 points. How many more visits do
+          you need?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Slope: <m>m = 15</m>; <m>y</m>-intercept: <m>b = 50</m>;
+          Equation: <m>P = 15v + 50</m>.
+          Follow-up: Set <m>P = 200</m> and solve to get <m>v = 10</m>,
+          so you need 10 more visits.
+        </p>
+      </answer>
+    </exercise>
+
+  </page>
+
+  <page>
+
+    <exercise xml:id="ex-lm2-example2">
+      <title>Example</title>
+      <statement>
+        <p>
+          A student worked 3 hours at their campus job and had earned $33.75 total. After
+          7 hours they had earned $78.75 total. Write a linear equation for total earnings
+          <m>E</m> after <m>h</m> hours.
+        </p>
+        <p>
+          Step 1: Find the slope using both points <m>(3, 33.75)</m> and <m>(7, 78.75)</m>:
+          <md>
+            m = \frac{78.75 - 33.75}{7 - 3} = \frac{45}{4} = 11.25
+          </md>
+        </p>
+        <p>
+          Step 2: Substitute one point and the slope into <m>y = mx + b</m> to solve for
+          <m>b</m>. Using <m>(3, 33.75)</m>:
+          <md>
+            33.75 = (11.25)(3) + b \quad \Rightarrow \quad 33.75 = 33.75 + b
+            \quad \Rightarrow \quad b = 0
+          </md>
+        </p>
+        <p>
+          Equation: <m>E = 11.25h</m>. The <m>y</m>-intercept of 0 means no hours worked,
+          no pay earned.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="ex-lm2-q3" workspace="1.5cm">
+      <title>Tuition Costs</title>
+      <introduction>
+        <p>
+          A student has been tracking their total college tuition costs. After 2 semesters
+          they had spent $4,200 total, and after 5 semesters they had spent $9,600 total.
+          Write a linear equation for total tuition cost <m>C</m> after <m>s</m> semesters.
+        </p>
+      </introduction>
+      <task xml:id="ex-lm2-q3-slope">
+        <statement>
+          <p>Step 1: Find the slope using both points.</p>
+        </statement>
+        <answer>
+          <p>
+            <m>m = \dfrac{9600 - 4200}{5 - 2} = \dfrac{5400}{3} = 1800</m>
+          </p>
+        </answer>
+      </task>
+      <task xml:id="ex-lm2-q3-intercept">
+        <statement>
+          <p>Step 2: Substitute one point and the slope to solve for <m>b</m>.</p>
+        </statement>
+        <answer>
+          <p>
+            Using <m>(2, 4200)</m>: <m>4200 = 1800(2) + b</m>, so <m>b = 600</m>.
+          </p>
+        </answer>
+      
+    </task>
+
+      
+ 
+      <task xml:id="ex-lm2-q3-equation">
+        <statement>
+          <p>Write the equation: <fillin characters="30"/></p>
+        </statement>
+        <answer>
+          <p><m>C = 1800s + 600</m></p>
+        </answer>
+      </task>
+      <task xml:id="ex-lm2-q3-interpret">
+        <statement>
+          <p>
+            What does the <m>y</m>-intercept represent in this context?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The <m>y</m>-intercept of $600 represents an initial cost paid before any
+            semesters of classes begin (for example, an enrollment or registration fee).
+          </p>
+        </answer>
+      </task>
+    </exercise>
+        </page>
+    <page>
+    <exercise xml:id="ex-lm2-q4" workspace="1.5cm">
+      <title>Apartment Complex</title>
+      <introduction>
+        <p>
+          An off-campus apartment complex had 140 units rented after 3 months of opening
+          and 220 units rented after 7 months. Write a linear equation for the number of
+          rented units <m>U</m> after <m>t</m> months.
+        </p>
+      </introduction>
+      <task xml:id="ex-lm2-q4-slope">
+        <statement>
+          <p>Step 1: Find the slope using both points.</p>
+        </statement>
+        <answer>
+          <p>
+            <m>m = \dfrac{220 - 140}{7 - 3} = \dfrac{80}{4} = 20</m>
+          </p>
+        </answer>
+      </task>
+      <task xml:id="ex-lm2-q4-intercept">
+        <statement>
+          <p>Step 2: Substitute one point and the slope to solve for <m>b</m>.</p>
+        </statement>
+        <answer>
+          <p>
+            Using <m>(3, 140)</m>: <m>140 = 20(3) + b</m>, so <m>b = 80</m>.
+          </p>
+        </answer>
+      </task>
+      <task xml:id="ex-lm2-q4-equation">
+        <statement>
+          <p>Write the equation: <fillin characters="30"/></p>
+        </statement>
+        <answer>
+          <p><m>U = 20t + 80</m></p>
+        </answer>
+      </task>
+      <task xml:id="ex-lm2-q4-followup">
+        <statement>
+          <p>
+            The complex has 300 total units. At this rate, when will it be fully rented?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Set <m>U = 300</m> and solve: <m>300 = 20t + 80</m>, so <m>t = 11</m>.
+            The complex will be fully rented after 11 months.
+          </p>
+        </answer>
+      </task>
+    </exercise>
+
+  </page>
+
+</worksheet>
