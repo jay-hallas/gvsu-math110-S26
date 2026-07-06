@@ -139,7 +139,7 @@
           </tabular>
         </statement>
         <answer>
-          <p>Protein: <m>30x + 7y = 81</m>; Cost: <m>2.5x + 0.5y = 7.5</m>.</p>
+          <p>Protein: <m>30x + 7y = 81</m>; Cost: <m>2.5x + 0.5y = 6.5</m>.</p>
         </answer>
       </task>
 
@@ -182,7 +182,7 @@
         </statement>
         <answer>
           <p>The athlete should prepare 2 servings of grilled chicken breast and 3 servings
-          of black beans to get exactly 81 grams of protein for $7.50.</p>
+          of black beans to get exactly 81 grams of protein for $6.50.</p>
         </answer>
       </task>
 
@@ -191,7 +191,7 @@
           <p>Check your answer by substituting your values back into both equations.</p>
         </statement>
         <answer>
-          <p>Protein: <m>30(2) + 7(3) = 60 + 21 = 81</m>. Cost: <m>2.5(2) + 0.5(3) = 5 + 1.50 = 7.50</m>.</p>
+          <p>Protein: <m>30(2) + 7(3) = 60 + 21 = 81</m>. Cost: <m>2.5(2) + 0.5(3) = 5 + 1.50 = 6.50</m>.</p>
         </answer>
       </task>
 
