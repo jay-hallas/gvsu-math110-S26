@@ -352,13 +352,328 @@ var ptx_lunr_docs = [
   "body": " Reflection   Choose one representation above and explain how you found the slope and the -intercept.   "
 },
 {
-  "id": "act-exponential-change-modeling",
+  "id": "act-linear-applications-4",
   "level": "1",
-  "url": "act-exponential-change-modeling.html",
+  "url": "act-linear-applications-4.html",
   "type": "Subsection",
   "number": "",
-  "title": "Activity Title Here",
-  "body": " Activity Title Here  Placeholder. Delete this paragraph and uncomment the include below once the worksheet file exists.   "
+  "title": "Linear Applications",
+  "body": " Linear Applications   Activity: Modeling with Linear Functions   A linear function can be written as , where is the slope (rate of change) and is the -intercept (starting value). If you know the rate of change and one value of the function, you can substitute and solve for whichever piece is missing.     Example   A tree is currently 4 feet tall and grows 1.5 feet per year. Write a linear equation for the height of the tree after years.  Slope (rate of change): . Starting value ( -intercept): . Equation: .      A streaming service starts you off with a $25 gift card balance, and each song purchase costs $3. Write a linear equation for your remaining balance after purchasing songs.  Slope:   -intercept:  Equation:    Follow-up: How many total songs can you buy using the gift card?    Slope: ; -intercept: ; Equation: . Follow-up: Set and solve to get , so you can buy 8 songs.      A plumber charges a $60 service call fee plus $45 per hour of labor. Write a linear equation for the total cost after hours of work.  Slope:   -intercept:  Equation:    Follow-up: How much will three hours of work cost?    Slope: ; -intercept: ; Equation: . Follow-up: , so three hours costs $195.      A person opens a new savings account and deposits $125 per month. After 4 months, there is $900 in the account. Write a linear equation for the balance after months.   Hint: Use the rate of change and the known value to solve for the -intercept first.  Slope:   -intercept:  Equation:    Follow-up: How long will it take to save up $1500?    Slope: . Substituting the known point : , so . Equation: . Follow-up: Set and solve to get , so it takes about 9 full months.       Example   A candle is 8 inches tall after burning for 2 hours, and 5 inches tall after burning for 6 hours. Write a linear equation for the height of the candle after hours.  Step 1: Find the slope using both points and :   Step 2: Substitute one point and the slope into to solve for . Using :   Equation: .     Car Value   A car's value was $18,000 after 1 year of ownership and $14,400 after 3 years of ownership. Write a linear equation for the car's value after years.     Step 1: Find the slope using both points.           Step 2: Substitute one point and the slope to solve for .    Using : , so .      Write the equation:         Gym Membership   A gym had 220 members after 3 months and 340 members after 8 months. Write a linear equation for the number of members after months.     Step 1: Find the slope using both points.           Step 2: Substitute one point and the slope to solve for .    Using : , so .      Write the equation:           Activity: Modeling with Linear Functions II   A linear function can be written as , where is the slope (rate of change) and is the -intercept (starting value). If you know the rate of change and one value of the function, you can substitute and solve for whichever piece is missing.  Pay attention to the sign of the slope. If a quantity is increasing, the slope is positive. If a quantity is decreasing, the slope is negative.     Example   A student has $200 in their dining account and spends about $25 per week. Write a linear equation for the remaining balance after weeks.  Slope (rate of change): (negative because the balance is decreasing). Starting value ( -intercept): . Equation: .      Your phone plan comes with 15 GB of data for the month, and you use about 2.5 GB per week. Write a linear equation for your remaining data (in GB) after weeks.  Slope:   -intercept:  Equation:    Follow-up: After how many weeks will your data run out?    Slope: ; -intercept: ; Equation: . Follow-up: Set and solve to get , so the data runs out after 6 weeks.      A campus coffee shop has a loyalty program. You currently have 50 points, and you earn 15 points for every visit. Write a linear equation for your total points after visits.  Slope:   -intercept:  Equation:    Follow-up: A free drink requires 200 points. How many more visits do you need?    Slope: ; -intercept: ; Equation: . Follow-up: Set and solve to get , so you need 10 more visits.       Example   A student worked 3 hours at their campus job and had earned $33.75 total. After 7 hours they had earned $78.75 total. Write a linear equation for total earnings after hours.  Step 1: Find the slope using both points and :   Step 2: Substitute one point and the slope into to solve for . Using :   Equation: . The -intercept of 0 means no hours worked, no pay earned.     Tuition Costs   A student has been tracking their total college tuition costs. After 2 semesters they had spent $4,200 total, and after 5 semesters they had spent $9,600 total. Write a linear equation for total tuition cost after semesters.     Step 1: Find the slope using both points.           Step 2: Substitute one point and the slope to solve for .    Using : , so .      Write the equation:         What does the -intercept represent in this context?    The -intercept of $600 represents an initial cost paid before any semesters of classes begin (for example, an enrollment or registration fee).        Apartment Complex   An off-campus apartment complex had 140 units rented after 3 months of opening and 220 units rented after 7 months. Write a linear equation for the number of rented units after months.     Step 1: Find the slope using both points.           Step 2: Substitute one point and the slope to solve for .    Using : , so .      Write the equation:         The complex has 300 total units. At this rate, when will it be fully rented?    Set and solve: , so . The complex will be fully rented after 11 months.       "
+},
+{
+  "id": "ex-lm1-example1",
+  "level": "2",
+  "url": "act-linear-applications-4.html#ex-lm1-example1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Example.",
+  "body": " Example   A tree is currently 4 feet tall and grows 1.5 feet per year. Write a linear equation for the height of the tree after years.  Slope (rate of change): . Starting value ( -intercept): . Equation: .   "
+},
+{
+  "id": "ex-lm1-q1",
+  "level": "2",
+  "url": "act-linear-applications-4.html#ex-lm1-q1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  A streaming service starts you off with a $25 gift card balance, and each song purchase costs $3. Write a linear equation for your remaining balance after purchasing songs.  Slope:   -intercept:  Equation:    Follow-up: How many total songs can you buy using the gift card?    Slope: ; -intercept: ; Equation: . Follow-up: Set and solve to get , so you can buy 8 songs.   "
+},
+{
+  "id": "ex-lm1-q2",
+  "level": "2",
+  "url": "act-linear-applications-4.html#ex-lm1-q2",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  A plumber charges a $60 service call fee plus $45 per hour of labor. Write a linear equation for the total cost after hours of work.  Slope:   -intercept:  Equation:    Follow-up: How much will three hours of work cost?    Slope: ; -intercept: ; Equation: . Follow-up: , so three hours costs $195.   "
+},
+{
+  "id": "ex-lm1-q3",
+  "level": "2",
+  "url": "act-linear-applications-4.html#ex-lm1-q3",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  A person opens a new savings account and deposits $125 per month. After 4 months, there is $900 in the account. Write a linear equation for the balance after months.   Hint: Use the rate of change and the known value to solve for the -intercept first.  Slope:   -intercept:  Equation:    Follow-up: How long will it take to save up $1500?    Slope: . Substituting the known point : , so . Equation: . Follow-up: Set and solve to get , so it takes about 9 full months.   "
+},
+{
+  "id": "ex-lm1-example2",
+  "level": "2",
+  "url": "act-linear-applications-4.html#ex-lm1-example2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Example.",
+  "body": " Example   A candle is 8 inches tall after burning for 2 hours, and 5 inches tall after burning for 6 hours. Write a linear equation for the height of the candle after hours.  Step 1: Find the slope using both points and :   Step 2: Substitute one point and the slope into to solve for . Using :   Equation: .   "
+},
+{
+  "id": "ex-lm1-q4",
+  "level": "2",
+  "url": "act-linear-applications-4.html#ex-lm1-q4",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Car Value.",
+  "body": " Car Value   A car's value was $18,000 after 1 year of ownership and $14,400 after 3 years of ownership. Write a linear equation for the car's value after years.     Step 1: Find the slope using both points.           Step 2: Substitute one point and the slope to solve for .    Using : , so .      Write the equation:       "
+},
+{
+  "id": "ex-lm1-q5",
+  "level": "2",
+  "url": "act-linear-applications-4.html#ex-lm1-q5",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Gym Membership.",
+  "body": " Gym Membership   A gym had 220 members after 3 months and 340 members after 8 months. Write a linear equation for the number of members after months.     Step 1: Find the slope using both points.           Step 2: Substitute one point and the slope to solve for .    Using : , so .      Write the equation:       "
+},
+{
+  "id": "ex-lm2-example1",
+  "level": "2",
+  "url": "act-linear-applications-4.html#ex-lm2-example1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Example.",
+  "body": " Example   A student has $200 in their dining account and spends about $25 per week. Write a linear equation for the remaining balance after weeks.  Slope (rate of change): (negative because the balance is decreasing). Starting value ( -intercept): . Equation: .   "
+},
+{
+  "id": "ex-lm2-q1",
+  "level": "2",
+  "url": "act-linear-applications-4.html#ex-lm2-q1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Your phone plan comes with 15 GB of data for the month, and you use about 2.5 GB per week. Write a linear equation for your remaining data (in GB) after weeks.  Slope:   -intercept:  Equation:    Follow-up: After how many weeks will your data run out?    Slope: ; -intercept: ; Equation: . Follow-up: Set and solve to get , so the data runs out after 6 weeks.   "
+},
+{
+  "id": "ex-lm2-q2",
+  "level": "2",
+  "url": "act-linear-applications-4.html#ex-lm2-q2",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  A campus coffee shop has a loyalty program. You currently have 50 points, and you earn 15 points for every visit. Write a linear equation for your total points after visits.  Slope:   -intercept:  Equation:    Follow-up: A free drink requires 200 points. How many more visits do you need?    Slope: ; -intercept: ; Equation: . Follow-up: Set and solve to get , so you need 10 more visits.   "
+},
+{
+  "id": "ex-lm2-example2",
+  "level": "2",
+  "url": "act-linear-applications-4.html#ex-lm2-example2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Example.",
+  "body": " Example   A student worked 3 hours at their campus job and had earned $33.75 total. After 7 hours they had earned $78.75 total. Write a linear equation for total earnings after hours.  Step 1: Find the slope using both points and :   Step 2: Substitute one point and the slope into to solve for . Using :   Equation: . The -intercept of 0 means no hours worked, no pay earned.   "
+},
+{
+  "id": "ex-lm2-q3",
+  "level": "2",
+  "url": "act-linear-applications-4.html#ex-lm2-q3",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Tuition Costs.",
+  "body": " Tuition Costs   A student has been tracking their total college tuition costs. After 2 semesters they had spent $4,200 total, and after 5 semesters they had spent $9,600 total. Write a linear equation for total tuition cost after semesters.     Step 1: Find the slope using both points.           Step 2: Substitute one point and the slope to solve for .    Using : , so .      Write the equation:         What does the -intercept represent in this context?    The -intercept of $600 represents an initial cost paid before any semesters of classes begin (for example, an enrollment or registration fee).    "
+},
+{
+  "id": "ex-lm2-q4",
+  "level": "2",
+  "url": "act-linear-applications-4.html#ex-lm2-q4",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Apartment Complex.",
+  "body": " Apartment Complex   An off-campus apartment complex had 140 units rented after 3 months of opening and 220 units rented after 7 months. Write a linear equation for the number of rented units after months.     Step 1: Find the slope using both points.           Step 2: Substitute one point and the slope to solve for .    Using : , so .      Write the equation:         The complex has 300 total units. At this rate, when will it be fully rented?    Set and solve: , so . The complex will be fully rented after 11 months.    "
+},
+{
+  "id": "act-linear-systems",
+  "level": "1",
+  "url": "act-linear-systems.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Systems of Linear Equations",
+  "body": " Systems of Linear Equations   Activity: Solving Systems of Linear Equations   A system of linear equations is a pair of equations considered together. The solution is any point that satisfies both equations; geometrically, it is where the two lines intersect.  There are three possible outcomes:  One solution: the lines intersect at exactly one point. Write the solution as an ordered pair .  No solution: the lines are parallel and never meet. The system is inconsistent.  Infinitely many solutions: the lines are identical and overlap completely.    For each problem: (a) match each line in the graph to one of the two equations given, (b) identify the system type (one solution, no solution, or infinite solutions), and (c) state the solution if one exists.      Coordinate plane showing two intersecting lines. A solid navy line passes through the points (0, negative 1) and (2, 3), labeled Line 1. A dashed blue line passes through the points (0, 5) and (5, 0), labeled Line 2. The lines cross at (2, 3), marked with a red dot.      Equations:  and  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Line 1: ; Line 2: . One solution; .         Coordinate plane showing two parallel lines with the same slope. A solid navy line crosses the y-axis at 2, labeled Line 1. A dashed blue line crosses the y-axis at negative 2, labeled Line 2. The lines do not intersect.      Equations:  and  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Line 1: ; Line 2: . No solution (parallel lines).         Coordinate plane showing a single line, labeled both Line 1 (solid) and Line 2 (dashed), since the two equations describe the same line. The line passes through (0, negative 3) and (2, 1).      Equations:  and   Note: Line 1 and Line 2 overlap completely in this graph.  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Both equations describe the same line; simplifies to . Infinite solutions.       Coordinate plane showing two intersecting lines. A solid navy line with a gentle positive slope crosses the y-axis at 1, labeled Line 1. A dashed blue line with a steep negative slope crosses the y-axis at 6, labeled Line 2. The lines cross at (2, 2), marked with a red dot.      Equations:  and  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Line 1: ; Line 2: . One solution; .        Activity: Modeling Real-World Scenarios with Linear Systems   For each scenario below, work through the following steps in order.  Define your variables clearly.  Write a system of two linear equations that fits the situation.  Graph both equations in Desmos to find their intersection.  Sketch your graph on the provided grid; choose your own scale, label both axes, and mark the intersection point.  State the solution, explain what it means in context, and verify it satisfies both equations.       Worked Example. A store sells small candles for $4 each and large candles for $9 each. A customer buys a total of 8 candles and spends exactly $42. How many of each size did they buy?  Let = number of small candles purchased. Let = number of large candles purchased.      What it tracks  Equation    Total candles bought     Total amount spent     The intersection is at , so the customer bought 6 small candles and 2 large candles.  Check: ✓ and ✓   Note: as long as you define your variables consistently, it is fine if you assigned and the other way around. Your intersection point will have the coordinates swapped, but your conclusion will be equivalent.    Coordinate plane showing two intersecting lines for the candle example. A solid line for x plus y equals 8 and a dashed line for 4x plus 9y equals 42 cross at the point (6, 2), marked with a dot.        Hitting a Protein Goal   An athlete is planning their evening meal to hit exact nutrition targets. The meal will consist of grilled chicken breast and black beans only.  One serving of grilled chicken breast provides 30 grams of protein and costs $2.50.  One serving of black beans provides 7 grams of protein and costs $0.50.  The athlete needs this meal to provide exactly 81 grams of protein and cost exactly $7.50. How many servings of each should they prepare?     Define your variables.  Let   Let     = number of servings of grilled chicken breast; = number of servings of black beans.      Write two equations that describe this situation.    What the equation tracks  Equation    Total protein (grams)     Total cost (dollars)       Protein: ; Cost: .      Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale, label both axes, and mark the intersection point.   Blank square coordinate grid with unlabeled axes for students to sketch their own graph of the system.        State the coordinates of the intersection point:         What does this solution mean in the context of the athlete's meal? Write a complete sentence.    The athlete should prepare 2 servings of grilled chicken breast and 3 servings of black beans to get exactly 81 grams of protein for $7.50.      Check your answer by substituting your values back into both equations.    Protein: . Cost: .        Two-Pointers and Three-Pointers   During a stretch of a basketball game, a team scored 72 points using only 2-point field goals and 3-point field goals (no free throws). They made 31 successful baskets in total. How many 2-pointers and how many 3-pointers did they make?     Define your variables.  Let   Let     = number of 2-point field goals; = number of 3-point field goals.      Write two equations that describe this situation.    What the equation tracks  Equation    Total baskets made     Total points scored       Baskets: ; Points: .      Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale, label both axes, and mark the intersection point.   Blank square coordinate grid with unlabeled axes for students to sketch their own graph of the system.        State the coordinates of the intersection point:         What does this solution mean in the context of the basketball game? Write a complete sentence.    The team made 21 two-point field goals and 10 three-point field goals during that stretch of the game.      Check your answer by substituting your values back into both equations.    Baskets: . Points: .        Selling Concert Tickets   A student entertainment board is organizing an outdoor concert on campus. They are selling two types of tickets: General Admission at $15 each and VIP Lawn Passes at $35 each. The venue holds exactly 450 people. If every seat is filled and total ticket revenue comes to exactly $8,250, how many of each type of ticket did they sell?     Define your variables.  Let   Let     = number of General Admission tickets sold; = number of VIP Lawn Passes sold.      Write two equations that describe this situation.    What the equation tracks  Equation    Total tickets sold     Total revenue (dollars)       Tickets: ; Revenue: .      Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale, label both axes, and mark the intersection point.   Blank square coordinate grid with unlabeled axes for students to sketch their own graph of the system.        State the coordinates of the intersection point:         What does this solution mean in the context of the concert? Write a complete sentence.    The board sold 300 General Admission tickets and 150 VIP Lawn Passes to fill the venue and bring in exactly $8,250 in revenue.      Check your answer by substituting your values back into both equations.    Tickets: . Revenue: .       "
+},
+{
+  "id": "activity-systems-graphing-2-1",
+  "level": "2",
+  "url": "act-linear-systems.html#activity-systems-graphing-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "system of linear equations "
+},
+{
+  "id": "ex-systems-q1",
+  "level": "2",
+  "url": "act-linear-systems.html#ex-systems-q1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Equations:  and  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Line 1: ; Line 2: . One solution; .   "
+},
+{
+  "id": "ex-systems-q2",
+  "level": "2",
+  "url": "act-linear-systems.html#ex-systems-q2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Equations:  and  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Line 1: ; Line 2: . No solution (parallel lines).   "
+},
+{
+  "id": "ex-systems-q3",
+  "level": "2",
+  "url": "act-linear-systems.html#ex-systems-q3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Equations:  and   Note: Line 1 and Line 2 overlap completely in this graph.  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Both equations describe the same line; simplifies to . Infinite solutions.   "
+},
+{
+  "id": "ex-systems-q4",
+  "level": "2",
+  "url": "act-linear-systems.html#ex-systems-q4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Equations:  and  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Line 1: ; Line 2: . One solution; .   "
+},
+{
+  "id": "ex-systems-protein",
+  "level": "2",
+  "url": "act-linear-systems.html#ex-systems-protein",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Hitting a Protein Goal.",
+  "body": " Hitting a Protein Goal   An athlete is planning their evening meal to hit exact nutrition targets. The meal will consist of grilled chicken breast and black beans only.  One serving of grilled chicken breast provides 30 grams of protein and costs $2.50.  One serving of black beans provides 7 grams of protein and costs $0.50.  The athlete needs this meal to provide exactly 81 grams of protein and cost exactly $7.50. How many servings of each should they prepare?     Define your variables.  Let   Let     = number of servings of grilled chicken breast; = number of servings of black beans.      Write two equations that describe this situation.    What the equation tracks  Equation    Total protein (grams)     Total cost (dollars)       Protein: ; Cost: .      Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale, label both axes, and mark the intersection point.   Blank square coordinate grid with unlabeled axes for students to sketch their own graph of the system.        State the coordinates of the intersection point:         What does this solution mean in the context of the athlete's meal? Write a complete sentence.    The athlete should prepare 2 servings of grilled chicken breast and 3 servings of black beans to get exactly 81 grams of protein for $7.50.      Check your answer by substituting your values back into both equations.    Protein: . Cost: .    "
+},
+{
+  "id": "ex-systems-basketball",
+  "level": "2",
+  "url": "act-linear-systems.html#ex-systems-basketball",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Two-Pointers and Three-Pointers.",
+  "body": " Two-Pointers and Three-Pointers   During a stretch of a basketball game, a team scored 72 points using only 2-point field goals and 3-point field goals (no free throws). They made 31 successful baskets in total. How many 2-pointers and how many 3-pointers did they make?     Define your variables.  Let   Let     = number of 2-point field goals; = number of 3-point field goals.      Write two equations that describe this situation.    What the equation tracks  Equation    Total baskets made     Total points scored       Baskets: ; Points: .      Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale, label both axes, and mark the intersection point.   Blank square coordinate grid with unlabeled axes for students to sketch their own graph of the system.        State the coordinates of the intersection point:         What does this solution mean in the context of the basketball game? Write a complete sentence.    The team made 21 two-point field goals and 10 three-point field goals during that stretch of the game.      Check your answer by substituting your values back into both equations.    Baskets: . Points: .    "
+},
+{
+  "id": "ex-systems-tickets",
+  "level": "2",
+  "url": "act-linear-systems.html#ex-systems-tickets",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Selling Concert Tickets.",
+  "body": " Selling Concert Tickets   A student entertainment board is organizing an outdoor concert on campus. They are selling two types of tickets: General Admission at $15 each and VIP Lawn Passes at $35 each. The venue holds exactly 450 people. If every seat is filled and total ticket revenue comes to exactly $8,250, how many of each type of ticket did they sell?     Define your variables.  Let   Let     = number of General Admission tickets sold; = number of VIP Lawn Passes sold.      Write two equations that describe this situation.    What the equation tracks  Equation    Total tickets sold     Total revenue (dollars)       Tickets: ; Revenue: .      Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale, label both axes, and mark the intersection point.   Blank square coordinate grid with unlabeled axes for students to sketch their own graph of the system.        State the coordinates of the intersection point:         What does this solution mean in the context of the concert? Write a complete sentence.    The board sold 300 General Admission tickets and 150 VIP Lawn Passes to fill the venue and bring in exactly $8,250 in revenue.      Check your answer by substituting your values back into both equations.    Tickets: . Revenue: .    "
+},
+{
+  "id": "act-linear-regression",
+  "level": "1",
+  "url": "act-linear-regression.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Linear Regression",
+  "body": " Linear Regression   Activity: Linear Regression in Desmos   Below is a table of data with nutrition information for sandwiches from a historical McDonald's menu. Note that some items listed here are no longer on the current menu.      Sandwich  Total Fat (g)  Total Calories    Hamburger  9  260    Cheeseburger  13  320    Quarter Pounder  21  420    Quarter Pounder with Cheese  30  530    Big Mac  31  560    Arch Sandwich Special  31  550    Arch Special with Bacon  34  590    Crispy Chicken  25  500    Fish Fillet  28  560    Grilled Chicken  20  440    Grilled Chicken Light  5  300     Discussion: Before you start, talk with your group. Do you think there is a relationship between the fat grams and the total calories in fast food?   Getting the regression line in Desmos:   Enter the data. Click the plus sign ( ) to add a table and type in the values above. The columns will be labeled and .  Find the regression line. In a new line below the table, type and press Enter. Desmos will fit a line to your data and display the values of and .  Get more decimal places. Type or alone in a new line to see the full precision values.     Regression equation (round parameters to 3 decimal places):        Look at your graphed equation along with the data points. Does there seem to be a relationship between the number of fat grams and the number of calories in fast food?    Yes; there is a strong positive linear relationship between fat grams and calories.      How many calories would you expect in a sandwich that has 22 grams of fat?    calories.      How many grams of fat would you expect in a sandwich that has 350 calories?    , so grams of fat.      What is the slope of your model? Write one sentence describing what it means in the context of this problem.    The slope is . For every additional gram of fat, the expected number of calories increases by about 11.794.      What is the vertical intercept of your model? Write one sentence describing what it means in the context of this problem.    The vertical intercept is approximately . A sandwich with zero grams of fat is predicted to have about 192 calories.      What is the horizontal intercept of your model? Write one sentence describing what it means in the context of this problem. Does this value make practical sense?    The horizontal intercept is approximately . This would represent a sandwich with zero calories but negative fat, which is not possible. The intercept does not have a meaningful real-world interpretation here.      "
+},
+{
+  "id": "ex-reg-relationship",
+  "level": "2",
+  "url": "act-linear-regression.html#ex-reg-relationship",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Look at your graphed equation along with the data points. Does there seem to be a relationship between the number of fat grams and the number of calories in fast food?    Yes; there is a strong positive linear relationship between fat grams and calories.   "
+},
+{
+  "id": "ex-reg-predict-calories",
+  "level": "2",
+  "url": "act-linear-regression.html#ex-reg-predict-calories",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  How many calories would you expect in a sandwich that has 22 grams of fat?    calories.   "
+},
+{
+  "id": "ex-reg-predict-fat",
+  "level": "2",
+  "url": "act-linear-regression.html#ex-reg-predict-fat",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  How many grams of fat would you expect in a sandwich that has 350 calories?    , so grams of fat.   "
+},
+{
+  "id": "ex-reg-slope",
+  "level": "2",
+  "url": "act-linear-regression.html#ex-reg-slope",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  What is the slope of your model? Write one sentence describing what it means in the context of this problem.    The slope is . For every additional gram of fat, the expected number of calories increases by about 11.794.   "
+},
+{
+  "id": "ex-reg-yintercept",
+  "level": "2",
+  "url": "act-linear-regression.html#ex-reg-yintercept",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  What is the vertical intercept of your model? Write one sentence describing what it means in the context of this problem.    The vertical intercept is approximately . A sandwich with zero grams of fat is predicted to have about 192 calories.   "
+},
+{
+  "id": "ex-reg-xintercept",
+  "level": "2",
+  "url": "act-linear-regression.html#ex-reg-xintercept",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  What is the horizontal intercept of your model? Write one sentence describing what it means in the context of this problem. Does this value make practical sense?    The horizontal intercept is approximately . This would represent a sandwich with zero calories but negative fat, which is not possible. The intercept does not have a meaningful real-world interpretation here.   "
+},
+{
+  "id": "act-exponential-patterns",
+  "level": "1",
+  "url": "act-exponential-patterns.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Comparing Linear and Exponential Patterns",
+  "body": " Comparing Linear and Exponential Patterns   Activity: Linear Versus Exponential Patterns   For each of the following patterns, complete the steps below.  Draw or sketch Case 4 and Case 5 (if the number of shapes gets too large, just sketch the outline and write the dimensions).  Complete the table.  Determine whether the growth is linear, exponential, or neither and explain how you know.  If linear or exponential, find an equation for the number of shapes ( ) in terms of the case number ( ).  Check that your equation works by plugging in some cases from the table.       Pattern 1    A rectangular grid of blue squares, fixed at 3 rows tall. Case 1 has 1 column (3 squares), Case 2 has 2 columns (6 squares), and Case 3 has 4 columns (12 squares). The number of columns doubles each case.   Three completed blue square grids of heights 3 and widths 1, 2, and 4 for Cases 1, 2, and 3, followed by two dashed empty boxes for Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  3 6 12      24; 48.      Is the growth linear , exponential , or neither ? Circle one and explain how you know.  Equation (if applicable):     Exponential (ratio 2). Equation: .      Pattern 2    A pattern of purple triangles. Each case has a fixed header row of 4 triangles on top, plus a growing block of 3 triangles wide that adds one row per case. Case 1 has 7 triangles total, Case 2 has 10, Case 3 has 13.   Three arrangements of purple triangles for Cases 1, 2, and 3, followed by two dashed empty boxes for Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  7 10 13      16; 19.      Is the growth linear , exponential , or neither ? Circle one and explain how you know.  Equation (if applicable):     Linear (constant difference of 3). Equation: .        Pattern 3    A rectangular grid of teal circles, fixed at 3 rows tall. Case 1 has 1 column (3 circles), Case 2 has 3 columns (9 circles), and Case 3 has 9 columns (27 circles). The number of columns triples each case.   Three completed grids of teal circles with 3 rows and 1, 3, and 9 columns for Cases 1, 2, and 3, followed by two dashed empty wide boxes for Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  3 9 27      81; 243.      Is the growth linear , exponential , or neither ? Circle one and explain how you know.  Equation (if applicable):     Exponential (ratio 3). Equation: .      Pattern 4    A triangular staircase of brick-red hexagons. Case 1 has 1 hexagon, Case 2 has 3 (a row of 2 with 1 above), and Case 3 has 6 (rows of 3, 2, 1 stacked upward).   Three triangular arrangements of brick-red hexagons for Cases 1, 2, and 3, followed by two dashed empty boxes for Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  1 3 6      10; 15.      Is the growth linear , exponential , or neither ? Circle one and explain how you know.  Equation (if applicable):     Neither. The differences are 2, 3, 4 (not constant) and the ratios are not constant either. Formula: .      Concept Check: Classifying from a Table   For each table below, fill in the missing values, classify the pattern as linear, exponential, or neither, and write an equation if one exists.     Table A    1 2 3  4 5     4 12 36    Type:  Equation:    Exponential growth (ratio 3). ; values 108 and 324.      Table B    1 2 3  4 5     30 24 18    Type:  Equation:    Linear decreasing (difference ). ; values 12 and 6.      Table C    1 2 3  4 5     2 5 10    Type:  Equation:    Neither (quadratic). ; values 17 and 26.      Table D    1 2 3  4 5     96 48 24    Type:  Equation:    Exponential decay (ratio ). ; values 12 and 6.       "
+},
+{
+  "id": "ex-pattern-exp1",
+  "level": "2",
+  "url": "act-exponential-patterns.html#ex-pattern-exp1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Pattern 1.",
+  "body": " Pattern 1    A rectangular grid of blue squares, fixed at 3 rows tall. Case 1 has 1 column (3 squares), Case 2 has 2 columns (6 squares), and Case 3 has 4 columns (12 squares). The number of columns doubles each case.   Three completed blue square grids of heights 3 and widths 1, 2, and 4 for Cases 1, 2, and 3, followed by two dashed empty boxes for Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  3 6 12      24; 48.      Is the growth linear , exponential , or neither ? Circle one and explain how you know.  Equation (if applicable):     Exponential (ratio 2). Equation: .    "
+},
+{
+  "id": "ex-pattern-linear",
+  "level": "2",
+  "url": "act-exponential-patterns.html#ex-pattern-linear",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Pattern 2.",
+  "body": " Pattern 2    A pattern of purple triangles. Each case has a fixed header row of 4 triangles on top, plus a growing block of 3 triangles wide that adds one row per case. Case 1 has 7 triangles total, Case 2 has 10, Case 3 has 13.   Three arrangements of purple triangles for Cases 1, 2, and 3, followed by two dashed empty boxes for Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  7 10 13      16; 19.      Is the growth linear , exponential , or neither ? Circle one and explain how you know.  Equation (if applicable):     Linear (constant difference of 3). Equation: .    "
+},
+{
+  "id": "ex-pattern-exp2",
+  "level": "2",
+  "url": "act-exponential-patterns.html#ex-pattern-exp2",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Pattern 3.",
+  "body": " Pattern 3    A rectangular grid of teal circles, fixed at 3 rows tall. Case 1 has 1 column (3 circles), Case 2 has 3 columns (9 circles), and Case 3 has 9 columns (27 circles). The number of columns triples each case.   Three completed grids of teal circles with 3 rows and 1, 3, and 9 columns for Cases 1, 2, and 3, followed by two dashed empty wide boxes for Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  3 9 27      81; 243.      Is the growth linear , exponential , or neither ? Circle one and explain how you know.  Equation (if applicable):     Exponential (ratio 3). Equation: .    "
+},
+{
+  "id": "ex-pattern-quad",
+  "level": "2",
+  "url": "act-exponential-patterns.html#ex-pattern-quad",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Pattern 4.",
+  "body": " Pattern 4    A triangular staircase of brick-red hexagons. Case 1 has 1 hexagon, Case 2 has 3 (a row of 2 with 1 above), and Case 3 has 6 (rows of 3, 2, 1 stacked upward).   Three triangular arrangements of brick-red hexagons for Cases 1, 2, and 3, followed by two dashed empty boxes for Cases 4 and 5.        Complete the table.    Case ( )  1 2 3 4 5    Shapes  1 3 6      10; 15.      Is the growth linear , exponential , or neither ? Circle one and explain how you know.  Equation (if applicable):     Neither. The differences are 2, 3, 4 (not constant) and the ratios are not constant either. Formula: .    "
+},
+{
+  "id": "ex-concept-check",
+  "level": "2",
+  "url": "act-exponential-patterns.html#ex-concept-check",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Concept Check: Classifying from a Table.",
+  "body": " Concept Check: Classifying from a Table   For each table below, fill in the missing values, classify the pattern as linear, exponential, or neither, and write an equation if one exists.     Table A    1 2 3  4 5     4 12 36    Type:  Equation:    Exponential growth (ratio 3). ; values 108 and 324.      Table B    1 2 3  4 5     30 24 18    Type:  Equation:    Linear decreasing (difference ). ; values 12 and 6.      Table C    1 2 3  4 5     2 5 10    Type:  Equation:    Neither (quadratic). ; values 17 and 26.      Table D    1 2 3  4 5     96 48 24    Type:  Equation:    Exponential decay (ratio ). ; values 12 and 6.    "
 },
 {
   "id": "act-inverses-logarithms-reversing",
