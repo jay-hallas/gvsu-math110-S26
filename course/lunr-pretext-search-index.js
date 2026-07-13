@@ -484,7 +484,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "",
   "title": "Systems of Linear Equations",
-  "body": " Systems of Linear Equations   Activity: Solving Systems of Linear Equations   A system of linear equations is a pair of equations considered together. The solution is any point that satisfies both equations; geometrically, it is where the two lines intersect.  There are three possible outcomes:  One solution: the lines intersect at exactly one point. Write the solution as an ordered pair .  No solution: the lines are parallel and never meet. The system is inconsistent.  Infinitely many solutions: the lines are identical and overlap completely.    For each problem: (a) match each line in the graph to one of the two equations given, (b) identify the system type (one solution, no solution, or infinite solutions), and (c) state the solution if one exists.      Coordinate plane showing two intersecting lines. A solid navy line passes through the points (0, negative 1) and (2, 3), labeled Line 1. A dashed blue line passes through the points (0, 5) and (5, 0), labeled Line 2. The lines cross at (2, 3), marked with a red dot.      Equations:  and  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Line 1: ; Line 2: . One solution; .         Coordinate plane showing two parallel lines with the same slope. A solid navy line crosses the y-axis at 2, labeled Line 1. A dashed blue line crosses the y-axis at negative 2, labeled Line 2. The lines do not intersect.      Equations:  and  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Line 1: ; Line 2: . No solution (parallel lines).         Coordinate plane showing a single line, labeled both Line 1 (solid) and Line 2 (dashed), since the two equations describe the same line. The line passes through (0, negative 3) and (2, 1).      Equations:  and   Note: Line 1 and Line 2 overlap completely in this graph.  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Both equations describe the same line; simplifies to . Infinite solutions.       Coordinate plane showing two intersecting lines. A solid navy line with a gentle positive slope crosses the y-axis at 1, labeled Line 1. A dashed blue line with a steep negative slope crosses the y-axis at 6, labeled Line 2. The lines cross at (2, 2), marked with a red dot.      Equations:  and  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Line 1: ; Line 2: . One solution; .        Activity: Modeling Real-World Scenarios with Linear Systems   For each scenario below, work through the following steps in order.  Define your variables clearly.  Write a system of two linear equations that fits the situation.  Graph both equations in Desmos to find their intersection.  Sketch your graph on the provided grid; choose your own scale, label both axes, and mark the intersection point.  State the solution, explain what it means in context, and verify it satisfies both equations.       Worked Example. A store sells small candles for $4 each and large candles for $9 each. A customer buys a total of 8 candles and spends exactly $42. How many of each size did they buy?  Let = number of small candles purchased. Let = number of large candles purchased.      What it tracks  Equation    Total candles bought     Total amount spent     The intersection is at , so the customer bought 6 small candles and 2 large candles.  Check: ✓ and ✓   Note: as long as you define your variables consistently, it is fine if you assigned and the other way around. Your intersection point will have the coordinates swapped, but your conclusion will be equivalent.    Coordinate plane showing two intersecting lines for the candle example. A solid line for x plus y equals 8 and a dashed line for 4x plus 9y equals 42 cross at the point (6, 2), marked with a dot.        Hitting a Protein Goal   An athlete is planning their evening meal to hit exact nutrition targets. The meal will consist of grilled chicken breast and black beans only.  One serving of grilled chicken breast provides 30 grams of protein and costs $2.50.  One serving of black beans provides 7 grams of protein and costs $0.50.  The athlete needs this meal to provide exactly 81 grams of protein and cost exactly $7.50. How many servings of each should they prepare?     Define your variables.  Let   Let     = number of servings of grilled chicken breast; = number of servings of black beans.      Write two equations that describe this situation.    What the equation tracks  Equation    Total protein (grams)     Total cost (dollars)       Protein: ; Cost: .      Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale, label both axes, and mark the intersection point.   Blank square coordinate grid with unlabeled axes for students to sketch their own graph of the system.        State the coordinates of the intersection point:         What does this solution mean in the context of the athlete's meal? Write a complete sentence.    The athlete should prepare 2 servings of grilled chicken breast and 3 servings of black beans to get exactly 81 grams of protein for $7.50.      Check your answer by substituting your values back into both equations.    Protein: . Cost: .        Two-Pointers and Three-Pointers   During a stretch of a basketball game, a team scored 72 points using only 2-point field goals and 3-point field goals (no free throws). They made 31 successful baskets in total. How many 2-pointers and how many 3-pointers did they make?     Define your variables.  Let   Let     = number of 2-point field goals; = number of 3-point field goals.      Write two equations that describe this situation.    What the equation tracks  Equation    Total baskets made     Total points scored       Baskets: ; Points: .      Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale, label both axes, and mark the intersection point.   Blank square coordinate grid with unlabeled axes for students to sketch their own graph of the system.        State the coordinates of the intersection point:         What does this solution mean in the context of the basketball game? Write a complete sentence.    The team made 21 two-point field goals and 10 three-point field goals during that stretch of the game.      Check your answer by substituting your values back into both equations.    Baskets: . Points: .        Selling Concert Tickets   A student entertainment board is organizing an outdoor concert on campus. They are selling two types of tickets: General Admission at $15 each and VIP Lawn Passes at $35 each. The venue holds exactly 450 people. If every seat is filled and total ticket revenue comes to exactly $8,250, how many of each type of ticket did they sell?     Define your variables.  Let   Let     = number of General Admission tickets sold; = number of VIP Lawn Passes sold.      Write two equations that describe this situation.    What the equation tracks  Equation    Total tickets sold     Total revenue (dollars)       Tickets: ; Revenue: .      Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale, label both axes, and mark the intersection point.   Blank square coordinate grid with unlabeled axes for students to sketch their own graph of the system.        State the coordinates of the intersection point:         What does this solution mean in the context of the concert? Write a complete sentence.    The board sold 300 General Admission tickets and 150 VIP Lawn Passes to fill the venue and bring in exactly $8,250 in revenue.      Check your answer by substituting your values back into both equations.    Tickets: . Revenue: .       "
+  "body": " Systems of Linear Equations   Activity: Solving Systems of Linear Equations   A system of linear equations is a pair of equations considered together. The solution is any point that satisfies both equations; geometrically, it is where the two lines intersect.  There are three possible outcomes:  One solution: the lines intersect at exactly one point. Write the solution as an ordered pair .  No solution: the lines are parallel and never meet. The system is inconsistent.  Infinitely many solutions: the lines are identical and overlap completely.    For each problem: (a) match each line in the graph to one of the two equations given, (b) identify the system type (one solution, no solution, or infinite solutions), and (c) state the solution if one exists.      Coordinate plane showing two intersecting lines. A solid navy line passes through the points (0, negative 1) and (2, 3), labeled Line 1. A dashed blue line passes through the points (0, 5) and (5, 0), labeled Line 2. The lines cross at (2, 3), marked with a red dot.      Equations:  and  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Line 1: ; Line 2: . One solution; .         Coordinate plane showing two parallel lines with the same slope. A solid navy line crosses the y-axis at 2, labeled Line 1. A dashed blue line crosses the y-axis at negative 2, labeled Line 2. The lines do not intersect.      Equations:  and  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Line 1: ; Line 2: . No solution (parallel lines).         Coordinate plane showing a single line, labeled both Line 1 (solid) and Line 2 (dashed), since the two equations describe the same line. The line passes through (0, negative 3) and (2, 1).      Equations:  and   Note: Line 1 and Line 2 overlap completely in this graph.  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Both equations describe the same line; simplifies to . Infinite solutions.       Coordinate plane showing two intersecting lines. A solid navy line with a gentle positive slope crosses the y-axis at 1, labeled Line 1. A dashed blue line with a steep negative slope crosses the y-axis at 6, labeled Line 2. The lines cross at (2, 2), marked with a red dot.      Equations:  and  (a) Match each line to its equation:  Line 1 (solid):  Line 2 (dashed):  (b) System type (circle one): one solution \/ no solution \/ infinite solutions  (c) Solution (if any):    Line 1: ; Line 2: . One solution; .        Activity: Modeling Real-World Scenarios with Linear Systems   For each scenario below, work through the following steps in order.  Define your variables clearly.  Write a system of two linear equations that fits the situation.  Graph both equations in Desmos to find their intersection.  Sketch your graph on the provided grid; choose your own scale, label both axes, and mark the intersection point.  State the solution, explain what it means in context, and verify it satisfies both equations.       Worked Example. A store sells small candles for $4 each and large candles for $9 each. A customer buys a total of 8 candles and spends exactly $42. How many of each size did they buy?  Let = number of small candles purchased. Let = number of large candles purchased.      What it tracks  Equation    Total candles bought     Total amount spent     The intersection is at , so the customer bought 6 small candles and 2 large candles.  Check: ✓ and ✓   Note: as long as you define your variables consistently, it is fine if you assigned and the other way around. Your intersection point will have the coordinates swapped, but your conclusion will be equivalent.    Coordinate plane showing two intersecting lines for the candle example. A solid line for x plus y equals 8 and a dashed line for 4x plus 9y equals 42 cross at the point (6, 2), marked with a dot.        Hitting a Protein Goal   An athlete is planning their evening meal to hit exact nutrition targets. The meal will consist of grilled chicken breast and black beans only.  One serving of grilled chicken breast provides 30 grams of protein and costs $2.50.  One serving of black beans provides 7 grams of protein and costs $0.50.  The athlete needs this meal to provide exactly 81 grams of protein and cost exactly $6.50. How many servings of each should they prepare?     Define your variables.  Let   Let     = number of servings of grilled chicken breast; = number of servings of black beans.      Write two equations that describe this situation.    What the equation tracks  Equation    Total protein (grams)     Total cost (dollars)       Protein: ; Cost: .      Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale, label both axes, and mark the intersection point.   Blank square coordinate grid with unlabeled axes for students to sketch their own graph of the system.        State the coordinates of the intersection point:         What does this solution mean in the context of the athlete's meal? Write a complete sentence.    The athlete should prepare 2 servings of grilled chicken breast and 3 servings of black beans to get exactly 81 grams of protein for $6.50.      Check your answer by substituting your values back into both equations.    Protein: . Cost: .        Two-Pointers and Three-Pointers   During a stretch of a basketball game, a team scored 72 points using only 2-point field goals and 3-point field goals (no free throws). They made 31 successful baskets in total. How many 2-pointers and how many 3-pointers did they make?     Define your variables.  Let   Let     = number of 2-point field goals; = number of 3-point field goals.      Write two equations that describe this situation.    What the equation tracks  Equation    Total baskets made     Total points scored       Baskets: ; Points: .      Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale, label both axes, and mark the intersection point.   Blank square coordinate grid with unlabeled axes for students to sketch their own graph of the system.        State the coordinates of the intersection point:         What does this solution mean in the context of the basketball game? Write a complete sentence.    The team made 21 two-point field goals and 10 three-point field goals during that stretch of the game.      Check your answer by substituting your values back into both equations.    Baskets: . Points: .        Selling Concert Tickets   A student entertainment board is organizing an outdoor concert on campus. They are selling two types of tickets: General Admission at $15 each and VIP Lawn Passes at $35 each. The venue holds exactly 450 people. If every seat is filled and total ticket revenue comes to exactly $8,250, how many of each type of ticket did they sell?     Define your variables.  Let   Let     = number of General Admission tickets sold; = number of VIP Lawn Passes sold.      Write two equations that describe this situation.    What the equation tracks  Equation    Total tickets sold     Total revenue (dollars)       Tickets: ; Revenue: .      Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale, label both axes, and mark the intersection point.   Blank square coordinate grid with unlabeled axes for students to sketch their own graph of the system.        State the coordinates of the intersection point:         What does this solution mean in the context of the concert? Write a complete sentence.    The board sold 300 General Admission tickets and 150 VIP Lawn Passes to fill the venue and bring in exactly $8,250 in revenue.      Check your answer by substituting your values back into both equations.    Tickets: . Revenue: .       "
 },
 {
   "id": "activity-systems-graphing-2-1",
@@ -538,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Hitting a Protein Goal.",
-  "body": " Hitting a Protein Goal   An athlete is planning their evening meal to hit exact nutrition targets. The meal will consist of grilled chicken breast and black beans only.  One serving of grilled chicken breast provides 30 grams of protein and costs $2.50.  One serving of black beans provides 7 grams of protein and costs $0.50.  The athlete needs this meal to provide exactly 81 grams of protein and cost exactly $7.50. How many servings of each should they prepare?     Define your variables.  Let   Let     = number of servings of grilled chicken breast; = number of servings of black beans.      Write two equations that describe this situation.    What the equation tracks  Equation    Total protein (grams)     Total cost (dollars)       Protein: ; Cost: .      Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale, label both axes, and mark the intersection point.   Blank square coordinate grid with unlabeled axes for students to sketch their own graph of the system.        State the coordinates of the intersection point:         What does this solution mean in the context of the athlete's meal? Write a complete sentence.    The athlete should prepare 2 servings of grilled chicken breast and 3 servings of black beans to get exactly 81 grams of protein for $7.50.      Check your answer by substituting your values back into both equations.    Protein: . Cost: .    "
+  "body": " Hitting a Protein Goal   An athlete is planning their evening meal to hit exact nutrition targets. The meal will consist of grilled chicken breast and black beans only.  One serving of grilled chicken breast provides 30 grams of protein and costs $2.50.  One serving of black beans provides 7 grams of protein and costs $0.50.  The athlete needs this meal to provide exactly 81 grams of protein and cost exactly $6.50. How many servings of each should they prepare?     Define your variables.  Let   Let     = number of servings of grilled chicken breast; = number of servings of black beans.      Write two equations that describe this situation.    What the equation tracks  Equation    Total protein (grams)     Total cost (dollars)       Protein: ; Cost: .      Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale, label both axes, and mark the intersection point.   Blank square coordinate grid with unlabeled axes for students to sketch their own graph of the system.        State the coordinates of the intersection point:         What does this solution mean in the context of the athlete's meal? Write a complete sentence.    The athlete should prepare 2 servings of grilled chicken breast and 3 servings of black beans to get exactly 81 grams of protein for $6.50.      Check your answer by substituting your values back into both equations.    Protein: . Cost: .    "
 },
 {
   "id": "ex-systems-basketball",
@@ -676,6 +676,195 @@ var ptx_lunr_docs = [
   "body": " Concept Check: Classifying from a Table   For each table below, fill in the missing values, classify the pattern as linear, exponential, or neither, and write an equation if one exists.     Table A    1 2 3  4 5     4 12 36    Type:  Equation:    Exponential growth (ratio 3). ; values 108 and 324.      Table B    1 2 3  4 5     30 24 18    Type:  Equation:    Linear decreasing (difference ). ; values 12 and 6.      Table C    1 2 3  4 5     2 5 10    Type:  Equation:    Neither (quadratic). ; values 17 and 26.      Table D    1 2 3  4 5     96 48 24    Type:  Equation:    Exponential decay (ratio ). ; values 12 and 6.    "
 },
 {
+  "id": "act-exponential-graph",
+  "level": "1",
+  "url": "act-exponential-graph.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Exponential Graphs and Equations",
+  "body": " Exponential Graphs and Equations   Exponential Models: Graphs to Equations   Exponential models have form , where is the initial value and is the growth or decay factor.  Given a percent change , find by adding or subtracting from 1 based on whether it is a percent increase or decrease.      Consider the following graph of an exponential function:   Graph of a decaying exponential curve on a coordinate grid.   A coordinate grid with the -axis running from -2 to 4 and the -axis running from -18 to 2, gridlines every 1 unit horizontally and every 2 units vertically. A curve starts near the top left, decreases steeply, and flattens as it approaches the -axis from below. The curve passes through the points , , , , and .     f(x) = -8*(0.5)^x            Fill in the table of values based on the graph.    x  -1  0  1  2  3    y             Write an equation for this exponential function in form.       "
+},
+{
+  "id": "expgraph-q1",
+  "level": "2",
+  "url": "act-exponential-graph.html#expgraph-q1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Consider the following graph of an exponential function:   Graph of a decaying exponential curve on a coordinate grid.   A coordinate grid with the -axis running from -2 to 4 and the -axis running from -18 to 2, gridlines every 1 unit horizontally and every 2 units vertically. A curve starts near the top left, decreases steeply, and flattens as it approaches the -axis from below. The curve passes through the points , , , , and .     f(x) = -8*(0.5)^x            Fill in the table of values based on the graph.    x  -1  0  1  2  3    y             Write an equation for this exponential function in form.    "
+},
+{
+  "id": "act-exponential-app",
+  "level": "1",
+  "url": "act-exponential-app.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Exponential Models - Growth and Decay",
+  "body": " Exponential Models - Growth and Decay   Exponential Models: Growth and Decay   Exponential models have form , where is the initial value and is the growth or decay factor.  Given a percent change , find by adding or subtracting from 1 based on whether it is a percent increase or decrease.      The Gross Domestic Product (GDP) of Oregon is 243 billion dollars with a growth rate of 3.10%. Write an equation that can be used to estimate the size of Oregon's economy in a future year, assuming the same relative yearly growth rate. Let be the state's GDP in billions of dollars in years from now.    Find an exponential equation to model this situation.    Use your equation to find the GDP 9 years from now. Using Desmos may help.        Coral reefs throughout the world are decreasing at a rate of about 1.5% per year. Write an equation that can be used to determine the future area of a reef that now has an area of 100 . Let be the area of the coral reef in years from now.    Find an exponential equation to model this situation.    Use your equation to find how many years it will take for the area to decay to 55 . Using Desmos may help.      "
+},
+{
+  "id": "gdmodel-q1",
+  "level": "2",
+  "url": "act-exponential-app.html#gdmodel-q1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  The Gross Domestic Product (GDP) of Oregon is 243 billion dollars with a growth rate of 3.10%. Write an equation that can be used to estimate the size of Oregon's economy in a future year, assuming the same relative yearly growth rate. Let be the state's GDP in billions of dollars in years from now.    Find an exponential equation to model this situation.    Use your equation to find the GDP 9 years from now. Using Desmos may help.   "
+},
+{
+  "id": "gdmodel-q2",
+  "level": "2",
+  "url": "act-exponential-app.html#gdmodel-q2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Coral reefs throughout the world are decreasing at a rate of about 1.5% per year. Write an equation that can be used to determine the future area of a reef that now has an area of 100 . Let be the area of the coral reef in years from now.    Find an exponential equation to model this situation.    Use your equation to find how many years it will take for the area to decay to 55 . Using Desmos may help.   "
+},
+{
+  "id": "act-exponential-pt-function",
+  "level": "1",
+  "url": "act-exponential-pt-function.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Finding Exponential Functions Between Two Points",
+  "body": " Finding Exponential Functions Between Two Points   Exponential Equations from Two Points   An exponential model has the form , where is the initial value and is the growth or decay factor. This activity looks at two situations: one where you're given the -intercept outright, and one where you're not.     Case 1: -intercept given    Finding and when the -intercept is known  If one of your points is the -intercept , you already know . Just substitute the second point into and solve for .    Worked Example  A population starts at (at ) and grows to by . Find the exponential equation.  Points: and .   Step 1, find : Since is the -intercept, .   Step 2, find : Substitute the other point into :      Step 3, write the equation:       A quantity has -intercept and also passes through . Find the exponential equation that models this data.     , and substituting gives , so and . The equation is .      A quantity has -intercept and also passes through . Find the exponential equation that models this data.     , and substituting gives , so and . The equation is .       Case 2: -intercept not given    Finding and when the -intercept is NOT known  If neither point is the -intercept, set up two equations: and .  Divide the equations to eliminate : . Solve for .  Substitute back into either original equation to solve for .    Worked Example  A quantity passes through and . Find the exponential equation.   Step 1, divide to find :       Step 2, substitute back to find : Using in :      Step 3, write the equation:       A quantity passes through and . Find the exponential equation that models this data.    Dividing gives , so and . Using in gives , so . The equation is .      A quantity passes through and . Find the exponential equation that models this data.    Dividing gives , so and . Using in gives , so . The equation is .      "
+},
+{
+  "id": "worksheet-exp-two-points-3-1",
+  "level": "2",
+  "url": "act-exponential-pt-function.html#worksheet-exp-two-points-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Case 1: -intercept given "
+},
+{
+  "id": "note-case1-idea",
+  "level": "2",
+  "url": "act-exponential-pt-function.html#note-case1-idea",
+  "type": "Note",
+  "number": "19",
+  "title": "Finding <span class=\"process-math\">\\(a\\)<\/span> and <span class=\"process-math\">\\(b\\)<\/span> when the <span class=\"process-math\">\\(y\\)<\/span>-intercept is known.",
+  "body": " Finding and when the -intercept is known  If one of your points is the -intercept , you already know . Just substitute the second point into and solve for .  "
+},
+{
+  "id": "note-case1-example",
+  "level": "2",
+  "url": "act-exponential-pt-function.html#note-case1-example",
+  "type": "Note",
+  "number": "20",
+  "title": "Worked Example.",
+  "body": " Worked Example  A population starts at (at ) and grows to by . Find the exponential equation.  Points: and .   Step 1, find : Since is the -intercept, .   Step 2, find : Substitute the other point into :      Step 3, write the equation:    "
+},
+{
+  "id": "ex-case1-1",
+  "level": "2",
+  "url": "act-exponential-pt-function.html#ex-case1-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  A quantity has -intercept and also passes through . Find the exponential equation that models this data.     , and substituting gives , so and . The equation is .   "
+},
+{
+  "id": "ex-case1-2",
+  "level": "2",
+  "url": "act-exponential-pt-function.html#ex-case1-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  A quantity has -intercept and also passes through . Find the exponential equation that models this data.     , and substituting gives , so and . The equation is .   "
+},
+{
+  "id": "worksheet-exp-two-points-4-1",
+  "level": "2",
+  "url": "act-exponential-pt-function.html#worksheet-exp-two-points-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Case 2: -intercept not given "
+},
+{
+  "id": "note-case2-idea",
+  "level": "2",
+  "url": "act-exponential-pt-function.html#note-case2-idea",
+  "type": "Note",
+  "number": "21",
+  "title": "Finding <span class=\"process-math\">\\(a\\)<\/span> and <span class=\"process-math\">\\(b\\)<\/span> when the <span class=\"process-math\">\\(y\\)<\/span>-intercept is NOT known.",
+  "body": " Finding and when the -intercept is NOT known  If neither point is the -intercept, set up two equations: and .  Divide the equations to eliminate : . Solve for .  Substitute back into either original equation to solve for .  "
+},
+{
+  "id": "note-case2-example",
+  "level": "2",
+  "url": "act-exponential-pt-function.html#note-case2-example",
+  "type": "Note",
+  "number": "22",
+  "title": "Worked Example.",
+  "body": " Worked Example  A quantity passes through and . Find the exponential equation.   Step 1, divide to find :       Step 2, substitute back to find : Using in :      Step 3, write the equation:    "
+},
+{
+  "id": "ex-case2-1",
+  "level": "2",
+  "url": "act-exponential-pt-function.html#ex-case2-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  A quantity passes through and . Find the exponential equation that models this data.    Dividing gives , so and . Using in gives , so . The equation is .   "
+},
+{
+  "id": "ex-case2-2",
+  "level": "2",
+  "url": "act-exponential-pt-function.html#ex-case2-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  A quantity passes through and . Find the exponential equation that models this data.    Dividing gives , so and . Using in gives , so . The equation is .   "
+},
+{
+  "id": "act-exponential-interest",
+  "level": "1",
+  "url": "act-exponential-interest.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Compound Interest",
+  "body": " Compound Interest   Compound Interest: Exponential Applications   The standard formula for calculating compound interest is:     is the future value, the final amount in the account.  is the present value, the initial principal or starting deposit.  is the annual interest rate, written as a decimal.  is the number of compounding periods per year (for example, monthly is and quarterly is ).  is the time in years.   Goal: instead of simply memorizing the formula, we will build it step by step using growth factors to see why it works.      Worked Example: Monthly Compounding   Imagine you deposit \\$2,000 into an account earning 12% annual interest compounded monthly for 3 years.  Step 1 (convert the annual rate): the annual rate is .  Step 2 (find the periodic rate): since interest is compounded monthly ( ), split the annual rate across 12 months.     Step 3 (determine the growth factor): a 1% increase each month means our multiplier, the growth factor, is     Step 4 (count the total compounding periods): over 3 years, interest is applied 12 times a year.     Step 5 (calculate the future value): multiply the starting deposit by the growth factor 36 times.     Notice how this matches the standard formula: .        You deposit \\$4,000 into an account earning 6% annual interest compounded monthly. Our goal is to find out how much you will have in the account after 5 years.    Convert the annual interest rate of 6% into a decimal.    If you split this decimal rate equally across 12 months, how much interest is that per month?    Because this represents a percent increase applied every month, what is your monthly growth factor?    Since the investment sits in the account for 5 years, how many total monthly compounding periods occur?    Use an exponential calculation to apply the growth factor from part (c) over the total number of months from part (d) to the starting deposit of \\$4,000. What is the future value?  \\$5,395.40     Set up the exact same calculation using the compound interest formula . How do the pieces of the formula align with the individual steps you just performed?         Let's try changing the compounding frequency. You deposit \\$1,500 into a savings account that earns 8% annual interest compounded quarterly (4 times per year). How much will be in the account after 10 years?    What is the annual interest rate as a decimal?    Split the annual rate across 4 quarters to find the quarterly interest rate.    What is your quarterly growth factor?    How many total quarters are there in 10 years?    Calculate the future value of the account after 10 years.  \\$3,312.06     Write out the full formula with your numbers plugged in to verify your work.         Now let's look at semi-annual compounding (2 times per year). You invest \\$8,000 in a fund earning 10% annual interest compounded semi-annually for 4 years.    What is the interest rate per six month period, the semi-annual rate?    What is the growth factor for each six month period?    How many total times will interest be compounded over the 4 year period?    Calculate the final balance in the fund after 4 years.  \\$11,819.64      "
+},
+{
+  "id": "ciea-example-monthly",
+  "level": "2",
+  "url": "act-exponential-interest.html#ciea-example-monthly",
+  "type": "Example",
+  "number": "23",
+  "title": "Worked Example: Monthly Compounding.",
+  "body": " Worked Example: Monthly Compounding   Imagine you deposit \\$2,000 into an account earning 12% annual interest compounded monthly for 3 years.  Step 1 (convert the annual rate): the annual rate is .  Step 2 (find the periodic rate): since interest is compounded monthly ( ), split the annual rate across 12 months.     Step 3 (determine the growth factor): a 1% increase each month means our multiplier, the growth factor, is     Step 4 (count the total compounding periods): over 3 years, interest is applied 12 times a year.     Step 5 (calculate the future value): multiply the starting deposit by the growth factor 36 times.     Notice how this matches the standard formula: .   "
+},
+{
+  "id": "ciea-q1",
+  "level": "2",
+  "url": "act-exponential-interest.html#ciea-q1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  You deposit \\$4,000 into an account earning 6% annual interest compounded monthly. Our goal is to find out how much you will have in the account after 5 years.    Convert the annual interest rate of 6% into a decimal.    If you split this decimal rate equally across 12 months, how much interest is that per month?    Because this represents a percent increase applied every month, what is your monthly growth factor?    Since the investment sits in the account for 5 years, how many total monthly compounding periods occur?    Use an exponential calculation to apply the growth factor from part (c) over the total number of months from part (d) to the starting deposit of \\$4,000. What is the future value?  \\$5,395.40     Set up the exact same calculation using the compound interest formula . How do the pieces of the formula align with the individual steps you just performed?    "
+},
+{
+  "id": "ciea-q2",
+  "level": "2",
+  "url": "act-exponential-interest.html#ciea-q2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let's try changing the compounding frequency. You deposit \\$1,500 into a savings account that earns 8% annual interest compounded quarterly (4 times per year). How much will be in the account after 10 years?    What is the annual interest rate as a decimal?    Split the annual rate across 4 quarters to find the quarterly interest rate.    What is your quarterly growth factor?    How many total quarters are there in 10 years?    Calculate the future value of the account after 10 years.  \\$3,312.06     Write out the full formula with your numbers plugged in to verify your work.    "
+},
+{
+  "id": "ciea-q3",
+  "level": "2",
+  "url": "act-exponential-interest.html#ciea-q3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Now let's look at semi-annual compounding (2 times per year). You invest \\$8,000 in a fund earning 10% annual interest compounded semi-annually for 4 years.    What is the interest rate per six month period, the semi-annual rate?    What is the growth factor for each six month period?    How many total times will interest be compounded over the 4 year period?    Calculate the final balance in the fund after 4 years.  \\$11,819.64   "
+},
+{
   "id": "act-inverses-logarithms-reversing",
   "level": "1",
   "url": "act-inverses-logarithms-reversing.html",
@@ -728,6 +917,69 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "Visual Pattern B.",
   "body": " Visual Pattern B   Observe the doubling growth behavior of the following stars.   Star patterns for Cases 1 through 4, doubling each time.   Four groups of five-pointed stars. Case 1 has 1 star, Case 2 has 2 stars, Case 3 has 4 stars arranged in a 2 by 2 grid, and Case 4 has 8 stars arranged in a 4 by 2 grid.        Is the growth of this pattern linear ? Explain why or why not.      Explain how the number of stars is changing between cases and use that pattern to determine the total number of stars that will appear in Case 5 .    "
+},
+{
+  "id": "ws-groupquiz3-exponential",
+  "level": "1",
+  "url": "ws-groupquiz3-exponential.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Group Quiz 3: Exponential Functions",
+  "body": " Group Quiz 3: Exponential Functions   Work together as a group. Each problem is worth 5 points.   Explain your reasoning in complete sentences where asked.  Show your work for any calculations in as much detail as possible.  Since it is a team quiz, make sure you agree on your final answers; think of ways to double check your work for each problem.  Invite everyone to participate. Try to build as much understanding for each problem.      Growth Pattern: Circles   Consider the visual pattern below, where the number of circles increases at each step.   Three groups of dots arranged in columns, growing from 3 to 6 to 12 dots.   Step 1 shows a single column of 3 dots. Step 2 shows two columns of 3 dots each, for 6 dots total. Step 3 shows four columns of 3 dots each, for 12 dots total.                   \\text{Step 1}  \\text{Step 2}  \\text{Step 3}         Is this growth pattern linear, exponential, or neither? Explain how you can tell by examining how the number of circles changes from one step to the next.    This pattern represents exponential growth. We can tell by counting the total number of circles at each step: Step 1 has 3 circles, Step 2 has 6 circles, and Step 3 has 12 circles. From one step to the next, the number of circles is multiplied by 2 (it doubles). Because the pattern grows by a constant multiplier (growth factor of 2) rather than by adding a constant amount, it is an exponential function.      Write a formula for the total number of circles, , in Step .    We know that an exponential model has the general form , where is the growth factor and is the initial value (when ).  Since the number of circles doubles at each step, our growth factor is . To find the initial value at Step 0, we can work backward from Step 1 by dividing by 2.   Therefore, the formula for the total number of circles in Step is   You can also write the formula starting directly from Step 1 as . Both expressions are mathematically equivalent and fully correct.        Exponential Graph: Finding the Equation   An exponential function of the form is shown on the graph below. Several integer input points are highlighted.   Graph of an increasing exponential curve with three highlighted points.   A coordinate grid with the -axis from -2.5 to 3.5 and the -axis from -0.5 to 15. An increasing curve is highlighted at three points: , , and .     f(x) = 5*(1.6)^x               Identify the vertical intercept from the graph. What parameter ( or ) does this value give you?    The vertical intercept (or -intercept) is the point where the graph crosses the vertical axis, which is at . In the general exponential equation , plugging in gives . Therefore, the vertical intercept gives us the initial value parameter, .      Use the coordinates of the plotted points to find the growth factor . Show your work or explain how you found it.    The growth factor represents the ratio of outputs for any two consecutive integer inputs. Using the plotted points and , we can divide the output at by the output at .   We can verify this constant multiplier by checking the next plotted point at .   The growth factor is .      Write the complete equation for the exponential function shown above.    Substituting our initial value and our growth factor into the form , we get the complete function:         Exponential Decay: Delivery Van Depreciation   A new delivery van is purchased for \\$42,000. As soon as it is driven off the lot, it begins depreciating in value. Each year, the van loses 15% of its value from the previous year. Let represent the value of the van (in dollars) years after it was purchased.     State the initial value and determine the annual decay factor for this situation. Explain how you found the decay factor.    The initial value is the purchase price of the van, so .  To find the decay factor , we start with 100% of the value (or 1) and subtract the annual rate of depreciation, .   This means that after losing 15% of its value each year, the van retains 85% of its value from the previous year.      Write a function that models the van's value over time.    Using the exponential model with our initial value and decay factor , the function is:       Find and explain what this number tells you about the van. Round your final dollar value to the nearest cent.    To find , substitute years into our valuation function.   Calculating :   Rounding to the nearest cent gives \\$15,840.28. This number tells us that 6 years after being purchased, the delivery van's value will have depreciated to approximately \\$15,840.28.        Compound Interest: Certificate of Deposit   Suppose you deposit $4,800 into a certificate of deposit (CD) that pays an annual interest rate of 5.2%, compounded monthly. Let be the account balance after years. Assume no extra deposits or withdrawals are made.     State the compound interest formula, and list the specific numerical values you will use for the principal , the annual interest rate , and the number of compounding periods per year .    The compound interest formula is given by:   For this specific account, we identify the following parameters from the problem statement.  Principal (initial deposit): .  Annual interest rate (as a decimal): .  Compounding periods per year (monthly): .      Write the complete function for the balance in this account after years.    Substituting our values for , , and into the formula yields:       How much money will be in the account after 8 years? Show your calculation and round your final answer to the nearest cent.    To find the balance after 8 years, evaluate by substituting .   Step by step calculation:  Find the monthly interest rate: .  Add 1 to get the monthly growth factor: .  Raise this growth factor to the 96th power (total number of compounding months in 8 years): .  Multiply by the principal: .  Rounding to the nearest cent, there will be \\$7,268.80 in the account after 8 years.        Building an Exponential Function from Two Points   Find an exponential function of the form that passes through the points and .     Use the two given coordinate points to set up a system of two equations involving the variables and .    Each point on the graph must satisfy the equation . Substituting each coordinate pair into the general exponential form gives us our system of equations.         Solve your system algebraically to find the exact values of and . Show each step of your work clearly.    A great strategy for solving a system of exponential equations is to divide the second equation by the first equation. This eliminates the initial value variable .   Simplify both sides of the equation.   To solve for , take the square root of both sides. Since the base of an exponential function must be positive ( ), we take the positive root.   Now that we have the exact growth factor , substitute it back into our simplest first equation ( ) to solve for .   Multiply both sides by 5.   Thus, the exact values are and (or 0.2).      Write your final exponential function .    Substituting and into the general form, our exponential function is:       "
+},
+{
+  "id": "ws-groupquiz3-exponential-2-2",
+  "level": "2",
+  "url": "ws-groupquiz3-exponential.html#ws-groupquiz3-exponential-2-2",
+  "type": "Note",
+  "number": "27",
+  "title": "",
+  "body": " Explain your reasoning in complete sentences where asked.  Show your work for any calculations in as much detail as possible.  Since it is a team quiz, make sure you agree on your final answers; think of ways to double check your work for each problem.  Invite everyone to participate. Try to build as much understanding for each problem.  "
+},
+{
+  "id": "gq3-p1",
+  "level": "2",
+  "url": "ws-groupquiz3-exponential.html#gq3-p1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Growth Pattern: Circles.",
+  "body": " Growth Pattern: Circles   Consider the visual pattern below, where the number of circles increases at each step.   Three groups of dots arranged in columns, growing from 3 to 6 to 12 dots.   Step 1 shows a single column of 3 dots. Step 2 shows two columns of 3 dots each, for 6 dots total. Step 3 shows four columns of 3 dots each, for 12 dots total.                   \\text{Step 1}  \\text{Step 2}  \\text{Step 3}         Is this growth pattern linear, exponential, or neither? Explain how you can tell by examining how the number of circles changes from one step to the next.    This pattern represents exponential growth. We can tell by counting the total number of circles at each step: Step 1 has 3 circles, Step 2 has 6 circles, and Step 3 has 12 circles. From one step to the next, the number of circles is multiplied by 2 (it doubles). Because the pattern grows by a constant multiplier (growth factor of 2) rather than by adding a constant amount, it is an exponential function.      Write a formula for the total number of circles, , in Step .    We know that an exponential model has the general form , where is the growth factor and is the initial value (when ).  Since the number of circles doubles at each step, our growth factor is . To find the initial value at Step 0, we can work backward from Step 1 by dividing by 2.   Therefore, the formula for the total number of circles in Step is   You can also write the formula starting directly from Step 1 as . Both expressions are mathematically equivalent and fully correct.    "
+},
+{
+  "id": "gq3-p2",
+  "level": "2",
+  "url": "ws-groupquiz3-exponential.html#gq3-p2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Exponential Graph: Finding the Equation.",
+  "body": " Exponential Graph: Finding the Equation   An exponential function of the form is shown on the graph below. Several integer input points are highlighted.   Graph of an increasing exponential curve with three highlighted points.   A coordinate grid with the -axis from -2.5 to 3.5 and the -axis from -0.5 to 15. An increasing curve is highlighted at three points: , , and .     f(x) = 5*(1.6)^x               Identify the vertical intercept from the graph. What parameter ( or ) does this value give you?    The vertical intercept (or -intercept) is the point where the graph crosses the vertical axis, which is at . In the general exponential equation , plugging in gives . Therefore, the vertical intercept gives us the initial value parameter, .      Use the coordinates of the plotted points to find the growth factor . Show your work or explain how you found it.    The growth factor represents the ratio of outputs for any two consecutive integer inputs. Using the plotted points and , we can divide the output at by the output at .   We can verify this constant multiplier by checking the next plotted point at .   The growth factor is .      Write the complete equation for the exponential function shown above.    Substituting our initial value and our growth factor into the form , we get the complete function:     "
+},
+{
+  "id": "gq3-p3",
+  "level": "2",
+  "url": "ws-groupquiz3-exponential.html#gq3-p3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Exponential Decay: Delivery Van Depreciation.",
+  "body": " Exponential Decay: Delivery Van Depreciation   A new delivery van is purchased for \\$42,000. As soon as it is driven off the lot, it begins depreciating in value. Each year, the van loses 15% of its value from the previous year. Let represent the value of the van (in dollars) years after it was purchased.     State the initial value and determine the annual decay factor for this situation. Explain how you found the decay factor.    The initial value is the purchase price of the van, so .  To find the decay factor , we start with 100% of the value (or 1) and subtract the annual rate of depreciation, .   This means that after losing 15% of its value each year, the van retains 85% of its value from the previous year.      Write a function that models the van's value over time.    Using the exponential model with our initial value and decay factor , the function is:       Find and explain what this number tells you about the van. Round your final dollar value to the nearest cent.    To find , substitute years into our valuation function.   Calculating :   Rounding to the nearest cent gives \\$15,840.28. This number tells us that 6 years after being purchased, the delivery van's value will have depreciated to approximately \\$15,840.28.    "
+},
+{
+  "id": "gq3-p4",
+  "level": "2",
+  "url": "ws-groupquiz3-exponential.html#gq3-p4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Compound Interest: Certificate of Deposit.",
+  "body": " Compound Interest: Certificate of Deposit   Suppose you deposit $4,800 into a certificate of deposit (CD) that pays an annual interest rate of 5.2%, compounded monthly. Let be the account balance after years. Assume no extra deposits or withdrawals are made.     State the compound interest formula, and list the specific numerical values you will use for the principal , the annual interest rate , and the number of compounding periods per year .    The compound interest formula is given by:   For this specific account, we identify the following parameters from the problem statement.  Principal (initial deposit): .  Annual interest rate (as a decimal): .  Compounding periods per year (monthly): .      Write the complete function for the balance in this account after years.    Substituting our values for , , and into the formula yields:       How much money will be in the account after 8 years? Show your calculation and round your final answer to the nearest cent.    To find the balance after 8 years, evaluate by substituting .   Step by step calculation:  Find the monthly interest rate: .  Add 1 to get the monthly growth factor: .  Raise this growth factor to the 96th power (total number of compounding months in 8 years): .  Multiply by the principal: .  Rounding to the nearest cent, there will be \\$7,268.80 in the account after 8 years.    "
+},
+{
+  "id": "gq3-p5",
+  "level": "2",
+  "url": "ws-groupquiz3-exponential.html#gq3-p5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Building an Exponential Function from Two Points.",
+  "body": " Building an Exponential Function from Two Points   Find an exponential function of the form that passes through the points and .     Use the two given coordinate points to set up a system of two equations involving the variables and .    Each point on the graph must satisfy the equation . Substituting each coordinate pair into the general exponential form gives us our system of equations.         Solve your system algebraically to find the exact values of and . Show each step of your work clearly.    A great strategy for solving a system of exponential equations is to divide the second equation by the first equation. This eliminates the initial value variable .   Simplify both sides of the equation.   To solve for , take the square root of both sides. Since the base of an exponential function must be positive ( ), we take the positive root.   Now that we have the exact growth factor , substitute it back into our simplest first equation ( ) to solve for .   Multiply both sides by 5.   Thus, the exact values are and (or 0.2).      Write your final exponential function .    Substituting and into the general form, our exponential function is:     "
 },
 {
   "id": "lt1-practice-quiz",
@@ -991,67 +1243,13 @@ var ptx_lunr_docs = [
   "body": " Estimating Maximum Heart Rate   Exercise scientists estimate a person's maximum heart rate from their age, and the relationship is linear. Two estimates are given: a -year-old has an estimated maximum heart rate of bpm, and a -year-old has an estimated maximum heart rate of bpm.     Pick variables to describe this situation, and indicate what each variable represents (including units).        Variable (letter)  Meaning of the variable (including units)    Independent      Dependent              Variable (letter)  Meaning of the variable (including units)    Independent   Age (years)    Dependent   Estimated maximum heart rate (bpm)       Write a linear equation to model the estimated maximum heart rate. Show your thinking.   Treat the data as two points, and .  Slope: .  Substitute into : , so .  Final equation: . (This is the Tanaka formula, , used by exercise physiologists.)     What is the slope of your model, and what does it mean in the context of this situation?  The slope is . It means the estimated maximum heart rate decreases by bpm for each additional year of age.    What is the y-intercept of your model, and what does it mean in the context of this situation?   The y-intercept is , the model's value at age . A newborn is not a meaningful input for this formula, so does not have a realistic interpretation here—it is the mathematical y-intercept rather than a true maximum heart rate at birth.     Use your model to estimate the maximum heart rate of a -year-old. (That is, find .) Show your thinking.   Substitute : . The estimated maximum heart rate of a -year-old is bpm.     For what age does the model predict a maximum heart rate of bpm? (That is, find so that .) Show your thinking.   Set and solve: , so and . The model predicts a maximum heart rate of bpm at age .     What inputs make sense in this situation? Explain.   The input is a person's age, so should be positive, and the formula is intended for human ages—roughly the teens through about to years. Age , negative ages, and very large ages do not give meaningful estimates.    "
 },
 {
-  "id": "lt7-practice-quiz",
-  "level": "1",
-  "url": "lt7-practice-quiz.html",
-  "type": "Worksheet",
-  "number": "",
-  "title": "Learning Target 6: Systems of Linear Equations",
-  "body": " Learning Target 6: Systems of Linear Equations    Given a system of linear equations, or a word situation, or data sets create a system of equations as applicable and solve the system.       Hitting a Protein Goal   One scoop of protein powder provides grams of protein and calories. One granola bar provides grams of protein and calories. You want a snack made of scoops and bars that provides exactly grams of protein and exactly calories.    Define your variables and write a system of equations that models this situation.   Let be the number of scoops of protein powder and be the number of granola bars.  The system is:     The first equation counts grams of protein, and the second counts calories.     Graph both equations in Desmos and identify the solution.  In Desmos, enter the equations using for scoops and for bars. The two lines cross at , so the solution is and .    Solve the system algebraically to confirm your answer.   Multiply the first equation by so the protein-powder terms match the second equation:   Subtract this from the calorie equation:   , so .  Substitute into the protein equation: , so and .     Interpret the solution in the context of the situation.  You should use scoops of protein powder and granola bars to get exactly grams of protein and calories.        Twos and Threes   In a game, a basketball player makes shots from the field, each one a two-point shot or a three-point shot, and scores points in total. You want to find how many of each kind of shot the player made.    Define your variables and write a system of equations that models this situation.   Let be the number of two-point shots and be the number of three-point shots.  The system is:     The first equation counts shots, and the second counts points.     Graph both equations in Desmos and identify the solution.  Graphing both lines in Desmos, they cross at , so the solution is and .    Solve the system algebraically to confirm your answer.   Solve the first equation for : .  Substitute into the points equation:    , so .  Then .     Interpret the solution in the context of the situation.  The player made two-point shots and three-point shots.        Selling Show Tickets   A concert sells two kinds of tickets: general admission for each and VIP for each. The show sells tickets in all and brings in . You want to find how many of each kind of ticket were sold.    Define your variables and write a system of equations that models this situation.   Let be the number of general-admission tickets and be the number of VIP tickets.  The system is:     The first equation counts tickets, and the second counts dollars.     Graph both equations in Desmos and identify the solution.  Graphing both lines in Desmos, they cross at , so the solution is and .    Solve the system algebraically to confirm your answer.   Solve the first equation for : .  Substitute into the dollars equation:     , so .  Then .     Interpret the solution in the context of the situation.  The concert sold general-admission tickets and VIP tickets.        How Many Solutions?   Consider the following system of linear equations:       Graph both equations in Desmos. How many solutions does the system have? Explain what the graph shows.   Rewriting each equation in slope-intercept form gives and . Both lines have slope but different vertical intercepts ( and ), so they are parallel and never cross. The system has no solution.     Solve the system algebraically. How does the algebra confirm your answer from the previous part?   Multiply the first equation by : . Subtract this from the second equation:    This statement is false, which means no pair can satisfy both equations. That agrees with the graph: the lines are parallel, so there is no solution.     Change the constant on the right side of the second equation from to a new value so that the system has infinitely many solutions. What is , and how do you know?   Notice that the left side of the second equation is twice the left side of the first, since . For the two equations to describe the same line, the right side must follow the same pattern: .  With , the second equation is exactly times the first, so both equations represent the same line. Every point on that line satisfies both equations, so the system has infinitely many solutions.     Is there any value of that makes the system have exactly one solution? Explain.   No. The left side of the second equation is always twice the left side of the first, so the two lines always have the same slope. Changing only shifts the second line up or down. The lines are therefore either parallel and separate (no solution, when ) or the very same line (infinitely many solutions, when ). Lines with equal slopes never cross at a single point, so no value of can give exactly one solution.      "
-},
-{
-  "id": "lt7-practice-quiz-2",
-  "level": "2",
-  "url": "lt7-practice-quiz.html#lt7-practice-quiz-2",
-  "type": "Objectives",
-  "number": "",
-  "title": "",
-  "body": "  Given a system of linear equations, or a word situation, or data sets create a system of equations as applicable and solve the system.   "
-},
-{
-  "id": "lt7-protein",
-  "level": "2",
-  "url": "lt7-practice-quiz.html#lt7-protein",
-  "type": "Worksheet Exercise",
-  "number": "1",
-  "title": "Hitting a Protein Goal.",
-  "body": " Hitting a Protein Goal   One scoop of protein powder provides grams of protein and calories. One granola bar provides grams of protein and calories. You want a snack made of scoops and bars that provides exactly grams of protein and exactly calories.    Define your variables and write a system of equations that models this situation.   Let be the number of scoops of protein powder and be the number of granola bars.  The system is:     The first equation counts grams of protein, and the second counts calories.     Graph both equations in Desmos and identify the solution.  In Desmos, enter the equations using for scoops and for bars. The two lines cross at , so the solution is and .    Solve the system algebraically to confirm your answer.   Multiply the first equation by so the protein-powder terms match the second equation:   Subtract this from the calorie equation:   , so .  Substitute into the protein equation: , so and .     Interpret the solution in the context of the situation.  You should use scoops of protein powder and granola bars to get exactly grams of protein and calories.   "
-},
-{
-  "id": "lt7-basketball",
-  "level": "2",
-  "url": "lt7-practice-quiz.html#lt7-basketball",
-  "type": "Worksheet Exercise",
-  "number": "2",
-  "title": "Twos and Threes.",
-  "body": " Twos and Threes   In a game, a basketball player makes shots from the field, each one a two-point shot or a three-point shot, and scores points in total. You want to find how many of each kind of shot the player made.    Define your variables and write a system of equations that models this situation.   Let be the number of two-point shots and be the number of three-point shots.  The system is:     The first equation counts shots, and the second counts points.     Graph both equations in Desmos and identify the solution.  Graphing both lines in Desmos, they cross at , so the solution is and .    Solve the system algebraically to confirm your answer.   Solve the first equation for : .  Substitute into the points equation:    , so .  Then .     Interpret the solution in the context of the situation.  The player made two-point shots and three-point shots.   "
-},
-{
-  "id": "lt7-tickets",
-  "level": "2",
-  "url": "lt7-practice-quiz.html#lt7-tickets",
-  "type": "Worksheet Exercise",
-  "number": "3",
-  "title": "Selling Show Tickets.",
-  "body": " Selling Show Tickets   A concert sells two kinds of tickets: general admission for each and VIP for each. The show sells tickets in all and brings in . You want to find how many of each kind of ticket were sold.    Define your variables and write a system of equations that models this situation.   Let be the number of general-admission tickets and be the number of VIP tickets.  The system is:     The first equation counts tickets, and the second counts dollars.     Graph both equations in Desmos and identify the solution.  Graphing both lines in Desmos, they cross at , so the solution is and .    Solve the system algebraically to confirm your answer.   Solve the first equation for : .  Substitute into the dollars equation:     , so .  Then .     Interpret the solution in the context of the situation.  The concert sold general-admission tickets and VIP tickets.   "
-},
-{
-  "id": "lt7-solutions",
-  "level": "2",
-  "url": "lt7-practice-quiz.html#lt7-solutions",
-  "type": "Worksheet Exercise",
-  "number": "4",
-  "title": "How Many Solutions?",
-  "body": " How Many Solutions?   Consider the following system of linear equations:       Graph both equations in Desmos. How many solutions does the system have? Explain what the graph shows.   Rewriting each equation in slope-intercept form gives and . Both lines have slope but different vertical intercepts ( and ), so they are parallel and never cross. The system has no solution.     Solve the system algebraically. How does the algebra confirm your answer from the previous part?   Multiply the first equation by : . Subtract this from the second equation:    This statement is false, which means no pair can satisfy both equations. That agrees with the graph: the lines are parallel, so there is no solution.     Change the constant on the right side of the second equation from to a new value so that the system has infinitely many solutions. What is , and how do you know?   Notice that the left side of the second equation is twice the left side of the first, since . For the two equations to describe the same line, the right side must follow the same pattern: .  With , the second equation is exactly times the first, so both equations represent the same line. Every point on that line satisfies both equations, so the system has infinitely many solutions.     Is there any value of that makes the system have exactly one solution? Explain.   No. The left side of the second equation is always twice the left side of the first, so the two lines always have the same slope. Changing only shifts the second line up or down. The lines are therefore either parallel and separate (no solution, when ) or the very same line (infinitely many solutions, when ). Lines with equal slopes never cross at a single point, so no value of can give exactly one solution.    "
-},
-{
   "id": "lt6-practice-quiz",
   "level": "1",
   "url": "lt6-practice-quiz.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Desmos Skill 1: Linear Regression Models",
-  "body": " Desmos Skill 1: Linear Regression Models    Given a data set, make a linear regression model on Desmos, identify and explain the meaning of slope in the context, identify and explain the y-intercept in the context, find and explain its meaning, find given and explain its meaning.       Latitude and Winter Temperature   The table below gives the latitude (degrees north) and the average January temperature (in F) for ten U.S. cities.       City  Latitude ( N)  Avg. January temp ( F)   Miami, FL 25.8 68.5  Houston, TX 29.8 55.0  Dallas, TX 32.8 48.0  Atlanta, GA 33.7 45.0  Memphis, TN 35.1 42.0  St. Louis, MO 38.6 32.0  Cincinnati, OH 39.1 31.5  Indianapolis, IN 39.8 28.5  Chicago, IL 41.9 26.5  Minneapolis, MN 45.0 16.5   Source: average January temperature is the mean of the 1991–2020 NOAA normal daily high and low (NOAA National Centers for Environmental Information, via Current Results); latitudes are the cities' coordinates.    What are the independent and dependent variables in this situation?  Independent variable: , latitude (degrees north). Dependent variable: , average January temperature ( F).    Create a linear model that represents the data. Round numbers to 3 decimal places on your paper.  Entering the data in Desmos and fitting a line gives .    According to your model, what is the average January temperature for a city at latitude N? Round your answer to a whole number.  Let : , or about F.    According to your model, at what latitude is the average January temperature F? Round your answer to a whole number.   Let and solve for :   (subtract from both sides)  (divide both sides by )  So the model predicts an average January temperature of F at about N latitude.     What is the slope in the equation, and what does it mean in the context of the situation?  The slope is . It means that for each additional degree of latitude north, the average January temperature decreases by about F.    What is the vertical intercept (round to a whole number) and explain what it means (or why it doesn't make sense) in the context of the situation?  The vertical intercept is . This says that at latitude (the equator), the average January temperature would be about F. This does not make sense: it is far outside the range of the data, and no place on Earth averages F.    What is the horizontal intercept (round to a whole number) and explain what it means (or why it doesn't make sense) in the context of the situation?  Let : , so . The horizontal intercept is about , meaning the model predicts an average January temperature of F at about N. This is just beyond the data, and nothing about it is obviously impossible. Far-northern cities do have very cold Januaries, so a prediction near F is at least plausible. Keep in mind, though, that it is not accurate for every city near that latitude. Because the model uses only latitude, it misses other factors (such as nearness to an ocean), so cities around N actually range from quite cold to fairly mild.        Height and Arm Span   The table below gives the height and arm span, both in centimeters, for ten students.      Height (cm)  Arm span (cm)   154 158  157 157  161 162  164 163  167 172  168 161  173 172  177 181  185 184  191 190   Source: measured data from a sample of 25 students (SERC \/ Carleton College example data set); ten of the students are listed here.    What are the independent and dependent variables in this situation?  Independent variable: , height (cm). Dependent variable: , arm span (cm).    Create a linear model that represents the data. Round numbers to 3 decimal places on your paper.  Entering the data in Desmos and fitting a line gives .    According to your model, what is the arm span of a student who is cm tall? Round your answer to a whole number.  Let : , or about cm.    According to your model, how tall is a student whose arm span is cm? Round your answer to a whole number.   Let and solve for :   (subtract from both sides)  (divide both sides by )  So the model predicts a height of about cm.     What is the slope in the equation, and what does it mean in the context of the situation?  The slope is . It means that for each additional centimeter of height, arm span increases by about cm—close to the \"arm span equals height\" rule of thumb.    What is the vertical intercept (round to a whole number) and explain what it means (or why it doesn't make sense) in the context of the situation?  The vertical intercept is . This says a student who is cm tall would have an arm span of about cm. This does not make sense, because no one has a height of cm.    What is the horizontal intercept (round to a whole number) and explain what it means (or why it doesn't make sense) in the context of the situation?  Let : , so . The horizontal intercept is about , meaning an arm span of cm at a height of cm. This does not make sense, because a person cannot have a negative height.        Runs and Wins in Baseball   The table below gives the total runs scored and total wins for ten Major League Baseball teams during the 2025 regular season (each team played 162 games).       Team  Runs scored  Wins   Pittsburgh Pirates 583 71  Washington Nationals 687 66  St. Louis Cardinals 689 78  Cincinnati Reds 716 83  Atlanta Braves 724 76  New York Mets 766 83  Philadelphia Phillies 778 96  Chicago Cubs 793 92  Milwaukee Brewers 806 97  Los Angeles Dodgers 825 93   Source: 2025 MLB regular-season team totals—runs scored from FOX Sports (Sportradar); wins from the final 2025 MLB standings.    What are the independent and dependent variables in this situation?  Independent variable: , runs scored. Dependent variable: , wins.    Create a linear model that represents the data. Round numbers to 3 decimal places on your paper.  Entering the data in Desmos and fitting a line gives .    According to your model, how many games would a team that scores runs win? Round your answer to a whole number.  Let : , or about wins.    According to your model, how many runs would a team need to score to win games? Round your answer to a whole number.   Let and solve for :   (add to both sides)  (divide both sides by )  So the model predicts a team would need to score about runs to win games.     What is the slope in the equation, and what does it mean in the context of the situation?  The slope is . It means that for each additional run a team scores over the season, the model predicts about more wins—so roughly extra runs for each additional win.    What is the vertical intercept (round to a whole number) and explain what it means (or why it doesn't make sense) in the context of the situation?  The vertical intercept is . This says a team that scores runs all season would win about games. This does not make sense, because a team cannot win a negative number of games (and runs is far outside the data).    What is the horizontal intercept (round to a whole number) and explain what it means (or why it doesn't make sense) in the context of the situation?  Let : , so . The horizontal intercept is about , meaning a team scoring about runs would win games. This does not make sense: it is far below the data (even the weakest teams score around runs), and such a team would still win at least a few games.     "
+  "title": "Learning Target 6: Systems of Linear Equations",
+  "body": " Learning Target 6: Systems of Linear Equations    Given a system of linear equations, or a word situation, or data sets create a system of equations as applicable and solve the system.       Hitting a Protein Goal   One scoop of protein powder provides grams of protein and calories. One granola bar provides grams of protein and calories. You want a snack made of scoops and bars that provides exactly grams of protein and exactly calories.    Define your variables and write a system of equations that models this situation.   Let be the number of scoops of protein powder and be the number of granola bars.  The system is:     The first equation counts grams of protein, and the second counts calories.     Graph both equations in Desmos and identify the solution.  In Desmos, enter the equations using for scoops and for bars. The two lines cross at , so the solution is and .    Solve the system algebraically to confirm your answer.   Multiply the first equation by so the protein-powder terms match the second equation:   Subtract this from the calorie equation:   , so .  Substitute into the protein equation: , so and .     Interpret the solution in the context of the situation.  You should use scoops of protein powder and granola bars to get exactly grams of protein and calories.        Twos and Threes   In a game, a basketball player makes shots from the field, each one a two-point shot or a three-point shot, and scores points in total. You want to find how many of each kind of shot the player made.    Define your variables and write a system of equations that models this situation.   Let be the number of two-point shots and be the number of three-point shots.  The system is:     The first equation counts shots, and the second counts points.     Graph both equations in Desmos and identify the solution.  Graphing both lines in Desmos, they cross at , so the solution is and .    Solve the system algebraically to confirm your answer.   Solve the first equation for : .  Substitute into the points equation:    , so .  Then .     Interpret the solution in the context of the situation.  The player made two-point shots and three-point shots.        Selling Show Tickets   A concert sells two kinds of tickets: general admission for each and VIP for each. The show sells tickets in all and brings in . You want to find how many of each kind of ticket were sold.    Define your variables and write a system of equations that models this situation.   Let be the number of general-admission tickets and be the number of VIP tickets.  The system is:     The first equation counts tickets, and the second counts dollars.     Graph both equations in Desmos and identify the solution.  Graphing both lines in Desmos, they cross at , so the solution is and .    Solve the system algebraically to confirm your answer.   Solve the first equation for : .  Substitute into the dollars equation:     , so .  Then .     Interpret the solution in the context of the situation.  The concert sold general-admission tickets and VIP tickets.        How Many Solutions?   Consider the following system of linear equations:       Graph both equations in Desmos. How many solutions does the system have? Explain what the graph shows.   Rewriting each equation in slope-intercept form gives and . Both lines have slope but different vertical intercepts ( and ), so they are parallel and never cross. The system has no solution.     Solve the system algebraically. How does the algebra confirm your answer from the previous part?   Multiply the first equation by : . Subtract this from the second equation:    This statement is false, which means no pair can satisfy both equations. That agrees with the graph: the lines are parallel, so there is no solution.     Change the constant on the right side of the second equation from to a new value so that the system has infinitely many solutions. What is , and how do you know?   Notice that the left side of the second equation is twice the left side of the first, since . For the two equations to describe the same line, the right side must follow the same pattern: .  With , the second equation is exactly times the first, so both equations represent the same line. Every point on that line satisfies both equations, so the system has infinitely many solutions.     Is there any value of that makes the system have exactly one solution? Explain.   No. The left side of the second equation is always twice the left side of the first, so the two lines always have the same slope. Changing only shifts the second line up or down. The lines are therefore either parallel and separate (no solution, when ) or the very same line (infinitely many solutions, when ). Lines with equal slopes never cross at a single point, so no value of can give exactly one solution.      "
 },
 {
   "id": "lt6-practice-quiz-2",
@@ -1060,12 +1258,246 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "",
   "title": "",
+  "body": "  Given a system of linear equations, or a word situation, or data sets create a system of equations as applicable and solve the system.   "
+},
+{
+  "id": "lt7-protein",
+  "level": "2",
+  "url": "lt6-practice-quiz.html#lt7-protein",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Hitting a Protein Goal.",
+  "body": " Hitting a Protein Goal   One scoop of protein powder provides grams of protein and calories. One granola bar provides grams of protein and calories. You want a snack made of scoops and bars that provides exactly grams of protein and exactly calories.    Define your variables and write a system of equations that models this situation.   Let be the number of scoops of protein powder and be the number of granola bars.  The system is:     The first equation counts grams of protein, and the second counts calories.     Graph both equations in Desmos and identify the solution.  In Desmos, enter the equations using for scoops and for bars. The two lines cross at , so the solution is and .    Solve the system algebraically to confirm your answer.   Multiply the first equation by so the protein-powder terms match the second equation:   Subtract this from the calorie equation:   , so .  Substitute into the protein equation: , so and .     Interpret the solution in the context of the situation.  You should use scoops of protein powder and granola bars to get exactly grams of protein and calories.   "
+},
+{
+  "id": "lt7-basketball",
+  "level": "2",
+  "url": "lt6-practice-quiz.html#lt7-basketball",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Twos and Threes.",
+  "body": " Twos and Threes   In a game, a basketball player makes shots from the field, each one a two-point shot or a three-point shot, and scores points in total. You want to find how many of each kind of shot the player made.    Define your variables and write a system of equations that models this situation.   Let be the number of two-point shots and be the number of three-point shots.  The system is:     The first equation counts shots, and the second counts points.     Graph both equations in Desmos and identify the solution.  Graphing both lines in Desmos, they cross at , so the solution is and .    Solve the system algebraically to confirm your answer.   Solve the first equation for : .  Substitute into the points equation:    , so .  Then .     Interpret the solution in the context of the situation.  The player made two-point shots and three-point shots.   "
+},
+{
+  "id": "lt7-tickets",
+  "level": "2",
+  "url": "lt6-practice-quiz.html#lt7-tickets",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Selling Show Tickets.",
+  "body": " Selling Show Tickets   A concert sells two kinds of tickets: general admission for each and VIP for each. The show sells tickets in all and brings in . You want to find how many of each kind of ticket were sold.    Define your variables and write a system of equations that models this situation.   Let be the number of general-admission tickets and be the number of VIP tickets.  The system is:     The first equation counts tickets, and the second counts dollars.     Graph both equations in Desmos and identify the solution.  Graphing both lines in Desmos, they cross at , so the solution is and .    Solve the system algebraically to confirm your answer.   Solve the first equation for : .  Substitute into the dollars equation:     , so .  Then .     Interpret the solution in the context of the situation.  The concert sold general-admission tickets and VIP tickets.   "
+},
+{
+  "id": "lt7-solutions",
+  "level": "2",
+  "url": "lt6-practice-quiz.html#lt7-solutions",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "How Many Solutions?",
+  "body": " How Many Solutions?   Consider the following system of linear equations:       Graph both equations in Desmos. How many solutions does the system have? Explain what the graph shows.   Rewriting each equation in slope-intercept form gives and . Both lines have slope but different vertical intercepts ( and ), so they are parallel and never cross. The system has no solution.     Solve the system algebraically. How does the algebra confirm your answer from the previous part?   Multiply the first equation by : . Subtract this from the second equation:    This statement is false, which means no pair can satisfy both equations. That agrees with the graph: the lines are parallel, so there is no solution.     Change the constant on the right side of the second equation from to a new value so that the system has infinitely many solutions. What is , and how do you know?   Notice that the left side of the second equation is twice the left side of the first, since . For the two equations to describe the same line, the right side must follow the same pattern: .  With , the second equation is exactly times the first, so both equations represent the same line. Every point on that line satisfies both equations, so the system has infinitely many solutions.     Is there any value of that makes the system have exactly one solution? Explain.   No. The left side of the second equation is always twice the left side of the first, so the two lines always have the same slope. Changing only shifts the second line up or down. The lines are therefore either parallel and separate (no solution, when ) or the very same line (infinitely many solutions, when ). Lines with equal slopes never cross at a single point, so no value of can give exactly one solution.    "
+},
+{
+  "id": "lt7-practice-quiz",
+  "level": "1",
+  "url": "lt7-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Learning Target 7: Exponential Patterns",
+  "body": " Learning Target 7: Exponential Patterns    I can recognize and identify key characteristics of an exponential pattern represented in a table, graph, equation or application.  I can translate between different representations.      Block Pattern   Consider the following pattern of blocks.   Four cases of blocks arranged in a row. Case 1 has 4 blocks, Case 2 has 7 blocks, Case 3 has 10 blocks, and Case 4 has 13 blocks.        \\text{Case } 1     \\text{Case } 2     \\text{Case } 3     \\text{Case } 4         How many shapes will be in Case 5?    The counts for the first four cases are . Continuing the pattern, Case 5 will have blocks.      Is the pattern linear, exponential, or neither? Explain how you know.    The pattern is linear. The number of blocks increases by a constant added amount ( blocks) for each new case, which means it has a constant rate of change.      If the pattern is linear or exponential, find an equation that gives the number of shapes at case number .    The rate of change (slope) is . Working backward, Case 0 would have block, so the y-intercept is . The equation is .        Circle Pattern   Consider the following pattern of circles.   Four cases of circles. Case 1 has 2 circles, Case 2 has 4 circles, Case 3 has 8 circles, and Case 4 has 16 circles.        \\text{Case } 1     \\text{Case } 2     \\text{Case } 3     \\text{Case } 4         How many shapes will be in Case 5?    The counts are . The number of circles doubles each time, so Case 5 will have circles.      Is the pattern linear, exponential, or neither? Explain how you know.    The pattern is exponential. The number of shapes is multiplied by a constant factor of from one case to the next.      If the pattern is linear or exponential, find an equation that gives the number of shapes at case number .    The growth factor is . Working backward, Case 0 would have circle. The initial value is . The equation is or simply .        Square Pattern   Consider the following pattern of squares.   Four cases of squares. Case 1 has 1 square, Case 2 has 4 squares, Case 3 has 9 squares, and Case 4 has 16 squares arranged in grids.      \\text{Case } 1       \\text{Case } 2       \\text{Case } 3       \\text{Case } 4         How many shapes will be in Case 5?    The counts are . The squares are arranged in grids of , , , and . Case 5 will be a grid, which means it will have squares.      Is the pattern linear, exponential, or neither? Explain how you know.    The pattern is neither linear nor exponential. The number of shapes does not grow by adding a constant amount (the differences are ), and it does not grow by multiplying by a constant factor.      If the pattern is linear or exponential, find an equation that gives the number of shapes at case number .    Not applicable. Since the pattern is neither linear nor exponential, an equation of the form or cannot be used.        Triangle Pattern   Consider the following pattern of triangles.   Four cases of triangles. Case 1 has 3 triangles, Case 2 has 9 triangles, Case 3 has 27 triangles, and Case 4 has 81 triangles arranged in grids.        \\text{Case } 1       \\text{Case } 2       \\text{Case } 3       \\text{Case } 4         How many shapes will be in Case 5?    The counts are . The number of triangles is multiplied by 3 each step, so Case 5 will have triangles.      Is the pattern linear, exponential, or neither? Explain how you know.    The pattern is exponential. The count is multiplying by a constant growth factor of from each case to the next.      If the pattern is linear or exponential, find an equation that gives the number of shapes at case number .    The growth factor is . Working backward, Case 0 would have triangle. The initial value is . The equation is or .        Exponential Table   The following table represents an exponential relationship. Find an equation of the form that models the data.                                        The y-intercept (when ) is , so the initial value is . Checking the change from term to term, and . The constant growth factor is . The equation is .     Exponential Graph   Given the exponential graph below, find an equation of the form that matches it.   An exponential curve crossing the y-axis at 4 and passing through the points 1 comma 2 and 2 comma 1.    f(x) = 4 * (0.5^x)            (The points , , and are marked to help you.)    The graph crosses the y-axis at , so the initial value is . From to , the y-value changes from to . Because (or ), the multiplier is . The equation is .     "
+},
+{
+  "id": "lt7-practice-quiz-2",
+  "level": "2",
+  "url": "lt7-practice-quiz.html#lt7-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  I can recognize and identify key characteristics of an exponential pattern represented in a table, graph, equation or application.  I can translate between different representations.   "
+},
+{
+  "id": "lt7-pattern-blocks",
+  "level": "2",
+  "url": "lt7-practice-quiz.html#lt7-pattern-blocks",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Block Pattern.",
+  "body": " Block Pattern   Consider the following pattern of blocks.   Four cases of blocks arranged in a row. Case 1 has 4 blocks, Case 2 has 7 blocks, Case 3 has 10 blocks, and Case 4 has 13 blocks.        \\text{Case } 1     \\text{Case } 2     \\text{Case } 3     \\text{Case } 4         How many shapes will be in Case 5?    The counts for the first four cases are . Continuing the pattern, Case 5 will have blocks.      Is the pattern linear, exponential, or neither? Explain how you know.    The pattern is linear. The number of blocks increases by a constant added amount ( blocks) for each new case, which means it has a constant rate of change.      If the pattern is linear or exponential, find an equation that gives the number of shapes at case number .    The rate of change (slope) is . Working backward, Case 0 would have block, so the y-intercept is . The equation is .    "
+},
+{
+  "id": "lt7-pattern-circles",
+  "level": "2",
+  "url": "lt7-practice-quiz.html#lt7-pattern-circles",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Circle Pattern.",
+  "body": " Circle Pattern   Consider the following pattern of circles.   Four cases of circles. Case 1 has 2 circles, Case 2 has 4 circles, Case 3 has 8 circles, and Case 4 has 16 circles.        \\text{Case } 1     \\text{Case } 2     \\text{Case } 3     \\text{Case } 4         How many shapes will be in Case 5?    The counts are . The number of circles doubles each time, so Case 5 will have circles.      Is the pattern linear, exponential, or neither? Explain how you know.    The pattern is exponential. The number of shapes is multiplied by a constant factor of from one case to the next.      If the pattern is linear or exponential, find an equation that gives the number of shapes at case number .    The growth factor is . Working backward, Case 0 would have circle. The initial value is . The equation is or simply .    "
+},
+{
+  "id": "lt7-pattern-squares",
+  "level": "2",
+  "url": "lt7-practice-quiz.html#lt7-pattern-squares",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Square Pattern.",
+  "body": " Square Pattern   Consider the following pattern of squares.   Four cases of squares. Case 1 has 1 square, Case 2 has 4 squares, Case 3 has 9 squares, and Case 4 has 16 squares arranged in grids.      \\text{Case } 1       \\text{Case } 2       \\text{Case } 3       \\text{Case } 4         How many shapes will be in Case 5?    The counts are . The squares are arranged in grids of , , , and . Case 5 will be a grid, which means it will have squares.      Is the pattern linear, exponential, or neither? Explain how you know.    The pattern is neither linear nor exponential. The number of shapes does not grow by adding a constant amount (the differences are ), and it does not grow by multiplying by a constant factor.      If the pattern is linear or exponential, find an equation that gives the number of shapes at case number .    Not applicable. Since the pattern is neither linear nor exponential, an equation of the form or cannot be used.    "
+},
+{
+  "id": "lt7-pattern-triangles",
+  "level": "2",
+  "url": "lt7-practice-quiz.html#lt7-pattern-triangles",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Triangle Pattern.",
+  "body": " Triangle Pattern   Consider the following pattern of triangles.   Four cases of triangles. Case 1 has 3 triangles, Case 2 has 9 triangles, Case 3 has 27 triangles, and Case 4 has 81 triangles arranged in grids.        \\text{Case } 1       \\text{Case } 2       \\text{Case } 3       \\text{Case } 4         How many shapes will be in Case 5?    The counts are . The number of triangles is multiplied by 3 each step, so Case 5 will have triangles.      Is the pattern linear, exponential, or neither? Explain how you know.    The pattern is exponential. The count is multiplying by a constant growth factor of from each case to the next.      If the pattern is linear or exponential, find an equation that gives the number of shapes at case number .    The growth factor is . Working backward, Case 0 would have triangle. The initial value is . The equation is or .    "
+},
+{
+  "id": "lt7-table",
+  "level": "2",
+  "url": "lt7-practice-quiz.html#lt7-table",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Exponential Table.",
+  "body": " Exponential Table   The following table represents an exponential relationship. Find an equation of the form that models the data.                                        The y-intercept (when ) is , so the initial value is . Checking the change from term to term, and . The constant growth factor is . The equation is .   "
+},
+{
+  "id": "lt7-graph",
+  "level": "2",
+  "url": "lt7-practice-quiz.html#lt7-graph",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Exponential Graph.",
+  "body": " Exponential Graph   Given the exponential graph below, find an equation of the form that matches it.   An exponential curve crossing the y-axis at 4 and passing through the points 1 comma 2 and 2 comma 1.    f(x) = 4 * (0.5^x)            (The points , , and are marked to help you.)    The graph crosses the y-axis at , so the initial value is . From to , the y-value changes from to . Because (or ), the multiplier is . The equation is .   "
+},
+{
+  "id": "lt8-practice-quiz",
+  "level": "1",
+  "url": "lt8-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Learning Target 8: Exponential Graphs",
+  "body": " Learning Target 8: Exponential Graphs    Given an exponential graph, identify the growth\/decay rate, the vertical intercept, evaluate , find given and make an equation for the curve.      Exponential Growth Graph   Use the graph of the exponential function below to answer the questions. Read values directly from the graph.   An increasing exponential curve passing through (0,4), (1,8), (2,16), and (3,32), with the first two points labeled.   A coordinate grid with x-values from negative 2 to 4 and y-values from 0 to 36. The curve passes through (negative 1,2), (0,4), (1,8), (2,16), and (3,32). Points (0,4) and (1,8) are explicitly labeled.     f(x) = 4 * (2^x)      (0, 4)   (1, 8)          Find the growth rate.  The growth factor is , so the graph increases by each time increases by . The growth rate is .    Find the vertical intercept.  The graph crosses the -axis at , so the vertical intercept is .    Evaluate .  At , the graph has value , so .    Find the value of for which .  The graph reaches at .    Write an equation for the curve.  The vertical intercept is and the growth factor is , so the equation is .       Exponential Decay Graph   Use the graph of the exponential function below to answer the questions. Read values directly from the graph.   A decreasing exponential curve passing through (0,125), (1,75), (2,45), and (3,27), with the first two points labeled.   A coordinate grid with x-values from 0 to 4 and y-values from 0 to 130. The curve passes through (0,125), (1,75), (2,45), and (3,27). Points (0,125) and (1,75) are explicitly labeled.     f(x) = 125 * (0.6^x)      (0, 125)   (1, 75)          Find the decay rate.  The decay factor is , so the value decreases by for each increase of in . The decay rate is .    Find the vertical intercept.  The graph crosses the -axis at , so the vertical intercept is .    Evaluate .  At , the graph has value , so .    Find the value of for which .  The graph has value when .    Write an equation for the curve.  The vertical intercept is and the decay factor is , so the equation is .     "
+},
+{
+  "id": "lt8-practice-quiz-2",
+  "level": "2",
+  "url": "lt8-practice-quiz.html#lt8-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Given an exponential graph, identify the growth\/decay rate, the vertical intercept, evaluate , find given and make an equation for the curve.   "
+},
+{
+  "id": "lt8-growth",
+  "level": "2",
+  "url": "lt8-practice-quiz.html#lt8-growth",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Exponential Growth Graph.",
+  "body": " Exponential Growth Graph   Use the graph of the exponential function below to answer the questions. Read values directly from the graph.   An increasing exponential curve passing through (0,4), (1,8), (2,16), and (3,32), with the first two points labeled.   A coordinate grid with x-values from negative 2 to 4 and y-values from 0 to 36. The curve passes through (negative 1,2), (0,4), (1,8), (2,16), and (3,32). Points (0,4) and (1,8) are explicitly labeled.     f(x) = 4 * (2^x)      (0, 4)   (1, 8)          Find the growth rate.  The growth factor is , so the graph increases by each time increases by . The growth rate is .    Find the vertical intercept.  The graph crosses the -axis at , so the vertical intercept is .    Evaluate .  At , the graph has value , so .    Find the value of for which .  The graph reaches at .    Write an equation for the curve.  The vertical intercept is and the growth factor is , so the equation is .   "
+},
+{
+  "id": "lt8-decay",
+  "level": "2",
+  "url": "lt8-practice-quiz.html#lt8-decay",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Exponential Decay Graph.",
+  "body": " Exponential Decay Graph   Use the graph of the exponential function below to answer the questions. Read values directly from the graph.   A decreasing exponential curve passing through (0,125), (1,75), (2,45), and (3,27), with the first two points labeled.   A coordinate grid with x-values from 0 to 4 and y-values from 0 to 130. The curve passes through (0,125), (1,75), (2,45), and (3,27). Points (0,125) and (1,75) are explicitly labeled.     f(x) = 125 * (0.6^x)      (0, 125)   (1, 75)          Find the decay rate.  The decay factor is , so the value decreases by for each increase of in . The decay rate is .    Find the vertical intercept.  The graph crosses the -axis at , so the vertical intercept is .    Evaluate .  At , the graph has value , so .    Find the value of for which .  The graph has value when .    Write an equation for the curve.  The vertical intercept is and the decay factor is , so the equation is .   "
+},
+{
+  "id": "lt9-practice-quiz",
+  "level": "1",
+  "url": "lt9-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Learning Target 9: Exponential Applications",
+  "body": " Learning Target 9: Exponential Applications    Given an exponential word situation (half-life, compound interest, depreciation, or simple growth\/decay), make an equation.  Identify and explain the meaning of the growth\/decay rate and the y-intercept in the context of the problem.  Evaluate and explain its meaning, find given and explain its meaning, and determine what inputs make sense.      Caffeine Elimination   A person drinks a large coffee containing milligrams of caffeine. The amount of caffeine in their body decreases by each hour.     Write an exponential function to model the amount of caffeine remaining in the body after hours.    The initial amount is and the decay factor is . The equation is .      Identify the y-intercept and the decay rate. Explain their meanings in the context of this situation.    The y-intercept is , which represents the initial mg of caffeine in the body at the moment the coffee is consumed ( ). The decay rate is , meaning the body metabolizes and eliminates of the remaining caffeine every hour.      Find and explain its meaning in context. Round to the nearest tenth.     . This means there are approximately milligrams of caffeine left in the person's body hours after drinking the coffee.      Set up an equation to find when the caffeine level reaches mg. Explain what the solution to this equation represents. (You do not need to solve it).     . The solution represents the exact number of hours it will take for the caffeine in the body to drop to milligrams.      What inputs for make sense in this context?    Time cannot be negative, so . The inputs make sense for positive values of until the caffeine approaches zero and is effectively eliminated from the bloodstream.        Viral Video Growth   A new video is uploaded to a channel and initially has views. For the first week it is released, the total number of views grows by every hour.     Write an exponential function to model the total number of views after hours.    The initial amount is and the growth factor is . The equation is .      Find and explain its meaning in context. Round to the nearest whole number.     . This means that hours (one full day) after the video was uploaded, it will have approximately total views.      What domain of inputs for makes sense based on the problem description?    The problem states the model applies for \"the first week\". A week has hours. Therefore, the valid inputs are .      AI Assistant Reliability   Researchers are testing a new AI assistant. As a simplified model, they assume the probability that a response is entirely correct starts at (or ) and decreases by for every additional words generated in a single session.     Write an exponential function to model the probability of a correct response based on , the number of words generated. (Hint: Use in your exponent to scale the words into -word blocks).    The initial probability is . The decay factor is . Because this decay happens every words, the exponent is . The equation is .      Evaluate and explain what it means in context.     . This means that if the AI generates a -word response, there is approximately a probability that the response is entirely correct.        Annual Compound Interest   An investor deposits into a retirement account that earns annual interest, compounded yearly.     Write an equation for the balance after years. Then, identify the y-intercept and explain its meaning.    The equation is . The y-intercept is , which represents the initial principal deposited into the account at year .      Evaluate and explain its meaning. (Round to the nearest cent).     . This means that after years, the account balance will have grown to .      Monthly Compound Interest   Suppose instead the is deposited into an account that earns annual interest, but it is compounded monthly .     Write an equation for the balance after years. (Recall the formula ).    Here, , , and (since there are months in a year). The equation is , which simplifies to .      Set up an equation to find how long it takes for the account balance to reach . What does this solution represent?     . The solution represents the number of years it will take for the initial investment to double in value.      Daily Compound Interest   Finally, suppose the is deposited into an account earning annual interest, compounded daily (assume days in a year).     Write an equation for the balance after years.    Here, . The equation is .      Evaluate for this daily compounding account. How does it compare to the annual compounding from the earlier question?     . After years, the daily compounding account yields , which is more than the earned from annual compounding. More frequent compounding results in a higher final balance.      "
+},
+{
+  "id": "lt9-practice-quiz-2",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Given an exponential word situation (half-life, compound interest, depreciation, or simple growth\/decay), make an equation.  Identify and explain the meaning of the growth\/decay rate and the y-intercept in the context of the problem.  Evaluate and explain its meaning, find given and explain its meaning, and determine what inputs make sense.   "
+},
+{
+  "id": "lt9-caffeine",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-caffeine",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Caffeine Elimination.",
+  "body": " Caffeine Elimination   A person drinks a large coffee containing milligrams of caffeine. The amount of caffeine in their body decreases by each hour.     Write an exponential function to model the amount of caffeine remaining in the body after hours.    The initial amount is and the decay factor is . The equation is .      Identify the y-intercept and the decay rate. Explain their meanings in the context of this situation.    The y-intercept is , which represents the initial mg of caffeine in the body at the moment the coffee is consumed ( ). The decay rate is , meaning the body metabolizes and eliminates of the remaining caffeine every hour.      Find and explain its meaning in context. Round to the nearest tenth.     . This means there are approximately milligrams of caffeine left in the person's body hours after drinking the coffee.      Set up an equation to find when the caffeine level reaches mg. Explain what the solution to this equation represents. (You do not need to solve it).     . The solution represents the exact number of hours it will take for the caffeine in the body to drop to milligrams.      What inputs for make sense in this context?    Time cannot be negative, so . The inputs make sense for positive values of until the caffeine approaches zero and is effectively eliminated from the bloodstream.    "
+},
+{
+  "id": "lt9-youtube",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-youtube",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Viral Video Growth.",
+  "body": " Viral Video Growth   A new video is uploaded to a channel and initially has views. For the first week it is released, the total number of views grows by every hour.     Write an exponential function to model the total number of views after hours.    The initial amount is and the growth factor is . The equation is .      Find and explain its meaning in context. Round to the nearest whole number.     . This means that hours (one full day) after the video was uploaded, it will have approximately total views.      What domain of inputs for makes sense based on the problem description?    The problem states the model applies for \"the first week\". A week has hours. Therefore, the valid inputs are .    "
+},
+{
+  "id": "lt9-ai-reliability",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-ai-reliability",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "AI Assistant Reliability.",
+  "body": " AI Assistant Reliability   Researchers are testing a new AI assistant. As a simplified model, they assume the probability that a response is entirely correct starts at (or ) and decreases by for every additional words generated in a single session.     Write an exponential function to model the probability of a correct response based on , the number of words generated. (Hint: Use in your exponent to scale the words into -word blocks).    The initial probability is . The decay factor is . Because this decay happens every words, the exponent is . The equation is .      Evaluate and explain what it means in context.     . This means that if the AI generates a -word response, there is approximately a probability that the response is entirely correct.    "
+},
+{
+  "id": "lt9-compound-annual",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-compound-annual",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Annual Compound Interest.",
+  "body": " Annual Compound Interest   An investor deposits into a retirement account that earns annual interest, compounded yearly.     Write an equation for the balance after years. Then, identify the y-intercept and explain its meaning.    The equation is . The y-intercept is , which represents the initial principal deposited into the account at year .      Evaluate and explain its meaning. (Round to the nearest cent).     . This means that after years, the account balance will have grown to .    "
+},
+{
+  "id": "lt9-compound-monthly",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-compound-monthly",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Monthly Compound Interest.",
+  "body": " Monthly Compound Interest   Suppose instead the is deposited into an account that earns annual interest, but it is compounded monthly .     Write an equation for the balance after years. (Recall the formula ).    Here, , , and (since there are months in a year). The equation is , which simplifies to .      Set up an equation to find how long it takes for the account balance to reach . What does this solution represent?     . The solution represents the number of years it will take for the initial investment to double in value.    "
+},
+{
+  "id": "lt9-compound-daily",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-compound-daily",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Daily Compound Interest.",
+  "body": " Daily Compound Interest   Finally, suppose the is deposited into an account earning annual interest, compounded daily (assume days in a year).     Write an equation for the balance after years.    Here, . The equation is .      Evaluate for this daily compounding account. How does it compare to the annual compounding from the earlier question?     . After years, the daily compounding account yields , which is more than the earned from annual compounding. More frequent compounding results in a higher final balance.    "
+},
+{
+  "id": "ds1-practice-quiz",
+  "level": "1",
+  "url": "ds1-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Desmos Skill 1: Linear Regression Models",
+  "body": " Desmos Skill 1: Linear Regression Models    Given a data set, make a linear regression model on Desmos, identify and explain the meaning of slope in the context, identify and explain the y-intercept in the context, find and explain its meaning, find given and explain its meaning.       Latitude and Winter Temperature   The table below gives the latitude (degrees north) and the average January temperature (in F) for ten U.S. cities.       City  Latitude ( N)  Avg. January temp ( F)   Miami, FL 25.8 68.5  Houston, TX 29.8 55.0  Dallas, TX 32.8 48.0  Atlanta, GA 33.7 45.0  Memphis, TN 35.1 42.0  St. Louis, MO 38.6 32.0  Cincinnati, OH 39.1 31.5  Indianapolis, IN 39.8 28.5  Chicago, IL 41.9 26.5  Minneapolis, MN 45.0 16.5   Source: average January temperature is the mean of the 1991–2020 NOAA normal daily high and low (NOAA National Centers for Environmental Information, via Current Results); latitudes are the cities' coordinates.    What are the independent and dependent variables in this situation?  Independent variable: , latitude (degrees north). Dependent variable: , average January temperature ( F).    Create a linear model that represents the data. Round numbers to 3 decimal places on your paper.  Entering the data in Desmos and fitting a line gives .    According to your model, what is the average January temperature for a city at latitude N? Round your answer to a whole number.  Let : , or about F.    According to your model, at what latitude is the average January temperature F? Round your answer to a whole number.   Let and solve for :   (subtract from both sides)  (divide both sides by )  So the model predicts an average January temperature of F at about N latitude.     What is the slope in the equation, and what does it mean in the context of the situation?  The slope is . It means that for each additional degree of latitude north, the average January temperature decreases by about F.    What is the vertical intercept (round to a whole number) and explain what it means (or why it doesn't make sense) in the context of the situation?  The vertical intercept is . This says that at latitude (the equator), the average January temperature would be about F. This does not make sense: it is far outside the range of the data, and no place on Earth averages F.    What is the horizontal intercept (round to a whole number) and explain what it means (or why it doesn't make sense) in the context of the situation?  Let : , so . The horizontal intercept is about , meaning the model predicts an average January temperature of F at about N. This is just beyond the data, and nothing about it is obviously impossible. Far-northern cities do have very cold Januaries, so a prediction near F is at least plausible. Keep in mind, though, that it is not accurate for every city near that latitude. Because the model uses only latitude, it misses other factors (such as nearness to an ocean), so cities around N actually range from quite cold to fairly mild.        Height and Arm Span   The table below gives the height and arm span, both in centimeters, for ten students.      Height (cm)  Arm span (cm)   154 158  157 157  161 162  164 163  167 172  168 161  173 172  177 181  185 184  191 190   Source: measured data from a sample of 25 students (SERC \/ Carleton College example data set); ten of the students are listed here.    What are the independent and dependent variables in this situation?  Independent variable: , height (cm). Dependent variable: , arm span (cm).    Create a linear model that represents the data. Round numbers to 3 decimal places on your paper.  Entering the data in Desmos and fitting a line gives .    According to your model, what is the arm span of a student who is cm tall? Round your answer to a whole number.  Let : , or about cm.    According to your model, how tall is a student whose arm span is cm? Round your answer to a whole number.   Let and solve for :   (subtract from both sides)  (divide both sides by )  So the model predicts a height of about cm.     What is the slope in the equation, and what does it mean in the context of the situation?  The slope is . It means that for each additional centimeter of height, arm span increases by about cm—close to the \"arm span equals height\" rule of thumb.    What is the vertical intercept (round to a whole number) and explain what it means (or why it doesn't make sense) in the context of the situation?  The vertical intercept is . This says a student who is cm tall would have an arm span of about cm. This does not make sense, because no one has a height of cm.    What is the horizontal intercept (round to a whole number) and explain what it means (or why it doesn't make sense) in the context of the situation?  Let : , so . The horizontal intercept is about , meaning an arm span of cm at a height of cm. This does not make sense, because a person cannot have a negative height.        Runs and Wins in Baseball   The table below gives the total runs scored and total wins for ten Major League Baseball teams during the 2025 regular season (each team played 162 games).       Team  Runs scored  Wins   Pittsburgh Pirates 583 71  Washington Nationals 687 66  St. Louis Cardinals 689 78  Cincinnati Reds 716 83  Atlanta Braves 724 76  New York Mets 766 83  Philadelphia Phillies 778 96  Chicago Cubs 793 92  Milwaukee Brewers 806 97  Los Angeles Dodgers 825 93   Source: 2025 MLB regular-season team totals—runs scored from FOX Sports (Sportradar); wins from the final 2025 MLB standings.    What are the independent and dependent variables in this situation?  Independent variable: , runs scored. Dependent variable: , wins.    Create a linear model that represents the data. Round numbers to 3 decimal places on your paper.  Entering the data in Desmos and fitting a line gives .    According to your model, how many games would a team that scores runs win? Round your answer to a whole number.  Let : , or about wins.    According to your model, how many runs would a team need to score to win games? Round your answer to a whole number.   Let and solve for :   (add to both sides)  (divide both sides by )  So the model predicts a team would need to score about runs to win games.     What is the slope in the equation, and what does it mean in the context of the situation?  The slope is . It means that for each additional run a team scores over the season, the model predicts about more wins—so roughly extra runs for each additional win.    What is the vertical intercept (round to a whole number) and explain what it means (or why it doesn't make sense) in the context of the situation?  The vertical intercept is . This says a team that scores runs all season would win about games. This does not make sense, because a team cannot win a negative number of games (and runs is far outside the data).    What is the horizontal intercept (round to a whole number) and explain what it means (or why it doesn't make sense) in the context of the situation?  Let : , so . The horizontal intercept is about , meaning a team scoring about runs would win games. This does not make sense: it is far below the data (even the weakest teams score around runs), and such a team would still win at least a few games.     "
+},
+{
+  "id": "ds1-practice-quiz-2",
+  "level": "2",
+  "url": "ds1-practice-quiz.html#ds1-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
   "body": "  Given a data set, make a linear regression model on Desmos, identify and explain the meaning of slope in the context, identify and explain the y-intercept in the context, find and explain its meaning, find given and explain its meaning.   "
 },
 {
   "id": "lt6-latitude",
   "level": "2",
-  "url": "lt6-practice-quiz.html#lt6-latitude",
+  "url": "ds1-practice-quiz.html#lt6-latitude",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Latitude and Winter Temperature.",
@@ -1074,7 +1506,7 @@ var ptx_lunr_docs = [
 {
   "id": "lt6-armspan",
   "level": "2",
-  "url": "lt6-practice-quiz.html#lt6-armspan",
+  "url": "ds1-practice-quiz.html#lt6-armspan",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Height and Arm Span.",
@@ -1083,7 +1515,7 @@ var ptx_lunr_docs = [
 {
   "id": "lt6-mlb",
   "level": "2",
-  "url": "lt6-practice-quiz.html#lt6-mlb",
+  "url": "ds1-practice-quiz.html#lt6-mlb",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Runs and Wins in Baseball.",
