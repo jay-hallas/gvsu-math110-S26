@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-compound-interest-exponential-applications">
+  <title>Compound Interest: Exponential Applications</title>
+
+  <introduction>
+    <p>
+      The standard formula for calculating compound interest is:
+    </p>
+    <p>
+      <md>
+        <mrow> F = P\left(1+\frac{r}{n}\right)^{nt} </mrow>
+      </md>
+    </p>
+    <p><m>F</m> is the future value, the final amount in the account.</p>
+    <p><m>P</m> is the present value, the initial principal or starting deposit.</p>
+    <p><m>r</m> is the annual interest rate, written as a decimal.</p>
+    <p><m>n</m> is the number of compounding periods per year (for example, monthly is <m>n=12</m> and quarterly is <m>n=4</m>).</p>
+    <p><m>t</m> is the time in years.</p>
+    <p>
+      <em>Goal: instead of simply memorizing the formula, we will build it step by step using growth factors to see why it works.</em>
+    </p>
+  </introduction>
+
+  <page>
+    <example xml:id="ciea-example-monthly">
+      <title>Worked Example: Monthly Compounding</title>
+      <statement>
+        <p>
+          Imagine you deposit \$2,000 into an account earning 12% annual interest compounded monthly for 3 years.
+        </p>
+        <p>
+          Step 1 (convert the annual rate): the annual rate is <m>12\% = 0.12</m>.
+        </p>
+        <p>
+          Step 2 (find the periodic rate): since interest is compounded monthly (<m>n=12</m>), split the annual rate across 12 months.
+        </p>
+        <p>
+          <md>
+            <mrow> \text{Monthly rate} = \frac{0.12}{12} = 0.01 \quad (1\% \text{ per month}) </mrow>
+          </md>
+        </p>
+        <p>
+          Step 3 (determine the growth factor): a 1% increase each month means our multiplier, the growth factor, is
+        </p>
+        <p>
+          <md>
+            <mrow> 1 + 0.01 = 1.01 </mrow>
+          </md>
+        </p>
+        <p>
+          Step 4 (count the total compounding periods): over 3 years, interest is applied 12 times a year.
+        </p>
+        <p>
+          <md>
+            <mrow> \text{Total periods} = 3 \times 12 = 36 \text{ months} </mrow>
+          </md>
+        </p>
+        <p>
+          Step 5 (calculate the future value): multiply the starting deposit by the growth factor 36 times.
+        </p>
+        <p>
+          <md>
+            <mrow> F = 2000(1.01)^{36} \approx \$2861.54 </mrow>
+          </md>
+        </p>
+        <p>
+          Notice how this matches the standard formula: <m>F = 2000\left(1 + \frac{0.12}{12}\right)^{12 \cdot 3}</m>.
+        </p>
+      </statement>
+    </example>
+  </page>
+
+  <page>
+    <exercise xml:id="ciea-q1">
+      <introduction>
+        <p>
+          You deposit \$4,000 into an account earning 6% annual interest compounded monthly. Our goal is to find out how much you will have in the account after 5 years.
+        </p>
+      </introduction>
+      <task xml:id="ciea-q1-a" workspace="0.55in">
+        <statement><p>Convert the annual interest rate of 6% into a decimal.</p></statement>
+      </task>
+      <task xml:id="ciea-q1-b" workspace="0.55in">
+        <statement><p>If you split this decimal rate equally across 12 months, how much interest is that per month?</p></statement>
+      </task>
+      <task xml:id="ciea-q1-c" workspace="0.55in">
+        <statement><p>Because this represents a percent increase applied every month, what is your monthly growth factor?</p></statement>
+      </task>
+      <task xml:id="ciea-q1-d" workspace="0.55in">
+        <statement><p>Since the investment sits in the account for 5 years, how many total monthly compounding periods occur?</p></statement>
+      </task>
+      <task xml:id="ciea-q1-e" workspace="0.75in">
+        <statement><p>Use an exponential calculation to apply the growth factor from part (c) over the total number of months from part (d) to the starting deposit of \$4,000. What is the future value?</p></statement>
+        <answer><p>\$5,395.40</p></answer>
+      </task>
+      <task xml:id="ciea-q1-f" workspace="0.75in">
+        <statement>
+          <p>
+            Set up the exact same calculation using the compound interest formula <m>F=P\left(1+\frac{r}{n}\right)^{nt}</m>. How do the pieces of the formula align with the individual steps you just performed?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise xml:id="ciea-q2">
+      <introduction>
+        <p>
+          Let's try changing the compounding frequency. You deposit \$1,500 into a savings account that earns 8% annual interest compounded quarterly (4 times per year). How much will be in the account after 10 years?
+        </p>
+      </introduction>
+      <task xml:id="ciea-q2-a" workspace="0.55in">
+        <statement><p>What is the annual interest rate as a decimal?</p></statement>
+      </task>
+      <task xml:id="ciea-q2-b" workspace="0.45in">
+        <statement><p>Split the annual rate across 4 quarters to find the quarterly interest rate.</p></statement>
+      </task>
+      <task xml:id="ciea-q2-c" workspace="0.45in">
+        <statement><p>What is your quarterly growth factor?</p></statement>
+      </task>
+      <task xml:id="ciea-q2-d" workspace="0.45in">
+        <statement><p>How many total quarters are there in 10 years?</p></statement>
+      </task>
+      <task xml:id="ciea-q2-e" workspace="0.55in">
+        <statement><p>Calculate the future value of the account after 10 years.</p></statement>
+        <answer><p>\$3,312.06</p></answer>
+      </task>
+      <task xml:id="ciea-q2-f" workspace="0.55in">
+        <statement>
+          <p>
+            Write out the full formula <m>F=P\left(1+\frac{r}{n}\right)^{nt}</m> with your numbers plugged in to verify your work.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise xml:id="ciea-q3">
+      <introduction>
+        <p>
+          Now let's look at semi-annual compounding (2 times per year). You invest \$8,000 in a fund earning 10% annual interest compounded semi-annually for 4 years.
+        </p>
+      </introduction>
+      <task xml:id="ciea-q3-a" workspace="0.5in">
+        <statement><p>What is the interest rate per six month period, the semi-annual rate?</p></statement>
+      </task>
+      <task xml:id="ciea-q3-b" workspace="0.5in">
+        <statement><p>What is the growth factor for each six month period?</p></statement>
+      </task>
+      <task xml:id="ciea-q3-c" workspace="0.5in">
+        <statement><p>How many total times will interest be compounded over the 4 year period?</p></statement>
+      </task>
+      <task xml:id="ciea-q3-d" workspace="0.6in">
+        <statement><p>Calculate the final balance in the fund after 4 years.</p></statement>
+        <answer><p>\$11,819.64</p></answer>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>

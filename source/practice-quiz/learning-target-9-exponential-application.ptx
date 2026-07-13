@@ -1,0 +1,223 @@
+<worksheet xml:id="lt9-practice-quiz">
+<title>Learning Target 9: Exponential Applications</title>
+<objectives>
+<ul>
+<li>Given an exponential word situation (half-life, compound interest, depreciation, or simple growth/decay), make an equation.</li>
+<li>Identify and explain the meaning of the growth/decay rate and the y-intercept in the context of the problem.</li>
+<li>Evaluate <m>f(a)</m> and explain its meaning, find <m>x</m> given <m>f(a)</m> and explain its meaning, and determine what inputs make sense.</li>
+</ul>
+</objectives>
+
+<page>
+<exercise xml:id="lt9-caffeine">
+<title>Caffeine Elimination</title>
+<introduction>
+<p>A person drinks a large coffee containing <m>150</m> milligrams of caffeine. The amount of caffeine in their body decreases by <m>14\%</m> each hour.</p>
+</introduction>
+<task workspace="1in">
+<statement>
+<p>Write an exponential function <m>C(t)</m> to model the amount of caffeine remaining in the body after <m>t</m> hours.</p>
+</statement>
+<answer>
+<p>
+The initial amount is <m>150</m> and the decay factor is <m>1 - 0.14 = 0.86</m>. 
+The equation is <m>C(t) = 150(0.86)^t</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Identify the y-intercept and the decay rate. Explain their meanings in the context of this situation.</p>
+</statement>
+<answer>
+<p>
+The y-intercept is <m>150</m>, which represents the initial <m>150</m> mg of caffeine in the body at the moment the coffee is consumed (<m>t=0</m>). The decay rate is <m>14\%</m>, meaning the body metabolizes and eliminates <m>14\%</m> of the remaining caffeine every hour.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>Find <m>C(5)</m> and explain its meaning in context. Round to the nearest tenth.</p>
+</statement>
+<answer>
+<p>
+<m>C(5) = 150(0.86)^5 \approx 70.6</m>. This means there are approximately <m>70.6</m> milligrams of caffeine left in the person's body <m>5</m> hours after drinking the coffee.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Set up an equation to find when the caffeine level reaches <m>20</m> mg. Explain what the solution to this equation represents. (You do not need to solve it).</p>
+</statement>
+<answer>
+<p>
+<m>20 = 150(0.86)^t</m>. The solution <m>t</m> represents the exact number of hours it will take for the caffeine in the body to drop to <m>20</m> milligrams.
+</p>
+</answer>
+</task>
+<task workspace="0.75in">
+<statement>
+<p>What inputs for <m>t</m> make sense in this context?</p>
+</statement>
+<answer>
+<p>
+Time cannot be negative, so <m>t \ge 0</m>. The inputs make sense for positive values of <m>t</m> until the caffeine approaches zero and is effectively eliminated from the bloodstream.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt9-youtube">
+<title>Viral Video Growth</title>
+<introduction>
+<p>A new video is uploaded to a channel and initially has <m>400</m> views. For the first week it is released, the total number of views grows by <m>18\%</m> every hour.</p>
+</introduction>
+<task workspace="1in">
+<statement>
+<p>Write an exponential function <m>V(t)</m> to model the total number of views after <m>t</m> hours.</p>
+</statement>
+<answer>
+<p>
+The initial amount is <m>400</m> and the growth factor is <m>1 + 0.18 = 1.18</m>. 
+The equation is <m>V(t) = 400(1.18)^t</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Find <m>V(24)</m> and explain its meaning in context. Round to the nearest whole number.</p>
+</statement>
+<answer>
+<p>
+<m>V(24) = 400(1.18)^{24} \approx 21255</m>. This means that <m>24</m> hours (one full day) after the video was uploaded, it will have approximately <m>21,255</m> total views.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>What domain of inputs for <m>t</m> makes sense based on the problem description?</p>
+</statement>
+<answer>
+<p>
+The problem states the model applies for "the first week". A week has <m>24 \times 7 = 168</m> hours. Therefore, the valid inputs are <m>0 \le t \le 168</m>.
+</p>
+</answer>
+</task>
+</exercise>
+
+<exercise xml:id="lt9-ai-reliability">
+<title>AI Assistant Reliability</title>
+<introduction>
+<p>Researchers are testing a new AI assistant. As a simplified model, they assume the probability that a response is entirely correct starts at <m>95\%</m> (or <m>0.95</m>) and decreases by <m>8\%</m> for every additional <m>500</m> words generated in a single session.</p>
+</introduction>
+<task workspace="1.5in">
+<statement>
+<p>Write an exponential function <m>P(w)</m> to model the probability of a correct response based on <m>w</m>, the number of words generated. (Hint: Use <m>\frac{w}{500}</m> in your exponent to scale the words into <m>500</m>-word blocks).</p>
+</statement>
+<answer>
+<p>
+The initial probability is <m>0.95</m>. The decay factor is <m>1 - 0.08 = 0.92</m>. Because this decay happens every <m>500</m> words, the exponent is <m>\frac{w}{500}</m>. 
+The equation is <m>P(w) = 0.95(0.92)^{w/500}</m>.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>Evaluate <m>P(2000)</m> and explain what it means in context.</p>
+</statement>
+<answer>
+<p>
+<m>P(2000) = 0.95(0.92)^{2000/500} = 0.95(0.92)^4 \approx 0.68</m>. This means that if the AI generates a <m>2000</m>-word response, there is approximately a <m>68\%</m> probability that the response is entirely correct.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt9-compound-annual">
+<title>Annual Compound Interest</title>
+<introduction>
+<p>An investor deposits <m>\$5,000</m> into a retirement account that earns <m>6\%</m> annual interest, compounded yearly.</p>
+</introduction>
+<task workspace="1.25in">
+<statement>
+<p>Write an equation for the balance <m>A(t)</m> after <m>t</m> years. Then, identify the y-intercept and explain its meaning.</p>
+</statement>
+<answer>
+<p>
+The equation is <m>A(t) = 5000(1.06)^t</m>. The y-intercept is <m>5000</m>, which represents the initial principal deposited into the account at year <m>0</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Evaluate <m>A(10)</m> and explain its meaning. (Round to the nearest cent).</p>
+</statement>
+<answer>
+<p>
+<m>A(10) = 5000(1.06)^{10} \approx 8954.24</m>. This means that after <m>10</m> years, the account balance will have grown to <m>\$8,954.24</m>.
+</p>
+</answer>
+</task>
+</exercise>
+
+<exercise xml:id="lt9-compound-monthly">
+<title>Monthly Compound Interest</title>
+<introduction>
+<p>Suppose instead the <m>\$5,000</m> is deposited into an account that earns <m>6\%</m> annual interest, but it is compounded <em>monthly</em>.</p>
+</introduction>
+<task workspace="1.25in">
+<statement>
+<p>Write an equation for the balance <m>A(t)</m> after <m>t</m> years. (Recall the formula <m>A = P\left(1 + \frac{r}{n}\right)^{nt}</m>).</p>
+</statement>
+<answer>
+<p>
+Here, <m>P = 5000</m>, <m>r = 0.06</m>, and <m>n = 12</m> (since there are <m>12</m> months in a year). 
+The equation is <m>A(t) = 5000\left(1 + \frac{0.06}{12}\right)^{12t}</m>, which simplifies to <m>A(t) = 5000(1.005)^{12t}</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Set up an equation to find how long it takes for the account balance to reach <m>\$10,000</m>. What does this solution represent?</p>
+</statement>
+<answer>
+<p>
+<m>10000 = 5000(1.005)^{12t}</m>. The solution <m>t</m> represents the number of years it will take for the initial investment to double in value.
+</p>
+</answer>
+</task>
+</exercise>
+
+<exercise xml:id="lt9-compound-daily">
+<title>Daily Compound Interest</title>
+<introduction>
+<p>Finally, suppose the <m>\$5,000</m> is deposited into an account earning <m>6\%</m> annual interest, compounded <em>daily</em> (assume <m>365</m> days in a year).</p>
+</introduction>
+<task workspace="1.25in">
+<statement>
+<p>Write an equation for the balance <m>A(t)</m> after <m>t</m> years.</p>
+</statement>
+<answer>
+<p>
+Here, <m>n = 365</m>. 
+The equation is <m>A(t) = 5000\left(1 + \frac{0.06}{365}\right)^{365t}</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Evaluate <m>A(10)</m> for this daily compounding account. How does it compare to the annual compounding from the earlier question?</p>
+</statement>
+<answer>
+<p>
+<m>A(10) = 5000\left(1 + \frac{0.06}{365}\right)^{365(10)} \approx 9110.14</m>. After <m>10</m> years, the daily compounding account yields <m>\$9,110.14</m>, which is more than the <m>\$8,954.24</m> earned from annual compounding. More frequent compounding results in a higher final balance.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+</worksheet>

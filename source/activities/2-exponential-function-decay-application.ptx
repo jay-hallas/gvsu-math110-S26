@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-exponential-growth-decay-models">
+  <title>Exponential Models: Growth and Decay</title>
+
+  <introduction>
+    <p>Exponential models have form <m>f(x)=ab^x</m>, where <m>a</m> is the initial value and <m>b</m> is the growth or decay factor.</p>
+    <p>Given a percent change <m>r</m>, find <m>b</m> by adding or subtracting <m>r</m> from 1 based on whether it is a percent increase or decrease.</p>
+  </introduction>
+
+  <page>
+    <exercise xml:id="gdmodel-q1">
+      <introduction>
+        <p>
+          The Gross Domestic Product (GDP) of Oregon is 243 billion dollars with a growth rate of 3.10%. Write an equation that can be used to estimate the size of Oregon's economy in a future year, assuming the same relative yearly growth rate. Let <m>g</m> be the state's GDP in billions of dollars in <m>t</m> years from now.
+        </p>
+      </introduction>
+      <task xml:id="gdmodel-q1-a" workspace="0.75in">
+        <statement><p>Find an exponential equation to model this situation.</p></statement>
+      </task>
+      <task xml:id="gdmodel-q1-b" workspace="1.5in">
+        <statement><p>Use your equation to find the GDP 9 years from now. Using Desmos may help.</p></statement>
+      </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise xml:id="gdmodel-q2">
+      <introduction>
+        <p>
+          Coral reefs throughout the world are decreasing at a rate of about 1.5% per year. Write an equation that can be used to determine the future area of a reef that now has an area of 100 <m>\text{km}^2</m>. Let <m>C</m> be the area of the coral reef in <m>t</m> years from now.
+        </p>
+      </introduction>
+      <task xml:id="gdmodel-q2-a" workspace="0.75in">
+        <statement><p>Find an exponential equation to model this situation.</p></statement>
+      </task>
+      <task xml:id="gdmodel-q2-b" workspace="1in">
+        <statement><p>Use your equation to find how many years it will take for the area to decay to 55 <m>\text{km}^2</m>. Using Desmos may help.</p></statement>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>

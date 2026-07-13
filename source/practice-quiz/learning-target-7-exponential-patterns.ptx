@@ -1,0 +1,486 @@
+<worksheet xml:id="lt7-practice-quiz">
+<title>Learning Target 7: Exponential Patterns</title>
+<objectives>
+<ul>
+<li>I can recognize and identify key characteristics of an exponential pattern represented in a table, graph, equation or application.</li>
+<li>I can translate between different representations.</li>
+</ul>
+</objectives>
+<page>
+<exercise xml:id="lt7-pattern-blocks">
+<title>Block Pattern</title>
+<introduction>
+<p>Consider the following pattern of blocks.</p>
+<image width="100%">
+<shortdescription>Four cases of blocks arranged in a row. Case 1 has 4 blocks, Case 2 has 7 blocks, Case 3 has 10 blocks, and Case 4 has 13 blocks.</shortdescription>
+<prefigure xmlns="https://prefigure.org" label="lt7-blocks-diagram">
+<diagram dimensions="(600,100)" margins="5">
+<coordinates bbox="(-1,-2,45,3)">
+<repeat parameter="col=1..4">
+<rectangle center="(col, 0)" dimensions="(0.85,0.85)" fill="mediumpurple" stroke="black"/>
+</repeat>
+<label anchor="(2.5, -1.5)" alignment="center"><m>\text{Case } 1</m></label>
+
+<repeat parameter="col=1..7">
+<rectangle center="(6+col, 0)" dimensions="(0.85,0.85)" fill="mediumpurple" stroke="black"/>
+</repeat>
+<label anchor="(9.5, -1.5)" alignment="center"><m>\text{Case } 2</m></label>
+
+<repeat parameter="col=1..10">
+<rectangle center="(15+col, 0)" dimensions="(0.85,0.85)" fill="mediumpurple" stroke="black"/>
+</repeat>
+<label anchor="(20, -1.5)" alignment="center"><m>\text{Case } 3</m></label>
+
+<repeat parameter="col=1..13">
+<rectangle center="(27+col, 0)" dimensions="(0.85,0.85)" fill="mediumpurple" stroke="black"/>
+</repeat>
+<label anchor="(33.5, -1.5)" alignment="center"><m>\text{Case } 4</m></label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+<task workspace="0.75in">
+<statement>
+<p>How many shapes will be in Case 5?</p>
+</statement>
+<answer>
+<p>
+The counts for the first four cases are 
+<m>4, 7, 10, 13</m>
+. Continuing the pattern, Case 5 will have 
+<m>16</m>
+ blocks.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Is the pattern linear, exponential, or neither? Explain how you know.</p>
+</statement>
+<answer>
+<p>
+The pattern is linear. The number of blocks increases by a constant added amount (
+<m>+3</m>
+ blocks) for each new case, which means it has a constant rate of change.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>
+If the pattern is linear or exponential, find an equation that gives the number of shapes 
+<m>y</m>
+ at case number 
+<m>x</m>
+.
+</p>
+</statement>
+<answer>
+<p>
+The rate of change (slope) is 
+<m>3</m>
+. Working backward, Case 0 would have 
+<m>4 - 3 = 1</m>
+ block, so the y-intercept is 
+<m>1</m>
+. The equation is 
+<m>y = 3x + 1</m>
+.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt7-pattern-circles">
+<title>Circle Pattern</title>
+<introduction>
+<p>Consider the following pattern of circles.</p>
+<image width="100%">
+<shortdescription>Four cases of circles. Case 1 has 2 circles, Case 2 has 4 circles, Case 3 has 8 circles, and Case 4 has 16 circles.</shortdescription>
+<prefigure xmlns="https://prefigure.org" label="lt7-circles-diagram">
+<diagram dimensions="(600,100)" margins="5">
+<coordinates bbox="(-1,-2,45,3)">
+<repeat parameter="col=1..2">
+<circle center="(col, 0)" radius="0.4" fill="coral" stroke="black"/>
+</repeat>
+<label anchor="(1.5, -1.5)" alignment="center"><m>\text{Case } 1</m></label>
+
+<repeat parameter="col=1..4">
+<circle center="(4+col, 0)" radius="0.4" fill="coral" stroke="black"/>
+</repeat>
+<label anchor="(6.5, -1.5)" alignment="center"><m>\text{Case } 2</m></label>
+
+<repeat parameter="col=1..8">
+<circle center="(10+col, 0)" radius="0.4" fill="coral" stroke="black"/>
+</repeat>
+<label anchor="(14.5, -1.5)" alignment="center"><m>\text{Case } 3</m></label>
+
+<repeat parameter="col=1..16">
+<circle center="(20+col, 0)" radius="0.4" fill="coral" stroke="black"/>
+</repeat>
+<label anchor="(28.5, -1.5)" alignment="center"><m>\text{Case } 4</m></label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+<task workspace="0.75in">
+<statement>
+<p>How many shapes will be in Case 5?</p>
+</statement>
+<answer>
+<p>
+The counts are 
+<m>2, 4, 8, 16</m>
+. The number of circles doubles each time, so Case 5 will have 
+<m>32</m>
+ circles.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Is the pattern linear, exponential, or neither? Explain how you know.</p>
+</statement>
+<answer>
+<p>
+The pattern is exponential. The number of shapes is multiplied by a constant factor of 
+<m>2</m>
+ from one case to the next.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>
+If the pattern is linear or exponential, find an equation that gives the number of shapes 
+<m>y</m>
+ at case number 
+<m>x</m>
+.
+</p>
+</statement>
+<answer>
+<p>
+The growth factor is 
+<m>2</m>
+. Working backward, Case 0 would have 
+<m>2 \div 2 = 1</m>
+ circle. The initial value is 
+<m>1</m>
+. The equation is 
+<m>y = 1 \cdot 2^x</m>
+ or simply 
+<m>y = 2^x</m>
+.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt7-pattern-squares">
+<title>Square Pattern</title>
+<introduction>
+<p>Consider the following pattern of squares.</p>
+<image width="100%">
+<shortdescription>Four cases of squares. Case 1 has 1 square, Case 2 has 4 squares, Case 3 has 9 squares, and Case 4 has 16 squares arranged in grids.</shortdescription>
+<prefigure xmlns="https://prefigure.org" label="lt7-squares-diagram">
+<diagram dimensions="(600,150)" margins="5">
+<coordinates bbox="(-1,-2,25,5)">
+<rectangle center="(0,0)" dimensions="(0.85,0.85)" fill="forestgreen" stroke="black"/>
+<label anchor="(0, -1.5)" alignment="center"><m>\text{Case } 1</m></label>
+
+<repeat parameter="col=0..1">
+<repeat parameter="row=0..1">
+<rectangle center="(3+col, row)" dimensions="(0.85,0.85)" fill="forestgreen" stroke="black"/>
+</repeat>
+</repeat>
+<label anchor="(3.5, -1.5)" alignment="center"><m>\text{Case } 2</m></label>
+
+<repeat parameter="col=0..2">
+<repeat parameter="row=0..2">
+<rectangle center="(7+col, row)" dimensions="(0.85,0.85)" fill="forestgreen" stroke="black"/>
+</repeat>
+</repeat>
+<label anchor="(8, -1.5)" alignment="center"><m>\text{Case } 3</m></label>
+
+<repeat parameter="col=0..3">
+<repeat parameter="row=0..3">
+<rectangle center="(12+col, row)" dimensions="(0.85,0.85)" fill="forestgreen" stroke="black"/>
+</repeat>
+</repeat>
+<label anchor="(13.5, -1.5)" alignment="center"><m>\text{Case } 4</m></label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+<task workspace="0.75in">
+<statement>
+<p>How many shapes will be in Case 5?</p>
+</statement>
+<answer>
+<p>
+The counts are 
+<m>1, 4, 9, 16</m>
+. The squares are arranged in grids of 
+<m>1 \times 1</m>, <m>2 \times 2</m>, <m>3 \times 3</m>, and <m>4 \times 4</m>
+. Case 5 will be a 
+<m>5 \times 5</m>
+ grid, which means it will have 
+<m>25</m>
+ squares.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Is the pattern linear, exponential, or neither? Explain how you know.</p>
+</statement>
+<answer>
+<p>
+The pattern is neither linear nor exponential. The number of shapes does not grow by adding a constant amount (the differences are 
+<m>+3, +5, +7</m>
+), and it does not grow by multiplying by a constant factor. 
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>
+If the pattern is linear or exponential, find an equation that gives the number of shapes 
+<m>y</m>
+ at case number 
+<m>x</m>
+.
+</p>
+</statement>
+<answer>
+<p>
+Not applicable. Since the pattern is neither linear nor exponential, an equation of the form 
+<m>y = mx+b</m>
+ or 
+<m>y = a \cdot b^x</m>
+ cannot be used.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt7-pattern-triangles">
+<title>Triangle Pattern</title>
+<introduction>
+<p>Consider the following pattern of triangles.</p>
+<image width="100%">
+<shortdescription>Four cases of triangles. Case 1 has 3 triangles, Case 2 has 9 triangles, Case 3 has 27 triangles, and Case 4 has 81 triangles arranged in grids.</shortdescription>
+<prefigure xmlns="https://prefigure.org" label="lt7-triangles-diagram">
+<diagram dimensions="(600,200)" margins="5">
+<coordinates bbox="(-1,-2,36,10)">
+<repeat parameter="col=0..2">
+<polygon points="(col,0.4), (col+0.4,-0.4), (col-0.4,-0.4)" fill="gold" stroke="black"/>
+</repeat>
+<label anchor="(1, -1.5)" alignment="center"><m>\text{Case } 1</m></label>
+
+<repeat parameter="col=0..2">
+<repeat parameter="row=0..2">
+<polygon points="(4+col,row+0.4), (4.4+col,row-0.4), (3.6+col,row-0.4)" fill="gold" stroke="black"/>
+</repeat>
+</repeat>
+<label anchor="(5, -1.5)" alignment="center"><m>\text{Case } 2</m></label>
+
+<repeat parameter="col=0..8">
+<repeat parameter="row=0..2">
+<polygon points="(9+col,row+0.4), (9.4+col,row-0.4), (8.6+col,row-0.4)" fill="gold" stroke="black"/>
+</repeat>
+</repeat>
+<label anchor="(13, -1.5)" alignment="center"><m>\text{Case } 3</m></label>
+
+<repeat parameter="col=0..8">
+<repeat parameter="row=0..8">
+<polygon points="(20+col,row+0.4), (20.4+col,row-0.4), (19.6+col,row-0.4)" fill="gold" stroke="black"/>
+</repeat>
+</repeat>
+<label anchor="(24, -1.5)" alignment="center"><m>\text{Case } 4</m></label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+<task workspace="0.75in">
+<statement>
+<p>How many shapes will be in Case 5?</p>
+</statement>
+<answer>
+<p>
+The counts are 
+<m>3, 9, 27, 81</m>
+. The number of triangles is multiplied by 3 each step, so Case 5 will have 
+<m>243</m>
+ triangles.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Is the pattern linear, exponential, or neither? Explain how you know.</p>
+</statement>
+<answer>
+<p>
+The pattern is exponential. The count is multiplying by a constant growth factor of 
+<m>3</m>
+ from each case to the next.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>
+If the pattern is linear or exponential, find an equation that gives the number of shapes 
+<m>y</m>
+ at case number 
+<m>x</m>
+.
+</p>
+</statement>
+<answer>
+<p>
+The growth factor is 
+<m>3</m>
+. Working backward, Case 0 would have 
+<m>3 \div 3 = 1</m>
+ triangle. The initial value is 
+<m>1</m>
+. The equation is 
+<m>y = 1 \cdot 3^x</m>
+ or 
+<m>y = 3^x</m>
+.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt7-table" workspace="1.5in">
+<title>Exponential Table</title>
+<statement>
+<p>The following table represents an exponential relationship. Find an equation of the form <m>y = a \cdot b^x</m> that models the data.</p>
+<tabular>
+<row bottom="medium">
+<cell>
+<m>x</m>
+</cell>
+<cell>
+<m>0</m>
+</cell>
+<cell>
+<m>1</m>
+</cell>
+<cell>
+<m>2</m>
+</cell>
+<cell>
+<m>3</m>
+</cell>
+</row>
+<row>
+<cell>
+<m>y</m>
+</cell>
+<cell>
+<m>2</m>
+</cell>
+<cell>
+<m>10</m>
+</cell>
+<cell>
+<m>50</m>
+</cell>
+<cell>
+<m>250</m>
+</cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+The y-intercept (when 
+<m>x=0</m>
+) is 
+<m>2</m>
+, so the initial value is 
+<m>a = 2</m>
+. Checking the change from term to term, 
+<m>10 \div 2 = 5</m>
+ and 
+<m>50 \div 10 = 5</m>
+. The constant growth factor is 
+<m>b = 5</m>
+. The equation is 
+<m>y = 2 \cdot 5^x</m>
+.
+</p>
+</answer>
+</exercise>
+
+<exercise xml:id="lt7-graph" workspace="1.5in">
+<title>Exponential Graph</title>
+<statement>
+<p>Given the exponential graph below, find an equation of the form <m>y = a \cdot b^x</m> that matches it.</p>
+<image width="45%">
+<shortdescription>An exponential curve crossing the y-axis at 4 and passing through the points 1 comma 2 and 2 comma 1.</shortdescription>
+<prefigure xmlns="https://prefigure.org" label="lt7-exponential-graph">
+<diagram dimensions="(300,300)" margins="5">
+<definition>f(x) = 4 * (0.5^x)</definition>
+<coordinates bbox="(-1,-1,4,6)">
+<grid-axes xlabel="x" ylabel="y"/>
+<graph function="f" stroke="blue" thickness="2"/>
+<point p="(0,4)" size="4" fill="blue"/>
+<point p="(1,2)" size="4" fill="blue"/>
+<point p="(2,1)" size="4" fill="blue"/>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+<p>
+(The points 
+<m>(0,4)</m>, <m>(1,2)</m>, and <m>(2,1)</m> 
+ are marked to help you.)
+</p>
+</statement>
+<answer>
+<p>
+The graph crosses the y-axis at 
+<m>(0,4)</m>
+, so the initial value is 
+<m>a = 4</m>
+. From 
+<m>x=0</m>
+ to 
+<m>x=1</m>
+, the y-value changes from 
+<m>4</m>
+ to 
+<m>2</m>
+. Because 
+<m>2 \div 4 = 0.5</m>
+ (or 
+<m>\frac{1}{2}</m>
+), the multiplier is 
+<m>b = 0.5</m>
+. The equation is 
+<m>y = 4 \cdot (0.5)^x</m>
+.
+</p>
+</answer>
+</exercise>
+</page>
+</worksheet>

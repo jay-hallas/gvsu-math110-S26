@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt8-practice-quiz">
+  <title>Learning Target 8: Exponential Graphs</title>
+
+  <objectives>
+    <ul>
+      <li>Given an exponential graph, identify the growth/decay rate, the vertical intercept, evaluate <m>f(a)</m>, find <m>x</m> given <m>f(a)</m> and make an equation for the curve.</li>
+    </ul>
+  </objectives>
+
+  <page>
+    <exercise xml:id="lt8-growth">
+      <title>Exponential Growth Graph</title>
+
+      <introduction>
+        <p>Use the graph of the exponential function <m>y=f(x)</m> below to answer the questions. Read values directly from the graph.</p>
+
+        <image width="60%">
+          <shortdescription>An increasing exponential curve passing through (0,4), (1,8), (2,16), and (3,32), with the first two points labeled.</shortdescription>
+          <description>
+            <p>A coordinate grid with x-values from negative 2 to 4 and y-values from 0 to 36. The curve passes through (negative 1,2), (0,4), (1,8), (2,16), and (3,32). Points (0,4) and (1,8) are explicitly labeled.</p>
+          </description>
+
+          <prefigure xmlns="https://prefigure.org" label="lt8-growth-graph">
+            <diagram dimensions="(420,360)" margins="5">
+              <definition>f(x) = 4 * (2^x)</definition>
+              <coordinates bbox="(-2,-5,4.5,40)">
+                <grid-axes xlabel="x" ylabel="y"/>
+                <graph function="f" stroke="purple" thickness="2"/>
+                <point p="(0,4)" size="4" fill="purple"/>
+                <label anchor="(-0.2, 4)" alignment="right"><m>(0, 4)</m></label>
+                <point p="(1,8)" size="4" fill="purple"/>
+                <label anchor="(-0.2, 8)" alignment="right"><m>(1, 8)</m></label>
+                <point p="(2,16)" size="4" fill="purple"/>
+                <point p="(3,32)" size="4" fill="purple"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </introduction>
+
+      <task workspace="1.2in">
+        <statement><p>Find the growth rate.</p></statement>
+        <answer><p>The growth factor is <m>2</m>, so the graph increases by <m>100\%</m> each time <m>x</m> increases by <m>1</m>. The growth rate is <m>100\%</m>.</p></answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>Find the vertical intercept.</p></statement>
+        <answer><p>The graph crosses the <m>y</m>-axis at <m>(0,4)</m>, so the vertical intercept is <m>4</m>.</p></answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>Evaluate <m>f(2)</m>.</p></statement>
+        <answer><p>At <m>x=2</m>, the graph has value <m>16</m>, so <m>f(2)=16</m>.</p></answer>
+      </task>
+
+      <task workspace="1.2in">
+        <statement><p>Find the value of <m>x</m> for which <m>f(x)=32</m>.</p></statement>
+        <answer><p>The graph reaches <m>32</m> at <m>x=3</m>.</p></answer>
+      </task>
+
+      <task workspace="1.2in">
+        <statement><p>Write an equation for the curve.</p></statement>
+        <answer><p>The vertical intercept is <m>4</m> and the growth factor is <m>2</m>, so the equation is <m>y=4(2)^x</m>.</p></answer>
+      </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise xml:id="lt8-decay">
+      <title>Exponential Decay Graph</title>
+
+      <introduction>
+        <p>Use the graph of the exponential function <m>y=f(x)</m> below to answer the questions. Read values directly from the graph.</p>
+
+        <image width="60%">
+          <shortdescription>A decreasing exponential curve passing through (0,125), (1,75), (2,45), and (3,27), with the first two points labeled.</shortdescription>
+          <description>
+            <p>A coordinate grid with x-values from 0 to 4 and y-values from 0 to 130. The curve passes through (0,125), (1,75), (2,45), and (3,27). Points (0,125) and (1,75) are explicitly labeled.</p>
+          </description>
+
+          <prefigure xmlns="https://prefigure.org" label="lt8-decay-graph">
+            <diagram dimensions="(420,360)" margins="5">
+              <definition>f(x) = 125 * (0.6^x)</definition>
+              <coordinates bbox="(-1,-10,4.5,140)">
+                <grid-axes xlabel="x" ylabel="y"/>
+                <graph function="f" stroke="purple" thickness="2"/>
+                <point p="(0,125)" size="4" fill="purple"/>
+                <label anchor="(0.2, 125)" alignment="left"><m>(0, 125)</m></label>
+                <point p="(1,75)" size="4" fill="purple"/>
+                <label anchor="(1.2, 75)" alignment="left"><m>(1, 75)</m></label>
+                <point p="(2,45)" size="4" fill="purple"/>
+                <point p="(3,27)" size="4" fill="purple"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </introduction>
+
+      <task workspace="1.2in">
+        <statement><p>Find the decay rate.</p></statement>
+        <answer><p>The decay factor is <m>0.6</m>, so the value decreases by <m>40\%</m> for each increase of <m>1</m> in <m>x</m>. The decay rate is <m>40\%</m>.</p></answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>Find the vertical intercept.</p></statement>
+        <answer><p>The graph crosses the <m>y</m>-axis at <m>(0,125)</m>, so the vertical intercept is <m>125</m>.</p></answer>
+      </task>
+
+      <task workspace="1in">
+        <statement><p>Evaluate <m>f(3)</m>.</p></statement>
+        <answer><p>At <m>x=3</m>, the graph has value <m>27</m>, so <m>f(3)=27</m>.</p></answer>
+      </task>
+
+      <task workspace="1.2in">
+        <statement><p>Find the value of <m>x</m> for which <m>f(x)=45</m>.</p></statement>
+        <answer><p>The graph has value <m>45</m> when <m>x=2</m>.</p></answer>
+      </task>
+
+      <task workspace="1.2in">
+        <statement><p>Write an equation for the curve.</p></statement>
+        <answer><p>The vertical intercept is <m>125</m> and the decay factor is <m>0.6</m>, so the equation is <m>y=125(0.6)^x</m>.</p></answer>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>

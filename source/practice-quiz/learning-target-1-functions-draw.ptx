@@ -84,7 +84,7 @@
             <prefigure xmlns="https://prefigure.org" label="lt1-water-glass-answer">
               <diagram dimensions="(520,320)" margins="(60,50,130,18)">
                 <coordinates bbox="(-0.6,-8,14.5,108)">
-                  <grid-axes hticks="(0,1,14)" vticks="(0,25,100)" h-zero-label="yes">
+                  <grid-axes  h-zero-label="yes">
                     <xlabel alignment="se">Time (minutes)</xlabel>
                     <ylabel alignment="ne">Water in glass (%)</ylabel>
                   </grid-axes>
@@ -208,7 +208,7 @@
             <prefigure xmlns="https://prefigure.org" label="lt1-battery-answer">
               <diagram dimensions="(520,320)" margins="(60,50,130,18)">
                 <coordinates bbox="(-0.3,-8,7.4,108)">
-                  <grid-axes hticks="(0,1,7)" vticks="(0,20,100)" h-zero-label="yes">
+                  <grid-axes  h-zero-label="yes">
                     <xlabel alignment="se">Time (hours)</xlabel>
                     <ylabel alignment="ne">Battery charge (%)</ylabel>
                   </grid-axes>

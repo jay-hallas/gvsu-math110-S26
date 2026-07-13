@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-groupquiz3-exponential">
+  <title>Group Quiz 3: Exponential Functions</title>
+
+  <introduction>
+    <p>Work together as a group. Each problem is worth 5 points.</p>
+    <note>
+      <p>Explain your reasoning in complete sentences where asked.</p>
+      <p>Show your work for any calculations in as much detail as possible.</p>
+      <p>Since it is a team quiz, make sure you agree on your final answers; think of ways to double check your work for each problem.</p>
+      <p>Invite everyone to participate. Try to build as much understanding for each problem.</p>
+    </note>
+  </introduction>
+
+  <page>
+    <exercise xml:id="gq3-p1">
+      <title>Growth Pattern: Circles</title>
+      <introduction>
+        <p>Consider the visual pattern below, where the number of circles increases at each step.</p>
+        <image width="70%">
+          <shortdescription>Three groups of dots arranged in columns, growing from 3 to 6 to 12 dots.</shortdescription>
+          <description>
+            <p>
+              Step 1 shows a single column of 3 dots. Step 2 shows two columns of 3 dots each, for 6 dots total. Step 3 shows four columns of 3 dots each, for 12 dots total.
+            </p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="gq3-p1-fig">
+            <diagram dimensions="(450,200)" margins="(10,25,10,10)">
+              <coordinates bbox="(-0.5,-1,7.5,1.8)">
+                <repeat parameter="y=0..2">
+                  <point p="(0, y*0.5)" size="5" fill="blue" stroke="navy"/>
+                </repeat>
+                <repeat parameter="x=0..1">
+                  <repeat parameter="y=0..2">
+                    <point p="(2+x*0.5, y*0.5)" size="5" fill="blue" stroke="navy"/>
+                  </repeat>
+                </repeat>
+                <repeat parameter="x=0..3">
+                  <repeat parameter="y=0..2">
+                    <point p="(5+x*0.5, y*0.5)" size="5" fill="blue" stroke="navy"/>
+                  </repeat>
+                </repeat>
+                <label anchor="(0,-0.6)"><m>\text{Step 1}</m></label>
+                <label anchor="(2.25,-0.6)"><m>\text{Step 2}</m></label>
+                <label anchor="(6.25,-0.6)"><m>\text{Step 3}</m></label>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </introduction>
+      <task xml:id="gq3-p1-a" workspace="1.5in">
+        <statement>
+          <p>Is this growth pattern linear, exponential, or neither? Explain how you can tell by examining how the number of circles changes from one step to the next.</p>
+        </statement>
+        <solution>
+          <p>
+            This pattern represents exponential growth. We can tell by counting the total number of circles at each step: Step 1 has 3 circles, Step 2 has 6 circles, and Step 3 has 12 circles. From one step to the next, the number of circles is multiplied by 2 (it doubles). Because the pattern grows by a constant multiplier (growth factor of 2) rather than by adding a constant amount, it is an exponential function.
+          </p>
+        </solution>
+      </task>
+      <task xml:id="gq3-p1-b" workspace="1.75in">
+        <statement>
+          <p>Write a formula for the total number of circles, <m>C</m>, in Step <m>n</m>.</p>
+        </statement>
+        <solution>
+          <p>
+            We know that an exponential model has the general form <m>C(n) = a \cdot b^n</m>, where <m>b</m> is the growth factor and <m>a</m> is the initial value (when <m>n=0</m>).
+          </p>
+          <p>
+            Since the number of circles doubles at each step, our growth factor is <m>b = 2</m>. To find the initial value <m>a</m> at Step 0, we can work backward from Step 1 by dividing by 2.
+          </p>
+          <p><md><mrow> a = \frac{3}{2} = 1.5 </mrow></md></p>
+          <p>Therefore, the formula for the total number of circles in Step <m>n</m> is</p>
+          <p><md><mrow> C(n) = 1.5 \cdot 2^n </mrow></md></p>
+          <p>
+            You can also write the formula starting directly from Step 1 as <m>C(n) = 3 \cdot 2^{n-1}</m>. Both expressions are mathematically equivalent and fully correct.
+          </p>
+        </solution>
+      </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise xml:id="gq3-p2">
+      <title>Exponential Graph: Finding the Equation</title>
+      <introduction>
+        <p>An exponential function of the form <m>f(x) = a \cdot b^x</m> is shown on the graph below. Several integer input points are highlighted.</p>
+        <image width="70%">
+          <shortdescription>Graph of an increasing exponential curve with three highlighted points.</shortdescription>
+          <description>
+            <p>
+              A coordinate grid with the <m>x</m>-axis from -2.5 to 3.5 and the <m>y</m>-axis from -0.5 to 15. An increasing curve is highlighted at three points: <m>(0,5)</m>, <m>(1,8)</m>, and <m>(2,12.8)</m>.
+            </p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="gq3-p2-fig">
+            <diagram dimensions="(420,300)" margins="(35,30,15,15)">
+              <definition>f(x) = 5*(1.6)^x</definition>
+              <coordinates bbox="(-2.5,-0.5,3.5,15)">
+                <grid-axes xlabel="x" ylabel="y"
+                  hspacing="(-2,1,3)" hlabels="(-2,1,3)"
+                  vspacing="(0,2,14)" vlabels="(0,2,14)"/>
+                <graph function="f" stroke="blue" thickness="2" domain="(-2.2,2.3)"/>
+                <point p="(0,5)" size="5" fill="navy"/>
+                <point p="(1,8)" size="5" fill="navy"/>
+                <point p="(2,12.8)" size="5" fill="navy"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </introduction>
+      <task xml:id="gq3-p2-a" workspace="1.5in">
+        <statement>
+          <p>Identify the vertical intercept from the graph. What parameter (<m>a</m> or <m>b</m>) does this value give you?</p>
+        </statement>
+        <solution>
+          <p>
+            The vertical intercept (or <m>y</m>-intercept) is the point where the graph crosses the vertical axis, which is at <m>(0, 5)</m>. In the general exponential equation <m>f(x) = a \cdot b^x</m>, plugging in <m>x=0</m> gives <m>f(0) = a \cdot b^0 = a</m>. Therefore, the vertical intercept gives us the initial value parameter, <m>a = 5</m>.
+          </p>
+        </solution>
+      </task>
+      <task xml:id="gq3-p2-b" workspace="1.75in">
+        <statement>
+          <p>Use the coordinates of the plotted points to find the growth factor <m>b</m>. Show your work or explain how you found it.</p>
+        </statement>
+        <solution>
+          <p>
+            The growth factor <m>b</m> represents the ratio of outputs for any two consecutive integer inputs. Using the plotted points <m>(0, 5)</m> and <m>(1, 8)</m>, we can divide the output at <m>x=1</m> by the output at <m>x=0</m>.
+          </p>
+          <p><md><mrow> b = \frac{f(1)}{f(0)} = \frac{8}{5} = 1.6 </mrow></md></p>
+          <p>We can verify this constant multiplier by checking the next plotted point at <m>x=2</m>.</p>
+          <p><md><mrow> b = \frac{f(2)}{f(1)} = \frac{12.8}{8} = 1.6 </mrow></md></p>
+          <p>The growth factor is <m>b = 1.6</m>.</p>
+        </solution>
+      </task>
+      <task xml:id="gq3-p2-c" workspace="1in">
+        <statement>
+          <p>Write the complete equation for the exponential function shown above.</p>
+        </statement>
+        <solution>
+          <p>
+            Substituting our initial value <m>a = 5</m> and our growth factor <m>b = 1.6</m> into the form <m>f(x) = a \cdot b^x</m>, we get the complete function:
+          </p>
+          <p><md><mrow> f(x) = 5 \cdot (1.6)^x </mrow></md></p>
+        </solution>
+      </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise xml:id="gq3-p3">
+      <title>Exponential Decay: Delivery Van Depreciation</title>
+      <introduction>
+        <p>
+          A new delivery van is purchased for \$42,000. As soon as it is driven off the lot, it begins depreciating in value. Each year, the van loses 15% of its value from the previous year. Let <m>V(t)</m> represent the value of the van (in dollars) <m>t</m> years after it was purchased.
+        </p>
+      </introduction>
+      <task xml:id="gq3-p3-a" workspace="1.5in">
+        <statement>
+          <p>State the initial value and determine the annual decay factor <m>b</m> for this situation. Explain how you found the decay factor.</p>
+        </statement>
+        <solution>
+          <p>The initial value is the purchase price of the van, so <m>a = 42{,}000</m>.</p>
+          <p>
+            To find the decay factor <m>b</m>, we start with 100% of the value (or 1) and subtract the annual rate of depreciation, <m>r = 15\% = 0.15</m>.
+          </p>
+          <p><md><mrow> b = 1 - r = 1 - 0.15 = 0.85 </mrow></md></p>
+          <p>This means that after losing 15% of its value each year, the van retains 85% of its value from the previous year.</p>
+        </solution>
+      </task>
+      <task xml:id="gq3-p3-b" workspace="1in">
+        <statement>
+          <p>Write a function <m>V(t)</m> that models the van's value over time.</p>
+        </statement>
+        <solution>
+          <p>
+            Using the exponential model <m>V(t) = a \cdot b^t</m> with our initial value <m>a = 42{,}000</m> and decay factor <m>b = 0.85</m>, the function is:
+          </p>
+          <p><md><mrow> V(t) = 42{,}000(0.85)^t </mrow></md></p>
+        </solution>
+      </task>
+      <task xml:id="gq3-p3-c" workspace="1.75in">
+        <statement>
+          <p>Find <m>V(6)</m> and explain what this number tells you about the van. Round your final dollar value to the nearest cent.</p>
+        </statement>
+        <solution>
+          <p>To find <m>V(6)</m>, substitute <m>t = 6</m> years into our valuation function.</p>
+          <p><md><mrow> V(6) = 42{,}000(0.85)^6 </mrow></md></p>
+          <p>Calculating <m>(0.85)^6 \approx 0.3771495</m>:</p>
+          <p><md><mrow> V(6) \approx 42{,}000(0.3771495) \approx 15840.279 </mrow></md></p>
+          <p>
+            Rounding to the nearest cent gives \$15,840.28. This number tells us that 6 years after being purchased, the delivery van's value will have depreciated to approximately \$15,840.28.
+          </p>
+        </solution>
+      </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise xml:id="gq3-p4">
+      <title>Compound Interest: Certificate of Deposit</title>
+      <introduction>
+        <p>
+          Suppose you deposit $4,800 into a certificate of deposit (CD) that pays an annual interest rate of 5.2%, compounded monthly. Let <m>A(t)</m> be the account balance after <m>t</m> years. Assume no extra deposits or withdrawals are made.
+        </p>
+      </introduction>
+      <task xml:id="gq3-p4-a" workspace="1.5in">
+        <statement>
+          <p>State the compound interest formula, and list the specific numerical values you will use for the principal <m>P</m>, the annual interest rate <m>r</m>, and the number of compounding periods per year <m>n</m>.</p>
+        </statement>
+        <solution>
+          <p>The compound interest formula is given by:</p>
+          <p><md><mrow> A(t) = P\left(1 + \frac{r}{n}\right)^{nt} </mrow></md></p>
+          <p>For this specific account, we identify the following parameters from the problem statement.</p>
+          <p>Principal (initial deposit): <m>P = 4{,}800</m>.</p>
+          <p>Annual interest rate (as a decimal): <m>r = 0.052</m>.</p>
+          <p>Compounding periods per year (monthly): <m>n = 12</m>.</p>
+        </solution>
+      </task>
+      <task xml:id="gq3-p4-b" workspace="1in">
+        <statement>
+          <p>Write the complete function <m>A(t)</m> for the balance in this account after <m>t</m> years.</p>
+        </statement>
+        <solution>
+          <p>Substituting our values for <m>P</m>, <m>r</m>, and <m>n</m> into the formula yields:</p>
+          <p><md><mrow> A(t) = 4{,}800\left(1 + \frac{0.052}{12}\right)^{12t} </mrow></md></p>
+        </solution>
+      </task>
+      <task xml:id="gq3-p4-c" workspace="2in">
+        <statement>
+          <p>How much money will be in the account after 8 years? Show your calculation and round your final answer to the nearest cent.</p>
+        </statement>
+        <solution>
+          <p>To find the balance after 8 years, evaluate <m>A(8)</m> by substituting <m>t = 8</m>.</p>
+          <p><md><mrow> A(8) = 4{,}800\left(1 + \frac{0.052}{12}\right)^{12(8)} = 4{,}800\left(1 + \frac{0.052}{12}\right)^{96} </mrow></md></p>
+          <p>Step by step calculation:</p>
+          <p>Find the monthly interest rate: <m>\frac{0.052}{12} \approx 0.00433333</m>.</p>
+          <p>Add 1 to get the monthly growth factor: <m>1 + \frac{0.052}{12} \approx 1.00433333</m>.</p>
+          <p>Raise this growth factor to the 96th power (total number of compounding months in 8 years): <m>(1.00433333)^{96} \approx 1.5143325</m>.</p>
+          <p>Multiply by the principal: <m>4{,}800 \cdot 1.5143325 \approx 7268.796</m>.</p>
+          <p>Rounding to the nearest cent, there will be \$7,268.80 in the account after 8 years.</p>
+        </solution>
+      </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise xml:id="gq3-p5">
+      <title>Building an Exponential Function from Two Points</title>
+      <introduction>
+        <p>Find an exponential function of the form <m>f(x) = a \cdot b^x</m> that passes through the points <m>(1,50)</m> and <m>(3,2)</m>.</p>
+      </introduction>
+      <task xml:id="gq3-p5-a" workspace="1.5in">
+        <statement>
+          <p>Use the two given coordinate points to set up a system of two equations involving the variables <m>a</m> and <m>b</m>.</p>
+        </statement>
+        <solution>
+          <p>Each point <m>(x, y)</m> on the graph must satisfy the equation <m>y = a \cdot b^x</m>. Substituting each coordinate pair into the general exponential form gives us our system of equations.</p>
+          <p>
+            <md>
+              <mrow> \text{Using point } (1, 50) \text{:} \quad 50 \amp = a \cdot b^1 </mrow>
+              <mrow> \text{Using point } (3, 2) \text{:} \quad 2 \amp = a \cdot b^3 </mrow>
+            </md>
+          </p>
+        </solution>
+      </task>
+      <task xml:id="gq3-p5-b" workspace="2.5in">
+        <statement>
+          <p>Solve your system algebraically to find the exact values of <m>a</m> and <m>b</m>. Show each step of your work clearly.</p>
+        </statement>
+        <solution>
+          <p>A great strategy for solving a system of exponential equations is to divide the second equation by the first equation. This eliminates the initial value variable <m>a</m>.</p>
+          <p><md><mrow> \frac{2}{50} = \frac{a \cdot b^3}{a \cdot b^1} </mrow></md></p>
+          <p>Simplify both sides of the equation.</p>
+          <p><md><mrow> \frac{1}{25} = b^2 </mrow></md></p>
+          <p>To solve for <m>b</m>, take the square root of both sides. Since the base of an exponential function must be positive (<m>b > 0</m>), we take the positive root.</p>
+          <p><md><mrow> b = \sqrt{\frac{1}{25}} = \frac{1}{5} = 0.2 </mrow></md></p>
+          <p>Now that we have the exact growth factor <m>b = \frac{1}{5}</m>, substitute it back into our simplest first equation (<m>50 = a \cdot b</m>) to solve for <m>a</m>.</p>
+          <p><md><mrow> 50 = a \cdot \left(\frac{1}{5}\right) </mrow></md></p>
+          <p>Multiply both sides by 5.</p>
+          <p><md><mrow> a = 250 </mrow></md></p>
+          <p>Thus, the exact values are <m>a = 250</m> and <m>b = \frac{1}{5}</m> (or 0.2).</p>
+        </solution>
+      </task>
+      <task xml:id="gq3-p5-c" workspace="1in">
+        <statement>
+          <p>Write your final exponential function <m>f(x) = a \cdot b^x</m>.</p>
+        </statement>
+        <solution>
+          <p>Substituting <m>a = 250</m> and <m>b = \frac{1}{5}</m> into the general form, our exponential function is:</p>
+          <p><md><mrow> f(x) = 250\left(\frac{1}{5}\right)^x \quad \text{or} \quad f(x) = 250(0.2)^x </mrow></md></p>
+        </solution>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>

@@ -121,10 +121,37 @@
 
   <section xml:id="sec-exponential-change">
     <title>Exponential Change and Modeling</title>
+
     <subsection xml:id="act-exponential-patterns">
       <title>Comparing Linear and Exponential Patterns</title>
   <xi:include href="./activities/2-exponential-pattern-1.ptx"/> 
     </subsection>
+  
+
+ <subsection xml:id="act-exponential-graph">
+      <title>Exponential Graphs and Equations</title>
+  <xi:include href="./activities/2-exponential-function-graph.ptx"/> 
+    </subsection>
+  
+ <subsection xml:id="act-exponential-app">
+      <title>Exponential Models - Growth and Decay</title>
+  <xi:include href="./activities/2-exponential-function-decay-application.ptx"/> 
+    </subsection>
+
+   <subsection xml:id="act-exponential-pt-function">
+      <title>Finding Exponential Functions Between Two Points</title>
+  <xi:include href="./activities/2-exponential-function-two-points.ptx"/> 
+ </subsection>
+
+
+ <subsection xml:id="act-exponential-interest">
+      <title>Compound Interest</title>
+  <xi:include href="./activities/2-exponential-function-compound-interest.ptx"/> 
+    </subsection>
+  
+  
+  
+  
   </section>
 
   <section xml:id="sec-inverses-logarithms">
@@ -155,14 +182,22 @@
     </chapter>
 
 
+  <chapter xml:id="group-practice">
+      <title>Practice for Group Quizzes</title>
+      <xi:include href="./practice-quiz/group-quiz-3-practice.ptx"/>
+    </chapter>
+
     <chapter xml:id="handouts">
-      <title>Practice Quizzes</title>
+      <title>Learning Target Practice Quizzes</title>
       <xi:include href="./practice-quiz/learning-target-1-functions-draw.ptx"/>
     <xi:include href="./practice-quiz/learning-target-2-functions-descriptions.ptx"/>
      <xi:include href="./practice-quiz/learning-target-3-linear-forms.ptx"/>
        <xi:include href="./practice-quiz/learning-target-4-linear-graphs.ptx"/>
         <xi:include href="./practice-quiz/learning-target-5-linear-model.ptx"/>
           <xi:include href="./practice-quiz/learning-target-6-linear-systems.ptx"/>
+           <xi:include href="./practice-quiz/learning-target-7-exponential-patterns.ptx"/>
+           <xi:include href="./practice-quiz/learning-target-8-exponential-graph.ptx"/>
+           <xi:include href="./practice-quiz/learning-target-9-exponential-application.ptx"/>
     </chapter>
 
 

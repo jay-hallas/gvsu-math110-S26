@@ -1,0 +1,172 @@
+<worksheet xml:id="worksheet-exp-two-points">
+  <title>Exponential Equations from Two Points</title>
+
+  <introduction>
+    <p>
+      An exponential model has the form <m>f(x) = ab^x</m>, where <m>a</m> is the initial value
+      and <m>b</m> is the growth or decay factor. This activity looks at two situations: one where
+      you're given the <m>y</m>-intercept outright, and one where you're not.
+    </p>
+  </introduction>
+
+  <page>
+    <p>
+      <term>Case 1: <m>y</m>-intercept given</term>
+    </p>
+
+    <note xml:id="note-case1-idea">
+      <title>Finding <m>a</m> and <m>b</m> when the <m>y</m>-intercept is known</title>
+      <p>
+        If one of your points is the <m>y</m>-intercept <m>(0,a)</m>, you already know <m>a</m>.
+        Just substitute the second point into <m>y = ab^x</m> and solve for <m>b</m>.
+      </p>
+    </note>
+
+    <note xml:id="note-case1-example">
+      <title>Worked Example</title>
+      <p>
+        A population starts at <m>5</m> (at <m>x=0</m>) and grows to <m>45</m> by <m>x=2</m>.
+        Find the exponential equation.
+      </p>
+      <p>
+        Points: <m>(0,5)</m> and <m>(2,45)</m>.
+      </p>
+      <p>
+        <term>Step 1, find <m>a</m>:</term> Since <m>(0,5)</m> is the <m>y</m>-intercept, <m>a=5</m>.
+      </p>
+      <p>
+        <term>Step 2, find <m>b</m>:</term> Substitute the other point into <m>y = 5b^x</m>:
+      </p>
+      <p>
+        <md>
+          45 \amp = 5b^2 \\
+          9 \amp = b^2 \\
+          b \amp = 3
+        </md>
+      </p>
+      <p>
+        <term>Step 3, write the equation:</term>
+        <md>
+          y = 5(3)^x
+        </md>
+      </p>
+    </note>
+
+    <exercise xml:id="ex-case1-1" workspace="1.5in">
+      <statement>
+        <p>
+          A quantity has <m>y</m>-intercept <m>(0,4)</m> and also passes through <m>(3,32)</m>.
+          Find the exponential equation <m>y = ab^x</m> that models this data.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>a = 4</m>, and substituting <m>(3,32)</m> gives <m>32 = 4b^3</m>, so <m>8 = b^3</m>
+          and <m>b = 2</m>. The equation is <m>y = 4(2)^x</m>.
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="ex-case1-2" workspace="1.5in">
+      <statement>
+        <p>
+          A quantity has <m>y</m>-intercept <m>(0,100)</m> and also passes through <m>(2,25)</m>.
+          Find the exponential equation <m>y = ab^x</m> that models this data.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>a = 100</m>, and substituting <m>(2,25)</m> gives <m>25 = 100b^2</m>, so
+          <m>0.25 = b^2</m> and <m>b = 0.5</m>. The equation is <m>y = 100(0.5)^x</m>.
+        </p>
+      </answer>
+    </exercise>
+  </page>
+
+  <page>
+    <p>
+      <term>Case 2: <m>y</m>-intercept not given</term>
+    </p>
+
+    <note xml:id="note-case2-idea">
+      <title>Finding <m>a</m> and <m>b</m> when the <m>y</m>-intercept is NOT known</title>
+      <p>
+        If neither point is the <m>y</m>-intercept, set up two equations: <m>y_1 = ab^{x_1}</m>
+        and <m>y_2 = ab^{x_2}</m>.
+      </p>
+      <p>
+        Divide the equations to eliminate <m>a</m>: <m>\dfrac{y_2}{y_1} = b^{\,x_2 - x_1}</m>.
+        Solve for <m>b</m>.
+      </p>
+      <p>
+        Substitute <m>b</m> back into either original equation to solve for <m>a</m>.
+      </p>
+    </note>
+
+    <note xml:id="note-case2-example">
+      <title>Worked Example</title>
+      <p>
+        A quantity passes through <m>(1,6)</m> and <m>(3,54)</m>. Find the exponential equation.
+      </p>
+      <p>
+        <term>Step 1, divide to find <m>b</m>:</term>
+      </p>
+      <p>
+        <md>
+          \frac{y_2}{y_1} \amp = \frac{54}{6} = 9,
+          \qquad \text{and} \qquad
+          \frac{y_2}{y_1} = b^{3-1} = b^2 \\
+          9 \amp = b^2 \\
+          b \amp = 3
+        </md>
+      </p>
+      <p>
+        <term>Step 2, substitute back to find <m>a</m>:</term> Using <m>(1,6)</m> in <m>y = ab^x</m>:
+      </p>
+      <p>
+        <md>
+          6 \amp = a(3)^1 \\
+          a \amp = 2
+        </md>
+      </p>
+      <p>
+        <term>Step 3, write the equation:</term>
+        <md>
+          y = 2(3)^x
+        </md>
+      </p>
+    </note>
+
+    <exercise xml:id="ex-case2-1" workspace="1.75in">
+      <statement>
+        <p>
+          A quantity passes through <m>(2,20)</m> and <m>(4,80)</m>. Find the exponential
+          equation <m>y = ab^x</m> that models this data.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Dividing gives <m>\frac{80}{20} = b^{4-2}</m>, so <m>4 = b^2</m> and <m>b = 2</m>.
+          Using <m>(2,20)</m> in <m>y = ab^x</m> gives <m>20 = a(2)^2</m>, so <m>a = 5</m>.
+          The equation is <m>y = 5(2)^x</m>.
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="ex-case2-2" workspace="1.75in">
+      <statement>
+        <p>
+          A quantity passes through <m>(1,40)</m> and <m>(3,10)</m>. Find the exponential
+          equation <m>y = ab^x</m> that models this data.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Dividing gives <m>\frac{10}{40} = b^{3-1}</m>, so <m>0.25 = b^2</m> and <m>b = 0.5</m>.
+          Using <m>(1,40)</m> in <m>y = ab^x</m> gives <m>40 = a(0.5)^1</m>, so <m>a = 80</m>.
+          The equation is <m>y = 80(0.5)^x</m>.
+        </p>
+      </answer>
+    </exercise>
+  </page>
+</worksheet>
