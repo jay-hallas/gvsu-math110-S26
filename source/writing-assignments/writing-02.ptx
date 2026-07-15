@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="writing-assignment-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Writing Assignment 2: Systems and Regression</title>
+
+  <introduction>
+    <p>
+      This assignment covers solving systems of linear equations and building linear regression
+      models from data.
+    </p>
+    <p>
+      <ul>
+        <li>For Question 1, define your variables, set up your equations, and show your graph.</li>
+        <li>For Question 2, round all regression parameters to 3 decimal places.</li>
+        <li>Every answer that asks for an interpretation should be written in a complete sentence, in context.</li>
+        <li>
+          Upload your work to Blackboard. Select Week 2, then select Writing Assignment 2, and
+          scroll down to upload a scan of your work. Google Drive has a nice feature for scanning
+          documents. Please let me know if you need assistance with this.
+        </li>
+      </ul>
+    </p>
+  </introduction>
+
+  <page>
+    <exercise xml:id="wa2-bake-sale">
+      <title>A Fundraising Bake Sale</title>
+      <introduction>
+        <p>
+          The math club is running a bake sale to raise money for a conference trip. They sell only
+          two items: cookies for $2 each and brownies for $3 each. By the end of the sale, they had
+          sold 96 items total and had collected exactly $246 in sales. How many cookies and how many
+          brownies did they sell?
+        </p>
+      </introduction>
+
+      <task workspace="0.25in">
+        <statement>
+          <p>Define your variables.</p>
+          <p>Let <m>x =</m> <fillin characters="40"/></p>
+          <p>Let <m>y =</m> <fillin characters="40"/></p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>Write two equations that describe this situation.</p>
+          <tabular top="minor" left="minor" bottom="minor" right="minor">
+            <col halign="left" width="40%" right="minor"/>
+            <col halign="left" width="60%"/>
+            <row header="yes" bottom="minor">
+              <cell>What the equation tracks</cell>
+              <cell>Equation</cell>
+            </row>
+            <row bottom="minor">
+              <cell>Total items sold</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Total revenue (dollars)</cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Graph the system in Desmos. Sketch both lines on the grid below; choose your own scale,
+            label both axes, and mark the intersection point.
+          </p>
+          <image width="60%">
+            <shortdescription>A blank coordinate grid</shortdescription>
+            <description>
+              <p>
+                A blank first-quadrant coordinate grid, twelve units wide and twelve units tall,
+                with a horizontal axis labeled x and a vertical axis labeled y.
+              </p>
+            </description>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.55]
+                \draw[gray!30, thin] (0,0) grid (12,12);
+                \draw[->, thick] (0,0) -- (12.6,0) node[right] {$x$};
+                \draw[->, thick] (0,0) -- (0,12.6) node[above] {$y$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            State the coordinates of the intersection point: <m>(x, y) =</m>
+            <fillin characters="20"/>
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            What does this solution mean in the context of the bake sale? Write a complete sentence.
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>Check your answer by substituting your values back into both equations.</p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise xml:id="wa2-cricket-regression">
+      <title>Cricket Chirps and Temperature</title>
+      <introduction>
+        <p>
+          Crickets are ectotherms, meaning their body temperature (and their chirping speed) is
+          driven by the temperature around them. The table below shows real field data: the number
+          of chirps a striped ground cricket made in a 15-second span, along with the air
+          temperature at the time.<fn>Data source: G. W. Pierce, <pubtitle>The Song of
+          Insects</pubtitle>, Harvard University Press.</fn>
+        </p>
+        <tabular top="minor" left="minor" bottom="minor" right="minor">
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row header="yes" bottom="minor">
+            <cell>Chirps (in 15 seconds)</cell>
+            <cell>Temperature (degrees Fahrenheit)</cell>
+          </row>
+          <row><cell>20</cell><cell>89</cell></row>
+          <row><cell>16</cell><cell>72</cell></row>
+          <row><cell>20</cell><cell>93</cell></row>
+          <row><cell>18</cell><cell>84</cell></row>
+          <row><cell>17</cell><cell>81</cell></row>
+          <row><cell>16</cell><cell>75</cell></row>
+          <row><cell>15</cell><cell>70</cell></row>
+          <row><cell>17</cell><cell>82</cell></row>
+          <row><cell>15</cell><cell>69</cell></row>
+          <row><cell>16</cell><cell>83</cell></row>
+          <row><cell>15</cell><cell>80</cell></row>
+          <row><cell>17</cell><cell>83</cell></row>
+          <row><cell>16</cell><cell>81</cell></row>
+          <row><cell>17</cell><cell>84</cell></row>
+          <row><cell>14</cell><cell>76</cell></row>
+        </tabular>
+      </introduction>
+
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            Enter the data into a table in Desmos and adjust your window. Does there appear to be an
+            approximately linear structure?
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="0.5in">
+        <statement>
+          <p>Find the linear regression model for this data.</p>
+          <p>
+            <ol>
+              <li>
+                <term>Enter the data.</term> Input the table of values into Desmos, with chirps as
+                <m>x_1</m> and temperature as <m>y_1</m>.
+              </li>
+              <li>
+                <term>Find the regression line.</term> Click the style/regression icon next to the
+                table, or type <m>y_1 \sim m x_1 + b</m> in the command line below your data matrix.
+              </li>
+              <li>
+                <term>View high precision parameters.</term> Type <m>m</m> or <m>b</m> into an empty
+                evaluation line underneath to view extended decimal precision values.
+              </li>
+            </ol>
+          </p>
+          <p>
+            Regression equation: <fillin characters="40"/> (round the parameters to 3 decimal
+            places)
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>
+            Look at your graphed equation along with the data points. Does there seem to be a
+            relationship between the number of chirps and the air temperature?
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>
+            A cricket chirps 19 times in a 15-second span. What temperature would you expect it to
+            be?
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>
+            Suppose the air temperature is <m>78^{\circ}</m>F. How many chirps would you expect to
+            hear in 15 seconds?
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            What is the slope of your model? Write one sentence to describe what it means in the
+            context of this problem.
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            What is the vertical intercept of your model? Write one sentence to describe what it
+            means in the context of this problem. Does this value make sense here?
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            What is the horizontal intercept of your model? Write one sentence to describe what it
+            means in the context of this problem. Does this value make sense here?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+</worksheet>

@@ -1,0 +1,129 @@
+<worksheet xml:id="activity-exponential-10">
+  <title>Exponential Regression: GVSU Tuition Rates</title>
+
+  <introduction>
+    <p>
+      Historical block tuition charges at GVSU are shown below. These are the actual
+      tuition costs; unlike a credit card, which carries one fixed interest rate,
+      tuition has grown by a different rate every year (see for yourself by checking
+      the table).
+    </p>
+  </introduction>
+
+  <page>
+    <exercise xml:id="ex-tuition-regression">
+      <title>GVSU Tuition Rates</title>
+
+      <introduction>
+        <tabular>
+          <row header="yes" bottom="minor">
+            <cell>Fall Semester</cell>
+            <cell>Block charge ($) for one year of tuition, in-state students</cell>
+          </row>
+          <row><cell>1995</cell><cell>2780</cell></row>
+          <row><cell>1996</cell><cell>2866</cell></row>
+          <row><cell>1997</cell><cell>3288</cell></row>
+          <row><cell>1998</cell><cell>3362</cell></row>
+          <row><cell>1999</cell><cell>4048</cell></row>
+          <row><cell>2000</cell><cell>4230</cell></row>
+          <row><cell>2001</cell><cell>4660</cell></row>
+          <row><cell>2002</cell><cell>5056</cell></row>
+          <row><cell>2003</cell><cell>5254</cell></row>
+          <row><cell>2004</cell><cell>5782</cell></row>
+          <row><cell>2005</cell><cell>6220</cell></row>
+          <row><cell>2006</cell><cell>6588</cell></row>
+          <row><cell>2007</cell><cell>7240</cell></row>
+          <row><cell>2008</cell><cell>8196</cell></row>
+        </tabular>
+      </introduction>
+
+      <task xml:id="task-tuition-plot" workspace="4in">
+        <statement>
+          <p>
+            When working with yearly data, calculations are easier if we count
+            forward from the starting year, so let <m>x =</m> years since 1995
+            (so 1995 corresponds to <m>x = 0</m>). Plot the data below, using
+            <m>x =</m> years since 1995 and <m>y =</m> tuition (dollars), and label
+            your axes appropriately.
+          </p>
+          <figure>
+            <caption>Blank grid for plotting tuition data.</caption>
+            <image>
+              <shortdescription>A blank coordinate grid for plotting tuition data.</shortdescription>
+              <description>
+                <p>
+                  A blank coordinate grid spanning 13 units horizontally and 6.5 units
+                  vertically, with light minor gridlines every half unit and darker major
+                  gridlines every 2.5 units, for students to plot years since 1995 against
+                  tuition in dollars.
+                </p>
+              </description>
+              <latex-image>
+                <![CDATA[
+                \begin{tikzpicture}
+                  \draw[step=0.5cm, black!20, very thin] (0,0) grid (13,6.5);
+                  \draw[step=2.5cm, black!45, thin] (0,0) grid (13,6.5);
+                  \draw[black!60, thick] (0,0) rectangle (13,6.5);
+                \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+        </statement>
+      </task>
+
+      <task xml:id="task-tuition-equation" workspace="1in">
+        <statement>
+          <p>
+            Use regression to find an exponential function that best fits the data.
+          </p>
+          <p>
+            <term>Desmos Tip:</term> Enter the data as a list, then type
+            <m>y_1 \sim a(b)^{x_1}</m> below it. Check the "Log Mode" box next to the
+            regression to see how well the model fits.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="task-tuition-percent" workspace="1in">
+        <statement>
+          <p>
+            Based on your equation, what was the percent increase in tuition each
+            year from 1995 to 2008?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="task-tuition-predict" workspace="1in">
+        <statement>
+          <p>
+            Use your equation to predict the block tuition rate for in-state
+            students in Fall 2016.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="task-tuition-drift" workspace="1.75in">
+        <statement>
+          <p>
+            Your prediction was built from data collected between 1995 and 2008.
+            The actual block rate for Fall 2016 was $11,520. What does this tell you
+            about how the percent increase in tuition changed between 2008 and 2016?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="task-tuition-reflection" workspace="1.75in">
+        <statement>
+          <p>
+            You should now be able to explain, in one sentence each: what it means
+            to fit an exponential regression to data, how to convert the growth
+            factor <m>b</m> into a percent increase, and why a model built on older
+            data can drift away from reality over time.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+  </page>
+</worksheet>

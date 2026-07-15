@@ -141,6 +141,14 @@
    <subsection xml:id="act-exponential-pt-function">
       <title>Finding Exponential Functions Between Two Points</title>
   <xi:include href="./activities/2-exponential-function-two-points.ptx"/> 
+
+
+ </subsection>
+
+ <subsection xml:id="act-exponential-regression">
+      <title>Exponential Regression</title>
+  <xi:include href="./activities/2-exponential-regression.ptx"/> 
+
  </subsection>
 
 
@@ -178,9 +186,10 @@
     <chapter xml:id="writing">
       <title>Writing Assignments</title>
     <xi:include href="./writing-assignments/writing-01.ptx"/>
-
+<xi:include href="./writing-assignments/writing-02.ptx"/>
+<xi:include href="./writing-assignments/writing-03.ptx"/>
     </chapter>
-
+ 
 
   <chapter xml:id="group-practice">
       <title>Practice for Group Quizzes</title>

@@ -1,0 +1,248 @@
+<worksheet xml:id="writing-assignment-3-exponential-models">
+  <title>Writing Assignment 3: Exponential Models and Regression</title>
+
+  <introduction>
+    <p>
+      This assignment explores exponential decay functions, the visual profile of
+      compound interest versus linear growth, and building exponential regression
+      curves from real computing data.
+    </p>
+    <p>For Question 1, write precise equations and make sure your interpretations are detailed.</p>
+    <p>For Question 2, complete the structured tracker table to compare the long-term mechanics of savings options.</p>
+    <p>For Question 3, use Desmos to calculate the exponential regression parameters rounded to 4 decimal places.</p>
+    <p>Every answer that asks for an interpretation should be written in a complete sentence, in context.</p>
+    <p>Upload a clean, high-quality scan of your pages to Blackboard when complete.</p>
+  </introduction>
+
+  <page>
+    <exercise xml:id="ex-viral-video-decay">
+      <title>Attention Decay of a Viral Video</title>
+
+      <introduction>
+        <p>
+          An independent digital media creator uploads a video that goes viral,
+          peaking at exactly 450,000 views per day. Once the platform recommendation
+          algorithm shifts its cycle, the daily view count begins to decay
+          exponentially, losing 18% of its audience each subsequent day.
+        </p>
+      </introduction>
+
+      <task xml:id="task-viral-a" workspace="0.75in">
+        <statement>
+          <p>
+            Identify the initial value <m>a</m> and the decay factor <m>b</m> for
+            this scenario.
+          </p>
+          <p>Initial value <m>a = </m> <fillin characters="12"/></p>
+          <p>Decay factor <m>b = </m> <fillin characters="12"/></p>
+        </statement>
+      </task>
+
+      <task xml:id="task-viral-b" workspace="0.75in">
+        <statement>
+          <p>
+            Build an explicit exponential function <m>V(t)</m> that calculates the
+            total daily views <m>t</m> days after the video peaks.
+          </p>
+          <p><m>V(t) = </m> <fillin characters="20"/></p>
+        </statement>
+      </task>
+
+      <task xml:id="task-viral-c" workspace="1.5in">
+        <statement>
+          <p>
+            How many daily views will the video receive exactly 6 days after its
+            peak? Show your calculation and round to the nearest whole view.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="task-viral-d" workspace="1.5in">
+        <statement>
+          <p>
+            Use Desmos to determine how many days it takes for the daily view count
+            to drop below 50,000 views. State the equation or step you used to find
+            this value.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="task-viral-e" workspace="1in">
+        <statement>
+          <p>
+            Write a complete sentence explaining what the value
+            <m>V(10) \approx 61{,}853</m> means in the explicit context of this
+            creator's video.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise xml:id="ex-compound-interest-siblings">
+      <title>The Power of Compound Interest</title>
+
+      <introduction>
+        <p>
+          Two siblings, Alex and Taylor, each receive a cash distribution of $6,000
+          from an estate sale. They choose different financial paths to manage this
+          initial amount.
+        </p>
+        <p>
+          <term>Alex</term> locks the $6,000 in a secure home safe. Each year,
+          Alex adds an additional $350 cash from his tax return directly into
+          the safe.
+        </p>
+        <p>
+          <term>Taylor</term> opens an investment account with the initial
+          $6,000 that earns a fixed 4% interest compounded annually. Taylor
+          leaves the money completely alone and never adds any extra cash
+          contributions.
+        </p>
+      </introduction>
+
+      <task xml:id="task-siblings-a" workspace="1in">
+        <statement>
+          <p>
+            Construct two algebraic functions that calculate the total value held
+            by each sibling after <m>t</m> years.
+          </p>
+          <p>Alex's Safe Balance Function: <m>A(t) = </m> <fillin characters="20"/> (Linear Growth)</p>
+          <p>Taylor's Account Balance Function: <m>T(t) = </m> <fillin characters="20"/> (Exponential Growth)</p>
+        </statement>
+      </task>
+
+      <task xml:id="task-siblings-b">
+        <statement>
+          <p>
+            Complete the evaluation matrix below to track the total value of each
+            strategy over a 30-year horizon. Round all final cash balances to the
+            nearest dollar.
+          </p>
+          <tabular>
+            <row header="yes" bottom="minor">
+              <cell>Years (t)</cell>
+              <cell>Alex's Safe Value (A(t))</cell>
+              <cell>Taylor's Account Value (T(t))</cell>
+            </row>
+            <row><cell>1</cell><cell>$ <fillin characters="10"/></cell><cell>$ <fillin characters="10"/></cell></row>
+            <row><cell>5</cell><cell>$ <fillin characters="10"/></cell><cell>$ <fillin characters="10"/></cell></row>
+            <row><cell>10</cell><cell>$ <fillin characters="10"/></cell><cell>$ <fillin characters="10"/></cell></row>
+            <row><cell>15</cell><cell>$ <fillin characters="10"/></cell><cell>$ <fillin characters="10"/></cell></row>
+            <row><cell>20</cell><cell>$ <fillin characters="10"/></cell><cell>$ <fillin characters="10"/></cell></row>
+            <row><cell>25</cell><cell>$ <fillin characters="10"/></cell><cell>$ <fillin characters="10"/></cell></row>
+            <row><cell>30</cell><cell>$ <fillin characters="10"/></cell><cell>$ <fillin characters="10"/></cell></row>
+          </tabular>
+        </statement>
+      </task>
+
+      <task xml:id="task-siblings-c" workspace="0.6in">
+        <statement>
+          <p>
+            Look closely at your values. Because Alex continuously adds cash every
+            year, Alex starts with a higher total balance. Approximately how many
+            years does it take for Taylor's invested account to finally overtake
+            the value in the safe?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="task-siblings-d" workspace="0.75in">
+        <statement>
+          <p>
+            Calculate the total amount of additional money contributed by each
+            sibling from their own pockets over those 30 years (excluding the
+            initial $6,000).
+          </p>
+          <p>Alex's Additional Out-of-Pocket Contribution: <fillin characters="15"/></p>
+          <p>Taylor's Additional Out-of-Pocket Contribution: <fillin characters="15"/></p>
+        </statement>
+      </task>
+
+      <task xml:id="task-siblings-e" workspace="1in">
+        <statement>
+          <p>
+            Considering all parts of this problem, what does this scenario suggest
+            about the long-term power of compound interest versus basic cash
+            accumulation? Write a detailed response in complete sentences.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise xml:id="ex-moores-law-regression">
+      <title>Exponential Regression and Moore's Law</title>
+
+      <introduction>
+        <p>
+          Moore's Law is the historical observation that the number of transistors
+          packed onto a microchip doubles roughly every two years, driving an
+          exponential surge in computing power. The table below displays
+          chronological microchip production data over a thirty-year span.
+        </p>
+        <tabular>
+          <row header="yes" bottom="minor">
+            <cell>Year</cell>
+            <cell>Years since 1970 (t)</cell>
+            <cell>Transistor Count (N)</cell>
+          </row>
+          <row><cell>1971</cell><cell>1</cell><cell>2,300</cell></row>
+          <row><cell>1974</cell><cell>4</cell><cell>5,000</cell></row>
+          <row><cell>1978</cell><cell>8</cell><cell>29,000</cell></row>
+          <row><cell>1982</cell><cell>12</cell><cell>134,000</cell></row>
+          <row><cell>1985</cell><cell>15</cell><cell>275,000</cell></row>
+          <row><cell>1989</cell><cell>19</cell><cell>1,180,000</cell></row>
+          <row><cell>1993</cell><cell>23</cell><cell>3,100,000</cell></row>
+          <row><cell>1997</cell><cell>27</cell><cell>7,500,000</cell></row>
+          <row><cell>1999</cell><cell>29</cell><cell>24,000,000</cell></row>
+        </tabular>
+        <p>
+          <term>Exponential Regression Instructions in Desmos:</term> Type the table
+          values into Desmos. Use your relative time vector (years since 1970) as
+          your independent variable <m>x_1</m> and transistor count as your
+          dependent variable <m>y_1</m>. Then type the exponential model structure
+          <m>y_1 \sim a \cdot b^{x_1}</m> into an empty execution line, and make sure
+          you select Log Mode.
+        </p>
+        <p>
+          Exponential Regression Model: <fillin characters="20"/> (round <m>a</m>
+          and <m>b</m> to 4 decimal places)
+        </p>
+      </introduction>
+
+      <task xml:id="task-moore-a" workspace="1in">
+        <statement>
+          <p>
+            Based on your regression output, state the value of your base growth
+            factor <m>b</m>. Write a complete sentence explaining exactly what this
+            parameter means regarding the yearly growth rate of transistors.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="task-moore-b" workspace="1in">
+        <statement>
+          <p>
+            Use your mathematical model to predict the transistor count for a
+            microprocessor developed in the year 2010 (<m>t = 40</m>). Show your
+            structural setup.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="task-moore-c" workspace="1.1in">
+        <statement>
+          <p>
+            The actual transistor count for an Intel Core i7 processor released in
+            2010 was roughly 1,170,000,000. Compare your model's prediction from
+            part (b) with this real-world figure. Did your exponential model
+            overperform or underperform the actual advancement?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+</worksheet>
