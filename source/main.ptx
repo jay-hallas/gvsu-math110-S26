@@ -188,12 +188,14 @@
     <xi:include href="./writing-assignments/writing-01.ptx"/>
 <xi:include href="./writing-assignments/writing-02.ptx"/>
 <xi:include href="./writing-assignments/writing-03.ptx"/>
+<xi:include href="./writing-assignments/writing-04.ptx"/>
     </chapter>
  
 
   <chapter xml:id="group-practice">
       <title>Practice for Group Quizzes</title>
       <xi:include href="./practice-quiz/group-quiz-3-practice.ptx"/>
+       <xi:include href="./practice-quiz/group-quiz-4-practice.ptx"/>
     </chapter>
 
     <chapter xml:id="handouts">
@@ -206,9 +208,10 @@
           <xi:include href="./practice-quiz/learning-target-6-linear-systems.ptx"/>
            <xi:include href="./practice-quiz/learning-target-7-exponential-patterns.ptx"/>
            <xi:include href="./practice-quiz/learning-target-8-exponential-graph.ptx"/>
-           <xi:include href="./practice-quiz/learning-target-9-exponential-application.ptx"/>
+           <xi:include href="./practice-quiz/learning-target-10-inverse-linear.ptx"/>
+   <xi:include href="./practice-quiz/learning-target-11-logarithm-solving.ptx"/>
+ <xi:include href="./practice-quiz/learning-target-12-quadratic-pattern.ptx"/>
     </chapter>
-
 
     <chapter xml:id="tech">
       <title>Desmos SKill Practice</title>

@@ -1,0 +1,480 @@
+<worksheet xml:id="writing-assignment-4">
+<title>Writing Assignment 4: Logarithms, Inverses, and Quadratic Patterns</title>
+
+<introduction>
+<p>This assignment moves between exponential and logarithmic equations, compounding schedules, inverse functions, and a geometric pattern that grows quadratically.</p>
+<p>Show every algebraic step. A final answer with no supporting work earns no credit.</p>
+<p>In Question 2, carry at least four decimal places through your intermediate steps.</p>
+<p>In Question 3, label each graph clearly with its equation.</p>
+<p>Every answer that asks for an interpretation should be written in a complete sentence, in context.</p>
+<p>Upload a clean, high-quality scan of your pages to Blackboard when complete.</p>
+</introduction>
+
+<page>
+<exercise xml:id="wa4-solving-equations">
+<title>Solving Exponential and Logarithmic Equations</title>
+<introduction>
+<p>Solve each equation below by hand. Round any decimal approximations to four decimal places.</p>
+</introduction>
+<task workspace="3.5in">
+<statement>
+<p>
+Solve the exponential equation
+<m>4 \cdot 3^{x} = 324</m>
+for
+<m>x</m>
+.
+</p>
+<p>
+Isolate the exponential expression first, then rewrite both sides with a common base or take a logarithm of both sides. Both routes are valid; state which one you used.
+</p>
+<p>
+<m>x =</m>
+<fillin characters="12"/>
+</p>
+</statement>
+</task>
+<task workspace="3.5in">
+<statement>
+<p>
+Solve the logarithmic equation
+<m>\log_{2}(3x - 5) = 4</m>
+for
+<m>x</m>
+. Verify your answer by substituting back into the original equation and confirming the argument of the logarithm is positive.
+</p>
+<p>
+<m>x =</m>
+<fillin characters="12"/>
+</p>
+</statement>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>
+Explain in one or two complete sentences how the structure of part (a) and the structure of part (b) are related. What does each equation ask you to <em>undo</em>?
+</p>
+</statement>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="wa4-compounding">
+<title>Monthly versus Daily Compounding</title>
+<introduction>
+<p>
+A recent graduate deposits
+<m>\$8,500</m>
+into a high-yield savings account that pays a nominal annual interest rate of
+<m>4.75\%</m>
+. She wants to know how long it takes the balance to reach
+<m>\$13,000</m>
+, and whether the compounding schedule meaningfully changes that answer.
+</p>
+<p>
+Recall that
+<m>A = P\left(1 + \frac{r}{n}\right)^{nt}</m>
+, where
+<m>n</m>
+is the number of compounding periods per year. Use
+<m>n = 12</m>
+for monthly compounding and
+<m>n = 365</m>
+for daily compounding.
+</p>
+</introduction>
+<task workspace="1.5in">
+<statement>
+<p>
+Write the equation you would solve to find the time
+<m>t</m>
+required to reach
+<m>\$13,000</m>
+under <em>monthly</em> compounding. Do not solve it yet.
+</p>
+</statement>
+</task>
+<task workspace="3.5in">
+<statement>
+<p>
+Solve your equation from part (a) algebraically using logarithms. Show each step, and round your final answer to four decimal places.
+</p>
+<p>
+<m>t \approx</m>
+<fillin characters="10"/>
+years
+</p>
+</statement>
+</task>
+<task workspace="3.5in">
+<statement>
+<p>
+Now repeat the process for <em>daily</em> compounding. Write the equation and solve for
+<m>t</m>
+, again rounding to four decimal places.
+</p>
+<p>
+<m>t \approx</m>
+<fillin characters="10"/>
+years
+</p>
+</statement>
+</task>
+<task workspace="1in">
+<statement>
+<p>
+Complete the comparison table below. Convert each waiting time into years and days, rounding the number of days to the nearest whole day.
+</p>
+<tabular halign="center">
+<row bottom="medium">
+<cell right="minor"><line>Compounding</line><line>Schedule</line></cell>
+<cell right="minor">
+Time
+<m>t</m>
+(years)
+</cell>
+<cell>Time in Years and Days</cell>
+</row>
+<row>
+<cell right="minor">
+Monthly (<m>n = 12</m>)
+</cell>
+<cell right="minor"></cell>
+<cell></cell>
+</row>
+<row>
+<cell right="minor">
+Daily (<m>n = 365</m>)
+</cell>
+<cell right="minor"></cell>
+<cell></cell>
+</row>
+<row>
+<cell right="minor">Difference</cell>
+<cell right="minor"></cell>
+<cell></cell>
+</row>
+</tabular>
+</statement>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>
+Does switching from monthly to daily compounding make a practical difference for this saver? Support your claim with the numbers you found, and explain why increasing
+<m>n</m>
+has the effect that it does.
+</p>
+</statement>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="wa4-inverse">
+<title>Inverse Functions and Their Graphs</title>
+<introduction>
+<p>
+A campus print shop charges a flat setup fee plus a per-page rate. The total cost in dollars for printing
+<m>x</m>
+pages is modeled by
+<m>f(x) = \frac{1}{2}x + 3</m>
+.
+</p>
+</introduction>
+<task workspace="2.5in">
+<statement>
+<p>
+Find the inverse function
+<m>f^{-1}(x)</m>
+algebraically. Show each step, including the step where you swap the roles of the variables.
+</p>
+<p>
+<m>f^{-1}(x) =</m>
+<fillin characters="14"/>
+</p>
+</statement>
+</task>
+<task workspace="2in">
+<statement>
+<p>
+Verify your answer by computing
+<m>f\left(f^{-1}(x)\right)</m>
+and simplifying completely.
+</p>
+</statement>
+</task>
+<task>
+<statement>
+<p>
+Complete the two tables of values below. Notice what happens to the coordinate pairs as you move from one table to the other.
+</p>
+<tabular halign="center">
+<row bottom="medium">
+<cell right="minor">
+<m>x</m>
+</cell>
+<cell right="medium">
+<m>f(x)</m>
+</cell>
+<cell right="minor">
+<m>x</m>
+</cell>
+<cell>
+<m>f^{-1}(x)</m>
+</cell>
+</row>
+<row>
+<cell right="minor">
+<m>-4</m>
+</cell>
+<cell right="medium"></cell>
+<cell right="minor">
+<m>1</m>
+</cell>
+<cell></cell>
+</row>
+<row>
+<cell right="minor">
+<m>-2</m>
+</cell>
+<cell right="medium"></cell>
+<cell right="minor">
+<m>2</m>
+</cell>
+<cell></cell>
+</row>
+<row>
+<cell right="minor">
+<m>0</m>
+</cell>
+<cell right="medium"></cell>
+<cell right="minor">
+<m>3</m>
+</cell>
+<cell></cell>
+</row>
+<row>
+<cell right="minor">
+<m>2</m>
+</cell>
+<cell right="medium"></cell>
+<cell right="minor">
+<m>4</m>
+</cell>
+<cell></cell>
+</row>
+<row>
+<cell right="minor">
+<m>4</m>
+</cell>
+<cell right="medium"></cell>
+<cell right="minor">
+<m>5</m>
+</cell>
+<cell></cell>
+</row>
+</tabular>
+<p>
+Then graph both
+<m>f(x)</m>
+and
+<m>f^{-1}(x)</m>
+on the grid below, label each line with its equation, and sketch
+<m>y = x</m>
+as a dashed reference line.
+</p>
+<image width="55%">
+<shortdescription>A blank coordinate grid running from negative 8 to 8 on both axes.</shortdescription>
+<prefigure xmlns="https://prefigure.org" label="wa4-blank-grid">
+<diagram dimensions="(340,340)" margins="5">
+<coordinates bbox="(-8.5,-8.5,8.5,8.5)">
+<grid-axes xlabel="x" ylabel="y" spacings="((-8,2,8),(-8,2,8))"/>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</statement>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>
+Write a complete sentence describing the geometric relationship between the graph of
+<m>f</m>
+and the graph of
+<m>f^{-1}</m>
+. Then write a second sentence interpreting what
+<m>f^{-1}(x)</m>
+tells the print shop's customers in context.
+</p>
+</statement>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="wa4-tile-pattern">
+<title>A Growing Rectangle Pattern</title>
+<introduction>
+<p>
+A tile pattern begins with a
+<m>2 \times 4</m>
+rectangle of unit squares. At each stage, one row is added to the height and one column is added to the width, so the rectangle grows in both directions at once.
+</p>
+<image width="90%">
+<shortdescription>Three stages of a growing rectangle of unit squares: 2 by 4, then 3 by 5, then 4 by 6.</shortdescription>
+<prefigure xmlns="https://prefigure.org" label="wa4-tile-stages">
+<diagram dimensions="(620,200)" margins="5">
+<coordinates bbox="(-1,-2.5,20,5)">
+<repeat parameter="col=0..3">
+<repeat parameter="row=0..1">
+<rectangle center="(col, row)" dimensions="(0.9,0.9)" fill="none" stroke="blue" thickness="2"/>
+</repeat>
+</repeat>
+<label anchor="(1.5,-1.5)" alignment="center">
+<m>\text{Stage 1: } 2 \times 4</m>
+</label>
+<repeat parameter="col=0..4">
+<repeat parameter="row=0..2">
+<rectangle center="(col+6, row)" dimensions="(0.9,0.9)" fill="none" stroke="blue" thickness="2"/>
+</repeat>
+</repeat>
+<label anchor="(8,-1.5)" alignment="center">
+<m>\text{Stage 2: } 3 \times 5</m>
+</label>
+<repeat parameter="col=0..5">
+<repeat parameter="row=0..3">
+<rectangle center="(col+13, row)" dimensions="(0.9,0.9)" fill="none" stroke="blue" thickness="2"/>
+</repeat>
+</repeat>
+<label anchor="(15.5,-1.5)" alignment="center">
+<m>\text{Stage 3: } 4 \times 6</m>
+</label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+<task workspace="2in">
+<statement>
+<p>Sketch Stage 4 in the space below and record its dimensions.</p>
+<p>
+Dimensions of Stage 4:
+<fillin characters="14"/>
+</p>
+</statement>
+</task>
+<task>
+<statement>
+<p>
+Complete the tracker table below. The fourth column asks for the <em>difference</em> between consecutive tile counts, and the fifth asks for the difference of those differences.
+</p>
+<tabular halign="center">
+<row bottom="medium">
+<cell right="minor">
+Stage
+<m>n</m>
+</cell>
+<cell right="minor">Dimensions</cell>
+<cell right="minor">
+Total Tiles
+<m>T(n)</m>
+</cell>
+<cell right="minor"><line>First</line><line>Difference</line></cell>
+<cell><line>Second</line><line>Difference</line></cell>
+</row>
+<row>
+<cell right="minor">
+<m>1</m>
+</cell>
+<cell right="minor">
+<m>2 \times 4</m>
+</cell>
+<cell right="minor"></cell>
+<cell right="minor"></cell>
+<cell></cell>
+</row>
+<row>
+<cell right="minor">
+<m>2</m>
+</cell>
+<cell right="minor">
+<m>3 \times 5</m>
+</cell>
+<cell right="minor"></cell>
+<cell right="minor"></cell>
+<cell></cell>
+</row>
+<row>
+<cell right="minor">
+<m>3</m>
+</cell>
+<cell right="minor">
+<m>4 \times 6</m>
+</cell>
+<cell right="minor"></cell>
+<cell right="minor"></cell>
+<cell></cell>
+</row>
+<row>
+<cell right="minor">
+<m>4</m>
+</cell>
+<cell right="minor"></cell>
+<cell right="minor"></cell>
+<cell right="minor"></cell>
+<cell></cell>
+</row>
+<row>
+<cell right="minor">
+<m>5</m>
+</cell>
+<cell right="minor"></cell>
+<cell right="minor"></cell>
+<cell right="minor"></cell>
+<cell></cell>
+</row>
+</tabular>
+</statement>
+</task>
+<task workspace="1in">
+<statement>
+<p>
+What do you notice about the second differences? Write a complete sentence explaining what this tells you about what type of pattern this is.
+</p>
+</statement>
+</task>
+<task workspace="2.25in">
+<statement>
+<p>
+Write a formula for
+<m>T(n)</m>
+, the total number of tiles at stage
+<m>n</m>
+.
+</p>
+</statement>
+</task>
+<task workspace="1.5in">
+<statement>
+<p>
+Use your formula to determine the number of tiles in Stage 20. Show your substitution.
+</p>
+</statement>
+</task>
+<task workspace="2.5in">
+<statement>
+<p>
+A later stage of this pattern contains exactly
+<m>360</m>
+tiles. Use Desmos to find what stage this is.
+</p>
+<p>
+Stage number:
+<fillin characters="12"/>
+</p>
+</statement>
+</task>
+</exercise>
+</page>
+</worksheet>

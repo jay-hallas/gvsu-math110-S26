@@ -1,0 +1,162 @@
+<worksheet xml:id="lt10-practice-quiz">
+<title>Learning Target 10: Inverses of Linear Functions</title>
+<objectives>
+<ul>
+<li>Given a linear function, find the inverse symbolically, explain how the domain and range is affected, and evaluate function notation questions.</li>
+</ul>
+</objectives>
+
+<page>
+<exercise xml:id="lt10-inverse-one">
+<title>Function 1</title>
+<introduction>
+<p>Consider the function <m>f(x) = 3x - 7</m>.</p>
+</introduction>
+<task workspace="1.5in">
+<statement>
+<p>Find <m>f^{-1}(x)</m> symbolically. Show the steps you used.</p>
+</statement>
+<answer>
+<p>
+Start with <m>y = 3x - 7</m> and swap the variables to get <m>x = 3y - 7</m>. Add <m>7</m> to both sides for <m>x + 7 = 3y</m>, then divide by <m>3</m>.
+The inverse is <m>f^{-1}(x) = \frac{x + 7}{3}</m>.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>Evaluate <m>f(4)</m>.</p>
+</statement>
+<answer>
+<p>
+<m>f(4) = 3(4) - 7 = 5</m>.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>Now evaluate <m>f^{-1}(5)</m>. What do you notice about your answer?</p>
+</statement>
+<answer>
+<p>
+<m>f^{-1}(5) = \frac{5 + 7}{3} = 4</m>. This is the input we started with in the previous part. The inverse undoes the function, so feeding an output of <m>f</m> into <m>f^{-1}</m> returns the original input.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>State the domain and range of <m>f</m> and the domain and range of <m>f^{-1}</m>.</p>
+</statement>
+<answer>
+<p>
+Both <m>f</m> and <m>f^{-1}</m> have a domain of all real numbers and a range of all real numbers. The domain of <m>f</m> becomes the range of <m>f^{-1}</m>, and the range of <m>f</m> becomes the domain of <m>f^{-1}</m>.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt10-inverse-two">
+<title>Function 2</title>
+<introduction>
+<p>Consider the function <m>g(x) = \frac{2}{5}x + 3</m>.</p>
+</introduction>
+<task workspace="1.75in">
+<statement>
+<p>Find <m>g^{-1}(x)</m> symbolically. Show the steps you used.</p>
+</statement>
+<answer>
+<p>
+Start with <m>y = \frac{2}{5}x + 3</m> and swap the variables to get <m>x = \frac{2}{5}y + 3</m>. Subtract <m>3</m> from both sides for <m>x - 3 = \frac{2}{5}y</m>, then multiply both sides by <m>\frac{5}{2}</m>.
+The inverse is <m>g^{-1}(x) = \frac{5}{2}(x - 3)</m>, which can also be written as <m>g^{-1}(x) = \frac{5x - 15}{2}</m>.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>Evaluate <m>g(10)</m>.</p>
+</statement>
+<answer>
+<p>
+<m>g(10) = \frac{2}{5}(10) + 3 = 4 + 3 = 7</m>.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>Evaluate <m>g^{-1}(7)</m>.</p>
+</statement>
+<answer>
+<p>
+<m>g^{-1}(7) = \frac{5}{2}(7 - 3) = \frac{5}{2}(4) = 10</m>, which matches the input from the previous part.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Compare the slope of <m>g</m> to the slope of <m>g^{-1}(x)</m>. What relationship do you see, and why does that make sense?</p>
+</statement>
+<answer>
+<p>
+The slope of <m>g</m> is <m>\frac{2}{5}</m> and the slope of <m>g^{-1}</m> is <m>\frac{5}{2}</m>. They are reciprocals of each other. Since the inverse reverses the roles of input and output, the rise and run trade places.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt10-inverse-context">
+<title>Function 3: Water Tank</title>
+<introduction>
+<p>A rooftop tank holds <m>45</m> gallons of water when a slow leak starts. The tank loses <m>1.5</m> gallons per hour. The amount of water left after <m>t</m> hours is given by <m>W(t) = 45 - 1.5t</m>.</p>
+</introduction>
+<task workspace="1.75in">
+<statement>
+<p>Find <m>W^{-1}(x)</m> symbolically.</p>
+</statement>
+<answer>
+<p>
+Start with <m>y = 45 - 1.5t</m> and swap the variables to get <m>t = 45 - 1.5y</m>. Subtract <m>45</m> from both sides for <m>t - 45 = -1.5y</m>, then divide by <m>-1.5</m>.
+The inverse is <m>W^{-1}(x) = \frac{45 - x}{1.5}</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Evaluate <m>W(12)</m> and explain its meaning in context.</p>
+</statement>
+<answer>
+<p>
+<m>W(12) = 45 - 1.5(12) = 27</m>. There are <m>27</m> gallons of water left in the tank after <m>12</m> hours.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Evaluate <m>W^{-1}(27)</m> and explain its meaning in context.</p>
+</statement>
+<answer>
+<p>
+<m>W^{-1}(27) = \frac{45 - 27}{1.5} = \frac{18}{1.5} = 12</m>. It takes <m>12</m> hours for the tank to drop to <m>27</m> gallons. The inverse takes in a number of gallons and returns a number of hours.
+</p>
+</answer>
+</task>
+<task workspace="1.5in">
+<statement>
+<p>What inputs make sense for <m>W</m> in this context? What inputs make sense for <m>W^{-1}</m>? Explain how the domain and range switch between the two functions.</p>
+</statement>
+<answer>
+<p>
+For <m>W</m>, the sensible inputs are hours from <m>0</m> to <m>30</m>, since the tank is empty at <m>t = 30</m>. The outputs run from <m>0</m> to <m>45</m> gallons. For <m>W^{-1}</m>, the sensible inputs are gallons from <m>0</m> to <m>45</m>, and the outputs are hours from <m>0</m> to <m>30</m>. The domain of one function is the range of the other, because the inverse reverses which quantity is the input.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<conclusion>
+<p>In your own words, describe what the inverse of a function does to an input and an output. Why does finding an inverse involve swapping <m>x</m> and <m>y</m>?</p>
+</conclusion>
+</worksheet>

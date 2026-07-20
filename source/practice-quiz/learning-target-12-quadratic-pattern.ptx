@@ -1,0 +1,712 @@
+<worksheet xml:id="lt12-practice-quiz">
+<title>Learning Target 12: Quadratic Patterns</title>
+<objectives>
+<ul>
+<li>I can recognize and identify key characteristics of a quadratic pattern represented in a table, graph, equation or application.</li>
+<li>I can translate between different representations.</li>
+</ul>
+</objectives>
+
+<page>
+<exercise xml:id="lt12-pattern-rectangle">
+<title>Pattern 1: Growing Rectangle</title>
+<introduction>
+<p>Case 1 is a rectangle that is 4 blocks wide and 2 blocks tall. Each new case grows by one block in both the width and the height.</p>
+<image width="95%">
+<shortdescription>Four cases of a growing rectangle of blocks: 4 by 2, 5 by 3, 6 by 4, and 7 by 5.</shortdescription>
+<prefigure xmlns="https://prefigure.org" label="lt12-rectangle-pattern">
+<diagram dimensions="(660,190)" margins="5">
+<coordinates bbox="(-1,-2.5,30,6)">
+<repeat parameter="case=1..4">
+<repeat parameter="col=0..case+2">
+<repeat parameter="row=0..case">
+<rectangle center="((case-1)*(case/2+5)+col, row)" dimensions="(0.85,0.85)" fill="steelblue" stroke="black"/>
+</repeat>
+</repeat>
+<label anchor="((case-1)*(case/2+5)+(case+2)/2, -1.6)" alignment="center">
+<m>\text{Case } ${case}</m>
+</label>
+</repeat>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+<task workspace="1.5in">
+<statement>
+<p>What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.</p>
+</statement>
+<answer>
+<p>
+It is quadratic. The block counts are
+<m>8, 15, 24, 35</m>
+. The differences between consecutive cases are
+<m>7, 9, 11</m>
+, which are not constant, so the pattern is not linear. The ratios are
+<m>15/8 = 1.875</m>
+and
+<m>24/15 = 1.6</m>
+, which are not constant either, so it is not exponential. The second differences are
+<m>2, 2</m>
+, and a constant second difference is the signature of a quadratic pattern.
+</p>
+</answer>
+</task>
+<task workspace="1.75in">
+<statement>
+<p>
+Find a formula for the number of blocks
+<m>y</m>
+in case
+<m>n</m>
+.
+</p>
+</statement>
+<answer>
+<p>
+Case
+<m>n</m>
+is
+<m>n+3</m>
+blocks wide and
+<m>n+1</m>
+blocks tall, so
+<m>y = (n+3)(n+1)</m>
+. Expanding gives
+<m>y = n^2 + 4n + 3</m>
+. Check case
+<m>3</m>
+:
+<m>9 + 12 + 3 = 24</m>
+blocks, which matches the picture.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt12-pattern-staircase">
+<title>Pattern 2: Staircase</title>
+<introduction>
+<p>Each case adds one more column to the staircase, and each column is one block taller than the one to its left.</p>
+<image width="80%">
+<shortdescription>Four cases of a staircase of blocks containing 1, 3, 6, and 10 blocks.</shortdescription>
+<prefigure xmlns="https://prefigure.org" label="lt12-staircase-pattern">
+<diagram dimensions="(560,200)" margins="5">
+<coordinates bbox="(-1,-2.5,17,5.5)">
+<repeat parameter="case=1..4">
+<repeat parameter="col=0..case-1">
+<repeat parameter="row=0..col">
+<rectangle center="((case-1)*(case/2+2)+col, row)" dimensions="(0.85,0.85)" fill="mediumpurple" stroke="black"/>
+</repeat>
+</repeat>
+<label anchor="((case-1)*(case/2+2)+(case-1)/2, -1.6)" alignment="center">
+<m>\text{Case } ${case}</m>
+</label>
+</repeat>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+<task workspace="1.5in">
+<statement>
+<p>What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.</p>
+</statement>
+<answer>
+<p>
+It is quadratic. The counts are
+<m>1, 3, 6, 10</m>
+. The first differences are
+<m>2, 3, 4</m>
+, so the pattern is not linear. The ratios
+<m>3, 2, 5/3</m>
+are not constant, so it is not exponential. The second differences are
+<m>1, 1</m>
+, which is constant, so the pattern is quadratic.
+</p>
+</answer>
+</task>
+<task workspace="2in">
+<statement>
+<p>
+Find a formula for the number of blocks
+<m>y</m>
+in case
+<m>n</m>
+.
+</p>
+</statement>
+<answer>
+<p>
+Case
+<m>n</m>
+is made of columns of height
+<m>1, 2, 3, \dots, n</m>
+, so
+<m>y = 1 + 2 + \cdots + n</m>
+. Two copies of the staircase fit together into an
+<m>n</m>
+by
+<m>n+1</m>
+rectangle, so
+<m>y = \frac{n(n+1)}{2}</m>
+, which expands to
+<m>y = \frac{1}{2}n^2 + \frac{1}{2}n</m>
+. Check case
+<m>4</m>
+:
+<m>\frac{4 \cdot 5}{2} = 10</m>
+blocks.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt12-pattern-two-rows">
+<title>Pattern 3: Two Rows</title>
+<introduction>
+<p>Each case has a top row and a longer bottom row. Both rows grow by one block from case to case.</p>
+<image width="90%">
+<shortdescription>Four cases of a two-row block pattern containing 4, 6, 8, and 10 blocks.</shortdescription>
+<prefigure xmlns="https://prefigure.org" label="lt12-two-rows-pattern">
+<diagram dimensions="(640,160)" margins="5">
+<coordinates bbox="(-1,-2.5,25,4)">
+<repeat parameter="case=1..4">
+<repeat parameter="col=0..case+1">
+<rectangle center="((case-1)*case/2+4*(case-1)+col, 0)" dimensions="(0.85,0.85)" fill="darkseagreen" stroke="black"/>
+</repeat>
+<repeat parameter="col=0..case-1">
+<rectangle center="((case-1)*case/2+4*(case-1)+col, 1)" dimensions="(0.85,0.85)" fill="darkseagreen" stroke="black"/>
+</repeat>
+<label anchor="((case-1)*case/2+4*(case-1)+(case+1)/2, -1.6)" alignment="center">
+<m>\text{Case } ${case}</m>
+</label>
+</repeat>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+<task workspace="1.5in">
+<statement>
+<p>What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.</p>
+</statement>
+<answer>
+<p>
+It is linear. The counts are
+<m>4, 6, 8, 10</m>
+, and the pattern gains exactly
+<m>2</m>
+blocks from each case to the next. A constant first difference means the pattern is linear, and the second differences are all
+<m>0</m>
+, so it is not quadratic.
+</p>
+</answer>
+</task>
+<task workspace="1.5in">
+<statement>
+<p>
+Find a formula for the number of blocks
+<m>y</m>
+in case
+<m>n</m>
+.
+</p>
+</statement>
+<answer>
+<p>
+The rate of change is
+<m>2</m>
+blocks per case. Working backward, case
+<m>0</m>
+would have
+<m>2</m>
+blocks, so
+<m>y = 2n + 2</m>
+. Check case
+<m>3</m>
+:
+<m>2(3) + 2 = 8</m>
+blocks.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt12-pattern-doubling">
+<title>Pattern 4: Doubling Block</title>
+<introduction>
+<p>Each case is two blocks tall, and the width doubles from one case to the next.</p>
+<image width="85%">
+<shortdescription>Four cases of a two-row block pattern containing 2, 4, 8, and 16 blocks.</shortdescription>
+<prefigure xmlns="https://prefigure.org" label="lt12-doubling-pattern">
+<diagram dimensions="(600,170)" margins="5">
+<coordinates bbox="(-1,-2.5,22,4)">
+<repeat parameter="case=1..4">
+<repeat parameter="col=0..2**(case-1)-1">
+<repeat parameter="row=0..1">
+<rectangle center="(2**(case-1)-1+2*(case-1)+col, row)" dimensions="(0.85,0.85)" fill="sandybrown" stroke="black"/>
+</repeat>
+</repeat>
+<label anchor="(2**(case-1)-1+2*(case-1)+(2**(case-1)-1)/2, -1.6)" alignment="center">
+<m>\text{Case } ${case}</m>
+</label>
+</repeat>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+<task workspace="1.5in">
+<statement>
+<p>What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.</p>
+</statement>
+<answer>
+<p>
+It is exponential. The counts are
+<m>2, 4, 8, 16</m>
+. The first differences are
+<m>2, 4, 8</m>
+and the second differences are
+<m>2, 4</m>
+, so it is neither linear nor quadratic. Each case is
+<m>2</m>
+times the one before it, and a constant ratio is the signature of an exponential pattern.
+</p>
+</answer>
+</task>
+<task workspace="1.5in">
+<statement>
+<p>
+Find a formula for the number of blocks
+<m>y</m>
+in case
+<m>n</m>
+.
+</p>
+</statement>
+<answer>
+<p>
+The growth factor is
+<m>2</m>
+. Working backward, case
+<m>0</m>
+would have
+<m>1</m>
+block, so
+<m>y = 1 \cdot 2^n = 2^n</m>
+. Check case
+<m>4</m>
+:
+<m>2^4 = 16</m>
+blocks.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt12-table-a">
+<title>Table A</title>
+<introduction>
+<p>Consider the values in the table below.</p>
+<tabular>
+<row bottom="medium">
+<cell>
+<m>x</m>
+</cell>
+<cell>
+<m>0</m>
+</cell>
+<cell>
+<m>1</m>
+</cell>
+<cell>
+<m>2</m>
+</cell>
+<cell>
+<m>3</m>
+</cell>
+<cell>
+<m>4</m>
+</cell>
+</row>
+<row>
+<cell>
+<m>y</m>
+</cell>
+<cell>
+<m>3</m>
+</cell>
+<cell>
+<m>4</m>
+</cell>
+<cell>
+<m>7</m>
+</cell>
+<cell>
+<m>12</m>
+</cell>
+<cell>
+<m>19</m>
+</cell>
+</row>
+</tabular>
+</introduction>
+<task workspace="1.5in">
+<statement>
+<p>What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.</p>
+</statement>
+<answer>
+<p>
+It is quadratic. The first differences are
+<m>1, 3, 5, 7</m>
+, which are not constant, so the table is not linear. The ratios
+<m>4/3</m>
+and
+<m>7/4</m>
+are not constant, so it is not exponential. The second differences are
+<m>2, 2, 2</m>
+, so the table is quadratic.
+</p>
+</answer>
+</task>
+<task workspace="1.75in">
+<statement>
+<p>
+Find a formula for
+<m>y</m>
+in terms of
+<m>x</m>
+.
+</p>
+</statement>
+<answer>
+<p>
+For a quadratic
+<m>y = ax^2 + bx + c</m>
+, the constant second difference equals
+<m>2a</m>
+. Here the second difference is
+<m>2</m>
+, so
+<m>a = 1</m>
+. The value at
+<m>x=0</m>
+gives
+<m>c = 3</m>
+. Using
+<m>x=1</m>
+:
+<m>1 + b + 3 = 4</m>
+, so
+<m>b = 0</m>
+. The formula is
+<m>y = x^2 + 3</m>
+. Check
+<m>x=4</m>
+:
+<m>16 + 3 = 19</m>
+.
+</p>
+</answer>
+</task>
+</exercise>
+
+<exercise xml:id="lt12-table-b">
+<title>Table B</title>
+<introduction>
+<p>Consider the values in the table below.</p>
+<tabular>
+<row bottom="medium">
+<cell>
+<m>x</m>
+</cell>
+<cell>
+<m>0</m>
+</cell>
+<cell>
+<m>1</m>
+</cell>
+<cell>
+<m>2</m>
+</cell>
+<cell>
+<m>3</m>
+</cell>
+<cell>
+<m>4</m>
+</cell>
+</row>
+<row>
+<cell>
+<m>y</m>
+</cell>
+<cell>
+<m>1</m>
+</cell>
+<cell>
+<m>6</m>
+</cell>
+<cell>
+<m>15</m>
+</cell>
+<cell>
+<m>28</m>
+</cell>
+<cell>
+<m>45</m>
+</cell>
+</row>
+</tabular>
+</introduction>
+<task workspace="1.5in">
+<statement>
+<p>What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.</p>
+</statement>
+<answer>
+<p>
+It is quadratic. The first differences are
+<m>5, 9, 13, 17</m>
+, so the table is not linear. The ratios
+<m>6</m>
+,
+<m>2.5</m>
+, and
+<m>28/15</m>
+are shrinking, so it is not exponential. The second differences are
+<m>4, 4, 4</m>
+, which is constant, so the table is quadratic.
+</p>
+</answer>
+</task>
+<task workspace="2in">
+<statement>
+<p>
+Find a formula for
+<m>y</m>
+in terms of
+<m>x</m>
+.
+</p>
+</statement>
+<answer>
+<p>
+The second difference is
+<m>4</m>
+, and the second difference equals
+<m>2a</m>
+, so
+<m>a = 2</m>
+. The value at
+<m>x = 0</m>
+gives
+<m>c = 1</m>
+. Using
+<m>x = 1</m>
+:
+<m>2(1)^2 + b(1) + 1 = 6</m>
+, so
+<m>b = 3</m>
+. The formula is
+<m>y = 2x^2 + 3x + 1</m>
+. Check
+<m>x = 3</m>
+:
+<m>18 + 9 + 1 = 28</m>
+.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt12-table-c">
+<title>Table C</title>
+<introduction>
+<p>Consider the values in the table below.</p>
+<tabular>
+<row bottom="medium">
+<cell>
+<m>x</m>
+</cell>
+<cell>
+<m>0</m>
+</cell>
+<cell>
+<m>1</m>
+</cell>
+<cell>
+<m>2</m>
+</cell>
+<cell>
+<m>3</m>
+</cell>
+<cell>
+<m>4</m>
+</cell>
+</row>
+<row>
+<cell>
+<m>y</m>
+</cell>
+<cell>
+<m>5</m>
+</cell>
+<cell>
+<m>15</m>
+</cell>
+<cell>
+<m>45</m>
+</cell>
+<cell>
+<m>135</m>
+</cell>
+<cell>
+<m>405</m>
+</cell>
+</row>
+</tabular>
+</introduction>
+<task workspace="1.5in">
+<statement>
+<p>What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.</p>
+</statement>
+<answer>
+<p>
+It is exponential. The first differences are
+<m>10, 30, 90, 270</m>
+and the second differences are
+<m>20, 60, 180</m>
+, so the table is neither linear nor quadratic. Every ratio of consecutive outputs is
+<m>3</m>
+, and a constant ratio means the table is exponential.
+</p>
+</answer>
+</task>
+<task workspace="1.5in">
+<statement>
+<p>
+Find a formula for
+<m>y</m>
+in terms of
+<m>x</m>
+.
+</p>
+</statement>
+<answer>
+<p>
+The growth factor is
+<m>3</m>
+and the value at
+<m>x = 0</m>
+is
+<m>5</m>
+, so
+<m>y = 5(3)^x</m>
+. Check
+<m>x = 4</m>
+:
+<m>5(81) = 405</m>
+.
+</p>
+</answer>
+</task>
+</exercise>
+
+<exercise xml:id="lt12-table-d">
+<title>Table D</title>
+<introduction>
+<p>Consider the values in the table below.</p>
+<tabular>
+<row bottom="medium">
+<cell>
+<m>x</m>
+</cell>
+<cell>
+<m>1</m>
+</cell>
+<cell>
+<m>2</m>
+</cell>
+<cell>
+<m>3</m>
+</cell>
+<cell>
+<m>4</m>
+</cell>
+<cell>
+<m>5</m>
+</cell>
+</row>
+<row>
+<cell>
+<m>y</m>
+</cell>
+<cell>
+<m>12</m>
+</cell>
+<cell>
+<m>6</m>
+</cell>
+<cell>
+<m>4</m>
+</cell>
+<cell>
+<m>3</m>
+</cell>
+<cell>
+<m>2.4</m>
+</cell>
+</row>
+</tabular>
+</introduction>
+<task workspace="2in">
+<statement>
+<p>What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.</p>
+</statement>
+<answer>
+<p>
+It is none of these. The first differences are
+<m>-6, -2, -1, -0.6</m>
+, so the table is not linear. The second differences are
+<m>4, 1, 0.4</m>
+, so it is not quadratic. The ratios are
+<m>0.5</m>
+,
+<m>0.\overline{6}</m>
+,
+<m>0.75</m>
+, and
+<m>0.8</m>
+, which are not constant, so it is not exponential either. The outputs are decreasing toward zero but never at a constant rate or a constant factor.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Since this table is not one of our three types, describe in words what is happening to the outputs as the inputs increase.</p>
+</statement>
+<answer>
+<p>
+The outputs drop quickly at first and then level off, getting closer and closer to zero without reaching it. Each output is
+<m>12</m>
+divided by the input, so doubling the input cuts the output in half. This kind of relationship is called inversely proportional.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<conclusion>
+<p>Write a short summary you could use as a checklist: what do you look at in a table to decide whether a pattern is linear, quadratic, or exponential? Be specific about differences and ratios.</p>
+</conclusion>
+</worksheet>

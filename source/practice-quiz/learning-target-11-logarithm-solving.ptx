@@ -1,0 +1,213 @@
+<worksheet xml:id="lt11-practice-quiz">
+<title>Learning Target 11: Solving Exponential and Logarithmic Equations</title>
+<objectives>
+<ul>
+<li>Solve equations and word situations involving exponential, logarithmic, and power functions symbolically and with technology.</li>
+</ul>
+</objectives>
+
+<page>
+<exercise xml:id="lt11-exp-base-e">
+<title>Solving with Base <m>e</m></title>
+<introduction>
+<p>Consider the equation <m>4e^{2x} - 5 = 31</m>.</p>
+</introduction>
+<task workspace="2in">
+<statement>
+<p>Solve for <m>x</m>. Give the exact answer first, then round to three decimal places.</p>
+</statement>
+<answer>
+<p>
+Add <m>5</m> to both sides to get <m>4e^{2x} = 36</m>, then divide by <m>4</m> so that <m>e^{2x} = 9</m>.
+Take the natural logarithm of both sides: <m>\ln(e^{2x}) = \ln(9)</m>, so <m>2x = \ln(9)</m>.
+The exact answer is <m>x = \frac{\ln(9)}{2} \approx 1.099</m>.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>Explain why taking <m>\ln</m> of both sides is the useful move here, rather than <m>\log</m>.</p>
+</statement>
+<answer>
+<p>
+The natural logarithm is the inverse of the base <m>e</m> exponential, so <m>\ln(e^{2x})</m> collapses directly to <m>2x</m>. Using <m>\log</m> would still work, but it would leave a <m>\log(e)</m> factor to divide out.
+</p>
+</answer>
+</task>
+</exercise>
+
+<exercise xml:id="lt11-exp-other-base">
+<title>Solving with Another Base</title>
+<introduction>
+<p>Consider the equation <m>7 \cdot 3^{x+1} = 250</m>.</p>
+</introduction>
+<task workspace="2in">
+<statement>
+<p>Solve for <m>x</m>. Round to three decimal places.</p>
+</statement>
+<answer>
+<p>
+Divide both sides by <m>7</m> to isolate the exponential: <m>3^{x+1} = \frac{250}{7}</m>.
+Take <m>\ln</m> of both sides and use the power rule: <m>(x+1)\ln(3) = \ln\left(\frac{250}{7}\right)</m>.
+Then <m>x + 1 = \frac{\ln(250/7)}{\ln(3)} \approx 3.255</m>, so <m>x \approx 2.255</m>.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>Check your answer by graphing <m>y = 7 \cdot 3^{x+1}</m> and <m>y = 250</m> in Desmos and finding the intersection. Record what you see.</p>
+</statement>
+<answer>
+<p>
+The curves cross at approximately <m>(2.255, 250)</m>, which matches the algebraic solution.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt11-log-base-4">
+<title>A Logarithmic Equation</title>
+<introduction>
+<p>Consider the equation <m>\log_4(3x + 2) = 3</m>.</p>
+</introduction>
+<task workspace="2in">
+<statement>
+<p>Solve for <m>x</m>. Give an exact answer.</p>
+</statement>
+<answer>
+<p>
+Rewrite the equation in exponential form: <m>4^3 = 3x + 2</m>, so <m>64 = 3x + 2</m>.
+Subtract <m>2</m> to get <m>3x = 62</m>, so <m>x = \frac{62}{3}</m>.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>Substitute your answer back into the original equation to confirm it works.</p>
+</statement>
+<answer>
+<p>
+With <m>x = \frac{62}{3}</m>, the inside of the logarithm is <m>3\left(\frac{62}{3}\right) + 2 = 64</m>, and <m>\log_4(64) = 3</m> since <m>4^3 = 64</m>.
+</p>
+</answer>
+</task>
+</exercise>
+
+<exercise xml:id="lt11-log-natural">
+<title>A Natural Logarithmic Equation</title>
+<introduction>
+<p>Consider the equation <m>6\ln(2x) - 5 = 13</m>.</p>
+</introduction>
+<task workspace="2in">
+<statement>
+<p>Solve for <m>x</m>. Give the exact answer first, then round to three decimal places.</p>
+</statement>
+<answer>
+<p>
+Add <m>5</m> to both sides to get <m>6\ln(2x) = 18</m>, then divide by <m>6</m> so that <m>\ln(2x) = 3</m>.
+Rewrite in exponential form: <m>2x = e^3</m>.
+The exact answer is <m>x = \frac{e^3}{2} \approx 10.043</m>.
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>Would a negative solution ever be acceptable for an equation of this type? Explain.</p>
+</statement>
+<answer>
+<p>
+No. The input of a logarithm has to be positive, so any candidate solution that makes <m>2x</m> zero or negative has to be thrown out. Here <m>x = \frac{e^3}{2}</m> is positive, so it is valid.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt11-depreciation">
+<title>Vehicle Depreciation</title>
+<introduction>
+<p>A delivery van is purchased for <m>\$27,500</m>. Its value drops by <m>13\%</m> each year.</p>
+</introduction>
+<task workspace="1in">
+<statement>
+<p>Write a function <m>V(t)</m> for the value of the van after <m>t</m> years.</p>
+</statement>
+<answer>
+<p>
+The initial value is <m>27500</m> and the decay factor is <m>1 - 0.13 = 0.87</m>, so <m>V(t) = 27500(0.87)^t</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.5in">
+<statement>
+<p>Find the value of the van after <m>7</m> years. Round to the nearest cent and explain what your answer means.</p>
+</statement>
+<answer>
+<p>
+<m>V(7) = 27500(0.87)^7 \approx 10374.51</m>. After <m>7</m> years the van is worth about <m>\$10,374.51</m>, which is a little over a third of what the company paid for it.
+</p>
+</answer>
+</task>
+<task workspace="1.75in">
+<statement>
+<p>The company plans to replace the van once it is worth less than <m>\$8,000</m>. Set up and solve an equation to find when that happens. Round to two decimal places.</p>
+</statement>
+<answer>
+<p>
+Set <m>8000 = 27500(0.87)^t</m>, so <m>(0.87)^t = \frac{8000}{27500} \approx 0.290909</m>.
+Take <m>\ln</m> of both sides: <m>t\ln(0.87) = \ln(0.290909)</m>, so <m>t = \frac{\ln(0.290909)}{\ln(0.87)} \approx 8.86</m> years.
+The van drops below <m>\$8,000</m> partway through its ninth year.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt11-future-value">
+<title>Reaching a Savings Goal</title>
+<introduction>
+<p>A family deposits <m>\$6,200</m> into an account that earns <m>4.8\%</m> annual interest, compounded monthly. They want the balance to reach <m>\$9,000</m>.</p>
+</introduction>
+<task workspace="1.25in">
+<statement>
+<p>Write the compound interest equation you would need to solve. Identify <m>P</m>, <m>r</m>, and <m>n</m>.</p>
+</statement>
+<answer>
+<p>
+Here <m>P = 6200</m>, <m>r = 0.048</m>, and <m>n = 12</m>. The equation is <m>9000 = 6200\left(1 + \frac{0.048}{12}\right)^{12t}</m>, which simplifies to <m>9000 = 6200(1.004)^{12t}</m>.
+</p>
+</answer>
+</task>
+<task workspace="2in">
+<statement>
+<p>Solve for <m>t</m>. Round to two decimal places.</p>
+</statement>
+<answer>
+<p>
+Divide both sides by <m>6200</m>: <m>(1.004)^{12t} = \frac{9000}{6200} \approx 1.451613</m>.
+Take <m>\ln</m> of both sides and use the power rule: <m>12t\ln(1.004) = \ln(1.451613)</m>.
+Then <m>t = \frac{\ln(1.451613)}{12\ln(1.004)} \approx 7.78</m> years.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>If the account compounded quarterly instead of monthly, would you expect the answer to be larger or smaller? Explain your reasoning without doing the calculation.</p>
+</statement>
+<answer>
+<p>
+Larger. Compounding less often means interest is added to the balance fewer times per year, so the money grows a bit more slowly and the family would have to wait longer to reach <m>\$9,000</m>.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<conclusion>
+<p>Look back at problems 1 through 4. Write a sentence describing when you take a logarithm of both sides, and a sentence describing when you rewrite in exponential form instead.</p>
+</conclusion>
+</worksheet>
