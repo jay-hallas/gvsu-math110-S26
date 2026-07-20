@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="wa4-tile-stages-figure" width="630" height="210" viewBox="0 0 630 210">
+  <defs>
+    <clipPath id="wa4-tile-stages-__clipPath-0">
+      <rect x="5.0" y="5.0" width="620.0" height="200.0"/>
+    </clipPath>
+    <clipPath id="wa4-tile-stages-__clipPath-1">
+      <rect x="5.0" y="5.0" width="620.0" height="200.0"/>
+    </clipPath>
+  </defs>
+  <g id="wa4-tile-stages-__group-0">
+    <g id="wa4-tile-stages-__group-1-col_0">
+      <path id="wa4-tile-stages-__path-0-col_0-row_0" d="M 21.2 150.3 L 47.8 150.3 L 47.8 126.3 L 21.2 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-1-col_0-row_1" d="M 21.2 123.7 L 47.8 123.7 L 47.8 99.7 L 21.2 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+    <g id="wa4-tile-stages-__group-2-col_1">
+      <path id="wa4-tile-stages-__path-2-col_1-row_0" d="M 50.8 150.3 L 77.3 150.3 L 77.3 126.3 L 50.8 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-3-col_1-row_1" d="M 50.8 123.7 L 77.3 123.7 L 77.3 99.7 L 50.8 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+    <g id="wa4-tile-stages-__group-3-col_2">
+      <path id="wa4-tile-stages-__path-4-col_2-row_0" d="M 80.3 150.3 L 106.9 150.3 L 106.9 126.3 L 80.3 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-5-col_2-row_1" d="M 80.3 123.7 L 106.9 123.7 L 106.9 99.7 L 80.3 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+    <g id="wa4-tile-stages-__group-4-col_3">
+      <path id="wa4-tile-stages-__path-6-col_3-row_0" d="M 109.8 150.3 L 136.4 150.3 L 136.4 126.3 L 109.8 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-7-col_3-row_1" d="M 109.8 123.7 L 136.4 123.7 L 136.4 99.7 L 109.8 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+  <g id="wa4-tile-stages-__label-0" transform="translate(78.8,178.3) translate(-53.3,-8.2)">
+    <g id="wa4-tile-stages-__g-0">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.728px" width="106.600px" height="16.488px" role="img" focusable="false" viewBox="0 -705 5889.4 911" x="0.0" y="0.0">
+        <defs>
+          <path id="wa4-tile-stages-MJX-2-TEX-N-53" d="M55 507Q55 590 112 647T243 704H257Q342 704 405 641L426 672Q431 679 436 687T446 700L449 704Q450 704 453 704T459 705H463Q466 705 472 699V462L466 456H448Q437 456 435 459T430 479Q413 605 329 646Q292 662 254 662Q201 662 168 626T135 542Q135 508 152 480T200 435Q210 431 286 412T370 389Q427 367 463 314T500 191Q500 110 448 45T301 -21Q245 -21 201 -4T140 27L122 41Q118 36 107 21T87 -7T78 -21Q76 -22 68 -22H64Q61 -22 55 -16V101Q55 220 56 222Q58 227 76 227H89Q95 221 95 214Q95 182 105 151T139 90T205 42T305 24Q352 24 386 62T420 155Q420 198 398 233T340 281Q284 295 266 300Q261 301 239 306T206 314T174 325T141 343T112 367T85 402Q55 451 55 507Z"/>
+          <path id="wa4-tile-stages-MJX-2-TEX-N-74" d="M27 422Q80 426 109 478T141 600V615H181V431H316V385H181V241Q182 116 182 100T189 68Q203 29 238 29Q282 29 292 100Q293 108 293 146V181H333V146V134Q333 57 291 17Q264 -10 221 -10Q187 -10 162 2T124 33T105 68T98 100Q97 107 97 248V385H18V422H27Z"/>
+          <path id="wa4-tile-stages-MJX-2-TEX-N-61" d="M137 305T115 305T78 320T63 359Q63 394 97 421T218 448Q291 448 336 416T396 340Q401 326 401 309T402 194V124Q402 76 407 58T428 40Q443 40 448 56T453 109V145H493V106Q492 66 490 59Q481 29 455 12T400 -6T353 12T329 54V58L327 55Q325 52 322 49T314 40T302 29T287 17T269 6T247 -2T221 -8T190 -11Q130 -11 82 20T34 107Q34 128 41 147T68 188T116 225T194 253T304 268H318V290Q318 324 312 340Q290 411 215 411Q197 411 181 410T156 406T148 403Q170 388 170 359Q170 334 154 320ZM126 106Q126 75 150 51T209 26Q247 26 276 49T315 109Q317 116 318 175Q318 233 317 233Q309 233 296 232T251 223T193 203T147 166T126 106Z"/>
+          <path id="wa4-tile-stages-MJX-2-TEX-N-67" d="M329 409Q373 453 429 453Q459 453 472 434T485 396Q485 382 476 371T449 360Q416 360 412 390Q410 404 415 411Q415 412 416 414V415Q388 412 363 393Q355 388 355 386Q355 385 359 381T368 369T379 351T388 325T392 292Q392 230 343 187T222 143Q172 143 123 171Q112 153 112 133Q112 98 138 81Q147 75 155 75T227 73Q311 72 335 67Q396 58 431 26Q470 -13 470 -72Q470 -139 392 -175Q332 -206 250 -206Q167 -206 107 -175Q29 -140 29 -75Q29 -39 50 -15T92 18L103 24Q67 55 67 108Q67 155 96 193Q52 237 52 292Q52 355 102 398T223 442Q274 442 318 416L329 409ZM299 343Q294 371 273 387T221 404Q192 404 171 388T145 343Q142 326 142 292Q142 248 149 227T179 192Q196 182 222 182Q244 182 260 189T283 207T294 227T299 242Q302 258 302 292T299 343ZM403 -75Q403 -50 389 -34T348 -11T299 -2T245 0H218Q151 0 138 -6Q118 -15 107 -34T95 -74Q95 -84 101 -97T122 -127T170 -155T250 -167Q319 -167 361 -139T403 -75Z"/>
+          <path id="wa4-tile-stages-MJX-2-TEX-N-65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z"/>
+          <path id="wa4-tile-stages-MJX-2-TEX-N-20" d=""/>
+          <path id="wa4-tile-stages-MJX-2-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          <path id="wa4-tile-stages-MJX-2-TEX-N-3A" d="M78 370Q78 394 95 412T138 430Q162 430 180 414T199 371Q199 346 182 328T139 310T96 327T78 370ZM78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"/>
+          <path id="wa4-tile-stages-MJX-2-TEX-N-A0" d=""/>
+          <path id="wa4-tile-stages-MJX-2-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          <path id="wa4-tile-stages-MJX-2-TEX-N-D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"/>
+          <path id="wa4-tile-stages-MJX-2-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math" data-semantic-type="punctuated" data-semantic-role="text" data-semantic-id="6" data-semantic-children="0,4" data-semantic-collapsed="(6 (c 5) 0 4)" data-semantic-speech="Stage 1 colon 2 times 4">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-parent="6" data-semantic-speech="Stage 1 colon">
+              <use data-c="53" xlink:href="#wa4-tile-stages-MJX-2-TEX-N-53"/>
+              <use data-c="74" xlink:href="#wa4-tile-stages-MJX-2-TEX-N-74" transform="translate(556,0)"/>
+              <use data-c="61" xlink:href="#wa4-tile-stages-MJX-2-TEX-N-61" transform="translate(945,0)"/>
+              <use data-c="67" xlink:href="#wa4-tile-stages-MJX-2-TEX-N-67" transform="translate(1445,0)"/>
+              <use data-c="65" xlink:href="#wa4-tile-stages-MJX-2-TEX-N-65" transform="translate(1945,0)"/>
+              <use data-c="20" xlink:href="#wa4-tile-stages-MJX-2-TEX-N-20" transform="translate(2389,0)"/>
+              <use data-c="31" xlink:href="#wa4-tile-stages-MJX-2-TEX-N-31" transform="translate(2639,0)"/>
+              <use data-c="3A" xlink:href="#wa4-tile-stages-MJX-2-TEX-N-3A" transform="translate(3139,0)"/>
+              <use data-c="A0" xlink:href="#wa4-tile-stages-MJX-2-TEX-N-A0" transform="translate(3417,0)"/>
+            </g>
+            <g data-mml-node="mrow" data-semantic-type="infixop" data-semantic-role="unknown" data-semantic-id="4" data-semantic-children="1,3" data-semantic-content="2" data-semantic-parent="6" data-semantic-speech="2 times 4" transform="translate(3667,0)">
+              <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="1" data-semantic-parent="4" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#wa4-tile-stages-MJX-2-TEX-N-32"/>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="unknown" data-semantic-id="2" data-semantic-parent="4" data-semantic-operator="infixop,×" data-semantic-speech="times" transform="translate(722.2,0)">
+                <use data-c="D7" xlink:href="#wa4-tile-stages-MJX-2-TEX-N-D7"/>
+              </g>
+              <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="3" data-semantic-parent="4" data-semantic-speech="4" transform="translate(1722.4,0)">
+                <use data-c="34" xlink:href="#wa4-tile-stages-MJX-2-TEX-N-34"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="wa4-tile-stages-__group-5">
+    <g id="wa4-tile-stages-__group-6-col_0">
+      <path id="wa4-tile-stages-__path-8-col_0-row_0" d="M 198.4 150.3 L 225.0 150.3 L 225.0 126.3 L 198.4 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-9-col_0-row_1" d="M 198.4 123.7 L 225.0 123.7 L 225.0 99.7 L 198.4 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-10-col_0-row_2" d="M 198.4 97.0 L 225.0 97.0 L 225.0 73.0 L 198.4 73.0 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+    <g id="wa4-tile-stages-__group-7-col_1">
+      <path id="wa4-tile-stages-__path-11-col_1-row_0" d="M 227.9 150.3 L 254.5 150.3 L 254.5 126.3 L 227.9 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-12-col_1-row_1" d="M 227.9 123.7 L 254.5 123.7 L 254.5 99.7 L 227.9 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-13-col_1-row_2" d="M 227.9 97.0 L 254.5 97.0 L 254.5 73.0 L 227.9 73.0 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+    <g id="wa4-tile-stages-__group-8-col_2">
+      <path id="wa4-tile-stages-__path-14-col_2-row_0" d="M 257.4 150.3 L 284.0 150.3 L 284.0 126.3 L 257.4 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-15-col_2-row_1" d="M 257.4 123.7 L 284.0 123.7 L 284.0 99.7 L 257.4 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-16-col_2-row_2" d="M 257.4 97.0 L 284.0 97.0 L 284.0 73.0 L 257.4 73.0 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+    <g id="wa4-tile-stages-__group-9-col_3">
+      <path id="wa4-tile-stages-__path-17-col_3-row_0" d="M 287.0 150.3 L 313.5 150.3 L 313.5 126.3 L 287.0 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-18-col_3-row_1" d="M 287.0 123.7 L 313.5 123.7 L 313.5 99.7 L 287.0 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-19-col_3-row_2" d="M 287.0 97.0 L 313.5 97.0 L 313.5 73.0 L 287.0 73.0 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+    <g id="wa4-tile-stages-__group-10-col_4">
+      <path id="wa4-tile-stages-__path-20-col_4-row_0" d="M 316.5 150.3 L 343.0 150.3 L 343.0 126.3 L 316.5 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-21-col_4-row_1" d="M 316.5 123.7 L 343.0 123.7 L 343.0 99.7 L 316.5 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-22-col_4-row_2" d="M 316.5 97.0 L 343.0 97.0 L 343.0 73.0 L 316.5 73.0 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+  <g id="wa4-tile-stages-__label-1" transform="translate(270.7,178.3) translate(-53.3,-8.2)">
+    <g id="wa4-tile-stages-__g-1">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.728px" width="106.600px" height="16.488px" role="img" focusable="false" viewBox="0 -705 5889.4 911" x="0.0" y="0.0">
+        <defs>
+          <path id="wa4-tile-stages-MJX-3-TEX-N-53" d="M55 507Q55 590 112 647T243 704H257Q342 704 405 641L426 672Q431 679 436 687T446 700L449 704Q450 704 453 704T459 705H463Q466 705 472 699V462L466 456H448Q437 456 435 459T430 479Q413 605 329 646Q292 662 254 662Q201 662 168 626T135 542Q135 508 152 480T200 435Q210 431 286 412T370 389Q427 367 463 314T500 191Q500 110 448 45T301 -21Q245 -21 201 -4T140 27L122 41Q118 36 107 21T87 -7T78 -21Q76 -22 68 -22H64Q61 -22 55 -16V101Q55 220 56 222Q58 227 76 227H89Q95 221 95 214Q95 182 105 151T139 90T205 42T305 24Q352 24 386 62T420 155Q420 198 398 233T340 281Q284 295 266 300Q261 301 239 306T206 314T174 325T141 343T112 367T85 402Q55 451 55 507Z"/>
+          <path id="wa4-tile-stages-MJX-3-TEX-N-74" d="M27 422Q80 426 109 478T141 600V615H181V431H316V385H181V241Q182 116 182 100T189 68Q203 29 238 29Q282 29 292 100Q293 108 293 146V181H333V146V134Q333 57 291 17Q264 -10 221 -10Q187 -10 162 2T124 33T105 68T98 100Q97 107 97 248V385H18V422H27Z"/>
+          <path id="wa4-tile-stages-MJX-3-TEX-N-61" d="M137 305T115 305T78 320T63 359Q63 394 97 421T218 448Q291 448 336 416T396 340Q401 326 401 309T402 194V124Q402 76 407 58T428 40Q443 40 448 56T453 109V145H493V106Q492 66 490 59Q481 29 455 12T400 -6T353 12T329 54V58L327 55Q325 52 322 49T314 40T302 29T287 17T269 6T247 -2T221 -8T190 -11Q130 -11 82 20T34 107Q34 128 41 147T68 188T116 225T194 253T304 268H318V290Q318 324 312 340Q290 411 215 411Q197 411 181 410T156 406T148 403Q170 388 170 359Q170 334 154 320ZM126 106Q126 75 150 51T209 26Q247 26 276 49T315 109Q317 116 318 175Q318 233 317 233Q309 233 296 232T251 223T193 203T147 166T126 106Z"/>
+          <path id="wa4-tile-stages-MJX-3-TEX-N-67" d="M329 409Q373 453 429 453Q459 453 472 434T485 396Q485 382 476 371T449 360Q416 360 412 390Q410 404 415 411Q415 412 416 414V415Q388 412 363 393Q355 388 355 386Q355 385 359 381T368 369T379 351T388 325T392 292Q392 230 343 187T222 143Q172 143 123 171Q112 153 112 133Q112 98 138 81Q147 75 155 75T227 73Q311 72 335 67Q396 58 431 26Q470 -13 470 -72Q470 -139 392 -175Q332 -206 250 -206Q167 -206 107 -175Q29 -140 29 -75Q29 -39 50 -15T92 18L103 24Q67 55 67 108Q67 155 96 193Q52 237 52 292Q52 355 102 398T223 442Q274 442 318 416L329 409ZM299 343Q294 371 273 387T221 404Q192 404 171 388T145 343Q142 326 142 292Q142 248 149 227T179 192Q196 182 222 182Q244 182 260 189T283 207T294 227T299 242Q302 258 302 292T299 343ZM403 -75Q403 -50 389 -34T348 -11T299 -2T245 0H218Q151 0 138 -6Q118 -15 107 -34T95 -74Q95 -84 101 -97T122 -127T170 -155T250 -167Q319 -167 361 -139T403 -75Z"/>
+          <path id="wa4-tile-stages-MJX-3-TEX-N-65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z"/>
+          <path id="wa4-tile-stages-MJX-3-TEX-N-20" d=""/>
+          <path id="wa4-tile-stages-MJX-3-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          <path id="wa4-tile-stages-MJX-3-TEX-N-3A" d="M78 370Q78 394 95 412T138 430Q162 430 180 414T199 371Q199 346 182 328T139 310T96 327T78 370ZM78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"/>
+          <path id="wa4-tile-stages-MJX-3-TEX-N-A0" d=""/>
+          <path id="wa4-tile-stages-MJX-3-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"/>
+          <path id="wa4-tile-stages-MJX-3-TEX-N-D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"/>
+          <path id="wa4-tile-stages-MJX-3-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math" data-semantic-type="punctuated" data-semantic-role="text" data-semantic-id="6" data-semantic-children="0,4" data-semantic-collapsed="(6 (c 5) 0 4)" data-semantic-speech="Stage 2 colon 3 times 5">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-parent="6" data-semantic-speech="Stage 2 colon">
+              <use data-c="53" xlink:href="#wa4-tile-stages-MJX-3-TEX-N-53"/>
+              <use data-c="74" xlink:href="#wa4-tile-stages-MJX-3-TEX-N-74" transform="translate(556,0)"/>
+              <use data-c="61" xlink:href="#wa4-tile-stages-MJX-3-TEX-N-61" transform="translate(945,0)"/>
+              <use data-c="67" xlink:href="#wa4-tile-stages-MJX-3-TEX-N-67" transform="translate(1445,0)"/>
+              <use data-c="65" xlink:href="#wa4-tile-stages-MJX-3-TEX-N-65" transform="translate(1945,0)"/>
+              <use data-c="20" xlink:href="#wa4-tile-stages-MJX-3-TEX-N-20" transform="translate(2389,0)"/>
+              <use data-c="32" xlink:href="#wa4-tile-stages-MJX-3-TEX-N-32" transform="translate(2639,0)"/>
+              <use data-c="3A" xlink:href="#wa4-tile-stages-MJX-3-TEX-N-3A" transform="translate(3139,0)"/>
+              <use data-c="A0" xlink:href="#wa4-tile-stages-MJX-3-TEX-N-A0" transform="translate(3417,0)"/>
+            </g>
+            <g data-mml-node="mrow" data-semantic-type="infixop" data-semantic-role="unknown" data-semantic-id="4" data-semantic-children="1,3" data-semantic-content="2" data-semantic-parent="6" data-semantic-speech="3 times 5" transform="translate(3667,0)">
+              <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="1" data-semantic-parent="4" data-semantic-speech="3">
+                <use data-c="33" xlink:href="#wa4-tile-stages-MJX-3-TEX-N-33"/>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="unknown" data-semantic-id="2" data-semantic-parent="4" data-semantic-operator="infixop,×" data-semantic-speech="times" transform="translate(722.2,0)">
+                <use data-c="D7" xlink:href="#wa4-tile-stages-MJX-3-TEX-N-D7"/>
+              </g>
+              <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="3" data-semantic-parent="4" data-semantic-speech="5" transform="translate(1722.4,0)">
+                <use data-c="35" xlink:href="#wa4-tile-stages-MJX-3-TEX-N-35"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="wa4-tile-stages-__group-11">
+    <g id="wa4-tile-stages-__group-12-col_0">
+      <path id="wa4-tile-stages-__path-23-col_0-row_0" d="M 405.0 150.3 L 431.6 150.3 L 431.6 126.3 L 405.0 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-24-col_0-row_1" d="M 405.0 123.7 L 431.6 123.7 L 431.6 99.7 L 405.0 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-25-col_0-row_2" d="M 405.0 97.0 L 431.6 97.0 L 431.6 73.0 L 405.0 73.0 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-26-col_0-row_3" d="M 405.0 70.3 L 431.6 70.3 L 431.6 46.3 L 405.0 46.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+    <g id="wa4-tile-stages-__group-13-col_1">
+      <path id="wa4-tile-stages-__path-27-col_1-row_0" d="M 434.6 150.3 L 461.1 150.3 L 461.1 126.3 L 434.6 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-28-col_1-row_1" d="M 434.6 123.7 L 461.1 123.7 L 461.1 99.7 L 434.6 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-29-col_1-row_2" d="M 434.6 97.0 L 461.1 97.0 L 461.1 73.0 L 434.6 73.0 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-30-col_1-row_3" d="M 434.6 70.3 L 461.1 70.3 L 461.1 46.3 L 434.6 46.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+    <g id="wa4-tile-stages-__group-14-col_2">
+      <path id="wa4-tile-stages-__path-31-col_2-row_0" d="M 464.1 150.3 L 490.7 150.3 L 490.7 126.3 L 464.1 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-32-col_2-row_1" d="M 464.1 123.7 L 490.7 123.7 L 490.7 99.7 L 464.1 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-33-col_2-row_2" d="M 464.1 97.0 L 490.7 97.0 L 490.7 73.0 L 464.1 73.0 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-34-col_2-row_3" d="M 464.1 70.3 L 490.7 70.3 L 490.7 46.3 L 464.1 46.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+    <g id="wa4-tile-stages-__group-15-col_3">
+      <path id="wa4-tile-stages-__path-35-col_3-row_0" d="M 493.6 150.3 L 520.2 150.3 L 520.2 126.3 L 493.6 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-36-col_3-row_1" d="M 493.6 123.7 L 520.2 123.7 L 520.2 99.7 L 493.6 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-37-col_3-row_2" d="M 493.6 97.0 L 520.2 97.0 L 520.2 73.0 L 493.6 73.0 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-38-col_3-row_3" d="M 493.6 70.3 L 520.2 70.3 L 520.2 46.3 L 493.6 46.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+    <g id="wa4-tile-stages-__group-16-col_4">
+      <path id="wa4-tile-stages-__path-39-col_4-row_0" d="M 523.1 150.3 L 549.7 150.3 L 549.7 126.3 L 523.1 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-40-col_4-row_1" d="M 523.1 123.7 L 549.7 123.7 L 549.7 99.7 L 523.1 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-41-col_4-row_2" d="M 523.1 97.0 L 549.7 97.0 L 549.7 73.0 L 523.1 73.0 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-42-col_4-row_3" d="M 523.1 70.3 L 549.7 70.3 L 549.7 46.3 L 523.1 46.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+    <g id="wa4-tile-stages-__group-17-col_5">
+      <path id="wa4-tile-stages-__path-43-col_5-row_0" d="M 552.7 150.3 L 579.2 150.3 L 579.2 126.3 L 552.7 126.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-44-col_5-row_1" d="M 552.7 123.7 L 579.2 123.7 L 579.2 99.7 L 552.7 99.7 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-45-col_5-row_2" d="M 552.7 97.0 L 579.2 97.0 L 579.2 73.0 L 552.7 73.0 Z" stroke="blue" stroke-width="2" fill="none"/>
+      <path id="wa4-tile-stages-__path-46-col_5-row_3" d="M 552.7 70.3 L 579.2 70.3 L 579.2 46.3 L 552.7 46.3 Z" stroke="blue" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+  <g id="wa4-tile-stages-__label-2" transform="translate(492.1,178.3) translate(-53.3,-8.2)">
+    <g id="wa4-tile-stages-__g-2">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.728px" width="106.600px" height="16.488px" role="img" focusable="false" viewBox="0 -705 5889.4 911" x="0.0" y="0.0">
+        <defs>
+          <path id="wa4-tile-stages-MJX-4-TEX-N-53" d="M55 507Q55 590 112 647T243 704H257Q342 704 405 641L426 672Q431 679 436 687T446 700L449 704Q450 704 453 704T459 705H463Q466 705 472 699V462L466 456H448Q437 456 435 459T430 479Q413 605 329 646Q292 662 254 662Q201 662 168 626T135 542Q135 508 152 480T200 435Q210 431 286 412T370 389Q427 367 463 314T500 191Q500 110 448 45T301 -21Q245 -21 201 -4T140 27L122 41Q118 36 107 21T87 -7T78 -21Q76 -22 68 -22H64Q61 -22 55 -16V101Q55 220 56 222Q58 227 76 227H89Q95 221 95 214Q95 182 105 151T139 90T205 42T305 24Q352 24 386 62T420 155Q420 198 398 233T340 281Q284 295 266 300Q261 301 239 306T206 314T174 325T141 343T112 367T85 402Q55 451 55 507Z"/>
+          <path id="wa4-tile-stages-MJX-4-TEX-N-74" d="M27 422Q80 426 109 478T141 600V615H181V431H316V385H181V241Q182 116 182 100T189 68Q203 29 238 29Q282 29 292 100Q293 108 293 146V181H333V146V134Q333 57 291 17Q264 -10 221 -10Q187 -10 162 2T124 33T105 68T98 100Q97 107 97 248V385H18V422H27Z"/>
+          <path id="wa4-tile-stages-MJX-4-TEX-N-61" d="M137 305T115 305T78 320T63 359Q63 394 97 421T218 448Q291 448 336 416T396 340Q401 326 401 309T402 194V124Q402 76 407 58T428 40Q443 40 448 56T453 109V145H493V106Q492 66 490 59Q481 29 455 12T400 -6T353 12T329 54V58L327 55Q325 52 322 49T314 40T302 29T287 17T269 6T247 -2T221 -8T190 -11Q130 -11 82 20T34 107Q34 128 41 147T68 188T116 225T194 253T304 268H318V290Q318 324 312 340Q290 411 215 411Q197 411 181 410T156 406T148 403Q170 388 170 359Q170 334 154 320ZM126 106Q126 75 150 51T209 26Q247 26 276 49T315 109Q317 116 318 175Q318 233 317 233Q309 233 296 232T251 223T193 203T147 166T126 106Z"/>
+          <path id="wa4-tile-stages-MJX-4-TEX-N-67" d="M329 409Q373 453 429 453Q459 453 472 434T485 396Q485 382 476 371T449 360Q416 360 412 390Q410 404 415 411Q415 412 416 414V415Q388 412 363 393Q355 388 355 386Q355 385 359 381T368 369T379 351T388 325T392 292Q392 230 343 187T222 143Q172 143 123 171Q112 153 112 133Q112 98 138 81Q147 75 155 75T227 73Q311 72 335 67Q396 58 431 26Q470 -13 470 -72Q470 -139 392 -175Q332 -206 250 -206Q167 -206 107 -175Q29 -140 29 -75Q29 -39 50 -15T92 18L103 24Q67 55 67 108Q67 155 96 193Q52 237 52 292Q52 355 102 398T223 442Q274 442 318 416L329 409ZM299 343Q294 371 273 387T221 404Q192 404 171 388T145 343Q142 326 142 292Q142 248 149 227T179 192Q196 182 222 182Q244 182 260 189T283 207T294 227T299 242Q302 258 302 292T299 343ZM403 -75Q403 -50 389 -34T348 -11T299 -2T245 0H218Q151 0 138 -6Q118 -15 107 -34T95 -74Q95 -84 101 -97T122 -127T170 -155T250 -167Q319 -167 361 -139T403 -75Z"/>
+          <path id="wa4-tile-stages-MJX-4-TEX-N-65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z"/>
+          <path id="wa4-tile-stages-MJX-4-TEX-N-20" d=""/>
+          <path id="wa4-tile-stages-MJX-4-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"/>
+          <path id="wa4-tile-stages-MJX-4-TEX-N-3A" d="M78 370Q78 394 95 412T138 430Q162 430 180 414T199 371Q199 346 182 328T139 310T96 327T78 370ZM78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"/>
+          <path id="wa4-tile-stages-MJX-4-TEX-N-A0" d=""/>
+          <path id="wa4-tile-stages-MJX-4-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          <path id="wa4-tile-stages-MJX-4-TEX-N-D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"/>
+          <path id="wa4-tile-stages-MJX-4-TEX-N-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math" data-semantic-type="punctuated" data-semantic-role="text" data-semantic-id="6" data-semantic-children="0,4" data-semantic-collapsed="(6 (c 5) 0 4)" data-semantic-speech="Stage 3 colon 4 times 6">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-parent="6" data-semantic-speech="Stage 3 colon">
+              <use data-c="53" xlink:href="#wa4-tile-stages-MJX-4-TEX-N-53"/>
+              <use data-c="74" xlink:href="#wa4-tile-stages-MJX-4-TEX-N-74" transform="translate(556,0)"/>
+              <use data-c="61" xlink:href="#wa4-tile-stages-MJX-4-TEX-N-61" transform="translate(945,0)"/>
+              <use data-c="67" xlink:href="#wa4-tile-stages-MJX-4-TEX-N-67" transform="translate(1445,0)"/>
+              <use data-c="65" xlink:href="#wa4-tile-stages-MJX-4-TEX-N-65" transform="translate(1945,0)"/>
+              <use data-c="20" xlink:href="#wa4-tile-stages-MJX-4-TEX-N-20" transform="translate(2389,0)"/>
+              <use data-c="33" xlink:href="#wa4-tile-stages-MJX-4-TEX-N-33" transform="translate(2639,0)"/>
+              <use data-c="3A" xlink:href="#wa4-tile-stages-MJX-4-TEX-N-3A" transform="translate(3139,0)"/>
+              <use data-c="A0" xlink:href="#wa4-tile-stages-MJX-4-TEX-N-A0" transform="translate(3417,0)"/>
+            </g>
+            <g data-mml-node="mrow" data-semantic-type="infixop" data-semantic-role="unknown" data-semantic-id="4" data-semantic-children="1,3" data-semantic-content="2" data-semantic-parent="6" data-semantic-speech="4 times 6" transform="translate(3667,0)">
+              <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="1" data-semantic-parent="4" data-semantic-speech="4">
+                <use data-c="34" xlink:href="#wa4-tile-stages-MJX-4-TEX-N-34"/>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="unknown" data-semantic-id="2" data-semantic-parent="4" data-semantic-operator="infixop,×" data-semantic-speech="times" transform="translate(722.2,0)">
+                <use data-c="D7" xlink:href="#wa4-tile-stages-MJX-4-TEX-N-D7"/>
+              </g>
+              <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="3" data-semantic-parent="4" data-semantic-speech="6" transform="translate(1722.4,0)">
+                <use data-c="36" xlink:href="#wa4-tile-stages-MJX-4-TEX-N-36"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+</svg>

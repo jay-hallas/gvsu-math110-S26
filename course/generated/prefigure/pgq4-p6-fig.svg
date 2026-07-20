@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pgq4-p6-fig-figure" width="660" height="275" viewBox="0 0 660 275">
+  <defs>
+    <clipPath id="pgq4-p6-fig-__clipPath-0">
+      <rect x="10.0" y="10.0" width="640.0" height="240.0"/>
+    </clipPath>
+    <clipPath id="pgq4-p6-fig-__clipPath-1">
+      <rect x="10.0" y="10.0" width="640.0" height="240.0"/>
+    </clipPath>
+  </defs>
+  <g id="pgq4-p6-fig-__group-0">
+    <g id="pgq4-p6-fig-__group-1-col_0">
+      <path id="pgq4-p6-fig-__path-0-col_0-row_0" d="M 11.3 222.0 L 33.8 222.0 L 33.8 198.0 L 11.3 198.0 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-1-col_0-row_1" d="M 11.3 195.3 L 33.8 195.3 L 33.8 171.3 L 11.3 171.3 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-2-col_0-row_2" d="M 11.3 168.7 L 33.8 168.7 L 33.8 144.7 L 11.3 144.7 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+    </g>
+  </g>
+  <g id="pgq4-p6-fig-__label-0" transform="translate(22.5,234.0) translate(-25.4,-6.6)">
+    <g id="pgq4-p6-fig-__g-0">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.384px" width="50.856px" height="13.144px" role="img" focusable="false" viewBox="0 -705 2810 726" x="0.0" y="0.0">
+        <defs>
+          <path id="pgq4-p6-fig-MJX-2-TEX-N-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"/>
+          <path id="pgq4-p6-fig-MJX-2-TEX-N-61" d="M137 305T115 305T78 320T63 359Q63 394 97 421T218 448Q291 448 336 416T396 340Q401 326 401 309T402 194V124Q402 76 407 58T428 40Q443 40 448 56T453 109V145H493V106Q492 66 490 59Q481 29 455 12T400 -6T353 12T329 54V58L327 55Q325 52 322 49T314 40T302 29T287 17T269 6T247 -2T221 -8T190 -11Q130 -11 82 20T34 107Q34 128 41 147T68 188T116 225T194 253T304 268H318V290Q318 324 312 340Q290 411 215 411Q197 411 181 410T156 406T148 403Q170 388 170 359Q170 334 154 320ZM126 106Q126 75 150 51T209 26Q247 26 276 49T315 109Q317 116 318 175Q318 233 317 233Q309 233 296 232T251 223T193 203T147 166T126 106Z"/>
+          <path id="pgq4-p6-fig-MJX-2-TEX-N-73" d="M295 316Q295 356 268 385T190 414Q154 414 128 401Q98 382 98 349Q97 344 98 336T114 312T157 287Q175 282 201 278T245 269T277 256Q294 248 310 236T342 195T359 133Q359 71 321 31T198 -10H190Q138 -10 94 26L86 19L77 10Q71 4 65 -1L54 -11H46H42Q39 -11 33 -5V74V132Q33 153 35 157T45 162H54Q66 162 70 158T75 146T82 119T101 77Q136 26 198 26Q295 26 295 104Q295 133 277 151Q257 175 194 187T111 210Q75 227 54 256T33 318Q33 357 50 384T93 424T143 442T187 447H198Q238 447 268 432L283 424L292 431Q302 440 314 448H322H326Q329 448 335 442V310L329 304H301Q295 310 295 316Z"/>
+          <path id="pgq4-p6-fig-MJX-2-TEX-N-65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z"/>
+          <path id="pgq4-p6-fig-MJX-2-TEX-N-20" d=""/>
+          <path id="pgq4-p6-fig-MJX-2-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="Case 1">
+              <use data-c="43" xlink:href="#pgq4-p6-fig-MJX-2-TEX-N-43"/>
+              <use data-c="61" xlink:href="#pgq4-p6-fig-MJX-2-TEX-N-61" transform="translate(722,0)"/>
+              <use data-c="73" xlink:href="#pgq4-p6-fig-MJX-2-TEX-N-73" transform="translate(1222,0)"/>
+              <use data-c="65" xlink:href="#pgq4-p6-fig-MJX-2-TEX-N-65" transform="translate(1616,0)"/>
+              <use data-c="20" xlink:href="#pgq4-p6-fig-MJX-2-TEX-N-20" transform="translate(2060,0)"/>
+              <use data-c="31" xlink:href="#pgq4-p6-fig-MJX-2-TEX-N-31" transform="translate(2310,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pgq4-p6-fig-__group-2">
+    <g id="pgq4-p6-fig-__group-3-col_0">
+      <path id="pgq4-p6-fig-__path-3-col_0-row_0" d="M 86.5 222.0 L 109.1 222.0 L 109.1 198.0 L 86.5 198.0 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-4-col_0-row_1" d="M 86.5 195.3 L 109.1 195.3 L 109.1 171.3 L 86.5 171.3 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-5-col_0-row_2" d="M 86.5 168.7 L 109.1 168.7 L 109.1 144.7 L 86.5 144.7 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-6-col_0-row_3" d="M 86.5 142.0 L 109.1 142.0 L 109.1 118.0 L 86.5 118.0 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+    </g>
+    <g id="pgq4-p6-fig-__group-4-col_1">
+      <path id="pgq4-p6-fig-__path-7-col_1-row_0" d="M 111.6 222.0 L 134.2 222.0 L 134.2 198.0 L 111.6 198.0 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-8-col_1-row_1" d="M 111.6 195.3 L 134.2 195.3 L 134.2 171.3 L 111.6 171.3 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-9-col_1-row_2" d="M 111.6 168.7 L 134.2 168.7 L 134.2 144.7 L 111.6 144.7 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-10-col_1-row_3" d="M 111.6 142.0 L 134.2 142.0 L 134.2 118.0 L 111.6 118.0 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+    </g>
+  </g>
+  <g id="pgq4-p6-fig-__label-1" transform="translate(110.4,234.0) translate(-25.4,-6.6)">
+    <g id="pgq4-p6-fig-__g-1">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.384px" width="50.856px" height="13.144px" role="img" focusable="false" viewBox="0 -705 2810 726" x="0.0" y="0.0">
+        <defs>
+          <path id="pgq4-p6-fig-MJX-3-TEX-N-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"/>
+          <path id="pgq4-p6-fig-MJX-3-TEX-N-61" d="M137 305T115 305T78 320T63 359Q63 394 97 421T218 448Q291 448 336 416T396 340Q401 326 401 309T402 194V124Q402 76 407 58T428 40Q443 40 448 56T453 109V145H493V106Q492 66 490 59Q481 29 455 12T400 -6T353 12T329 54V58L327 55Q325 52 322 49T314 40T302 29T287 17T269 6T247 -2T221 -8T190 -11Q130 -11 82 20T34 107Q34 128 41 147T68 188T116 225T194 253T304 268H318V290Q318 324 312 340Q290 411 215 411Q197 411 181 410T156 406T148 403Q170 388 170 359Q170 334 154 320ZM126 106Q126 75 150 51T209 26Q247 26 276 49T315 109Q317 116 318 175Q318 233 317 233Q309 233 296 232T251 223T193 203T147 166T126 106Z"/>
+          <path id="pgq4-p6-fig-MJX-3-TEX-N-73" d="M295 316Q295 356 268 385T190 414Q154 414 128 401Q98 382 98 349Q97 344 98 336T114 312T157 287Q175 282 201 278T245 269T277 256Q294 248 310 236T342 195T359 133Q359 71 321 31T198 -10H190Q138 -10 94 26L86 19L77 10Q71 4 65 -1L54 -11H46H42Q39 -11 33 -5V74V132Q33 153 35 157T45 162H54Q66 162 70 158T75 146T82 119T101 77Q136 26 198 26Q295 26 295 104Q295 133 277 151Q257 175 194 187T111 210Q75 227 54 256T33 318Q33 357 50 384T93 424T143 442T187 447H198Q238 447 268 432L283 424L292 431Q302 440 314 448H322H326Q329 448 335 442V310L329 304H301Q295 310 295 316Z"/>
+          <path id="pgq4-p6-fig-MJX-3-TEX-N-65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z"/>
+          <path id="pgq4-p6-fig-MJX-3-TEX-N-20" d=""/>
+          <path id="pgq4-p6-fig-MJX-3-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="Case 2">
+              <use data-c="43" xlink:href="#pgq4-p6-fig-MJX-3-TEX-N-43"/>
+              <use data-c="61" xlink:href="#pgq4-p6-fig-MJX-3-TEX-N-61" transform="translate(722,0)"/>
+              <use data-c="73" xlink:href="#pgq4-p6-fig-MJX-3-TEX-N-73" transform="translate(1222,0)"/>
+              <use data-c="65" xlink:href="#pgq4-p6-fig-MJX-3-TEX-N-65" transform="translate(1616,0)"/>
+              <use data-c="20" xlink:href="#pgq4-p6-fig-MJX-3-TEX-N-20" transform="translate(2060,0)"/>
+              <use data-c="32" xlink:href="#pgq4-p6-fig-MJX-3-TEX-N-32" transform="translate(2310,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pgq4-p6-fig-__group-5">
+    <g id="pgq4-p6-fig-__group-6-col_0">
+      <path id="pgq4-p6-fig-__path-11-col_0-row_0" d="M 186.9 222.0 L 209.5 222.0 L 209.5 198.0 L 186.9 198.0 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-12-col_0-row_1" d="M 186.9 195.3 L 209.5 195.3 L 209.5 171.3 L 186.9 171.3 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-13-col_0-row_2" d="M 186.9 168.7 L 209.5 168.7 L 209.5 144.7 L 186.9 144.7 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-14-col_0-row_3" d="M 186.9 142.0 L 209.5 142.0 L 209.5 118.0 L 186.9 118.0 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-15-col_0-row_4" d="M 186.9 115.3 L 209.5 115.3 L 209.5 91.3 L 186.9 91.3 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+    </g>
+    <g id="pgq4-p6-fig-__group-7-col_1">
+      <path id="pgq4-p6-fig-__path-16-col_1-row_0" d="M 212.0 222.0 L 234.6 222.0 L 234.6 198.0 L 212.0 198.0 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-17-col_1-row_1" d="M 212.0 195.3 L 234.6 195.3 L 234.6 171.3 L 212.0 171.3 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-18-col_1-row_2" d="M 212.0 168.7 L 234.6 168.7 L 234.6 144.7 L 212.0 144.7 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-19-col_1-row_3" d="M 212.0 142.0 L 234.6 142.0 L 234.6 118.0 L 212.0 118.0 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-20-col_1-row_4" d="M 212.0 115.3 L 234.6 115.3 L 234.6 91.3 L 212.0 91.3 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+    </g>
+    <g id="pgq4-p6-fig-__group-8-col_2">
+      <path id="pgq4-p6-fig-__path-21-col_2-row_0" d="M 237.1 222.0 L 259.7 222.0 L 259.7 198.0 L 237.1 198.0 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-22-col_2-row_1" d="M 237.1 195.3 L 259.7 195.3 L 259.7 171.3 L 237.1 171.3 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-23-col_2-row_2" d="M 237.1 168.7 L 259.7 168.7 L 259.7 144.7 L 237.1 144.7 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-24-col_2-row_3" d="M 237.1 142.0 L 259.7 142.0 L 259.7 118.0 L 237.1 118.0 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+      <path id="pgq4-p6-fig-__path-25-col_2-row_4" d="M 237.1 115.3 L 259.7 115.3 L 259.7 91.3 L 237.1 91.3 Z" stroke="black" stroke-width="1.5" fill="lightblue"/>
+    </g>
+  </g>
+  <g id="pgq4-p6-fig-__label-2" transform="translate(223.3,234.0) translate(-25.4,-6.6)">
+    <g id="pgq4-p6-fig-__g-2">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="50.856px" height="13.160px" role="img" focusable="false" viewBox="0 -705 2810 727" x="0.0" y="0.0">
+        <defs>
+          <path id="pgq4-p6-fig-MJX-4-TEX-N-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"/>
+          <path id="pgq4-p6-fig-MJX-4-TEX-N-61" d="M137 305T115 305T78 320T63 359Q63 394 97 421T218 448Q291 448 336 416T396 340Q401 326 401 309T402 194V124Q402 76 407 58T428 40Q443 40 448 56T453 109V145H493V106Q492 66 490 59Q481 29 455 12T400 -6T353 12T329 54V58L327 55Q325 52 322 49T314 40T302 29T287 17T269 6T247 -2T221 -8T190 -11Q130 -11 82 20T34 107Q34 128 41 147T68 188T116 225T194 253T304 268H318V290Q318 324 312 340Q290 411 215 411Q197 411 181 410T156 406T148 403Q170 388 170 359Q170 334 154 320ZM126 106Q126 75 150 51T209 26Q247 26 276 49T315 109Q317 116 318 175Q318 233 317 233Q309 233 296 232T251 223T193 203T147 166T126 106Z"/>
+          <path id="pgq4-p6-fig-MJX-4-TEX-N-73" d="M295 316Q295 356 268 385T190 414Q154 414 128 401Q98 382 98 349Q97 344 98 336T114 312T157 287Q175 282 201 278T245 269T277 256Q294 248 310 236T342 195T359 133Q359 71 321 31T198 -10H190Q138 -10 94 26L86 19L77 10Q71 4 65 -1L54 -11H46H42Q39 -11 33 -5V74V132Q33 153 35 157T45 162H54Q66 162 70 158T75 146T82 119T101 77Q136 26 198 26Q295 26 295 104Q295 133 277 151Q257 175 194 187T111 210Q75 227 54 256T33 318Q33 357 50 384T93 424T143 442T187 447H198Q238 447 268 432L283 424L292 431Q302 440 314 448H322H326Q329 448 335 442V310L329 304H301Q295 310 295 316Z"/>
+          <path id="pgq4-p6-fig-MJX-4-TEX-N-65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z"/>
+          <path id="pgq4-p6-fig-MJX-4-TEX-N-20" d=""/>
+          <path id="pgq4-p6-fig-MJX-4-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="Case 3">
+              <use data-c="43" xlink:href="#pgq4-p6-fig-MJX-4-TEX-N-43"/>
+              <use data-c="61" xlink:href="#pgq4-p6-fig-MJX-4-TEX-N-61" transform="translate(722,0)"/>
+              <use data-c="73" xlink:href="#pgq4-p6-fig-MJX-4-TEX-N-73" transform="translate(1222,0)"/>
+              <use data-c="65" xlink:href="#pgq4-p6-fig-MJX-4-TEX-N-65" transform="translate(1616,0)"/>
+              <use data-c="20" xlink:href="#pgq4-p6-fig-MJX-4-TEX-N-20" transform="translate(2060,0)"/>
+              <use data-c="33" xlink:href="#pgq4-p6-fig-MJX-4-TEX-N-33" transform="translate(2310,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <path id="pgq4-p6-fig-__path-26" d="M 311.2 223.3 L 411.6 223.3 L 411.6 63.3 L 311.2 63.3 Z" stroke="#777" stroke-width="1.5" stroke-dasharray="4" fill="none"/>
+  <g id="pgq4-p6-fig-__label-3" transform="translate(361.4,234.0) translate(-25.4,-6.6)">
+    <g id="pgq4-p6-fig-__g-3">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.384px" width="50.856px" height="13.144px" role="img" focusable="false" viewBox="0 -705 2810 726" x="0.0" y="0.0">
+        <defs>
+          <path id="pgq4-p6-fig-MJX-5-TEX-N-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"/>
+          <path id="pgq4-p6-fig-MJX-5-TEX-N-61" d="M137 305T115 305T78 320T63 359Q63 394 97 421T218 448Q291 448 336 416T396 340Q401 326 401 309T402 194V124Q402 76 407 58T428 40Q443 40 448 56T453 109V145H493V106Q492 66 490 59Q481 29 455 12T400 -6T353 12T329 54V58L327 55Q325 52 322 49T314 40T302 29T287 17T269 6T247 -2T221 -8T190 -11Q130 -11 82 20T34 107Q34 128 41 147T68 188T116 225T194 253T304 268H318V290Q318 324 312 340Q290 411 215 411Q197 411 181 410T156 406T148 403Q170 388 170 359Q170 334 154 320ZM126 106Q126 75 150 51T209 26Q247 26 276 49T315 109Q317 116 318 175Q318 233 317 233Q309 233 296 232T251 223T193 203T147 166T126 106Z"/>
+          <path id="pgq4-p6-fig-MJX-5-TEX-N-73" d="M295 316Q295 356 268 385T190 414Q154 414 128 401Q98 382 98 349Q97 344 98 336T114 312T157 287Q175 282 201 278T245 269T277 256Q294 248 310 236T342 195T359 133Q359 71 321 31T198 -10H190Q138 -10 94 26L86 19L77 10Q71 4 65 -1L54 -11H46H42Q39 -11 33 -5V74V132Q33 153 35 157T45 162H54Q66 162 70 158T75 146T82 119T101 77Q136 26 198 26Q295 26 295 104Q295 133 277 151Q257 175 194 187T111 210Q75 227 54 256T33 318Q33 357 50 384T93 424T143 442T187 447H198Q238 447 268 432L283 424L292 431Q302 440 314 448H322H326Q329 448 335 442V310L329 304H301Q295 310 295 316Z"/>
+          <path id="pgq4-p6-fig-MJX-5-TEX-N-65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z"/>
+          <path id="pgq4-p6-fig-MJX-5-TEX-N-20" d=""/>
+          <path id="pgq4-p6-fig-MJX-5-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="Case 4">
+              <use data-c="43" xlink:href="#pgq4-p6-fig-MJX-5-TEX-N-43"/>
+              <use data-c="61" xlink:href="#pgq4-p6-fig-MJX-5-TEX-N-61" transform="translate(722,0)"/>
+              <use data-c="73" xlink:href="#pgq4-p6-fig-MJX-5-TEX-N-73" transform="translate(1222,0)"/>
+              <use data-c="65" xlink:href="#pgq4-p6-fig-MJX-5-TEX-N-65" transform="translate(1616,0)"/>
+              <use data-c="20" xlink:href="#pgq4-p6-fig-MJX-5-TEX-N-20" transform="translate(2060,0)"/>
+              <use data-c="34" xlink:href="#pgq4-p6-fig-MJX-5-TEX-N-34" transform="translate(2310,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <path id="pgq4-p6-fig-__path-27" d="M 461.8 223.3 L 587.3 223.3 L 587.3 36.7 L 461.8 36.7 Z" stroke="#777" stroke-width="1.5" stroke-dasharray="4" fill="none"/>
+  <g id="pgq4-p6-fig-__label-4" transform="translate(524.5,234.0) translate(-25.4,-6.6)">
+    <g id="pgq4-p6-fig-__g-4">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="50.856px" height="13.160px" role="img" focusable="false" viewBox="0 -705 2810 727" x="0.0" y="0.0">
+        <defs>
+          <path id="pgq4-p6-fig-MJX-6-TEX-N-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"/>
+          <path id="pgq4-p6-fig-MJX-6-TEX-N-61" d="M137 305T115 305T78 320T63 359Q63 394 97 421T218 448Q291 448 336 416T396 340Q401 326 401 309T402 194V124Q402 76 407 58T428 40Q443 40 448 56T453 109V145H493V106Q492 66 490 59Q481 29 455 12T400 -6T353 12T329 54V58L327 55Q325 52 322 49T314 40T302 29T287 17T269 6T247 -2T221 -8T190 -11Q130 -11 82 20T34 107Q34 128 41 147T68 188T116 225T194 253T304 268H318V290Q318 324 312 340Q290 411 215 411Q197 411 181 410T156 406T148 403Q170 388 170 359Q170 334 154 320ZM126 106Q126 75 150 51T209 26Q247 26 276 49T315 109Q317 116 318 175Q318 233 317 233Q309 233 296 232T251 223T193 203T147 166T126 106Z"/>
+          <path id="pgq4-p6-fig-MJX-6-TEX-N-73" d="M295 316Q295 356 268 385T190 414Q154 414 128 401Q98 382 98 349Q97 344 98 336T114 312T157 287Q175 282 201 278T245 269T277 256Q294 248 310 236T342 195T359 133Q359 71 321 31T198 -10H190Q138 -10 94 26L86 19L77 10Q71 4 65 -1L54 -11H46H42Q39 -11 33 -5V74V132Q33 153 35 157T45 162H54Q66 162 70 158T75 146T82 119T101 77Q136 26 198 26Q295 26 295 104Q295 133 277 151Q257 175 194 187T111 210Q75 227 54 256T33 318Q33 357 50 384T93 424T143 442T187 447H198Q238 447 268 432L283 424L292 431Q302 440 314 448H322H326Q329 448 335 442V310L329 304H301Q295 310 295 316Z"/>
+          <path id="pgq4-p6-fig-MJX-6-TEX-N-65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z"/>
+          <path id="pgq4-p6-fig-MJX-6-TEX-N-20" d=""/>
+          <path id="pgq4-p6-fig-MJX-6-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="Case 5">
+              <use data-c="43" xlink:href="#pgq4-p6-fig-MJX-6-TEX-N-43"/>
+              <use data-c="61" xlink:href="#pgq4-p6-fig-MJX-6-TEX-N-61" transform="translate(722,0)"/>
+              <use data-c="73" xlink:href="#pgq4-p6-fig-MJX-6-TEX-N-73" transform="translate(1222,0)"/>
+              <use data-c="65" xlink:href="#pgq4-p6-fig-MJX-6-TEX-N-65" transform="translate(1616,0)"/>
+              <use data-c="20" xlink:href="#pgq4-p6-fig-MJX-6-TEX-N-20" transform="translate(2060,0)"/>
+              <use data-c="35" xlink:href="#pgq4-p6-fig-MJX-6-TEX-N-35" transform="translate(2310,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+</svg>

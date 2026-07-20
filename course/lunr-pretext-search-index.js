@@ -1000,6 +1000,51 @@ var ptx_lunr_docs = [
   "body": " Exponential Regression and Moore's Law   Moore's Law is the historical observation that the number of transistors packed onto a microchip doubles roughly every two years, driving an exponential surge in computing power. The table below displays chronological microchip production data over a thirty-year span.    Year  Years since 1970 (t)  Transistor Count (N)   1971 1 2,300  1974 4 5,000  1978 8 29,000  1982 12 134,000  1985 15 275,000  1989 19 1,180,000  1993 23 3,100,000  1997 27 7,500,000  1999 29 24,000,000    Exponential Regression Instructions in Desmos: Type the table values into Desmos. Use your relative time vector (years since 1970) as your independent variable and transistor count as your dependent variable . Then type the exponential model structure into an empty execution line, and make sure you select Log Mode.  Exponential Regression Model: (round and to 4 decimal places)     Based on your regression output, state the value of your base growth factor . Write a complete sentence explaining exactly what this parameter means regarding the yearly growth rate of transistors.      Use your mathematical model to predict the transistor count for a microprocessor developed in the year 2010 ( ). Show your structural setup.      The actual transistor count for an Intel Core i7 processor released in 2010 was roughly 1,170,000,000. Compare your model's prediction from part (b) with this real-world figure. Did your exponential model overperform or underperform the actual advancement?    "
 },
 {
+  "id": "writing-assignment-4",
+  "level": "1",
+  "url": "writing-assignment-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Writing Assignment 4: Logarithms, Inverses, and Quadratic Patterns",
+  "body": " Writing Assignment 4: Logarithms, Inverses, and Quadratic Patterns   This assignment moves between exponential and logarithmic equations, compounding schedules, inverse functions, and a geometric pattern that grows quadratically.  Show every algebraic step. A final answer with no supporting work earns no credit.  In Question 2, carry at least four decimal places through your intermediate steps.  In Question 3, label each graph clearly with its equation.  Every answer that asks for an interpretation should be written in a complete sentence, in context.  Upload a clean, high-quality scan of your pages to Blackboard when complete.     Solving Exponential and Logarithmic Equations   Solve each equation below by hand. Round any decimal approximations to four decimal places.     Solve the exponential equation for .  Isolate the exponential expression first, then rewrite both sides with a common base or take a logarithm of both sides. Both routes are valid; state which one you used.          Solve the logarithmic equation for . Verify your answer by substituting back into the original equation and confirming the argument of the logarithm is positive.          Explain in one or two complete sentences how the structure of part (a) and the structure of part (b) are related. What does each equation ask you to undo ?        Monthly versus Daily Compounding   A recent graduate deposits into a high-yield savings account that pays a nominal annual interest rate of . She wants to know how long it takes the balance to reach , and whether the compounding schedule meaningfully changes that answer.  Recall that , where is the number of compounding periods per year. Use for monthly compounding and for daily compounding.     Write the equation you would solve to find the time required to reach under monthly compounding. Do not solve it yet.      Solve your equation from part (a) algebraically using logarithms. Show each step, and round your final answer to four decimal places.    years      Now repeat the process for daily compounding. Write the equation and solve for , again rounding to four decimal places.    years      Complete the comparison table below. Convert each waiting time into years and days, rounding the number of days to the nearest whole day.    Compounding Schedule  Time (years)  Time in Years and Days    Monthly ( )      Daily ( )      Difference          Does switching from monthly to daily compounding make a practical difference for this saver? Support your claim with the numbers you found, and explain why increasing has the effect that it does.        Inverse Functions and Their Graphs   A campus print shop charges a flat setup fee plus a per-page rate. The total cost in dollars for printing pages is modeled by .     Find the inverse function algebraically. Show each step, including the step where you swap the roles of the variables.          Verify your answer by computing and simplifying completely.      Complete the two tables of values below. Notice what happens to the coordinate pairs as you move from one table to the other.                                                                    Then graph both and on the grid below, label each line with its equation, and sketch as a dashed reference line.   A blank coordinate grid running from negative 8 to 8 on both axes.              Write a complete sentence describing the geometric relationship between the graph of and the graph of . Then write a second sentence interpreting what tells the print shop's customers in context.        A Growing Rectangle Pattern   A tile pattern begins with a rectangle of unit squares. At each stage, one row is added to the height and one column is added to the width, so the rectangle grows in both directions at once.   Three stages of a growing rectangle of unit squares: 2 by 4, then 3 by 5, then 4 by 6.           \\text{Stage 1: } 2 \\times 4         \\text{Stage 2: } 3 \\times 5         \\text{Stage 3: } 4 \\times 6          Sketch Stage 4 in the space below and record its dimensions.  Dimensions of Stage 4:       Complete the tracker table below. The fourth column asks for the difference between consecutive tile counts, and the fifth asks for the difference of those differences.    Stage   Dimensions  Total Tiles   First Difference  Second Difference                                                           What do you notice about the second differences? Write a complete sentence explaining what this tells you about what type of pattern this is.      Write a formula for , the total number of tiles at stage .      Use your formula to determine the number of tiles in Stage 20. Show your substitution.      A later stage of this pattern contains exactly tiles. Use Desmos to find what stage this is.  Stage number:       "
+},
+{
+  "id": "wa4-solving-equations",
+  "level": "2",
+  "url": "writing-assignment-4.html#wa4-solving-equations",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Solving Exponential and Logarithmic Equations.",
+  "body": " Solving Exponential and Logarithmic Equations   Solve each equation below by hand. Round any decimal approximations to four decimal places.     Solve the exponential equation for .  Isolate the exponential expression first, then rewrite both sides with a common base or take a logarithm of both sides. Both routes are valid; state which one you used.          Solve the logarithmic equation for . Verify your answer by substituting back into the original equation and confirming the argument of the logarithm is positive.          Explain in one or two complete sentences how the structure of part (a) and the structure of part (b) are related. What does each equation ask you to undo ?    "
+},
+{
+  "id": "wa4-compounding",
+  "level": "2",
+  "url": "writing-assignment-4.html#wa4-compounding",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Monthly versus Daily Compounding.",
+  "body": " Monthly versus Daily Compounding   A recent graduate deposits into a high-yield savings account that pays a nominal annual interest rate of . She wants to know how long it takes the balance to reach , and whether the compounding schedule meaningfully changes that answer.  Recall that , where is the number of compounding periods per year. Use for monthly compounding and for daily compounding.     Write the equation you would solve to find the time required to reach under monthly compounding. Do not solve it yet.      Solve your equation from part (a) algebraically using logarithms. Show each step, and round your final answer to four decimal places.    years      Now repeat the process for daily compounding. Write the equation and solve for , again rounding to four decimal places.    years      Complete the comparison table below. Convert each waiting time into years and days, rounding the number of days to the nearest whole day.    Compounding Schedule  Time (years)  Time in Years and Days    Monthly ( )      Daily ( )      Difference          Does switching from monthly to daily compounding make a practical difference for this saver? Support your claim with the numbers you found, and explain why increasing has the effect that it does.    "
+},
+{
+  "id": "wa4-inverse",
+  "level": "2",
+  "url": "writing-assignment-4.html#wa4-inverse",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Inverse Functions and Their Graphs.",
+  "body": " Inverse Functions and Their Graphs   A campus print shop charges a flat setup fee plus a per-page rate. The total cost in dollars for printing pages is modeled by .     Find the inverse function algebraically. Show each step, including the step where you swap the roles of the variables.          Verify your answer by computing and simplifying completely.      Complete the two tables of values below. Notice what happens to the coordinate pairs as you move from one table to the other.                                                                    Then graph both and on the grid below, label each line with its equation, and sketch as a dashed reference line.   A blank coordinate grid running from negative 8 to 8 on both axes.              Write a complete sentence describing the geometric relationship between the graph of and the graph of . Then write a second sentence interpreting what tells the print shop's customers in context.    "
+},
+{
+  "id": "wa4-tile-pattern",
+  "level": "2",
+  "url": "writing-assignment-4.html#wa4-tile-pattern",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "A Growing Rectangle Pattern.",
+  "body": " A Growing Rectangle Pattern   A tile pattern begins with a rectangle of unit squares. At each stage, one row is added to the height and one column is added to the width, so the rectangle grows in both directions at once.   Three stages of a growing rectangle of unit squares: 2 by 4, then 3 by 5, then 4 by 6.           \\text{Stage 1: } 2 \\times 4         \\text{Stage 2: } 3 \\times 5         \\text{Stage 3: } 4 \\times 6          Sketch Stage 4 in the space below and record its dimensions.  Dimensions of Stage 4:       Complete the tracker table below. The fourth column asks for the difference between consecutive tile counts, and the fifth asks for the difference of those differences.    Stage   Dimensions  Total Tiles   First Difference  Second Difference                                                           What do you notice about the second differences? Write a complete sentence explaining what this tells you about what type of pattern this is.      Write a formula for , the total number of tiles at stage .      Use your formula to determine the number of tiles in Stage 20. Show your substitution.      A later stage of this pattern contains exactly tiles. Use Desmos to find what stage this is.  Stage number:     "
+},
+{
   "id": "ws-groupquiz3-exponential",
   "level": "1",
   "url": "ws-groupquiz3-exponential.html",
@@ -1061,6 +1106,78 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "Building an Exponential Function from Two Points.",
   "body": " Building an Exponential Function from Two Points   Find an exponential function of the form that passes through the points and .     Use the two given coordinate points to set up a system of two equations involving the variables and .    Each point on the graph must satisfy the equation . Substituting each coordinate pair into the general exponential form gives us our system of equations.         Solve your system algebraically to find the exact values of and . Show each step of your work clearly.    A great strategy for solving a system of exponential equations is to divide the second equation by the first equation. This eliminates the initial value variable .   Simplify both sides of the equation.   To solve for , take the square root of both sides. Since the base of an exponential function must be positive ( ), we take the positive root.   Now that we have the exact growth factor , substitute it back into our simplest first equation ( ) to solve for .   Multiply both sides by 5.   Thus, the exact values are and (or 0.2).      Write your final exponential function .    Substituting and into the general form, our exponential function is:     "
+},
+{
+  "id": "ws-groupquiz4-practice",
+  "level": "1",
+  "url": "ws-groupquiz4-practice.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Practice Group Quiz 4: Functions, Inverses, and Patterns",
+  "body": " Practice Group Quiz 4: Functions, Inverses, and Patterns   Work together as a group. Each problem is worth 5 points.   Explain your reasoning in complete sentences where asked.  Show your work for any calculations in as much detail as possible.  Since it is a team quiz, make sure you agree on your final answers; think of ways to double check your work for each problem.  Invite everyone to participate. Try to build as much understanding for each problem.      Matching: Functions and Inverses   Below are three graphs. Match each graph to the statement that best describes it by writing the correct Roman numeral (I, II, or III) in the blank.  I. Not a function  II. Is a function, but does not have an inverse function  III. Is a function and has an inverse function   Three graphs: a V shape, a sideways parabola opening right, and an increasing cubic curve.   Graph A is a V shape with its vertex at the origin. Graph B is a parabola opening to the right with its vertex at the origin. Graph C is an increasing cubic curve passing through the origin.     a(x) = abs(x)  b(t) = (t^2, t)  c(x) = x^3\/3                    Graph A (the left graph) matches . Briefly explain your choice.    Graph A matches statement II. It passes the vertical line test, so it is a function. However, a horizontal line such as crosses it in two places, which means two different inputs share the same output. A function has to pass the horizontal line test to have an inverse function, so this one does not.      Graph B (the middle graph) matches . Briefly explain your choice.    Graph B matches statement I. A vertical line such as crosses the curve twice, so a single input is paired with two different outputs. That fails the vertical line test, so this graph is not a function at all.      Graph C (the right graph) matches . Briefly explain your choice.    Graph C matches statement III. The curve is always increasing, so it passes both the vertical line test and the horizontal line test. Every output comes from exactly one input, which means the function has an inverse function.        Sketching the Graph of an Inverse   The graph of a function is shown below, with three points marked. The dashed line is .   An increasing logarithmic curve through the points negative 1 comma 1, 0 comma 2, and 2 comma 3, with a dashed line y equals x.   A coordinate grid running from negative 2 to 7 on both axes. A logarithmic curve rises steeply on the left near the vertical line x equals negative 2 and then flattens as it moves right, passing through the marked points negative 1 comma 1, 0 comma 2, and 2 comma 3. A dashed line representing y equals x runs diagonally across the grid.     f(x) = log(x+2)\/log(2) + 1  d(x) = x                Identify the coordinates of the three marked points on the graph of . Then state the matching coordinates that must exist on the inverse function , and plot those three corresponding points on the grid above.    The three marked points on are , , and .  An inverse function reverses the roles of input and output, so every point on becomes the point on . Swapping each pair gives the three points on the inverse:  , , and .      The dashed line represents . Use your plotted points and the reflection line to sketch the complete graph of the inverse function on the same set of axes.    The graph of is the mirror image of the graph of across the dashed line . Because is a logarithmic curve with a vertical asymptote at , its reflection is an exponential curve with a horizontal asymptote at .  The sketched curve should pass through the three plotted points, rise steeply to the right, and flatten out toward the line as it moves to the left. Symbolically the inverse is , though the sketch does not require finding this formula.        Finding an Inverse Algebraically   Find the inverse function for the linear function given by . Show all of your algebraic steps clearly.    Start by replacing with .   Swap the roles of the two variables, since the inverse reverses input and output.   Subtract from both sides to isolate the term containing .   Multiply both sides by , which is the reciprocal of .   So the inverse function is   A quick check: , and . The inverse returns the original input, so the answer is correct.       Solving Equations   Solve each of the following equations for . Show your step-by-step algebraic process.        Divide both sides by to isolate the exponential expression.   Since , both sides can be written with the same base.   When the bases match, the exponents must be equal.    Taking a logarithm of both sides works just as well: gives , so .         Rewrite the equation in exponential form using .    Subtract from both sides.    Check: the argument of the logarithm is , which is positive, and because . The solution is valid.        Identifying a Pattern from a Table   Analyze the data table below. Determine whether the relationship represents a linear, exponential, or quadratic function. If it does not fit any of these, state \"None of these.\"                    Show your analysis (such as first differences, second differences, or ratios) to justify your conclusion.    The relationship is exponential. Here is the analysis that rules out the other two options.  First differences: , , , and . These are not constant, so the table is not linear.  Second differences: , , and . These are not constant either, so the table is not quadratic.  Ratios of consecutive outputs: , , , and . Every ratio is the same, and a constant ratio is the defining feature of an exponential function.  The growth factor is and the value at is , so the function is .       An Expanding Rectangle Pattern   An expanding rectangle pattern grows from one case to the next. Cases 4 and 5 are shown as empty outlines for you to fill in.   Five cases of a growing rectangle of unit squares: 1 by 3, 2 by 4, and 3 by 5 are filled in, while 4 by 6 and 5 by 7 are shown as empty dashed outlines.   Case 1 is a rectangle 1 square wide and 3 squares tall. Case 2 is 2 squares wide and 4 squares tall. Case 3 is 3 squares wide and 5 squares tall. Cases 4 and 5 are drawn as empty dashed rectangles measuring 4 by 6 and 5 by 7.           \\text{Case 1}       \\text{Case 2}       \\text{Case 3}   \\text{Case 4}   \\text{Case 5}        Case ( )          Total Squares             Complete the table for Cases 0, 4, and 5. Then analyze the differences in the table to explain why this pattern represents a quadratic relationship.    Each case is a rectangle whose width equals the case number and whose height is two more than the case number. Case 4 is by , giving squares. Case 5 is by , giving squares. Case 0 would be by , giving squares.    Case ( )          Total Squares          The first differences are . These are not constant, so the pattern is not linear.  The second differences are . A constant second difference is the signature of a quadratic relationship, which tells us the total number of squares is a quadratic function of the case number.      Find a formula for the total number of squares in Case .  (Hint: look at the dimensions, width and height, of the rectangle in each case and how they relate to the case number .)    Reading the dimensions off the pattern: Case 1 is by , Case 2 is by , and Case 3 is by . In every case the width is and the height is .  The total number of squares is the area of the rectangle, so   Check with Case 3: , which matches the table. Check with Case 5: , which also matches.  Notice that the coefficient of is , and the constant second difference we found was . This fits the general rule that the second difference of a quadratic equals .      "
+},
+{
+  "id": "ws-groupquiz4-practice-2-2",
+  "level": "2",
+  "url": "ws-groupquiz4-practice.html#ws-groupquiz4-practice-2-2",
+  "type": "Note",
+  "number": "29",
+  "title": "",
+  "body": " Explain your reasoning in complete sentences where asked.  Show your work for any calculations in as much detail as possible.  Since it is a team quiz, make sure you agree on your final answers; think of ways to double check your work for each problem.  Invite everyone to participate. Try to build as much understanding for each problem.  "
+},
+{
+  "id": "pgq4-p1",
+  "level": "2",
+  "url": "ws-groupquiz4-practice.html#pgq4-p1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Matching: Functions and Inverses.",
+  "body": " Matching: Functions and Inverses   Below are three graphs. Match each graph to the statement that best describes it by writing the correct Roman numeral (I, II, or III) in the blank.  I. Not a function  II. Is a function, but does not have an inverse function  III. Is a function and has an inverse function   Three graphs: a V shape, a sideways parabola opening right, and an increasing cubic curve.   Graph A is a V shape with its vertex at the origin. Graph B is a parabola opening to the right with its vertex at the origin. Graph C is an increasing cubic curve passing through the origin.     a(x) = abs(x)  b(t) = (t^2, t)  c(x) = x^3\/3                    Graph A (the left graph) matches . Briefly explain your choice.    Graph A matches statement II. It passes the vertical line test, so it is a function. However, a horizontal line such as crosses it in two places, which means two different inputs share the same output. A function has to pass the horizontal line test to have an inverse function, so this one does not.      Graph B (the middle graph) matches . Briefly explain your choice.    Graph B matches statement I. A vertical line such as crosses the curve twice, so a single input is paired with two different outputs. That fails the vertical line test, so this graph is not a function at all.      Graph C (the right graph) matches . Briefly explain your choice.    Graph C matches statement III. The curve is always increasing, so it passes both the vertical line test and the horizontal line test. Every output comes from exactly one input, which means the function has an inverse function.    "
+},
+{
+  "id": "pgq4-p2",
+  "level": "2",
+  "url": "ws-groupquiz4-practice.html#pgq4-p2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Sketching the Graph of an Inverse.",
+  "body": " Sketching the Graph of an Inverse   The graph of a function is shown below, with three points marked. The dashed line is .   An increasing logarithmic curve through the points negative 1 comma 1, 0 comma 2, and 2 comma 3, with a dashed line y equals x.   A coordinate grid running from negative 2 to 7 on both axes. A logarithmic curve rises steeply on the left near the vertical line x equals negative 2 and then flattens as it moves right, passing through the marked points negative 1 comma 1, 0 comma 2, and 2 comma 3. A dashed line representing y equals x runs diagonally across the grid.     f(x) = log(x+2)\/log(2) + 1  d(x) = x                Identify the coordinates of the three marked points on the graph of . Then state the matching coordinates that must exist on the inverse function , and plot those three corresponding points on the grid above.    The three marked points on are , , and .  An inverse function reverses the roles of input and output, so every point on becomes the point on . Swapping each pair gives the three points on the inverse:  , , and .      The dashed line represents . Use your plotted points and the reflection line to sketch the complete graph of the inverse function on the same set of axes.    The graph of is the mirror image of the graph of across the dashed line . Because is a logarithmic curve with a vertical asymptote at , its reflection is an exponential curve with a horizontal asymptote at .  The sketched curve should pass through the three plotted points, rise steeply to the right, and flatten out toward the line as it moves to the left. Symbolically the inverse is , though the sketch does not require finding this formula.    "
+},
+{
+  "id": "pgq4-p3",
+  "level": "2",
+  "url": "ws-groupquiz4-practice.html#pgq4-p3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Finding an Inverse Algebraically.",
+  "body": " Finding an Inverse Algebraically   Find the inverse function for the linear function given by . Show all of your algebraic steps clearly.    Start by replacing with .   Swap the roles of the two variables, since the inverse reverses input and output.   Subtract from both sides to isolate the term containing .   Multiply both sides by , which is the reciprocal of .   So the inverse function is   A quick check: , and . The inverse returns the original input, so the answer is correct.   "
+},
+{
+  "id": "pgq4-p4",
+  "level": "2",
+  "url": "ws-groupquiz4-practice.html#pgq4-p4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Solving Equations.",
+  "body": " Solving Equations   Solve each of the following equations for . Show your step-by-step algebraic process.        Divide both sides by to isolate the exponential expression.   Since , both sides can be written with the same base.   When the bases match, the exponents must be equal.    Taking a logarithm of both sides works just as well: gives , so .         Rewrite the equation in exponential form using .    Subtract from both sides.    Check: the argument of the logarithm is , which is positive, and because . The solution is valid.    "
+},
+{
+  "id": "pgq4-p5",
+  "level": "2",
+  "url": "ws-groupquiz4-practice.html#pgq4-p5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Identifying a Pattern from a Table.",
+  "body": " Identifying a Pattern from a Table   Analyze the data table below. Determine whether the relationship represents a linear, exponential, or quadratic function. If it does not fit any of these, state \"None of these.\"                    Show your analysis (such as first differences, second differences, or ratios) to justify your conclusion.    The relationship is exponential. Here is the analysis that rules out the other two options.  First differences: , , , and . These are not constant, so the table is not linear.  Second differences: , , and . These are not constant either, so the table is not quadratic.  Ratios of consecutive outputs: , , , and . Every ratio is the same, and a constant ratio is the defining feature of an exponential function.  The growth factor is and the value at is , so the function is .   "
+},
+{
+  "id": "pgq4-p6",
+  "level": "2",
+  "url": "ws-groupquiz4-practice.html#pgq4-p6",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "An Expanding Rectangle Pattern.",
+  "body": " An Expanding Rectangle Pattern   An expanding rectangle pattern grows from one case to the next. Cases 4 and 5 are shown as empty outlines for you to fill in.   Five cases of a growing rectangle of unit squares: 1 by 3, 2 by 4, and 3 by 5 are filled in, while 4 by 6 and 5 by 7 are shown as empty dashed outlines.   Case 1 is a rectangle 1 square wide and 3 squares tall. Case 2 is 2 squares wide and 4 squares tall. Case 3 is 3 squares wide and 5 squares tall. Cases 4 and 5 are drawn as empty dashed rectangles measuring 4 by 6 and 5 by 7.           \\text{Case 1}       \\text{Case 2}       \\text{Case 3}   \\text{Case 4}   \\text{Case 5}        Case ( )          Total Squares             Complete the table for Cases 0, 4, and 5. Then analyze the differences in the table to explain why this pattern represents a quadratic relationship.    Each case is a rectangle whose width equals the case number and whose height is two more than the case number. Case 4 is by , giving squares. Case 5 is by , giving squares. Case 0 would be by , giving squares.    Case ( )          Total Squares          The first differences are . These are not constant, so the pattern is not linear.  The second differences are . A constant second difference is the signature of a quadratic relationship, which tells us the total number of squares is a quadratic function of the case number.      Find a formula for the total number of squares in Case .  (Hint: look at the dimensions, width and height, of the rectangle in each case and how they relate to the case number .)    Reading the dimensions off the pattern: Case 1 is by , Case 2 is by , and Case 3 is by . In every case the width is and the height is .  The total number of squares is the area of the rectangle, so   Check with Case 3: , which matches the table. Check with Case 5: , which also matches.  Notice that the coefficient of is , and the constant second difference we found was . This fits the general rule that the second difference of a quadratic equals .    "
 },
 {
   "id": "lt1-practice-quiz",
@@ -1486,76 +1603,211 @@ var ptx_lunr_docs = [
   "body": " Exponential Decay Graph   Use the graph of the exponential function below to answer the questions. Read values directly from the graph.   A decreasing exponential curve passing through (0,125), (1,75), (2,45), and (3,27), with the first two points labeled.   A coordinate grid with x-values from 0 to 4 and y-values from 0 to 130. The curve passes through (0,125), (1,75), (2,45), and (3,27). Points (0,125) and (1,75) are explicitly labeled.     f(x) = 125 * (0.6^x)      (0, 125)   (1, 75)          Find the decay rate.  The decay factor is , so the value decreases by for each increase of in . The decay rate is .    Find the vertical intercept.  The graph crosses the -axis at , so the vertical intercept is .    Evaluate .  At , the graph has value , so .    Find the value of for which .  The graph has value when .    Write an equation for the curve.  The vertical intercept is and the decay factor is , so the equation is .   "
 },
 {
-  "id": "lt9-practice-quiz",
+  "id": "lt10-practice-quiz",
   "level": "1",
-  "url": "lt9-practice-quiz.html",
+  "url": "lt10-practice-quiz.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Learning Target 9: Exponential Applications",
-  "body": " Learning Target 9: Exponential Applications    Given an exponential word situation (half-life, compound interest, depreciation, or simple growth\/decay), make an equation.  Identify and explain the meaning of the growth\/decay rate and the y-intercept in the context of the problem.  Evaluate and explain its meaning, find given and explain its meaning, and determine what inputs make sense.      Caffeine Elimination   A person drinks a large coffee containing milligrams of caffeine. The amount of caffeine in their body decreases by each hour.     Write an exponential function to model the amount of caffeine remaining in the body after hours.    The initial amount is and the decay factor is . The equation is .      Identify the y-intercept and the decay rate. Explain their meanings in the context of this situation.    The y-intercept is , which represents the initial mg of caffeine in the body at the moment the coffee is consumed ( ). The decay rate is , meaning the body metabolizes and eliminates of the remaining caffeine every hour.      Find and explain its meaning in context. Round to the nearest tenth.     . This means there are approximately milligrams of caffeine left in the person's body hours after drinking the coffee.      Set up an equation to find when the caffeine level reaches mg. Explain what the solution to this equation represents. (You do not need to solve it).     . The solution represents the exact number of hours it will take for the caffeine in the body to drop to milligrams.      What inputs for make sense in this context?    Time cannot be negative, so . The inputs make sense for positive values of until the caffeine approaches zero and is effectively eliminated from the bloodstream.        Viral Video Growth   A new video is uploaded to a channel and initially has views. For the first week it is released, the total number of views grows by every hour.     Write an exponential function to model the total number of views after hours.    The initial amount is and the growth factor is . The equation is .      Find and explain its meaning in context. Round to the nearest whole number.     . This means that hours (one full day) after the video was uploaded, it will have approximately total views.      What domain of inputs for makes sense based on the problem description?    The problem states the model applies for \"the first week\". A week has hours. Therefore, the valid inputs are .      AI Assistant Reliability   Researchers are testing a new AI assistant. As a simplified model, they assume the probability that a response is entirely correct starts at (or ) and decreases by for every additional words generated in a single session.     Write an exponential function to model the probability of a correct response based on , the number of words generated. (Hint: Use in your exponent to scale the words into -word blocks).    The initial probability is . The decay factor is . Because this decay happens every words, the exponent is . The equation is .      Evaluate and explain what it means in context.     . This means that if the AI generates a -word response, there is approximately a probability that the response is entirely correct.        Annual Compound Interest   An investor deposits into a retirement account that earns annual interest, compounded yearly.     Write an equation for the balance after years. Then, identify the y-intercept and explain its meaning.    The equation is . The y-intercept is , which represents the initial principal deposited into the account at year .      Evaluate and explain its meaning. (Round to the nearest cent).     . This means that after years, the account balance will have grown to .      Monthly Compound Interest   Suppose instead the is deposited into an account that earns annual interest, but it is compounded monthly .     Write an equation for the balance after years. (Recall the formula ).    Here, , , and (since there are months in a year). The equation is , which simplifies to .      Set up an equation to find how long it takes for the account balance to reach . What does this solution represent?     . The solution represents the number of years it will take for the initial investment to double in value.      Daily Compound Interest   Finally, suppose the is deposited into an account earning annual interest, compounded daily (assume days in a year).     Write an equation for the balance after years.    Here, . The equation is .      Evaluate for this daily compounding account. How does it compare to the annual compounding from the earlier question?     . After years, the daily compounding account yields , which is more than the earned from annual compounding. More frequent compounding results in a higher final balance.      "
+  "title": "Learning Target 10: Inverses of Linear Functions",
+  "body": " Learning Target 10: Inverses of Linear Functions    Given a linear function, find the inverse symbolically, explain how the domain and range is affected, and evaluate function notation questions.      Function 1   Consider the function .     Find symbolically. Show the steps you used.    Start with and swap the variables to get . Add to both sides for , then divide by . The inverse is .      Evaluate .     .      Now evaluate . What do you notice about your answer?     . This is the input we started with in the previous part. The inverse undoes the function, so feeding an output of into returns the original input.      State the domain and range of and the domain and range of .    Both and have a domain of all real numbers and a range of all real numbers. The domain of becomes the range of , and the range of becomes the domain of .        Function 2   Consider the function .     Find symbolically. Show the steps you used.    Start with and swap the variables to get . Subtract from both sides for , then multiply both sides by . The inverse is , which can also be written as .      Evaluate .     .      Evaluate .     , which matches the input from the previous part.      Compare the slope of to the slope of . What relationship do you see, and why does that make sense?    The slope of is and the slope of is . They are reciprocals of each other. Since the inverse reverses the roles of input and output, the rise and run trade places.        Function 3: Water Tank   A rooftop tank holds gallons of water when a slow leak starts. The tank loses gallons per hour. The amount of water left after hours is given by .     Find symbolically.    Start with and swap the variables to get . Subtract from both sides for , then divide by . The inverse is .      Evaluate and explain its meaning in context.     . There are gallons of water left in the tank after hours.      Evaluate and explain its meaning in context.     . It takes hours for the tank to drop to gallons. The inverse takes in a number of gallons and returns a number of hours.      What inputs make sense for in this context? What inputs make sense for ? Explain how the domain and range switch between the two functions.    For , the sensible inputs are hours from to , since the tank is empty at . The outputs run from to gallons. For , the sensible inputs are gallons from to , and the outputs are hours from to . The domain of one function is the range of the other, because the inverse reverses which quantity is the input.       In your own words, describe what the inverse of a function does to an input and an output. Why does finding an inverse involve swapping and ?   "
 },
 {
-  "id": "lt9-practice-quiz-2",
+  "id": "lt10-practice-quiz-2",
   "level": "2",
-  "url": "lt9-practice-quiz.html#lt9-practice-quiz-2",
+  "url": "lt10-practice-quiz.html#lt10-practice-quiz-2",
   "type": "Objectives",
   "number": "",
   "title": "",
-  "body": "  Given an exponential word situation (half-life, compound interest, depreciation, or simple growth\/decay), make an equation.  Identify and explain the meaning of the growth\/decay rate and the y-intercept in the context of the problem.  Evaluate and explain its meaning, find given and explain its meaning, and determine what inputs make sense.   "
+  "body": "  Given a linear function, find the inverse symbolically, explain how the domain and range is affected, and evaluate function notation questions.   "
 },
 {
-  "id": "lt9-caffeine",
+  "id": "lt10-inverse-one",
   "level": "2",
-  "url": "lt9-practice-quiz.html#lt9-caffeine",
+  "url": "lt10-practice-quiz.html#lt10-inverse-one",
   "type": "Worksheet Exercise",
   "number": "1",
-  "title": "Caffeine Elimination.",
-  "body": " Caffeine Elimination   A person drinks a large coffee containing milligrams of caffeine. The amount of caffeine in their body decreases by each hour.     Write an exponential function to model the amount of caffeine remaining in the body after hours.    The initial amount is and the decay factor is . The equation is .      Identify the y-intercept and the decay rate. Explain their meanings in the context of this situation.    The y-intercept is , which represents the initial mg of caffeine in the body at the moment the coffee is consumed ( ). The decay rate is , meaning the body metabolizes and eliminates of the remaining caffeine every hour.      Find and explain its meaning in context. Round to the nearest tenth.     . This means there are approximately milligrams of caffeine left in the person's body hours after drinking the coffee.      Set up an equation to find when the caffeine level reaches mg. Explain what the solution to this equation represents. (You do not need to solve it).     . The solution represents the exact number of hours it will take for the caffeine in the body to drop to milligrams.      What inputs for make sense in this context?    Time cannot be negative, so . The inputs make sense for positive values of until the caffeine approaches zero and is effectively eliminated from the bloodstream.    "
+  "title": "Function 1.",
+  "body": " Function 1   Consider the function .     Find symbolically. Show the steps you used.    Start with and swap the variables to get . Add to both sides for , then divide by . The inverse is .      Evaluate .     .      Now evaluate . What do you notice about your answer?     . This is the input we started with in the previous part. The inverse undoes the function, so feeding an output of into returns the original input.      State the domain and range of and the domain and range of .    Both and have a domain of all real numbers and a range of all real numbers. The domain of becomes the range of , and the range of becomes the domain of .    "
 },
 {
-  "id": "lt9-youtube",
+  "id": "lt10-inverse-two",
   "level": "2",
-  "url": "lt9-practice-quiz.html#lt9-youtube",
+  "url": "lt10-practice-quiz.html#lt10-inverse-two",
   "type": "Worksheet Exercise",
   "number": "2",
-  "title": "Viral Video Growth.",
-  "body": " Viral Video Growth   A new video is uploaded to a channel and initially has views. For the first week it is released, the total number of views grows by every hour.     Write an exponential function to model the total number of views after hours.    The initial amount is and the growth factor is . The equation is .      Find and explain its meaning in context. Round to the nearest whole number.     . This means that hours (one full day) after the video was uploaded, it will have approximately total views.      What domain of inputs for makes sense based on the problem description?    The problem states the model applies for \"the first week\". A week has hours. Therefore, the valid inputs are .    "
+  "title": "Function 2.",
+  "body": " Function 2   Consider the function .     Find symbolically. Show the steps you used.    Start with and swap the variables to get . Subtract from both sides for , then multiply both sides by . The inverse is , which can also be written as .      Evaluate .     .      Evaluate .     , which matches the input from the previous part.      Compare the slope of to the slope of . What relationship do you see, and why does that make sense?    The slope of is and the slope of is . They are reciprocals of each other. Since the inverse reverses the roles of input and output, the rise and run trade places.    "
 },
 {
-  "id": "lt9-ai-reliability",
+  "id": "lt10-inverse-context",
   "level": "2",
-  "url": "lt9-practice-quiz.html#lt9-ai-reliability",
+  "url": "lt10-practice-quiz.html#lt10-inverse-context",
   "type": "Worksheet Exercise",
   "number": "3",
-  "title": "AI Assistant Reliability.",
-  "body": " AI Assistant Reliability   Researchers are testing a new AI assistant. As a simplified model, they assume the probability that a response is entirely correct starts at (or ) and decreases by for every additional words generated in a single session.     Write an exponential function to model the probability of a correct response based on , the number of words generated. (Hint: Use in your exponent to scale the words into -word blocks).    The initial probability is . The decay factor is . Because this decay happens every words, the exponent is . The equation is .      Evaluate and explain what it means in context.     . This means that if the AI generates a -word response, there is approximately a probability that the response is entirely correct.    "
+  "title": "Function 3: Water Tank.",
+  "body": " Function 3: Water Tank   A rooftop tank holds gallons of water when a slow leak starts. The tank loses gallons per hour. The amount of water left after hours is given by .     Find symbolically.    Start with and swap the variables to get . Subtract from both sides for , then divide by . The inverse is .      Evaluate and explain its meaning in context.     . There are gallons of water left in the tank after hours.      Evaluate and explain its meaning in context.     . It takes hours for the tank to drop to gallons. The inverse takes in a number of gallons and returns a number of hours.      What inputs make sense for in this context? What inputs make sense for ? Explain how the domain and range switch between the two functions.    For , the sensible inputs are hours from to , since the tank is empty at . The outputs run from to gallons. For , the sensible inputs are gallons from to , and the outputs are hours from to . The domain of one function is the range of the other, because the inverse reverses which quantity is the input.    "
 },
 {
-  "id": "lt9-compound-annual",
+  "id": "lt11-practice-quiz",
+  "level": "1",
+  "url": "lt11-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Learning Target 11: Solving Exponential and Logarithmic Equations",
+  "body": " Learning Target 11: Solving Exponential and Logarithmic Equations    Solve equations and word situations involving exponential, logarithmic, and power functions symbolically and with technology.      Solving with Base   Consider the equation .     Solve for . Give the exact answer first, then round to three decimal places.    Add to both sides to get , then divide by so that . Take the natural logarithm of both sides: , so . The exact answer is .      Explain why taking of both sides is the useful move here, rather than .    The natural logarithm is the inverse of the base exponential, so collapses directly to . Using would still work, but it would leave a factor to divide out.      Solving with Another Base   Consider the equation .     Solve for . Round to three decimal places.    Divide both sides by to isolate the exponential: . Take of both sides and use the power rule: . Then , so .      Check your answer by graphing and in Desmos and finding the intersection. Record what you see.    The curves cross at approximately , which matches the algebraic solution.        A Logarithmic Equation   Consider the equation .     Solve for . Give an exact answer.    Rewrite the equation in exponential form: , so . Subtract to get , so .      Substitute your answer back into the original equation to confirm it works.    With , the inside of the logarithm is , and since .      A Natural Logarithmic Equation   Consider the equation .     Solve for . Give the exact answer first, then round to three decimal places.    Add to both sides to get , then divide by so that . Rewrite in exponential form: . The exact answer is .      Would a negative solution ever be acceptable for an equation of this type? Explain.    No. The input of a logarithm has to be positive, so any candidate solution that makes zero or negative has to be thrown out. Here is positive, so it is valid.        Vehicle Depreciation   A delivery van is purchased for . Its value drops by each year.     Write a function for the value of the van after years.    The initial value is and the decay factor is , so .      Find the value of the van after years. Round to the nearest cent and explain what your answer means.     . After years the van is worth about , which is a little over a third of what the company paid for it.      The company plans to replace the van once it is worth less than . Set up and solve an equation to find when that happens. Round to two decimal places.    Set , so . Take of both sides: , so years. The van drops below partway through its ninth year.        Reaching a Savings Goal   A family deposits into an account that earns annual interest, compounded monthly. They want the balance to reach .     Write the compound interest equation you would need to solve. Identify , , and .    Here , , and . The equation is , which simplifies to .      Solve for . Round to two decimal places.    Divide both sides by : . Take of both sides and use the power rule: . Then years.      If the account compounded quarterly instead of monthly, would you expect the answer to be larger or smaller? Explain your reasoning without doing the calculation.    Larger. Compounding less often means interest is added to the balance fewer times per year, so the money grows a bit more slowly and the family would have to wait longer to reach .       Look back at problems 1 through 4. Write a sentence describing when you take a logarithm of both sides, and a sentence describing when you rewrite in exponential form instead.   "
+},
+{
+  "id": "lt11-practice-quiz-2",
   "level": "2",
-  "url": "lt9-practice-quiz.html#lt9-compound-annual",
+  "url": "lt11-practice-quiz.html#lt11-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Solve equations and word situations involving exponential, logarithmic, and power functions symbolically and with technology.   "
+},
+{
+  "id": "lt11-exp-base-e",
+  "level": "2",
+  "url": "lt11-practice-quiz.html#lt11-exp-base-e",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Solving with Base <span class=\"process-math\">\\(e\\)<\/span>.",
+  "body": " Solving with Base   Consider the equation .     Solve for . Give the exact answer first, then round to three decimal places.    Add to both sides to get , then divide by so that . Take the natural logarithm of both sides: , so . The exact answer is .      Explain why taking of both sides is the useful move here, rather than .    The natural logarithm is the inverse of the base exponential, so collapses directly to . Using would still work, but it would leave a factor to divide out.    "
+},
+{
+  "id": "lt11-exp-other-base",
+  "level": "2",
+  "url": "lt11-practice-quiz.html#lt11-exp-other-base",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Solving with Another Base.",
+  "body": " Solving with Another Base   Consider the equation .     Solve for . Round to three decimal places.    Divide both sides by to isolate the exponential: . Take of both sides and use the power rule: . Then , so .      Check your answer by graphing and in Desmos and finding the intersection. Record what you see.    The curves cross at approximately , which matches the algebraic solution.    "
+},
+{
+  "id": "lt11-log-base-4",
+  "level": "2",
+  "url": "lt11-practice-quiz.html#lt11-log-base-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "A Logarithmic Equation.",
+  "body": " A Logarithmic Equation   Consider the equation .     Solve for . Give an exact answer.    Rewrite the equation in exponential form: , so . Subtract to get , so .      Substitute your answer back into the original equation to confirm it works.    With , the inside of the logarithm is , and since .    "
+},
+{
+  "id": "lt11-log-natural",
+  "level": "2",
+  "url": "lt11-practice-quiz.html#lt11-log-natural",
   "type": "Worksheet Exercise",
   "number": "4",
-  "title": "Annual Compound Interest.",
-  "body": " Annual Compound Interest   An investor deposits into a retirement account that earns annual interest, compounded yearly.     Write an equation for the balance after years. Then, identify the y-intercept and explain its meaning.    The equation is . The y-intercept is , which represents the initial principal deposited into the account at year .      Evaluate and explain its meaning. (Round to the nearest cent).     . This means that after years, the account balance will have grown to .    "
+  "title": "A Natural Logarithmic Equation.",
+  "body": " A Natural Logarithmic Equation   Consider the equation .     Solve for . Give the exact answer first, then round to three decimal places.    Add to both sides to get , then divide by so that . Rewrite in exponential form: . The exact answer is .      Would a negative solution ever be acceptable for an equation of this type? Explain.    No. The input of a logarithm has to be positive, so any candidate solution that makes zero or negative has to be thrown out. Here is positive, so it is valid.    "
 },
 {
-  "id": "lt9-compound-monthly",
+  "id": "lt11-depreciation",
   "level": "2",
-  "url": "lt9-practice-quiz.html#lt9-compound-monthly",
+  "url": "lt11-practice-quiz.html#lt11-depreciation",
   "type": "Worksheet Exercise",
   "number": "5",
-  "title": "Monthly Compound Interest.",
-  "body": " Monthly Compound Interest   Suppose instead the is deposited into an account that earns annual interest, but it is compounded monthly .     Write an equation for the balance after years. (Recall the formula ).    Here, , , and (since there are months in a year). The equation is , which simplifies to .      Set up an equation to find how long it takes for the account balance to reach . What does this solution represent?     . The solution represents the number of years it will take for the initial investment to double in value.    "
+  "title": "Vehicle Depreciation.",
+  "body": " Vehicle Depreciation   A delivery van is purchased for . Its value drops by each year.     Write a function for the value of the van after years.    The initial value is and the decay factor is , so .      Find the value of the van after years. Round to the nearest cent and explain what your answer means.     . After years the van is worth about , which is a little over a third of what the company paid for it.      The company plans to replace the van once it is worth less than . Set up and solve an equation to find when that happens. Round to two decimal places.    Set , so . Take of both sides: , so years. The van drops below partway through its ninth year.    "
 },
 {
-  "id": "lt9-compound-daily",
+  "id": "lt11-future-value",
   "level": "2",
-  "url": "lt9-practice-quiz.html#lt9-compound-daily",
+  "url": "lt11-practice-quiz.html#lt11-future-value",
   "type": "Worksheet Exercise",
   "number": "6",
-  "title": "Daily Compound Interest.",
-  "body": " Daily Compound Interest   Finally, suppose the is deposited into an account earning annual interest, compounded daily (assume days in a year).     Write an equation for the balance after years.    Here, . The equation is .      Evaluate for this daily compounding account. How does it compare to the annual compounding from the earlier question?     . After years, the daily compounding account yields , which is more than the earned from annual compounding. More frequent compounding results in a higher final balance.    "
+  "title": "Reaching a Savings Goal.",
+  "body": " Reaching a Savings Goal   A family deposits into an account that earns annual interest, compounded monthly. They want the balance to reach .     Write the compound interest equation you would need to solve. Identify , , and .    Here , , and . The equation is , which simplifies to .      Solve for . Round to two decimal places.    Divide both sides by : . Take of both sides and use the power rule: . Then years.      If the account compounded quarterly instead of monthly, would you expect the answer to be larger or smaller? Explain your reasoning without doing the calculation.    Larger. Compounding less often means interest is added to the balance fewer times per year, so the money grows a bit more slowly and the family would have to wait longer to reach .    "
+},
+{
+  "id": "lt12-practice-quiz",
+  "level": "1",
+  "url": "lt12-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Learning Target 12: Quadratic Patterns",
+  "body": " Learning Target 12: Quadratic Patterns    I can recognize and identify key characteristics of a quadratic pattern represented in a table, graph, equation or application.  I can translate between different representations.      Pattern 1: Growing Rectangle   Case 1 is a rectangle that is 4 blocks wide and 2 blocks tall. Each new case grows by one block in both the width and the height.   Four cases of a growing rectangle of blocks: 4 by 2, 5 by 3, 6 by 4, and 7 by 5.            \\text{Case } ${case}           What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is quadratic. The block counts are . The differences between consecutive cases are , which are not constant, so the pattern is not linear. The ratios are and , which are not constant either, so it is not exponential. The second differences are , and a constant second difference is the signature of a quadratic pattern.      Find a formula for the number of blocks in case .    Case is blocks wide and blocks tall, so . Expanding gives . Check case : blocks, which matches the picture.        Pattern 2: Staircase   Each case adds one more column to the staircase, and each column is one block taller than the one to its left.   Four cases of a staircase of blocks containing 1, 3, 6, and 10 blocks.            \\text{Case } ${case}           What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is quadratic. The counts are . The first differences are , so the pattern is not linear. The ratios are not constant, so it is not exponential. The second differences are , which is constant, so the pattern is quadratic.      Find a formula for the number of blocks in case .    Case is made of columns of height , so . Two copies of the staircase fit together into an by rectangle, so , which expands to . Check case : blocks.        Pattern 3: Two Rows   Each case has a top row and a longer bottom row. Both rows grow by one block from case to case.   Four cases of a two-row block pattern containing 4, 6, 8, and 10 blocks.             \\text{Case } ${case}           What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is linear. The counts are , and the pattern gains exactly blocks from each case to the next. A constant first difference means the pattern is linear, and the second differences are all , so it is not quadratic.      Find a formula for the number of blocks in case .    The rate of change is blocks per case. Working backward, case would have blocks, so . Check case : blocks.        Pattern 4: Doubling Block   Each case is two blocks tall, and the width doubles from one case to the next.   Four cases of a two-row block pattern containing 2, 4, 8, and 16 blocks.            \\text{Case } ${case}           What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is exponential. The counts are . The first differences are and the second differences are , so it is neither linear nor quadratic. Each case is times the one before it, and a constant ratio is the signature of an exponential pattern.      Find a formula for the number of blocks in case .    The growth factor is . Working backward, case would have block, so . Check case : blocks.        Table A   Consider the values in the table below.                                               What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is quadratic. The first differences are , which are not constant, so the table is not linear. The ratios and are not constant, so it is not exponential. The second differences are , so the table is quadratic.      Find a formula for in terms of .    For a quadratic , the constant second difference equals . Here the second difference is , so . The value at gives . Using : , so . The formula is . Check : .      Table B   Consider the values in the table below.                                               What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is quadratic. The first differences are , so the table is not linear. The ratios , , and are shrinking, so it is not exponential. The second differences are , which is constant, so the table is quadratic.      Find a formula for in terms of .    The second difference is , and the second difference equals , so . The value at gives . Using : , so . The formula is . Check : .        Table C   Consider the values in the table below.                                               What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is exponential. The first differences are and the second differences are , so the table is neither linear nor quadratic. Every ratio of consecutive outputs is , and a constant ratio means the table is exponential.      Find a formula for in terms of .    The growth factor is and the value at is , so . Check : .      Table D   Consider the values in the table below.                                               What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is none of these. The first differences are , so the table is not linear. The second differences are , so it is not quadratic. The ratios are , , , and , which are not constant, so it is not exponential either. The outputs are decreasing toward zero but never at a constant rate or a constant factor.      Since this table is not one of our three types, describe in words what is happening to the outputs as the inputs increase.    The outputs drop quickly at first and then level off, getting closer and closer to zero without reaching it. Each output is divided by the input, so doubling the input cuts the output in half. This kind of relationship is called inversely proportional.       Write a short summary you could use as a checklist: what do you look at in a table to decide whether a pattern is linear, quadratic, or exponential? Be specific about differences and ratios.   "
+},
+{
+  "id": "lt12-practice-quiz-2",
+  "level": "2",
+  "url": "lt12-practice-quiz.html#lt12-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  I can recognize and identify key characteristics of a quadratic pattern represented in a table, graph, equation or application.  I can translate between different representations.   "
+},
+{
+  "id": "lt12-pattern-rectangle",
+  "level": "2",
+  "url": "lt12-practice-quiz.html#lt12-pattern-rectangle",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Pattern 1: Growing Rectangle.",
+  "body": " Pattern 1: Growing Rectangle   Case 1 is a rectangle that is 4 blocks wide and 2 blocks tall. Each new case grows by one block in both the width and the height.   Four cases of a growing rectangle of blocks: 4 by 2, 5 by 3, 6 by 4, and 7 by 5.            \\text{Case } ${case}           What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is quadratic. The block counts are . The differences between consecutive cases are , which are not constant, so the pattern is not linear. The ratios are and , which are not constant either, so it is not exponential. The second differences are , and a constant second difference is the signature of a quadratic pattern.      Find a formula for the number of blocks in case .    Case is blocks wide and blocks tall, so . Expanding gives . Check case : blocks, which matches the picture.    "
+},
+{
+  "id": "lt12-pattern-staircase",
+  "level": "2",
+  "url": "lt12-practice-quiz.html#lt12-pattern-staircase",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Pattern 2: Staircase.",
+  "body": " Pattern 2: Staircase   Each case adds one more column to the staircase, and each column is one block taller than the one to its left.   Four cases of a staircase of blocks containing 1, 3, 6, and 10 blocks.            \\text{Case } ${case}           What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is quadratic. The counts are . The first differences are , so the pattern is not linear. The ratios are not constant, so it is not exponential. The second differences are , which is constant, so the pattern is quadratic.      Find a formula for the number of blocks in case .    Case is made of columns of height , so . Two copies of the staircase fit together into an by rectangle, so , which expands to . Check case : blocks.    "
+},
+{
+  "id": "lt12-pattern-two-rows",
+  "level": "2",
+  "url": "lt12-practice-quiz.html#lt12-pattern-two-rows",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Pattern 3: Two Rows.",
+  "body": " Pattern 3: Two Rows   Each case has a top row and a longer bottom row. Both rows grow by one block from case to case.   Four cases of a two-row block pattern containing 4, 6, 8, and 10 blocks.             \\text{Case } ${case}           What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is linear. The counts are , and the pattern gains exactly blocks from each case to the next. A constant first difference means the pattern is linear, and the second differences are all , so it is not quadratic.      Find a formula for the number of blocks in case .    The rate of change is blocks per case. Working backward, case would have blocks, so . Check case : blocks.    "
+},
+{
+  "id": "lt12-pattern-doubling",
+  "level": "2",
+  "url": "lt12-practice-quiz.html#lt12-pattern-doubling",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Pattern 4: Doubling Block.",
+  "body": " Pattern 4: Doubling Block   Each case is two blocks tall, and the width doubles from one case to the next.   Four cases of a two-row block pattern containing 2, 4, 8, and 16 blocks.            \\text{Case } ${case}           What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is exponential. The counts are . The first differences are and the second differences are , so it is neither linear nor quadratic. Each case is times the one before it, and a constant ratio is the signature of an exponential pattern.      Find a formula for the number of blocks in case .    The growth factor is . Working backward, case would have block, so . Check case : blocks.    "
+},
+{
+  "id": "lt12-table-a",
+  "level": "2",
+  "url": "lt12-practice-quiz.html#lt12-table-a",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Table A.",
+  "body": " Table A   Consider the values in the table below.                                               What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is quadratic. The first differences are , which are not constant, so the table is not linear. The ratios and are not constant, so it is not exponential. The second differences are , so the table is quadratic.      Find a formula for in terms of .    For a quadratic , the constant second difference equals . Here the second difference is , so . The value at gives . Using : , so . The formula is . Check : .    "
+},
+{
+  "id": "lt12-table-b",
+  "level": "2",
+  "url": "lt12-practice-quiz.html#lt12-table-b",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Table B.",
+  "body": " Table B   Consider the values in the table below.                                               What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is quadratic. The first differences are , so the table is not linear. The ratios , , and are shrinking, so it is not exponential. The second differences are , which is constant, so the table is quadratic.      Find a formula for in terms of .    The second difference is , and the second difference equals , so . The value at gives . Using : , so . The formula is . Check : .    "
+},
+{
+  "id": "lt12-table-c",
+  "level": "2",
+  "url": "lt12-practice-quiz.html#lt12-table-c",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Table C.",
+  "body": " Table C   Consider the values in the table below.                                               What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is exponential. The first differences are and the second differences are , so the table is neither linear nor quadratic. Every ratio of consecutive outputs is , and a constant ratio means the table is exponential.      Find a formula for in terms of .    The growth factor is and the value at is , so . Check : .    "
+},
+{
+  "id": "lt12-table-d",
+  "level": "2",
+  "url": "lt12-practice-quiz.html#lt12-table-d",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "Table D.",
+  "body": " Table D   Consider the values in the table below.                                               What type of pattern is this: linear, exponential, quadratic, or none of these? Explain how you know.    It is none of these. The first differences are , so the table is not linear. The second differences are , so it is not quadratic. The ratios are , , , and , which are not constant, so it is not exponential either. The outputs are decreasing toward zero but never at a constant rate or a constant factor.      Since this table is not one of our three types, describe in words what is happening to the outputs as the inputs increase.    The outputs drop quickly at first and then level off, getting closer and closer to zero without reaching it. Each output is divided by the input, so doubling the input cuts the output in half. This kind of relationship is called inversely proportional.    "
 },
 {
   "id": "ds1-practice-quiz",
