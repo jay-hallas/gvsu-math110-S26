@@ -29,7 +29,7 @@
           </description>
           <prefigure xmlns="https://prefigure.org" label="pgq4-p1-fig">
             <diagram dimensions="(660,230)" margins="(10,10,10,10)">
-              <definition>a(x) = abs(x)</definition>
+             <definition>a(x) = sqrt(x^2)</definition>
               <definition>b(t) = (t^2, t)</definition>
               <definition>c(x) = x^3/3</definition>
               <coordinates bbox="(-3,-3,3,3)" destination="(0,0,210,210)">
@@ -156,6 +156,37 @@
           <p>
             The sketched curve should pass through the three plotted points, rise steeply to the right, and flatten out toward the line <m>y = -2</m> as it moves to the left. Symbolically the inverse is <m>f^{-1}(x) = 2^{x-1} - 2</m>, though the sketch does not require finding this formula.
           </p>
+          <image width="60%">
+  <shortdescription>The logarithmic function f and its inverse, an exponential curve, reflected across the dashed line y equals x.</shortdescription>
+  <description>
+    <p>
+      A coordinate grid from negative 2 to 7 on both axes. The function f, drawn in navy, is a logarithmic curve passing through negative 1 comma 1, then 0 comma 2, then 2 comma 3, with a vertical asymptote at x equals negative 2. Its inverse, drawn in red, is an exponential curve passing through 1 comma negative 1, then 2 comma 0, then 3 comma 2, with a horizontal asymptote at y equals negative 2. The two curves are mirror images across the dashed blue line y equals x.
+    </p>
+  </description>
+  <prefigure xmlns="https://prefigure.org" label="pgq4-p2-solution-fig">
+    <diagram dimensions="(360,360)" margins="(30,30,15,15)">
+      <definition>f(x) = log(x+2)/log(2) + 1</definition>
+      <definition>finv(x) = 2^(x-1) - 2</definition>
+      <definition>d(x) = x</definition>
+      <coordinates bbox="(-2.5,-2.5,7,7)">
+        <grid-axes xlabel="x" ylabel="y"
+          hspacing="(-2,1,6)" hlabels="(-2,2,6)"
+          vspacing="(-2,1,6)" vlabels="(-2,2,6)"/>
+        <graph function="d" stroke="blue" thickness="1.5" dash="4" domain="(-2.4,6.9)"/>
+        <graph function="f" stroke="navy" thickness="2" domain="(-1.93,6.8)"/>
+        <graph function="finv" stroke="red" thickness="2" domain="(-2.4,4.15)"/>
+        <point p="(-1,1)" size="5" fill="navy"/>
+        <point p="(0,2)" size="5" fill="navy"/>
+        <point p="(2,3)" size="5" fill="navy"/>
+        <point p="(1,-1)" size="5" fill="red"/>
+        <point p="(2,0)" size="5" fill="red"/>
+        <point p="(3,2)" size="5" fill="red"/>
+        <label anchor="(5.2,3.9)" alignment="center"><m>f</m></label>
+        <label anchor="(4.1,5.2)" alignment="center"><m>f^{-1}</m></label>
+      </coordinates>
+    </diagram>
+  </prefigure>
+</image>
         </solution>
       </task>
     </exercise>
@@ -397,6 +428,23 @@
           <p>
             Notice that the coefficient of <m>n^2</m> is <m>1</m>, and the constant second difference we found was <m>2</m>. This fits the general rule that the second difference of a quadratic equals <m>2a</m>.
           </p>
+          <p>
+  <em>Alternative method, using the standard form.</em> If you do not spot the dimensions, you can build the formula from the table instead. Start with the general quadratic <m>T(n) = an^2 + bn + c</m>.
+</p>
+<p>
+  The constant second difference always equals <m>2a</m>. In part (a) the second difference was <m>2</m>, so <m>2a = 2</m> and <m>a = 1</m>.
+</p>
+<p>
+  The constant term <m>c</m> is the output at <m>n = 0</m>, which the table gives as <m>0</m>, so <m>c = 0</m>.
+</p>
+<p>
+  That leaves only <m>b</m>. Substitute any known point; using Case 1, where <m>T(1) = 3</m>, gives
+</p>
+<p><md><mrow> 1(1)^2 + b(1) + 0 \amp = 3 </mrow></md></p>
+<p><md><mrow> b \amp = 2 </mrow></md></p>
+<p>
+  So <m>T(n) = n^2 + 2n</m>, the same formula found from the dimensions. Checking against a different case confirms it: <m>T(4) = 16 + 8 = 24</m>, which matches the table.
+</p>
         </solution>
       </task>
     </exercise>
