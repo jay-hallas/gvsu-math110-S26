@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: denver                         *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Learning Target 15: Identifying Patterns in Sequences and Data</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:title" content="Algebra">
+<meta property="og:title" content="Algebra">
+<meta property="book:title" content="Algebra">
+<meta name="twitter:description" content="MTH 110">
+<meta property="og:description" content="MTH 110">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.42"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.1.16';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.279b1f0077454c32.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.db8001875cb726c2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.66fa8a682a32c0ac.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Algebra</span> <span class="subtitle">MTH 110</span></a></h1>
+<p class="byline">Professor Jamie Hallas</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search book" commandfor="ptx-search-dialog" command="show-modal"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog" closedby="closerequest"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close search" id="ptx-search-close" class="ptx-search-close" commandfor="ptx-search-dialog" command="close"><span class="material-symbols-outlined">close</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button id="ptx-embed-button" class="ptx-embed-button button" title="Embed this page" commandfor="ptx-embed-popup" command="show-modal"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><dialog class="ptx-dialog ptx-embed-popup" id="ptx-embed-popup" closedby="closerequest"><div class="ptx-embed-popup-controls">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<button class="ptx-embed-close-button button" id="ptx-embed-close-button" title="Close embed popup"><span class="material-symbols-outlined">close</span></button>
+</div>
+<div class="ptx-embed-code-container">
+<textarea class="ptx-embed-code-textbox" id="ptx-embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button autofocus="autofocus" class="ptx-embed-copy-button button" id="ptx-embed-copy-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div></dialog><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="lt14-quadratic-context-practice.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="handouts.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="tech.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 focused" data-preexpanded-levels="1" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-documents.html" class="internal"><span class="title">Course Documents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="title">Syllabus</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-course-info.html" class="internal"><span class="title">Course Information</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-assessments.html" class="internal"><span class="title">Assessments and Grades</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-activities.html" class="internal"><span class="title">Activities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-rethinking-mathematics.html" class="internal"><span class="title">Rethinking Mathematics: Curiosity and Community</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-intro-strategies.html" class="internal"><span class="title">12 Times 25</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-intro-strategies.html#mth110-multifaceted-thinking" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-intro-44.html" class="internal"><span class="title">The Four Fours</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-intro-44.html#ws-four-fours" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-functions-graphs.html" class="internal"><span class="title">Functions and Graphs: Interpreting Mathematical Stories</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-functions-graphs-distance.html" class="internal"><span class="title">Distance from Start</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-functions-graphs-distance.html#activity-distance-from-home" class="internal"><span class="title">Activity: Distance from Home</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-functions-graphs-haircut.html" class="internal"><span class="title">Examining Hair Growth</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-functions-graphs-haircut.html#activity-hair-growth" class="internal"><span class="title">Activity: Analyzing Hair Growth</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-linear-patterns.html" class="internal"><span class="title">Linear Patterns and Problem Solving</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-linear-patterns-problem-solving.html" class="internal"><span class="title">Linear Patterns</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-linear-patterns-problem-solving.html#activity-visual-patterns" class="internal"><span class="title">Activity: Visual Patterns</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-linear-patterns-problem-solving-2.html" class="internal"><span class="title">Linear Patterns II</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-linear-patterns-problem-solving-2.html#activity-visual-patterns-2" class="internal"><span class="title">Activity: Visual Patterns (Set 2)</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-linear-finding-equations.html" class="internal"><span class="title">Finding Equations of Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-linear-finding-equations.html#worksheet-linear-equations" class="internal"><span class="title">Finding Equations for Linear Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-linear-applications-4.html" class="internal"><span class="title">Linear Applications</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-linear-applications-4.html#activity-modeling-linear-1" class="internal"><span class="title">Activity: Modeling with Linear Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-linear-applications-4.html#activity-modeling-linear-2" class="internal"><span class="title">Activity: Modeling with Linear Functions II</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-linear-systems.html" class="internal"><span class="title">Systems of Linear Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-linear-systems.html#activity-systems-graphing" class="internal"><span class="title">Activity: Solving Systems of Linear Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-linear-systems.html#activity-modeling-systems" class="internal"><span class="title">Activity: Modeling Real-World Scenarios with Linear Systems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-linear-regression.html" class="internal"><span class="title">Linear Regression</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-linear-regression.html#activity-linear-regression" class="internal"><span class="title">Activity: Linear Regression in Desmos</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exponential-change.html" class="internal"><span class="title">Exponential Change and Modeling</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-exponential-patterns.html" class="internal"><span class="title">Comparing Linear and Exponential Patterns</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-exponential-patterns.html#activity-linear-exponential-patterns" class="internal"><span class="title">Activity: Linear Versus Exponential Patterns</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-exponential-graph.html" class="internal"><span class="title">Exponential Graphs and Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-exponential-graph.html#ws-exponential-graphs-to-equations" class="internal"><span class="title">Exponential Models: Graphs to Equations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-exponential-app.html" class="internal"><span class="title">Exponential Models - Growth and Decay</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-exponential-app.html#ws-exponential-growth-decay-models" class="internal"><span class="title">Exponential Models: Growth and Decay</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-exponential-pt-function.html" class="internal"><span class="title">Finding Exponential Functions Between Two Points</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-exponential-pt-function.html#worksheet-exp-two-points" class="internal"><span class="title">Exponential Equations from Two Points</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-exponential-regression.html" class="internal"><span class="title">Exponential Regression</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-exponential-regression.html#activity-exponential-tuition-regression" class="internal"><span class="title">Exponential Regression: GVSU Tuition Rates</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="act-exponential-interest.html" class="internal"><span class="title">Compound Interest</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act-exponential-interest.html#ws-compound-interest-exponential-applications" class="internal"><span class="title">Compound Interest: Exponential Applications</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-inverses-logarithms.html" class="internal"><span class="title">Inverses and Logarithms: Reversing Steps</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="act-inverses-logarithms-reversing.html" class="internal"><span class="title">Activity Title Here</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-quadratic-relationships.html" class="internal"><span class="title">Quadratic Relationships and Applications</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="act-quadratic-relationships-applications.html" class="internal"><span class="title">Activity Title Here</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="writing.html" class="internal"><span class="title">Writing Assignments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="writing-assignment-1.html" class="internal"><span class="title">Writing Assignment 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="writing-assignment-2.html" class="internal"><span class="title">Writing Assignment 2: Systems and Regression</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="writing-assignment-3-exponential-models.html" class="internal"><span class="title">Writing Assignment 3: Exponential Models and Regression</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="writing-assignment-4.html" class="internal"><span class="title">Writing Assignment 4: Logarithms, Inverses, and Quadratic Patterns</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="writing-assignment-5.html" class="internal"><span class="title">Writing Assignment 5: Pattern Types, Quadratic Forms, and Revenue Models</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="group-practice.html" class="internal"><span class="title">Practice for Group Quizzes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-groupquiz3-exponential.html" class="internal"><span class="title">Group Quiz 3: Exponential Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-groupquiz4-practice.html" class="internal"><span class="title">Practice Group Quiz 4: Functions, Inverses, and Patterns</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="practice-group-quiz-5.html" class="internal"><span class="title">Practice Group Quiz 5: Distributing, Factoring, Quadratics, and Growth Patterns</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="handouts.html" class="internal"><span class="title">Learning Target Practice Quizzes</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt1-practice-quiz.html" class="internal"><span class="title">Learning Target 1: Sketching Qualitative Graphs</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt2-practice-quiz.html" class="internal"><span class="title">Learning Target 2: Reading Qualitative Graphs</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt3-practice-quiz.html" class="internal"><span class="title">Learning Target 3: Linear Patterns</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt4-practice-quiz.html" class="internal"><span class="title">Learning Target 4: Linear Graphs</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt5-practice-quiz.html" class="internal"><span class="title">Learning Target 5: Linear Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt6-practice-quiz.html" class="internal"><span class="title">Learning Target 6: Systems of Linear Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt7-practice-quiz.html" class="internal"><span class="title">Learning Target 7: Exponential Patterns</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt8-practice-quiz.html" class="internal"><span class="title">Learning Target 8: Exponential Graphs</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt10-practice-quiz.html" class="internal"><span class="title">Learning Target 10: Inverses of Linear Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt11-practice-quiz.html" class="internal"><span class="title">Learning Target 11: Solving Exponential and Logarithmic Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt12-practice-quiz.html" class="internal"><span class="title">Learning Target 12: Quadratic Patterns</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt13-quadratic-forms-graphs.html" class="internal"><span class="title">Learning Target 13: Quadratic Forms and Graphs</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt14-quadratic-context-practice.html" class="internal"><span class="title">Learning Target 14 Practice: Quadratic Situations in Context</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="lt15-sequence-patterns.html" class="internal"><span class="title">Learning Target 15: Identifying Patterns in Sequences and Data</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="tech.html" class="internal"><span class="title">Desmos SKill Practice</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ds1-practice-quiz.html" class="internal"><span class="title">Desmos Skill 1: Linear Regression Models</span></a></div></li></ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="hide-solutions-options"><div class="hide-option">
+<label for="hide-answer-checkbox">Hide answers</label><input type="checkbox" id="hide-answer-checkbox">
+</div></div>
+<div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="worksheet" id="lt15-sequence-patterns" data-margins="0.75in 0.75in 0.75in 0.75in">
+<h2 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Learning Target 15: Identifying Patterns in Sequences and Data</span><div class="print-links"><a href="?printpreview=lt15-sequence-patterns" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h2>
+<article class="objectives goal-like" id="lt15-sequence-patterns-2"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ul class="disc" id="lt15-sequence-patterns-2-1">
+<li id="lt15-sequence-patterns-2-1-1">
+<div class="para" id="p-derived-lt15-sequence-patterns-2-1-1">Given a mathematical sequence of data, I can determine if it fits a linear, exponential, or quadratic pattern and explain what characteristics support my conclusion.</div>
+<div class="autopermalink" data-description="Objective"><a href="#lt15-sequence-patterns-2-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives"><a href="#lt15-sequence-patterns-2" title="Copy heading and permalink for Objectives" aria-label="Copy heading and permalink for Objectives">🔗</a></div>
+</article><section class="onepage" id="lt15-sequence-patterns-3">
+<article class="exercise exercise-like" id="lt15-pattern-exponential"><h3 class="heading">
+<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Pattern 1: Tripling Columns.</span>
+</h3>
+<div class="introduction" id="lt15-pattern-exponential-2">
+<div class="para" id="lt15-pattern-exponential-2-1">Case 0 is a single column of 4 squares. In each new case, the number of columns triples.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-exponential-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;">
+<img src="generated/prefigure/lt15-tripling-columns.svg" role="img" class="contained" alt="Case 0 has one column of four squares, Case 1 has three such columns, and Case 2 has nine, for totals of four, twelve, and thirty-six squares. Cases 3 and 4 are blank."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="lt15-pattern-exponential-2-2-description">
+<div class="para" id="lt15-pattern-exponential-2-2-2-1">Four cases of square tiles arranged in columns of four. Case 0 is one column, a total of four squares. Case 1 is three columns, a total of twelve squares. Case 2 is nine columns, a total of thirty-six squares. Cases 3 and 4 are shown as empty outlines for students to fill in.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-exponential-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+</div>
+<article class="task exercise-like" id="lt15-pattern-exponential-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="lt15-pattern-exponential-3-1-1">Complete the table of square counts for <span class="process-math">\(n = 0\)</span> through <span class="process-math">\(4\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-exponential-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(n\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(3\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(4\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(12\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(36\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="solutions">
+<details id="lt15-pattern-exponential-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt15-pattern-exponential-3-2-1">The counts are <span class="process-math">\(4, 12, 36, 108, 324\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-exponential-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.a.1"><a href="#lt15-pattern-exponential-3-2" title="Copy heading and permalink for Answer 1.a.1" aria-label="Copy heading and permalink for Answer 1.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" data-description="Task 1.a"><a href="#lt15-pattern-exponential-3" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt15-pattern-exponential-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="lt15-pattern-exponential-4-1-1">Determine whether the pattern is linear, exponential, quadratic, or neither. Explain how you know, and find an equation for <span class="process-math">\(y\)</span> in terms of <span class="process-math">\(n\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-exponential-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt15-pattern-exponential-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt15-pattern-exponential-4-2-1">It is exponential. The ratios between consecutive outputs are constant: <span class="process-math">\(12/4 = 3\text{,}\)</span> <span class="process-math">\(36/12 = 3\text{,}\)</span> and <span class="process-math">\(108/36 = 3\text{.}\)</span> The first differences are <span class="process-math">\(8, 24, 72\text{,}\)</span> which are not constant, so it is not linear, and the second differences are <span class="process-math">\(16, 48\text{,}\)</span> which are not constant either, so it is not quadratic. Since the growth factor is <span class="process-math">\(3\)</span> and the value at <span class="process-math">\(n = 0\)</span> is <span class="process-math">\(4\text{,}\)</span> the equation is <span class="process-math">\(y = 4(3)^n\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-exponential-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.b.1"><a href="#lt15-pattern-exponential-4-2" title="Copy heading and permalink for Answer 1.b.1" aria-label="Copy heading and permalink for Answer 1.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" data-description="Task 1.b"><a href="#lt15-pattern-exponential-4" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet Exercise 1: Pattern 1: Tripling Columns"><a href="#lt15-pattern-exponential" title="Copy heading and permalink for Worksheet Exercise 1: Pattern 1: Tripling Columns" aria-label="Copy heading and permalink for Worksheet Exercise 1: Pattern 1: Tripling Columns">🔗</a></div>
+</article></section><section class="onepage" id="lt15-sequence-patterns-4">
+<article class="exercise exercise-like" id="lt15-pattern-quadratic"><h3 class="heading">
+<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Pattern 2: Growing Rectangle.</span>
+</h3>
+<div class="introduction" id="lt15-pattern-quadratic-2">
+<div class="para" id="lt15-pattern-quadratic-2-1">Case 1 is a rectangle that is 6 blocks wide and 4 blocks tall. Each new case grows by one block in both width and height.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-quadratic-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;">
+<img src="generated/prefigure/lt15-growing-rectangle.svg" role="img" class="contained" alt="Three solid rectangles of blocks measuring six by four, seven by five, and eight by six, followed by a blank outline for the next case."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="lt15-pattern-quadratic-2-2-description">
+<div class="para" id="lt15-pattern-quadratic-2-2-2-1">A sequence of rectangles built from square blocks. Case 1 is six blocks wide and four blocks tall. Case 2 is seven by five. Case 3 is eight by six. Case 4 is shown as an empty outline nine blocks wide and seven blocks tall.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-quadratic-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+</div>
+<article class="task exercise-like" id="lt15-pattern-quadratic-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="lt15-pattern-quadratic-3-1-1">Complete the table of block counts for <span class="process-math">\(n = 0\)</span> through <span class="process-math">\(5\text{,}\)</span> where Case 0 represents the base dimensions 5 by 3.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-quadratic-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(n\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(3\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(4\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(5\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(15\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(24\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(35\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(48\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="solutions">
+<details id="lt15-pattern-quadratic-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt15-pattern-quadratic-3-2-1">The counts are <span class="process-math">\(15, 24, 35, 48, 63, 80\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-quadratic-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 2.a.1"><a href="#lt15-pattern-quadratic-3-2" title="Copy heading and permalink for Answer 2.a.1" aria-label="Copy heading and permalink for Answer 2.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" data-description="Task 2.a"><a href="#lt15-pattern-quadratic-3" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt15-pattern-quadratic-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="lt15-pattern-quadratic-4-1-1">Determine whether the pattern is linear, exponential, quadratic, or neither. Explain your reasoning and find an equation for <span class="process-math">\(y\)</span> in terms of <span class="process-math">\(n\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-quadratic-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt15-pattern-quadratic-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt15-pattern-quadratic-4-2-1">It is quadratic. The first differences are <span class="process-math">\(9, 11, 13, 15, 17\text{,}\)</span> which are not constant, so it is not linear. The second differences are <span class="process-math">\(2, 2, 2, 2\text{,}\)</span> which are constant.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-quadratic-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="lt15-pattern-quadratic-4-2-2">Since the <span class="process-math">\(n\)</span>-values step by <span class="process-math">\(1\text{,}\)</span> the leading coefficient is half the second difference, so <span class="process-math">\(a = 1\text{.}\)</span> The value at <span class="process-math">\(n = 0\)</span> gives <span class="process-math">\(c = 15\text{.}\)</span> Substituting <span class="process-math">\(n = 1, y = 24\)</span> gives <span class="process-math">\(1 + b + 15 = 24\text{,}\)</span> so <span class="process-math">\(b = 8\text{.}\)</span> The equation is <span class="process-math">\(y = n^2 + 8n + 15\text{,}\)</span> which factors as <span class="process-math">\(y = (n+5)(n+3)\text{.}\)</span> That factored form is exactly the dimensions of the rectangle, since Case <span class="process-math">\(n\)</span> is <span class="process-math">\((n+5)\)</span> blocks wide and <span class="process-math">\((n+3)\)</span> blocks tall.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-quadratic-4-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 2.b.1"><a href="#lt15-pattern-quadratic-4-2" title="Copy heading and permalink for Answer 2.b.1" aria-label="Copy heading and permalink for Answer 2.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.75in"></div>
+<div class="autopermalink" data-description="Task 2.b"><a href="#lt15-pattern-quadratic-4" title="Copy heading and permalink for Task 2.b" aria-label="Copy heading and permalink for Task 2.b">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet Exercise 2: Pattern 2: Growing Rectangle"><a href="#lt15-pattern-quadratic" title="Copy heading and permalink for Worksheet Exercise 2: Pattern 2: Growing Rectangle" aria-label="Copy heading and permalink for Worksheet Exercise 2: Pattern 2: Growing Rectangle">🔗</a></div>
+</article></section><section class="onepage" id="lt15-sequence-patterns-5">
+<article class="exercise exercise-like" id="lt15-pattern-neither"><h3 class="heading">
+<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Pattern 3: Repeating Column.</span>
+</h3>
+<div class="introduction" id="lt15-pattern-neither-2">
+<div class="para" id="lt15-pattern-neither-2-1">Each case shows a column with three possible positions for a circle. The dashed outlines mark positions where no circle appears in that case. Six cases are shown below, which is enough to see the pattern repeat twice.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-neither-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;">
+<img src="generated/prefigure/lt15-repeating-column.svg" role="img" class="contained" alt="Six columns, each with three circle positions. The number of filled circles goes two, three, one, and then repeats two, three, one. Cases 7 and 8 are blank."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="lt15-pattern-neither-2-2-description">
+<div class="para" id="lt15-pattern-neither-2-2-2-1">Eight columns, each with three positions for a circle. Case 1 has the bottom two positions filled. Case 2 has all three filled. Case 3 has only the bottom filled. Cases 4, 5, and 6 repeat that same arrangement in the same order. Cases 7 and 8 are shown as empty outlines for students to fill in.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-neither-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+</div>
+<article class="task exercise-like" id="lt15-pattern-neither-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="lt15-pattern-neither-3-1-1">Count the circles in Cases 4, 5, and 6 from the figure, then extend the pattern to fill in Cases 7 and 8.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-neither-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(n\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(3\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(4\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(5\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(6\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(7\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(8\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="solutions">
+<details id="lt15-pattern-neither-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt15-pattern-neither-3-2-1">The counts are <span class="process-math">\(2, 3, 1, 2, 3, 1, 2, 3\text{.}\)</span> The block of three values repeats, so the count depends only on where <span class="process-math">\(n\)</span> falls in the cycle of three.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-neither-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.a.1"><a href="#lt15-pattern-neither-3-2" title="Copy heading and permalink for Answer 3.a.1" aria-label="Copy heading and permalink for Answer 3.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" data-description="Task 3.a"><a href="#lt15-pattern-neither-3" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt15-pattern-neither-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="lt15-pattern-neither-4-1-1">Determine whether this pattern is linear, exponential, quadratic, or neither. Explain your reasoning.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-neither-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt15-pattern-neither-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt15-pattern-neither-4-2-1">It is neither. The first differences are <span class="process-math">\(1, -2, 1, 1, -2, 1, 1\text{,}\)</span> which are not constant, so it is not linear. The second differences are <span class="process-math">\(-3, 3, 0, -3, 3, 0\text{,}\)</span> which are not constant, so it is not quadratic. The ratios are <span class="process-math">\(1.5, 0.33, 2, 1.5, 0.33, 2, 1.5\text{,}\)</span> which are not constant, so it is not exponential.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-neither-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="lt15-pattern-neither-4-2-2">Notice that the differences and the ratios repeat in blocks of three, just like the counts do. The values cycle rather than growing or decaying, so none of the three families describes them. This is a good reminder that a sequence can have a clear, predictable rule and still not be linear, exponential, or quadratic.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-neither-4-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.b.1"><a href="#lt15-pattern-neither-4-2" title="Copy heading and permalink for Answer 3.b.1" aria-label="Copy heading and permalink for Answer 3.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.75in"></div>
+<div class="autopermalink" data-description="Task 3.b"><a href="#lt15-pattern-neither-4" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt15-pattern-neither-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="lt15-pattern-neither-5-1-1">Predict the number of circles in Case 20 and explain how you decided without drawing all twenty cases.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-neither-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt15-pattern-neither-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt15-pattern-neither-5-2-1">There will be <span class="process-math">\(3\)</span> circles. The pattern repeats every <span class="process-math">\(3\)</span> cases, and Cases 2, 5, 8, 11, 14, 17, and 20 all sit in the same position within the cycle, each having <span class="process-math">\(3\)</span> circles. Another way to say it: dividing <span class="process-math">\(20\)</span> by <span class="process-math">\(3\)</span> leaves a remainder of <span class="process-math">\(2\text{,}\)</span> and every case whose remainder is <span class="process-math">\(2\)</span> has <span class="process-math">\(3\)</span> circles.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-neither-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.c.1"><a href="#lt15-pattern-neither-5-2" title="Copy heading and permalink for Answer 3.c.1" aria-label="Copy heading and permalink for Answer 3.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" data-description="Task 3.c"><a href="#lt15-pattern-neither-5" title="Copy heading and permalink for Task 3.c" aria-label="Copy heading and permalink for Task 3.c">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet Exercise 3: Pattern 3: Repeating Column"><a href="#lt15-pattern-neither" title="Copy heading and permalink for Worksheet Exercise 3: Pattern 3: Repeating Column" aria-label="Copy heading and permalink for Worksheet Exercise 3: Pattern 3: Repeating Column">🔗</a></div>
+</article></section><section class="onepage" id="lt15-sequence-patterns-6">
+<article class="exercise exercise-like" id="lt15-pattern-linear"><h3 class="heading">
+<span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Pattern 4: Growing X-Shape.</span>
+</h3>
+<div class="introduction" id="lt15-pattern-linear-2">
+<div class="para" id="lt15-pattern-linear-2-1">An X is built from square tiles. Case 1 uses 5 tiles: one center tile with a single tile extending diagonally in each of the four directions. Each new case extends every arm of the X by one more tile.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-linear-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;">
+<img src="generated/prefigure/lt15-growing-x.svg" role="img" class="contained" alt="X shapes built from square tiles containing five, nine, and thirteen tiles, followed by a blank outline for the next case."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="lt15-pattern-linear-2-2-description">
+<div class="para" id="lt15-pattern-linear-2-2-2-1">Three X shapes built from square tiles arranged along two crossing diagonals. Case 1 has a center tile with one tile out each diagonal, five tiles in all. Case 2 has arms two tiles long, nine tiles in all. Case 3 has arms three tiles long, thirteen tiles in all. Case 4 is shown as an empty square outline nine tiles across.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-linear-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+</div>
+<article class="task exercise-like" id="lt15-pattern-linear-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="lt15-pattern-linear-3-1-1">Complete the table of tile counts for <span class="process-math">\(n = 1\)</span> through <span class="process-math">\(5\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-linear-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(n\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(3\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(4\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(5\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(9\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(13\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="solutions">
+<details id="lt15-pattern-linear-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt15-pattern-linear-3-2-1">The counts are <span class="process-math">\(5, 9, 13, 17, 21\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-linear-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 4.a.1"><a href="#lt15-pattern-linear-3-2" title="Copy heading and permalink for Answer 4.a.1" aria-label="Copy heading and permalink for Answer 4.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" data-description="Task 4.a"><a href="#lt15-pattern-linear-3" title="Copy heading and permalink for Task 4.a" aria-label="Copy heading and permalink for Task 4.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt15-pattern-linear-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="lt15-pattern-linear-4-1-1">Determine whether the pattern is linear, exponential, quadratic, or neither. Explain how you know, and find an equation for <span class="process-math">\(y\)</span> in terms of <span class="process-math">\(n\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-linear-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt15-pattern-linear-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt15-pattern-linear-4-2-1">It is linear. The first differences are constant at <span class="process-math">\(4\text{,}\)</span> since <span class="process-math">\(9 - 5 = 4\text{,}\)</span> <span class="process-math">\(13 - 9 = 4\text{,}\)</span> and so on. That matches what happens in the picture: each new case adds one tile to each of the four arms, so exactly <span class="process-math">\(4\)</span> tiles are added every time.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-linear-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="lt15-pattern-linear-4-2-2">The slope is <span class="process-math">\(4\text{.}\)</span> Working backward from Case 1, the value at <span class="process-math">\(n = 0\)</span> would be <span class="process-math">\(5 - 4 = 1\text{,}\)</span> which is just the center tile with no arms. So the equation is <span class="process-math">\(y = 4n + 1\text{.}\)</span> Check at <span class="process-math">\(n = 3\text{:}\)</span> <span class="process-math">\(4(3) + 1 = 13\text{,}\)</span> which matches.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-linear-4-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="lt15-pattern-linear-4-2-3">The structure of the X explains the equation directly: <span class="process-math">\(4n\)</span> counts the four arms of length <span class="process-math">\(n\text{,}\)</span> and the <span class="process-math">\(+1\)</span> counts the center tile that all four arms share.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-pattern-linear-4-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 4.b.1"><a href="#lt15-pattern-linear-4-2" title="Copy heading and permalink for Answer 4.b.1" aria-label="Copy heading and permalink for Answer 4.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.75in"></div>
+<div class="autopermalink" data-description="Task 4.b"><a href="#lt15-pattern-linear-4" title="Copy heading and permalink for Task 4.b" aria-label="Copy heading and permalink for Task 4.b">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet Exercise 4: Pattern 4: Growing X-Shape"><a href="#lt15-pattern-linear" title="Copy heading and permalink for Worksheet Exercise 4: Pattern 4: Growing X-Shape" aria-label="Copy heading and permalink for Worksheet Exercise 4: Pattern 4: Growing X-Shape">🔗</a></div>
+</article></section><section class="onepage" id="lt15-sequence-patterns-7">
+<article class="exercise exercise-like" id="lt15-tables-practice"><h3 class="heading">
+<span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Tables Practice: Linear, Exponential, Quadratic, or Neither.</span>
+</h3>
+<div class="introduction" id="lt15-tables-practice-2">
+<div class="para" id="lt15-tables-practice-2-1">For each table below, determine whether the relationship is linear, exponential, quadratic, or neither. Explain your reasoning and find an equation when applicable.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-tables-practice-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="lt15-tables-practice-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="lt15-tables-practice-3-1-1">Table A:<div class="autopermalink" data-description="Paragraph"><a href="#lt15-tables-practice-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(3\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(4\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(12\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(9\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+</tr>
+</table></div>
+<div class="solutions">
+<details id="lt15-tables-practice-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt15-tables-practice-3-2-1">Linear. The first differences are constant at <span class="process-math">\(-3\text{,}\)</span> since <span class="process-math">\(9 - 12 = -3\text{,}\)</span> <span class="process-math">\(6 - 9 = -3\text{,}\)</span> and so on. With a slope of <span class="process-math">\(-3\)</span> and a vertical intercept of <span class="process-math">\(12\text{,}\)</span> the equation is <span class="process-math">\(y = -3x + 12\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt15-tables-practice-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 5.a.1"><a href="#lt15-tables-practice-3-2" title="Copy heading and permalink for Answer 5.a.1" aria-label="Copy heading and permalink for Answer 5.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="2.2in"></div>
+<div class="autopermalink" data-description="Task 5.a"><a href="#lt15-tables-practice-3" title="Copy heading and permalink for Task 5.a" aria-label="Copy heading and permalink for Task 5.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt15-tables-practice-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="lt15-tables-practice-4-1-1">Table B:<div class="autopermalink" data-description="Paragraph"><a href="#lt15-tables-practice-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(3\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(4\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(80\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(40\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(20\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(10\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+</tr>
+</table></div>
+<div class="solutions">
+<details id="lt15-tables-practice-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt15-tables-practice-4-2-1">Exponential decay. The ratios between consecutive outputs are constant at <span class="process-math">\(0.5\text{,}\)</span> since <span class="process-math">\(40/80 = 0.5\text{,}\)</span> <span class="process-math">\(20/40 = 0.5\text{,}\)</span> and so on. With an initial value of <span class="process-math">\(80\text{,}\)</span> the equation is <span class="process-math">\(y = 80(0.5)^x\text{.}\)</span> Each step keeps half of the previous amount.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-tables-practice-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 5.b.1"><a href="#lt15-tables-practice-4-2" title="Copy heading and permalink for Answer 5.b.1" aria-label="Copy heading and permalink for Answer 5.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="2.2in"></div>
+<div class="autopermalink" data-description="Task 5.b"><a href="#lt15-tables-practice-4" title="Copy heading and permalink for Task 5.b" aria-label="Copy heading and permalink for Task 5.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt15-tables-practice-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="lt15-tables-practice-5-1-1">Table C:<div class="autopermalink" data-description="Paragraph"><a href="#lt15-tables-practice-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(3\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(4\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(14\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(29\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(50\)</span></td>
+</tr>
+</table></div>
+<div class="solutions">
+<details id="lt15-tables-practice-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt15-tables-practice-5-2-1">Quadratic. The first differences are <span class="process-math">\(3, 9, 15, 21\text{,}\)</span> which are not constant. The second differences are <span class="process-math">\(6, 6, 6\text{,}\)</span> which are constant.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-tables-practice-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="lt15-tables-practice-5-2-2">Since <span class="process-math">\(2a = 6\text{,}\)</span> we get <span class="process-math">\(a = 3\text{.}\)</span> The value at <span class="process-math">\(x = 0\)</span> gives <span class="process-math">\(c = 2\text{.}\)</span> Substituting <span class="process-math">\(x = 1, y = 5\)</span> gives <span class="process-math">\(3 + b + 2 = 5\text{,}\)</span> so <span class="process-math">\(b = 0\text{.}\)</span> The equation is <span class="process-math">\(y = 3x^2 + 2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lt15-tables-practice-5-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 5.c.1"><a href="#lt15-tables-practice-5-2" title="Copy heading and permalink for Answer 5.c.1" aria-label="Copy heading and permalink for Answer 5.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="2.2in"></div>
+<div class="autopermalink" data-description="Task 5.c"><a href="#lt15-tables-practice-5" title="Copy heading and permalink for Task 5.c" aria-label="Copy heading and permalink for Task 5.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt15-tables-practice-6"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="lt15-tables-practice-6-1-1">Table D:<div class="autopermalink" data-description="Paragraph"><a href="#lt15-tables-practice-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(3\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(4\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(14\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(41\)</span></td>
+</tr>
+</table></div>
+<div class="solutions">
+<details id="lt15-tables-practice-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt15-tables-practice-6-2-1">Neither. The first differences are <span class="process-math">\(1, 3, 9, 27\text{,}\)</span> which are not constant, so it is not linear. The second differences are <span class="process-math">\(2, 6, 18\text{,}\)</span> which are not constant, so it is not quadratic. The ratios are <span class="process-math">\(2, 2.5, 2.8, 2.93\text{,}\)</span> which are not constant, so it is not exponential.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-tables-practice-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="lt15-tables-practice-6-2-2">There is still a rule at work: each first difference is triple the one before it. The pattern is predictable, it just is not one of the three families we have equations for.<div class="autopermalink" data-description="Paragraph"><a href="#lt15-tables-practice-6-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 5.d.1"><a href="#lt15-tables-practice-6-2" title="Copy heading and permalink for Answer 5.d.1" aria-label="Copy heading and permalink for Answer 5.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="2.2in"></div>
+<div class="autopermalink" data-description="Task 5.d"><a href="#lt15-tables-practice-6" title="Copy heading and permalink for Task 5.d" aria-label="Copy heading and permalink for Task 5.d">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet Exercise 5: Tables Practice: Linear, Exponential, Quadratic, or Neither"><a href="#lt15-tables-practice" title="Copy heading and permalink for Worksheet Exercise 5: Tables Practice: Linear, Exponential, Quadratic, or Neither" aria-label="Copy heading and permalink for Worksheet Exercise 5: Tables Practice: Linear, Exponential, Quadratic, or Neither">🔗</a></div>
+</article></section><div class="autopermalink" data-description="Worksheet: Learning Target 15: Identifying Patterns in Sequences and Data"><a href="#lt15-sequence-patterns" title="Copy heading and permalink for Worksheet: Learning Target 15: Identifying Patterns in Sequences and Data" aria-label="Copy heading and permalink for Worksheet: Learning Target 15: Identifying Patterns in Sequences and Data">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="lt14-quadratic-context-practice.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="tech.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
