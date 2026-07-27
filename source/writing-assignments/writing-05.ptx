@@ -1,0 +1,573 @@
+<worksheet xml:id="writing-assignment-5">
+<title>Writing Assignment 5: Pattern Types, Quadratic Forms, and Revenue Models</title>
+
+<introduction>
+<p>This assignment asks you to classify patterns from data, move between the three forms of a quadratic, and interpret a quadratic revenue model in context.</p>
+<p>Show every algebraic step. A final answer with no supporting work earns no credit.</p>
+<p>In Question 1, your justification must include the actual differences or ratios you computed, not just the name of the pattern.</p>
+<p>In Question 2, show which point you substituted each time you solve for the leading coefficient.</p>
+<p>Every answer that asks for an interpretation should be written in a complete sentence, in context, with units.</p>
+<p>Upload a clean, high-quality scan of your pages to Blackboard when complete.</p>
+</introduction>
+
+<page>
+<exercise xml:id="wa5-classify">
+<title>Classifying Three Patterns</title>
+<introduction>
+<p>
+Each table below shows a relationship between
+<m>x</m>
+and
+<m>y</m>
+. Exactly one of the three is linear, one is exponential, and one is quadratic, but they are not listed in that order.
+</p>
+<p>
+For each data set, run all three tests: first differences, second differences, and ratios of consecutive outputs. Show the values you computed.
+</p>
+</introduction>
+
+<task workspace="2.75in">
+<statement>
+<p><term>Data Set A</term></p>
+<tabular halign="center">
+<row bottom="medium">
+<cell right="minor">
+<m>x</m>
+</cell>
+<cell right="minor">
+<m>0</m>
+</cell>
+<cell right="minor">
+<m>1</m>
+</cell>
+<cell right="minor">
+<m>2</m>
+</cell>
+<cell right="minor">
+<m>3</m>
+</cell>
+<cell>
+<m>4</m>
+</cell>
+</row>
+<row>
+<cell right="minor">
+<m>y</m>
+</cell>
+<cell right="minor">
+<m>1</m>
+</cell>
+<cell right="minor">
+<m>6</m>
+</cell>
+<cell right="minor">
+<m>15</m>
+</cell>
+<cell right="minor">
+<m>28</m>
+</cell>
+<cell>
+<m>45</m>
+</cell>
+</row>
+</tabular>
+<p>
+Compute the first differences, second differences, and ratios. State which pattern this is and point to the specific evidence that rules out the other two. Then write an equation for
+<m>y</m>
+in terms of
+<m>x</m>
+.
+</p>
+<p>
+Type:
+<fillin characters="14"/>
+Equation:
+<fillin characters="20"/>
+</p>
+</statement>
+</task>
+
+<task workspace="2.75in">
+<statement>
+<p><term>Data Set B</term></p>
+<tabular halign="center">
+<row bottom="medium">
+<cell right="minor">
+<m>x</m>
+</cell>
+<cell right="minor">
+<m>0</m>
+</cell>
+<cell right="minor">
+<m>1</m>
+</cell>
+<cell right="minor">
+<m>2</m>
+</cell>
+<cell right="minor">
+<m>3</m>
+</cell>
+<cell>
+<m>4</m>
+</cell>
+</row>
+<row>
+<cell right="minor">
+<m>y</m>
+</cell>
+<cell right="minor">
+<m>45</m>
+</cell>
+<cell right="minor">
+<m>38</m>
+</cell>
+<cell right="minor">
+<m>31</m>
+</cell>
+<cell right="minor">
+<m>24</m>
+</cell>
+<cell>
+<m>17</m>
+</cell>
+</row>
+</tabular>
+<p>
+Compute the first differences, second differences, and ratios. State which pattern this is and point to the specific evidence that rules out the other two. Then write an equation for
+<m>y</m>
+in terms of
+<m>x</m>
+.
+</p>
+<p>
+Type:
+<fillin characters="14"/>
+Equation:
+<fillin characters="20"/>
+</p>
+</statement>
+</task>
+
+<task workspace="2.75in">
+<statement>
+<p><term>Data Set C</term></p>
+<tabular halign="center">
+<row bottom="medium">
+<cell right="minor">
+<m>x</m>
+</cell>
+<cell right="minor">
+<m>0</m>
+</cell>
+<cell right="minor">
+<m>1</m>
+</cell>
+<cell right="minor">
+<m>2</m>
+</cell>
+<cell right="minor">
+<m>3</m>
+</cell>
+<cell>
+<m>4</m>
+</cell>
+</row>
+<row>
+<cell right="minor">
+<m>y</m>
+</cell>
+<cell right="minor">
+<m>5</m>
+</cell>
+<cell right="minor">
+<m>20</m>
+</cell>
+<cell right="minor">
+<m>80</m>
+</cell>
+<cell right="minor">
+<m>320</m>
+</cell>
+<cell>
+<m>1280</m>
+</cell>
+</row>
+</tabular>
+<p>
+Compute the first differences, second differences, and ratios. State which pattern this is and point to the specific evidence that rules out the other two. Then write an equation for
+<m>y</m>
+in terms of
+<m>x</m>
+.
+</p>
+<p>
+Type:
+<fillin characters="14"/>
+Equation:
+<fillin characters="20"/>
+</p>
+</statement>
+</task>
+
+<task>
+<statement>
+<p>
+Use your three equations to predict the output at
+<m>x = 8</m>
+for each data set. Record your results in the table below and show the substitution work beneath it.
+</p>
+<tabular halign="center">
+<row bottom="medium">
+<cell right="minor">Data Set</cell>
+<cell right="minor">Type</cell>
+<cell right="minor">Equation</cell>
+<cell>
+Value at
+<m>x = 8</m>
+</cell>
+</row>
+<row>
+<cell right="minor">A</cell>
+<cell right="minor"></cell>
+<cell right="minor"></cell>
+<cell></cell>
+</row>
+<row>
+<cell right="minor">B</cell>
+<cell right="minor"></cell>
+<cell right="minor"></cell>
+<cell></cell>
+</row>
+<row>
+<cell right="minor">C</cell>
+<cell right="minor"></cell>
+<cell right="minor"></cell>
+<cell></cell>
+</row>
+</tabular>
+</statement>
+</task>
+
+<task workspace="2in">
+<statement>
+<p>
+Compare your three predictions at
+<m>x = 8</m>
+. One of them is negative and one of them is enormous. In two or three complete sentences, explain what those two results say about how each type of pattern behaves as
+<m>x</m>
+grows, and describe a situation where the negative output would mean the model has stopped making sense.
+</p>
+</statement>
+</task>
+
+<task workspace="1.5in">
+<statement>
+<p>
+Suppose a fourth data set had first differences that were not constant, second differences that were not constant, and ratios that were not constant. What would you conclude, and what would you still be able to say about the data? Answer in complete sentences.
+</p>
+</statement>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="wa5-three-forms">
+<title>Three Forms of a Quadratic from a Graph</title>
+<introduction>
+<p>
+The graph of a quadratic function
+<m>f</m>
+is shown below. The horizontal intercepts, the vertical intercept, and the vertex all occur at integer coordinates.
+</p>
+<image width="55%">
+<shortdescription>An upward opening parabola with horizontal intercepts at negative one and three, a vertical intercept at zero comma negative six, and a vertex at one comma negative eight.</shortdescription>
+<description>
+<p>A parabola opening upward on a coordinate grid. It crosses the horizontal axis at negative one comma zero and three comma zero, crosses the vertical axis at zero comma negative six, and reaches its lowest point at one comma negative eight.</p>
+</description>
+<prefigure xmlns="https://prefigure.org" label="wa5-parabola">
+<diagram dimensions="(320,256)" margins="5">
+<definition>f(x) = 2*(x+1)*(x-3)</definition>
+<coordinates bbox="(-4,-10,6,6)">
+<grid-axes xlabel="x" ylabel="y" spacings="((-4,1,6),(-10,2,6))"/>
+<graph function="f" domain="(-1.65,3.65)" stroke="blue" thickness="2"/>
+<point p="(-1,0)" alignment="nw">
+<m>(-1,0)</m>
+</point>
+<point p="(3,0)" alignment="ne">
+<m>(3,0)</m>
+</point>
+<point p="(0,-6)" alignment="e">
+<m>(0,-6)</m>
+</point>
+<point p="(1,-8)" alignment="s">
+<m>(1,-8)</m>
+</point>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+
+<task workspace="1.5in">
+<statement>
+<p>
+List the horizontal intercepts, the vertical intercept, and the vertex. State whether the parabola opens upward or downward, and explain what that tells you about the sign of the leading coefficient
+<m>a</m>
+before you compute anything.
+</p>
+</statement>
+</task>
+
+<task workspace="2.25in">
+<statement>
+<p>
+Write
+<m>f(x)</m>
+in <term>factored form</term>. Set up the form using the horizontal intercepts, then substitute a point that is not a horizontal intercept to solve for
+<m>a</m>
+. Show that substitution.
+</p>
+<p>
+<m>f(x) =</m>
+<fillin characters="20"/>
+</p>
+</statement>
+</task>
+
+<task workspace="2.25in">
+<statement>
+<p>
+Write
+<m>f(x)</m>
+in <term>vertex form</term>. Set up the form using the vertex, then substitute a different point to solve for
+<m>a</m>
+. Confirm that this value of
+<m>a</m>
+matches the one you found in part (b), and explain in one sentence why it has to.
+</p>
+<p>
+<m>f(x) =</m>
+<fillin characters="20"/>
+</p>
+</statement>
+</task>
+
+<task workspace="2.5in">
+<statement>
+<p>
+Write
+<m>f(x)</m>
+in <term>general form</term> by expanding your factored form. Then expand your vertex form separately and show that you get the same result. Both expansions must appear in your work.
+</p>
+<p>
+<m>f(x) =</m>
+<fillin characters="20"/>
+</p>
+</statement>
+</task>
+
+<task workspace="1.5in">
+<statement>
+<p>
+Evaluate
+<m>f(4)</m>
+. State which of your three forms you used and why that one was the most convenient choice.
+</p>
+<p>
+<m>f(4) =</m>
+<fillin characters="10"/>
+</p>
+</statement>
+</task>
+
+<task workspace="2.5in">
+<statement>
+<p>
+Find all values of
+<m>x</m>
+for which
+<m>f(x) = 24</m>
+. Show your algebraic steps, and explain why you should expect two answers based on the shape of the graph.
+</p>
+<p>
+<m>x =</m>
+<fillin characters="16"/>
+</p>
+</statement>
+</task>
+
+<task workspace="1.75in">
+<statement>
+<p>
+In two or three complete sentences, explain what each form is best suited for. Name a specific question about this parabola that each form answers almost immediately, and say what work you would have to do to answer that same question from a different form.
+</p>
+</statement>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="wa5-revenue">
+<title>A Revenue Model for a Price Change</title>
+<introduction>
+<p>
+A campus bookstore currently sells its logo water bottle for
+<m>\$10</m>
+. The manager is considering changing the price and models the store's weekly revenue with the function
+</p>
+<p>
+<m>R(x) = -10(x + 10)(x - 50),</m>
+</p>
+<p>
+where
+<m>x</m>
+is the <term>change in price</term> in dollars from the current
+<m>\$10</m>
+, and
+<m>R(x)</m>
+is the weekly revenue in dollars. A positive
+<m>x</m>
+means the price goes up and a negative
+<m>x</m>
+means the price goes down. For example,
+<m>x = 4</m>
+corresponds to a new price of
+<m>\$14</m>
+.
+</p>
+</introduction>
+
+<task workspace="2in">
+<statement>
+<p>
+Show that
+<m>R(x)</m>
+can also be written as
+<m>R(x) = (10 + x)(500 - 10x)</m>
+by expanding both expressions and comparing them.
+</p>
+</statement>
+</task>
+
+<task workspace="1.75in">
+<statement>
+<p>
+Using the form from part (a), explain what each factor represents in this situation. Your answer should say how many bottles the store currently sells each week, and how the number sold changes for every dollar the price goes up. Write in complete sentences.
+</p>
+</statement>
+</task>
+
+<task workspace="1.5in">
+<statement>
+<p>
+Find
+<m>R(0)</m>
+and explain what it means for the bookstore.
+</p>
+<p>
+<m>R(0) =</m>
+<fillin characters="12"/>
+</p>
+</statement>
+</task>
+
+<task workspace="2.25in">
+<statement>
+<p>
+Write
+<m>R(x)</m>
+in general form and in vertex form. Show the work for each.
+</p>
+<p>
+General form:
+<fillin characters="22"/>
+</p>
+<p>
+Vertex form:
+<fillin characters="22"/>
+</p>
+</statement>
+</task>
+
+<task workspace="2.25in">
+<statement>
+<p>
+Find the horizontal intercepts of
+<m>R</m>
+. For each one, state the price the bookstore would be charging and explain in a complete sentence why the revenue is zero at that price. The two explanations should be different from each other.
+</p>
+</statement>
+</task>
+
+<task workspace="2in">
+<statement>
+<p>
+Find the vertex of
+<m>R</m>
+. Then answer all three of the following: what price should the bookstore charge, how many bottles will it sell per week at that price, and what is the maximum weekly revenue?
+</p>
+<p>
+Price:
+<fillin characters="10"/>
+Bottles:
+<fillin characters="10"/>
+Revenue:
+<fillin characters="10"/>
+</p>
+</statement>
+</task>
+
+<task workspace="2.75in">
+<statement>
+<p>
+Solve
+<m>R(x) = 8000</m>
+algebraically. Show every step. Then interpret both solutions: state the price associated with each, and explain in a complete sentence why two different prices can produce the same weekly revenue.
+</p>
+<p>
+<m>x =</m>
+<fillin characters="16"/>
+</p>
+</statement>
+</task>
+
+<task workspace="1.75in">
+<statement>
+<p>
+What values of
+<m>x</m>
+make sense as inputs in this situation? Justify your answer using both the algebra and the context, and identify at least one value of
+<m>x</m>
+that the function will happily evaluate but that the bookstore could never actually use.
+</p>
+</statement>
+</task>
+
+<task workspace="1in">
+<statement>
+<p>
+Graph
+<m>R(x)</m>
+in Desmos over a window that shows the vertex and both horizontal intercepts. Record the window settings you used.
+</p>
+<p>
+<m>x</m>
+-window:
+<fillin characters="16"/>
+<m>y</m>
+-window:
+<fillin characters="16"/>
+</p>
+</statement>
+</task>
+
+<task workspace="2.5in">
+<statement>
+<p>
+Write a short recommendation to the bookstore manager, four to six complete sentences. State the price you recommend and the revenue it produces, compare it to what the store earns now, and address the following: a colleague argues that since raising the price increases revenue, the store should raise it as much as possible. Use your model to explain precisely where that reasoning breaks down.
+</p>
+</statement>
+</task>
+</exercise>
+</page>
+</worksheet>

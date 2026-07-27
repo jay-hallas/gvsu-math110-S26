@@ -21,7 +21,6 @@
     </p>
   </introduction>
 
-  <page>
     <exercise xml:id="wa2-bake-sale">
       <title>A Fundraising Bake Sale</title>
       <introduction>
@@ -110,9 +109,9 @@
         </statement>
       </task>
     </exercise>
-  </page>
 
-  <page>
+
+ 
     <exercise xml:id="wa2-cricket-regression">
       <title>Cricket Chirps and Temperature</title>
       <introduction>
@@ -237,5 +236,5 @@
         </statement>
       </task>
     </exercise>
-  </page>
+
 </worksheet>

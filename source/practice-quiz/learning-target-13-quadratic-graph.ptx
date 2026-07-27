@@ -1,0 +1,183 @@
+
+<worksheet xml:id="lt13-quadratic-forms-graphs">
+<title>Learning Target 13: Quadratic Forms and Graphs</title>
+<objectives>
+<ul>
+<li>I can identify the horizontal intercepts, vertical intercept, and vertex of a quadratic function from its graph.</li>
+<li>I can write the equation of a quadratic function in factored, vertex, and general forms.</li>
+<li>I can evaluate <m>f(a)</m> and solve for <m>x</m> given <m>f(x) = a</m> using multiple representations.</li>
+</ul>
+</objectives>
+
+
+<exercise xml:id="lt13-graph-a">
+<title>Graph A</title>
+<introduction>
+<p>The graph below represents a quadratic function <m>f</m>. The horizontal intercepts, vertical intercept, and vertex all occur at integer coordinates.</p>
+<image width="65%">
+<shortdescription>A parabola opening upward with a vertex in the fourth quadrant and two horizontal intercepts.</shortdescription>
+<latex-image>
+\begin{tikzpicture}[x=0.5cm, y=0.5cm]
+  \draw[gray!25, very thin] (-5,-11) grid[xstep=1, ystep=1] (6,8);
+  \draw[->, thick] (-5.6,0) -- (6.6,0) node[right] {\small $x$};
+  \draw[->, thick] (0,-11.6) -- (0,8.6) node[above] {\small $y$};
+  \foreach \x in {-4,-3,-2,-1,1,2,3,4,5} \draw (\x,0) -- (\x,-0.3) node[below] {\scriptsize \x};
+  \foreach \y in {-10,-8,-6,-4,-2,2,4,6} \draw (0,\y) -- (-0.3,\y) node[left] {\scriptsize \y};
+  \draw[very thick, blue, domain=-3.16:5.16, samples=100] plot (\x, {(\x+2)*(\x-4)});
+  \filldraw (-2,0) circle (2pt) node[above left] {\scriptsize $(-2,0)$};
+  \filldraw (4,0) circle (2pt) node[above right] {\scriptsize $(4,0)$};
+  \filldraw (0,-8) circle (2pt) node[below left] {\scriptsize $(0,-8)$};
+  \filldraw (1,-9) circle (2pt) node[below] {\scriptsize $(1,-9)$};
+\end{tikzpicture}
+</latex-image>
+</image>
+</introduction>
+<task workspace="1.25in">
+<statement>
+<p>Identify the horizontal intercepts, vertical intercept, and vertex of <m>f</m>. Does the parabola open upward or downward, and what does that tell you about the sign of <m>a</m>?</p>
+</statement>
+<answer>
+<p>
+The horizontal intercepts are <m>(-2, 0)</m> and <m>(4, 0)</m>. The vertical intercept is <m>(0, -8)</m>. The vertex is <m>(1, -9)</m>. The parabola opens upward, which means the leading coefficient <m>a</m> must be positive.
+</p>
+</answer>
+</task>
+<task workspace="1.5in">
+<statement>
+<p>Write <m>f(x)</m> in factored form. Use a point from the graph to solve for <m>a</m>.</p>
+</statement>
+<answer>
+<p>
+Using the horizontal intercepts, the factored form is <m>f(x) = a(x+2)(x-4)</m>. Substituting the vertical intercept <m>(0, -8)</m> gives <m>-8 = a(0+2)(0-4)</m>, which simplifies to <m>-8 = -8a</m>, so <m>a = 1</m>. The factored form is <m>f(x) = (x+2)(x-4)</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.5in">
+<statement>
+<p>Write <m>f(x)</m> in vertex form. Verify that your value of <m>a</m> matches what you found previously.</p>
+</statement>
+<answer>
+<p>
+Using the vertex <m>(1, -9)</m>, the vertex form is <m>f(x) = a(x-1)^2 - 9</m>. Since <m>a = 1</m> from the previous step, the equation is <m>f(x) = (x-1)^2 - 9</m>. We can verify this with the point <m>(4, 0)</m>: <m>(4-1)^2 - 9 = 9 - 9 = 0</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Expand either of your previous answers to write <m>f(x)</m> in general form.</p>
+</statement>
+<answer>
+<p>
+Expanding the factored form: <m>f(x) = (x+2)(x-4) = x^2 - 4x + 2x - 8 = x^2 - 2x - 8</m>. (Expanding the vertex form <m>(x-1)^2 - 9</m> yields <m>x^2 - 2x + 1 - 9</m>, which also simplifies to <m>x^2 - 2x - 8</m>).
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>Evaluate <m>f(5)</m>. Show your work using one of your equations.</p>
+</statement>
+<answer>
+<p>
+Using general form: <m>f(5) = (5)^2 - 2(5) - 8 = 25 - 10 - 8 = 7</m>. The point <m>(5, 7)</m> would be on the graph.
+</p>
+</answer>
+</task>
+<task workspace="1.5in">
+<statement>
+<p>Find all values of <m>x</m> such that <m>f(x) = -5</m>. Show your algebraic steps.</p>
+</statement>
+<answer>
+<p>
+Set the general form equal to <m>-5</m>: <m>x^2 - 2x - 8 = -5</m>. Add <m>5</m> to both sides to get <m>x^2 - 2x - 3 = 0</m>. Factoring gives <m>(x-3)(x+1) = 0</m>. The solutions are <m>x = 3</m> and <m>x = -1</m>.
+</p>
+</answer>
+</task>
+</exercise>
+
+<exercise xml:id="lt13-graph-b">
+<title>Graph B</title>
+<introduction>
+<p>The graph below represents a quadratic function <m>g</m>. The horizontal intercepts, vertical intercept, and vertex all occur at integer coordinates.</p>
+<image width="65%">
+<shortdescription>A parabola opening downward with a vertex in the second quadrant and two horizontal intercepts.</shortdescription>
+<latex-image>
+\begin{tikzpicture}[x=0.6cm, y=0.3cm]
+  \draw[gray!25, very thin] (-6,-12) grid[xstep=1, ystep=2] (3,10);
+  \draw[->, thick] (-6.6,0) -- (3.6,0) node[right] {\small $x$};
+  \draw[->, thick] (0,-12.8) -- (0,10.8) node[above] {\small $y$};
+  \foreach \x in {-5,-4,-3,-2,-1,1,2} \draw (\x,0) -- (\x,-0.4) node[below] {\scriptsize \x};
+  \foreach \y in {-10,-8,-6,-4,-2,2,4,6,8} \draw (0,\y) -- (-0.2,\y) node[left] {\scriptsize \y};
+  \draw[very thick, blue, domain=-4.45:2.45, samples=100] plot (\x, {-2*(\x+3)*(\x-1)});
+  \filldraw (-3,0) circle (2pt) node[above left] {\scriptsize $(-3,0)$};
+  \filldraw (1,0) circle (2pt) node[above right] {\scriptsize $(1,0)$};
+  \filldraw (-1,8) circle (2pt) node[above] {\scriptsize $(-1,8)$};
+  \filldraw (0,6) circle (2pt) node[right] {\scriptsize $(0,6)$};
+\end{tikzpicture}
+</latex-image>
+</image>
+</introduction>
+<task workspace="1.25in">
+<statement>
+<p>Identify the horizontal intercepts, vertical intercept, and vertex of <m>g</m>. Does the parabola open upward or downward, and what does that tell you about the sign of <m>a</m>?</p>
+</statement>
+<answer>
+<p>
+The horizontal intercepts are <m>(-3, 0)</m> and <m>(1, 0)</m>. The vertical intercept is <m>(0, 6)</m>. The vertex is <m>(-1, 8)</m>. The parabola opens downward, which means the leading coefficient <m>a</m> must be negative.
+</p>
+</answer>
+</task>
+<task workspace="1.5in">
+<statement>
+<p>Write <m>g(x)</m> in factored form. Use the vertex to solve for <m>a</m>.</p>
+</statement>
+<answer>
+<p>
+Using the horizontal intercepts, the factored form is <m>g(x) = a(x+3)(x-1)</m>. Substituting the vertex <m>(-1, 8)</m> gives <m>8 = a(-1+3)(-1-1)</m>, which simplifies to <m>8 = a(2)(-2) = -4a</m>. Dividing by <m>-4</m> yields <m>a = -2</m>. The factored form is <m>g(x) = -2(x+3)(x-1)</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.5in">
+<statement>
+<p>Write <m>g(x)</m> in vertex form. Use one of the horizontal intercepts to solve for <m>a</m>.</p>
+</statement>
+<answer>
+<p>
+Using the vertex <m>(-1, 8)</m>, the vertex form is <m>g(x) = a(x+1)^2 + 8</m>. Substituting the intercept <m>(1, 0)</m> gives <m>0 = a(1+1)^2 + 8</m>, which simplifies to <m>0 = 4a + 8</m>. Solving for <m>a</m> gives <m>4a = -8</m>, so <m>a = -2</m>. The vertex form is <m>g(x) = -2(x+1)^2 + 8</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Expand one of your answers above to write <m>g(x)</m> in general form.</p>
+</statement>
+<answer>
+<p>
+Expanding the factored form: <m>g(x) = -2(x^2 + 2x - 3) = -2x^2 - 4x + 6</m>. (Note that the constant term <m>6</m> correctly matches the vertical intercept <m>(0, 6)</m>).
+</p>
+</answer>
+</task>
+<task workspace="1in">
+<statement>
+<p>Evaluate <m>g(-4)</m>. Show your work.</p>
+</statement>
+<answer>
+<p>
+Using factored form: <m>g(-4) = -2(-4+3)(-4-1) = -2(-1)(-5) = -10</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.5in">
+<statement>
+<p>Find all values of <m>x</m> such that <m>g(x) = 6</m>. Show your algebraic steps.</p>
+</statement>
+<answer>
+<p>
+Set the general form equal to <m>6</m>: <m>-2x^2 - 4x + 6 = 6</m>. Subtracting <m>6</m> from both sides gives <m>-2x^2 - 4x = 0</m>. Factoring out a <m>-2x</m> gives <m>-2x(x + 2) = 0</m>. The solutions are <m>x = 0</m> and <m>x = -2</m>.
+</p>
+</answer>
+</task>
+</exercise>
+
+
+
+</worksheet>

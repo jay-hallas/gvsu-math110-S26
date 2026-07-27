@@ -1,0 +1,503 @@
+<worksheet xml:id="lt15-sequence-patterns">
+<title>Learning Target 15: Identifying Patterns in Sequences and Data</title>
+<objectives>
+<ul>
+<li>Given a mathematical sequence of data, I can determine if it fits a linear, exponential, or quadratic pattern and explain what characteristics support my conclusion.</li>
+</ul>
+</objectives>
+
+<page>
+<exercise xml:id="lt15-pattern-exponential">
+<title>Pattern 1: Tripling Columns</title>
+<introduction>
+<p>Case 0 is a single column of 4 squares. In each new case, the number of columns triples.</p>
+<image width="90%">
+<shortdescription>Case 0 has one column of four squares, Case 1 has three such columns, and Case 2 has nine, for totals of four, twelve, and thirty-six squares. Cases 3 and 4 are blank.</shortdescription>
+<description>
+<p>Four cases of square tiles arranged in columns of four. Case 0 is one column, a total of four squares. Case 1 is three columns, a total of twelve squares. Case 2 is nine columns, a total of thirty-six squares. Cases 3 and 4 are shown as empty outlines for students to fill in.</p>
+</description>
+<prefigure xmlns="https://prefigure.org" label="lt15-tripling-columns">
+<diagram dimensions="(640,163)" margins="5">
+<coordinates bbox="(-1,-1.6,26.5,5.4)">
+<repeat parameter="j=0..3">
+<rectangle lower-left="(0,j)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+</repeat>
+<repeat parameter="i=0..2">
+<repeat parameter="j=0..3">
+<rectangle lower-left="(2.5+i,j)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+</repeat>
+</repeat>
+<repeat parameter="i=0..8">
+<repeat parameter="j=0..3">
+<rectangle lower-left="(7+i,j)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+</repeat>
+</repeat>
+<rectangle lower-left="(17.5,0)" dimensions="(3,3.9)" stroke="gray"/>
+<rectangle lower-left="(22,0)" dimensions="(3,3.9)" stroke="gray"/>
+<label anchor="(0.45,4.4)" alignment="north"><m>4</m></label>
+<label anchor="(4,4.4)" alignment="north"><m>12</m></label>
+<label anchor="(11.5,4.4)" alignment="north"><m>36</m></label>
+<label anchor="(19,4.4)" alignment="north"><m>?</m></label>
+<label anchor="(23.5,4.4)" alignment="north"><m>?</m></label>
+<label anchor="(0.45,-0.4)" alignment="south">Case 0</label>
+<label anchor="(4,-0.4)" alignment="south">Case 1</label>
+<label anchor="(11.5,-0.4)" alignment="south">Case 2</label>
+<label anchor="(19,-0.4)" alignment="south">Case 3</label>
+<label anchor="(23.5,-0.4)" alignment="south">Case 4</label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+<task workspace="1.5in">
+<statement>
+<p>Complete the table of square counts for <m>n = 0</m> through <m>4</m>.</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row header="yes">
+<cell><m>n</m></cell>
+<cell><m>0</m></cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+</row>
+<row>
+<cell><m>y</m></cell>
+<cell><m>4</m></cell>
+<cell><m>12</m></cell>
+<cell><m>36</m></cell>
+<cell></cell>
+<cell></cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+The counts are <m>4, 12, 36, 108, 324</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.5in">
+<statement>
+<p>Determine whether the pattern is linear, exponential, quadratic, or neither. Explain how you know, and find an equation for <m>y</m> in terms of <m>n</m>.</p>
+</statement>
+<answer>
+<p>
+It is exponential. The ratios between consecutive outputs are constant: <m>12/4 = 3</m>, <m>36/12 = 3</m>, and <m>108/36 = 3</m>. The first differences are <m>8, 24, 72</m>, which are not constant, so it is not linear, and the second differences are <m>16, 48</m>, which are not constant either, so it is not quadratic. Since the growth factor is <m>3</m> and the value at <m>n = 0</m> is <m>4</m>, the equation is <m>y = 4(3)^n</m>.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt15-pattern-quadratic">
+<title>Pattern 2: Growing Rectangle</title>
+<introduction>
+<p>Case 1 is a rectangle that is 6 blocks wide and 4 blocks tall. Each new case grows by one block in both width and height.</p>
+<image width="90%">
+<shortdescription>Three solid rectangles of blocks measuring six by four, seven by five, and eight by six, followed by a blank outline for the next case.</shortdescription>
+<description>
+<p>A sequence of rectangles built from square blocks. Case 1 is six blocks wide and four blocks tall. Case 2 is seven by five. Case 3 is eight by six. Case 4 is shown as an empty outline nine blocks wide and seven blocks tall.</p>
+</description>
+<prefigure xmlns="https://prefigure.org" label="lt15-growing-rectangle">
+<diagram dimensions="(640,172)" margins="5">
+<coordinates bbox="(-1,-1.8,35.5,8)">
+<repeat parameter="i=0..5">
+<repeat parameter="j=0..3">
+<rectangle lower-left="(i,j)" dimensions="(0.9,0.9)" fill="lightseagreen" stroke="black"/>
+</repeat>
+</repeat>
+<repeat parameter="i=0..6">
+<repeat parameter="j=0..4">
+<rectangle lower-left="(7.5+i,j)" dimensions="(0.9,0.9)" fill="lightseagreen" stroke="black"/>
+</repeat>
+</repeat>
+<repeat parameter="i=0..7">
+<repeat parameter="j=0..5">
+<rectangle lower-left="(16+i,j)" dimensions="(0.9,0.9)" fill="lightseagreen" stroke="black"/>
+</repeat>
+</repeat>
+<rectangle lower-left="(25.5,0)" dimensions="(8.9,6.9)" stroke="gray"/>
+<label anchor="(3,-0.5)" alignment="south">Case 1</label>
+<label anchor="(11,-0.5)" alignment="south">Case 2</label>
+<label anchor="(20,-0.5)" alignment="south">Case 3</label>
+<label anchor="(30,-0.5)" alignment="south">Case 4</label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+<task workspace="1.5in">
+<statement>
+<p>Complete the table of block counts for <m>n = 0</m> through <m>5</m>, where Case 0 represents the base dimensions 5 by 3.</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row header="yes">
+<cell><m>n</m></cell>
+<cell><m>0</m></cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+<cell><m>5</m></cell>
+</row>
+<row>
+<cell><m>y</m></cell>
+<cell><m>15</m></cell>
+<cell><m>24</m></cell>
+<cell><m>35</m></cell>
+<cell><m>48</m></cell>
+<cell></cell>
+<cell></cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+The counts are <m>15, 24, 35, 48, 63, 80</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.75in">
+<statement>
+<p>Determine whether the pattern is linear, exponential, quadratic, or neither. Explain your reasoning and find an equation for <m>y</m> in terms of <m>n</m>.</p>
+</statement>
+<answer>
+<p>
+It is quadratic. The first differences are <m>9, 11, 13, 15, 17</m>, which are not constant, so it is not linear. The second differences are <m>2, 2, 2, 2</m>, which are constant.
+</p>
+<p>
+Since the <m>n</m>-values step by <m>1</m>, the leading coefficient is half the second difference, so <m>a = 1</m>. The value at <m>n = 0</m> gives <m>c = 15</m>. Substituting <m>n = 1, y = 24</m> gives <m>1 + b + 15 = 24</m>, so <m>b = 8</m>. The equation is <m>y = n^2 + 8n + 15</m>, which factors as <m>y = (n+5)(n+3)</m>. That factored form is exactly the dimensions of the rectangle, since Case <m>n</m> is <m>(n+5)</m> blocks wide and <m>(n+3)</m> blocks tall.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt15-pattern-neither">
+<title>Pattern 3: Repeating Column</title>
+<introduction>
+<p>Each case shows a column with three possible positions for a circle. The dashed outlines mark positions where no circle appears in that case. Six cases are shown below, which is enough to see the pattern repeat twice.</p>
+<image width="95%">
+<shortdescription>Six columns, each with three circle positions. The number of filled circles goes two, three, one, and then repeats two, three, one. Cases 7 and 8 are blank.</shortdescription>
+<description>
+<p>Eight columns, each with three positions for a circle. Case 1 has the bottom two positions filled. Case 2 has all three filled. Case 3 has only the bottom filled. Cases 4, 5, and 6 repeat that same arrangement in the same order. Cases 7 and 8 are shown as empty outlines for students to fill in.</p>
+</description>
+<prefigure xmlns="https://prefigure.org" label="lt15-repeating-column">
+<diagram dimensions="(640,162)" margins="5">
+<coordinates bbox="(-1.2,-1.5,20.5,4)">
+<circle center="(0,0.5)" radius="0.45" fill="plum" stroke="black"/>
+<circle center="(0,1.7)" radius="0.45" fill="plum" stroke="black"/>
+<circle center="(0,2.9)" radius="0.45" stroke="lightgray"/>
+<circle center="(2.5,0.5)" radius="0.45" fill="plum" stroke="black"/>
+<circle center="(2.5,1.7)" radius="0.45" fill="plum" stroke="black"/>
+<circle center="(2.5,2.9)" radius="0.45" fill="plum" stroke="black"/>
+<circle center="(5,0.5)" radius="0.45" fill="plum" stroke="black"/>
+<circle center="(5,1.7)" radius="0.45" stroke="lightgray"/>
+<circle center="(5,2.9)" radius="0.45" stroke="lightgray"/>
+<circle center="(7.5,0.5)" radius="0.45" fill="plum" stroke="black"/>
+<circle center="(7.5,1.7)" radius="0.45" fill="plum" stroke="black"/>
+<circle center="(7.5,2.9)" radius="0.45" stroke="lightgray"/>
+<circle center="(10,0.5)" radius="0.45" fill="plum" stroke="black"/>
+<circle center="(10,1.7)" radius="0.45" fill="plum" stroke="black"/>
+<circle center="(10,2.9)" radius="0.45" fill="plum" stroke="black"/>
+<circle center="(12.5,0.5)" radius="0.45" fill="plum" stroke="black"/>
+<circle center="(12.5,1.7)" radius="0.45" stroke="lightgray"/>
+<circle center="(12.5,2.9)" radius="0.45" stroke="lightgray"/>
+<rectangle lower-left="(15.5,-0.1)" dimensions="(1,3.5)" stroke="gray"/>
+<rectangle lower-left="(18.5,-0.1)" dimensions="(1,3.5)" stroke="gray"/>
+<label anchor="(0,-0.5)" alignment="south">Case 1</label>
+<label anchor="(2.5,-0.5)" alignment="south">Case 2</label>
+<label anchor="(5,-0.5)" alignment="south">Case 3</label>
+<label anchor="(7.5,-0.5)" alignment="south">Case 4</label>
+<label anchor="(10,-0.5)" alignment="south">Case 5</label>
+<label anchor="(12.5,-0.5)" alignment="south">Case 6</label>
+<label anchor="(16,-0.5)" alignment="south">Case 7</label>
+<label anchor="(19,-0.5)" alignment="south">Case 8</label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+<task workspace="1.5in">
+<statement>
+<p>Count the circles in Cases 4, 5, and 6 from the figure, then extend the pattern to fill in Cases 7 and 8.</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row header="yes">
+<cell><m>n</m></cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+<cell><m>5</m></cell>
+<cell><m>6</m></cell>
+<cell><m>7</m></cell>
+<cell><m>8</m></cell>
+</row>
+<row>
+<cell><m>y</m></cell>
+<cell><m>2</m></cell>
+<cell><m>3</m></cell>
+<cell><m>1</m></cell>
+<cell></cell>
+<cell></cell>
+<cell></cell>
+<cell></cell>
+<cell></cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+The counts are <m>2, 3, 1, 2, 3, 1, 2, 3</m>. The block of three values repeats, so the count depends only on where <m>n</m> falls in the cycle of three.
+</p>
+</answer>
+</task>
+<task workspace="1.75in">
+<statement>
+<p>Determine whether this pattern is linear, exponential, quadratic, or neither. Explain your reasoning.</p>
+</statement>
+<answer>
+<p>
+It is neither. The first differences are <m>1, -2, 1, 1, -2, 1, 1</m>, which are not constant, so it is not linear. The second differences are <m>-3, 3, 0, -3, 3, 0</m>, which are not constant, so it is not quadratic. The ratios are <m>1.5, 0.33, 2, 1.5, 0.33, 2, 1.5</m>, which are not constant, so it is not exponential.
+</p>
+<p>
+Notice that the differences and the ratios repeat in blocks of three, just like the counts do. The values cycle rather than growing or decaying, so none of the three families describes them. This is a good reminder that a sequence can have a clear, predictable rule and still not be linear, exponential, or quadratic.
+</p>
+</answer>
+</task>
+<task workspace="1.25in">
+<statement>
+<p>Predict the number of circles in Case 20 and explain how you decided without drawing all twenty cases.</p>
+</statement>
+<answer>
+<p>
+There will be <m>3</m> circles. The pattern repeats every <m>3</m> cases, and Cases 2, 5, 8, 11, 14, 17, and 20 all sit in the same position within the cycle, each having <m>3</m> circles. Another way to say it: dividing <m>20</m> by <m>3</m> leaves a remainder of <m>2</m>, and every case whose remainder is <m>2</m> has <m>3</m> circles.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt15-pattern-linear">
+<title>Pattern 4: Growing X-Shape</title>
+<introduction>
+<p>An X is built from square tiles. Case 1 uses 5 tiles: one center tile with a single tile extending diagonally in each of the four directions. Each new case extends every arm of the X by one more tile.</p>
+<image width="90%">
+<shortdescription>X shapes built from square tiles containing five, nine, and thirteen tiles, followed by a blank outline for the next case.</shortdescription>
+<description>
+<p>Three X shapes built from square tiles arranged along two crossing diagonals. Case 1 has a center tile with one tile out each diagonal, five tiles in all. Case 2 has arms two tiles long, nine tiles in all. Case 3 has arms three tiles long, thirteen tiles in all. Case 4 is shown as an empty square outline nine tiles across.</p>
+</description>
+<prefigure xmlns="https://prefigure.org" label="lt15-growing-x">
+<diagram dimensions="(640,256)" margins="5">
+<coordinates bbox="(-1,-1.8,28,9.8)">
+<repeat parameter="k=0..2">
+<rectangle lower-left="(k,k)" dimensions="(0.9,0.9)" fill="lightcoral" stroke="black"/>
+</repeat>
+<repeat parameter="k=0..2">
+<rectangle lower-left="(k,2-k)" dimensions="(0.9,0.9)" fill="lightcoral" stroke="black"/>
+</repeat>
+<repeat parameter="k=0..4">
+<rectangle lower-left="(4+k,k)" dimensions="(0.9,0.9)" fill="lightcoral" stroke="black"/>
+</repeat>
+<repeat parameter="k=0..4">
+<rectangle lower-left="(4+k,4-k)" dimensions="(0.9,0.9)" fill="lightcoral" stroke="black"/>
+</repeat>
+<repeat parameter="k=0..6">
+<rectangle lower-left="(10+k,k)" dimensions="(0.9,0.9)" fill="lightcoral" stroke="black"/>
+</repeat>
+<repeat parameter="k=0..6">
+<rectangle lower-left="(10+k,6-k)" dimensions="(0.9,0.9)" fill="lightcoral" stroke="black"/>
+</repeat>
+<rectangle lower-left="(18,0)" dimensions="(8.9,8.9)" stroke="gray"/>
+<label anchor="(1.45,-0.5)" alignment="south">Case 1</label>
+<label anchor="(6.45,-0.5)" alignment="south">Case 2</label>
+<label anchor="(13.45,-0.5)" alignment="south">Case 3</label>
+<label anchor="(22.45,-0.5)" alignment="south">Case 4</label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+<task workspace="1.5in">
+<statement>
+<p>Complete the table of tile counts for <m>n = 1</m> through <m>5</m>.</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row header="yes">
+<cell><m>n</m></cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+<cell><m>5</m></cell>
+</row>
+<row>
+<cell><m>y</m></cell>
+<cell><m>5</m></cell>
+<cell><m>9</m></cell>
+<cell><m>13</m></cell>
+<cell></cell>
+<cell></cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+The counts are <m>5, 9, 13, 17, 21</m>.
+</p>
+</answer>
+</task>
+<task workspace="1.75in">
+<statement>
+<p>Determine whether the pattern is linear, exponential, quadratic, or neither. Explain how you know, and find an equation for <m>y</m> in terms of <m>n</m>.</p>
+</statement>
+<answer>
+<p>
+It is linear. The first differences are constant at <m>4</m>, since <m>9 - 5 = 4</m>, <m>13 - 9 = 4</m>, and so on. That matches what happens in the picture: each new case adds one tile to each of the four arms, so exactly <m>4</m> tiles are added every time.
+</p>
+<p>
+The slope is <m>4</m>. Working backward from Case 1, the value at <m>n = 0</m> would be <m>5 - 4 = 1</m>, which is just the center tile with no arms. So the equation is <m>y = 4n + 1</m>. Check at <m>n = 3</m>: <m>4(3) + 1 = 13</m>, which matches.
+</p>
+<p>
+The structure of the X explains the equation directly: <m>4n</m> counts the four arms of length <m>n</m>, and the <m>+1</m> counts the center tile that all four arms share.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt15-tables-practice">
+<title>Tables Practice: Linear, Exponential, Quadratic, or Neither</title>
+<introduction>
+<p>For each table below, determine whether the relationship is linear, exponential, quadratic, or neither. Explain your reasoning and find an equation when applicable.</p>
+</introduction>
+
+<task workspace="2.2in">
+<statement>
+<p>Table A:</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row header="yes">
+<cell><m>x</m></cell>
+<cell><m>0</m></cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+</row>
+<row>
+<cell><m>y</m></cell>
+<cell><m>12</m></cell>
+<cell><m>9</m></cell>
+<cell><m>6</m></cell>
+<cell><m>3</m></cell>
+<cell><m>0</m></cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+Linear. The first differences are constant at <m>-3</m>, since <m>9 - 12 = -3</m>, <m>6 - 9 = -3</m>, and so on. With a slope of <m>-3</m> and a vertical intercept of <m>12</m>, the equation is <m>y = -3x + 12</m>.
+</p>
+</answer>
+</task>
+
+<task workspace="2.2in">
+<statement>
+<p>Table B:</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row header="yes">
+<cell><m>x</m></cell>
+<cell><m>0</m></cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+</row>
+<row>
+<cell><m>y</m></cell>
+<cell><m>80</m></cell>
+<cell><m>40</m></cell>
+<cell><m>20</m></cell>
+<cell><m>10</m></cell>
+<cell><m>5</m></cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+Exponential decay. The ratios between consecutive outputs are constant at <m>0.5</m>, since <m>40/80 = 0.5</m>, <m>20/40 = 0.5</m>, and so on. With an initial value of <m>80</m>, the equation is <m>y = 80(0.5)^x</m>. Each step keeps half of the previous amount.
+</p>
+</answer>
+</task>
+
+<task workspace="2.2in">
+<statement>
+<p>Table C:</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row header="yes">
+<cell><m>x</m></cell>
+<cell><m>0</m></cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+</row>
+<row>
+<cell><m>y</m></cell>
+<cell><m>2</m></cell>
+<cell><m>5</m></cell>
+<cell><m>14</m></cell>
+<cell><m>29</m></cell>
+<cell><m>50</m></cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+Quadratic. The first differences are <m>3, 9, 15, 21</m>, which are not constant. The second differences are <m>6, 6, 6</m>, which are constant.
+</p>
+<p>
+Since <m>2a = 6</m>, we get <m>a = 3</m>. The value at <m>x = 0</m> gives <m>c = 2</m>. Substituting <m>x = 1, y = 5</m> gives <m>3 + b + 2 = 5</m>, so <m>b = 0</m>. The equation is <m>y = 3x^2 + 2</m>.
+</p>
+</answer>
+</task>
+
+<task workspace="2.2in">
+<statement>
+<p>Table D:</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row header="yes">
+<cell><m>x</m></cell>
+<cell><m>0</m></cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+</row>
+<row>
+<cell><m>y</m></cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+<cell><m>5</m></cell>
+<cell><m>14</m></cell>
+<cell><m>41</m></cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+Neither. The first differences are <m>1, 3, 9, 27</m>, which are not constant, so it is not linear. The second differences are <m>2, 6, 18</m>, which are not constant, so it is not quadratic. The ratios are <m>2, 2.5, 2.8, 2.93</m>, which are not constant, so it is not exponential.
+</p>
+<p>
+There is still a rule at work: each first difference is triple the one before it. The pattern is predictable, it just is not one of the three families we have equations for.
+</p>
+</answer>
+</task>
+
+</exercise>
+</page>
+
+</worksheet>

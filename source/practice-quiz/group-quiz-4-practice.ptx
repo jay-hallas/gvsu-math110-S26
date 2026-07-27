@@ -1,453 +1,879 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <worksheet xml:id="ws-groupquiz4-practice">
-  <title>Practice Group Quiz 4: Functions, Inverses, and Patterns</title>
+    <title>Practice Group Quiz 4: Functions, Inverses, and Patterns</title>
 
-  <introduction>
-    <p>Work together as a group. Each problem is worth 5 points.</p>
-    <note>
-      <p>Explain your reasoning in complete sentences where asked.</p>
-      <p>Show your work for any calculations in as much detail as possible.</p>
-      <p>Since it is a team quiz, make sure you agree on your final answers; think of ways to double check your work for each problem.</p>
-      <p>Invite everyone to participate. Try to build as much understanding for each problem.</p>
-    </note>
-  </introduction>
+    <introduction>
+        <p>
+            Work together as a group.
+            Each problem is worth 5 points.
+        </p>
 
-  <page>
-    <exercise xml:id="pgq4-p1">
-      <title>Matching: Functions and Inverses</title>
-      <introduction>
-        <p>Below are three graphs. Match each graph to the statement that best describes it by writing the correct Roman numeral (I, II, or III) in the blank.</p>
-        <p>I. Not a function</p>
-        <p>II. Is a function, but does <em>not</em> have an inverse function</p>
-        <p>III. Is a function and <em>has</em> an inverse function</p>
-        <image width="90%">
-          <shortdescription>Three graphs: a V shape, a sideways parabola opening right, and an increasing cubic curve.</shortdescription>
-          <description>
+        <note>
             <p>
-              Graph A is a V shape with its vertex at the origin. Graph B is a parabola opening to the right with its vertex at the origin. Graph C is an increasing cubic curve passing through the origin.
+                Explain your reasoning in complete sentences where asked.
             </p>
-          </description>
-          <prefigure xmlns="https://prefigure.org" label="pgq4-p1-fig">
-            <diagram dimensions="(660,230)" margins="(10,10,10,10)">
-             <definition>a(x) = sqrt(x^2)</definition>
-              <definition>b(t) = (t^2, t)</definition>
-              <definition>c(x) = x^3/3</definition>
-              <coordinates bbox="(-3,-3,3,3)" destination="(0,0,210,210)">
-                <grid-axes xlabel="x" ylabel="y"
-                  hspacing="(-2,1,2)" hlabels="(-2,1,2)"
-                  vspacing="(-2,1,2)" vlabels="(-2,1,2)"/>
-                <graph function="a" stroke="navy" thickness="2" domain="(-2.5,2.5)"/>
-              </coordinates>
-              <coordinates bbox="(-3,-3,3,3)" destination="(225,0,435,210)">
-                <grid-axes xlabel="x" ylabel="y"
-                  hspacing="(-2,1,2)" hlabels="(-2,1,2)"
-                  vspacing="(-2,1,2)" vlabels="(-2,1,2)"/>
-                <parametric-curve function="b" domain="(-2.2,2.2)" stroke="navy" thickness="2"/>
-              </coordinates>
-              <coordinates bbox="(-3,-3,3,3)" destination="(450,0,660,210)">
-                <grid-axes xlabel="x" ylabel="y"
-                  hspacing="(-2,1,2)" hlabels="(-2,1,2)"
-                  vspacing="(-2,1,2)" vlabels="(-2,1,2)"/>
-                <graph function="c" stroke="navy" thickness="2" domain="(-2.2,2.2)"/>
-              </coordinates>
-            </diagram>
-          </prefigure>
-        </image>
-      </introduction>
-      <task xml:id="pgq4-p1-a" workspace="1in">
-        <statement>
-          <p>
-            Graph A (the left graph) matches
-            <fillin characters="6"/>
-            . Briefly explain your choice.
-          </p>
-        </statement>
-        <solution>
-          <p>
-            Graph A matches statement II. It passes the vertical line test, so it is a function. However, a horizontal line such as <m>y = 2</m> crosses it in two places, which means two different inputs share the same output. A function has to pass the horizontal line test to have an inverse function, so this one does not.
-          </p>
-        </solution>
-      </task>
-      <task xml:id="pgq4-p1-b" workspace="1in">
-        <statement>
-          <p>
-            Graph B (the middle graph) matches
-            <fillin characters="6"/>
-            . Briefly explain your choice.
-          </p>
-        </statement>
-        <solution>
-          <p>
-            Graph B matches statement I. A vertical line such as <m>x = 1</m> crosses the curve twice, so a single input is paired with two different outputs. That fails the vertical line test, so this graph is not a function at all.
-          </p>
-        </solution>
-      </task>
-      <task xml:id="pgq4-p1-c" workspace="1in">
-        <statement>
-          <p>
-            Graph C (the right graph) matches
-            <fillin characters="6"/>
-            . Briefly explain your choice.
-          </p>
-        </statement>
-        <solution>
-          <p>
-            Graph C matches statement III. The curve is always increasing, so it passes both the vertical line test and the horizontal line test. Every output comes from exactly one input, which means the function has an inverse function.
-          </p>
-        </solution>
-      </task>
-    </exercise>
-  </page>
 
-  <page>
-    <exercise xml:id="pgq4-p2">
-      <title>Sketching the Graph of an Inverse</title>
-      <introduction>
-        <p>The graph of a function <m>f(x)</m> is shown below, with three points marked. The dashed line is <m>y = x</m>.</p>
-        <image width="60%">
-          <shortdescription>An increasing logarithmic curve through the points negative 1 comma 1, 0 comma 2, and 2 comma 3, with a dashed line y equals x.</shortdescription>
-          <description>
             <p>
-              A coordinate grid running from negative 2 to 7 on both axes. A logarithmic curve rises steeply on the left near the vertical line x equals negative 2 and then flattens as it moves right, passing through the marked points negative 1 comma 1, 0 comma 2, and 2 comma 3. A dashed line representing y equals x runs diagonally across the grid.
+                Show your work for any calculations in as much detail as
+                possible.
             </p>
-          </description>
-          <prefigure xmlns="https://prefigure.org" label="pgq4-p2-fig">
-            <diagram dimensions="(360,360)" margins="(30,30,15,15)">
-              <definition>f(x) = log(x+2)/log(2) + 1</definition>
-              <definition>d(x) = x</definition>
-              <coordinates bbox="(-2.5,-2.5,7,7)">
-                <grid-axes xlabel="x" ylabel="y"
-                  hspacing="(-2,1,6)" hlabels="(-2,2,6)"
-                  vspacing="(-2,1,6)" vlabels="(-2,2,6)"/>
-                <graph function="d" stroke="blue" thickness="1.5" dash="4" domain="(-2.4,6.9)"/>
-                <graph function="f" stroke="black" thickness="2" domain="(-1.93,6.8)"/>
-                <point p="(-1,1)" size="5" fill="black"/>
-                <point p="(0,2)" size="5" fill="black"/>
-                <point p="(2,3)" size="5" fill="black"/>
-              </coordinates>
-            </diagram>
-          </prefigure>
-        </image>
-      </introduction>
-      <task xml:id="pgq4-p2-a" workspace="2in">
-        <statement>
-          <p>
-            Identify the coordinates of the three marked points on the graph of <m>f(x)</m>. Then state the matching coordinates that must exist on the inverse function <m>f^{-1}(x)</m>, and plot those three corresponding points on the grid above.
-          </p>
-        </statement>
-        <solution>
-          <p>The three marked points on <m>f</m> are <m>(-1, 1)</m>, <m>(0, 2)</m>, and <m>(2, 3)</m>.</p>
-          <p>
-            An inverse function reverses the roles of input and output, so every point <m>(x, y)</m> on <m>f</m> becomes the point <m>(y, x)</m> on <m>f^{-1}</m>. Swapping each pair gives the three points on the inverse:
-          </p>
-          <p><m>(1, -1)</m>, <m>(2, 0)</m>, and <m>(3, 2)</m>.</p>
-        </solution>
-      </task>
-      <task xml:id="pgq4-p2-b" workspace="1.5in">
-        <statement>
-          <p>
-            The dashed line represents <m>y = x</m>. Use your plotted points and the reflection line to sketch the complete graph of the inverse function <m>f^{-1}(x)</m> on the same set of axes.
-          </p>
-        </statement>
-        <solution>
-          <p>
-            The graph of <m>f^{-1}</m> is the mirror image of the graph of <m>f</m> across the dashed line <m>y = x</m>. Because <m>f</m> is a logarithmic curve with a vertical asymptote at <m>x = -2</m>, its reflection is an exponential curve with a horizontal asymptote at <m>y = -2</m>.
-          </p>
-          <p>
-            The sketched curve should pass through the three plotted points, rise steeply to the right, and flatten out toward the line <m>y = -2</m> as it moves to the left. Symbolically the inverse is <m>f^{-1}(x) = 2^{x-1} - 2</m>, though the sketch does not require finding this formula.
-          </p>
-          <image width="60%">
-  <shortdescription>The logarithmic function f and its inverse, an exponential curve, reflected across the dashed line y equals x.</shortdescription>
-  <description>
-    <p>
-      A coordinate grid from negative 2 to 7 on both axes. The function f, drawn in navy, is a logarithmic curve passing through negative 1 comma 1, then 0 comma 2, then 2 comma 3, with a vertical asymptote at x equals negative 2. Its inverse, drawn in red, is an exponential curve passing through 1 comma negative 1, then 2 comma 0, then 3 comma 2, with a horizontal asymptote at y equals negative 2. The two curves are mirror images across the dashed blue line y equals x.
-    </p>
-  </description>
-  <prefigure xmlns="https://prefigure.org" label="pgq4-p2-solution-fig">
-    <diagram dimensions="(360,360)" margins="(30,30,15,15)">
-      <definition>f(x) = log(x+2)/log(2) + 1</definition>
-      <definition>finv(x) = 2^(x-1) - 2</definition>
-      <definition>d(x) = x</definition>
-      <coordinates bbox="(-2.5,-2.5,7,7)">
-        <grid-axes xlabel="x" ylabel="y"
-          hspacing="(-2,1,6)" hlabels="(-2,2,6)"
-          vspacing="(-2,1,6)" vlabels="(-2,2,6)"/>
-        <graph function="d" stroke="blue" thickness="1.5" dash="4" domain="(-2.4,6.9)"/>
-        <graph function="f" stroke="navy" thickness="2" domain="(-1.93,6.8)"/>
-        <graph function="finv" stroke="red" thickness="2" domain="(-2.4,4.15)"/>
-        <point p="(-1,1)" size="5" fill="navy"/>
-        <point p="(0,2)" size="5" fill="navy"/>
-        <point p="(2,3)" size="5" fill="navy"/>
-        <point p="(1,-1)" size="5" fill="red"/>
-        <point p="(2,0)" size="5" fill="red"/>
-        <point p="(3,2)" size="5" fill="red"/>
-        <label anchor="(5.2,3.9)" alignment="center"><m>f</m></label>
-        <label anchor="(4.1,5.2)" alignment="center"><m>f^{-1}</m></label>
-      </coordinates>
-    </diagram>
-  </prefigure>
-</image>
-        </solution>
-      </task>
-    </exercise>
-  </page>
 
-  <page>
-    <exercise xml:id="pgq4-p3" workspace="3in">
-      <title>Finding an Inverse Algebraically</title>
-      <statement>
-        <p>
-          Find the inverse function <m>h^{-1}(x)</m> for the linear function given by <m>h(x) = -\frac{2}{3}x + 4</m>. Show all of your algebraic steps clearly.
-        </p>
-      </statement>
-      <solution>
-        <p>Start by replacing <m>h(x)</m> with <m>y</m>.</p>
-        <p><md><mrow> y \amp = -\frac{2}{3}x + 4 </mrow></md></p>
-        <p>Swap the roles of the two variables, since the inverse reverses input and output.</p>
-        <p><md><mrow> x \amp = -\frac{2}{3}y + 4 </mrow></md></p>
-        <p>Subtract <m>4</m> from both sides to isolate the term containing <m>y</m>.</p>
-        <p><md><mrow> x - 4 \amp = -\frac{2}{3}y </mrow></md></p>
-        <p>Multiply both sides by <m>-\frac{3}{2}</m>, which is the reciprocal of <m>-\frac{2}{3}</m>.</p>
-        <p><md><mrow> -\frac{3}{2}(x - 4) \amp = y </mrow></md></p>
-        <p>So the inverse function is</p>
-        <p><md><mrow> h^{-1}(x) = -\frac{3}{2}(x - 4) = -\frac{3}{2}x + 6 </mrow></md></p>
-        <p>
-          A quick check: <m>h(3) = -\frac{2}{3}(3) + 4 = 2</m>, and <m>h^{-1}(2) = -\frac{3}{2}(2) + 6 = 3</m>. The inverse returns the original input, so the answer is correct.
-        </p>
-      </solution>
-    </exercise>
-  </page>
-
-  <page>
-    <exercise xml:id="pgq4-p4">
-      <title>Solving Equations</title>
-      <introduction>
-        <p>Solve each of the following equations for <m>x</m>. Show your step-by-step algebraic process.</p>
-      </introduction>
-      <task xml:id="pgq4-p4-a" workspace="2.5in">
-        <statement>
-          <p><m>5(3)^{x+1} = 135</m></p>
-        </statement>
-        <solution>
-          <p>Divide both sides by <m>5</m> to isolate the exponential expression.</p>
-          <p><md><mrow> 3^{x+1} \amp = 27 </mrow></md></p>
-          <p>Since <m>27 = 3^3</m>, both sides can be written with the same base.</p>
-          <p><md><mrow> 3^{x+1} \amp = 3^3 </mrow></md></p>
-          <p>When the bases match, the exponents must be equal.</p>
-          <p><md><mrow> x + 1 \amp = 3 </mrow></md></p>
-          <p><md><mrow> x \amp = 2 </mrow></md></p>
-          <p>
-            Taking a logarithm of both sides works just as well: <m>(x+1)\ln(3) = \ln(27)</m> gives <m>x + 1 = \frac{\ln(27)}{\ln(3)} = 3</m>, so <m>x = 2</m>.
-          </p>
-        </solution>
-      </task>
-      <task xml:id="pgq4-p4-b" workspace="2.5in">
-        <statement>
-          <p><m>\log_2(3x + 1) = 4</m></p>
-        </statement>
-        <solution>
-          <p>Rewrite the equation in exponential form using <m>\log_b(y) = x \iff y = b^x</m>.</p>
-          <p><md><mrow> 3x + 1 \amp = 2^4 </mrow></md></p>
-          <p><md><mrow> 3x + 1 \amp = 16 </mrow></md></p>
-          <p>Subtract <m>1</m> from both sides.</p>
-          <p><md><mrow> 3x \amp = 15 </mrow></md></p>
-          <p><md><mrow> x \amp = 5 </mrow></md></p>
-          <p>
-            Check: the argument of the logarithm is <m>3(5) + 1 = 16</m>, which is positive, and <m>\log_2(16) = 4</m> because <m>2^4 = 16</m>. The solution is valid.
-          </p>
-        </solution>
-      </task>
-    </exercise>
-  </page>
-
-  <page>
-    <exercise xml:id="pgq4-p5" workspace="2.5in">
-      <title>Identifying a Pattern from a Table</title>
-      <statement>
-        <p>
-          Analyze the data table below. Determine whether the relationship represents a linear, exponential, or quadratic function. If it does not fit any of these, state "None of these."
-        </p>
-        <tabular halign="center">
-          <row bottom="medium">
-            <cell right="minor"><m>x</m></cell>
-            <cell><m>0</m></cell>
-            <cell><m>1</m></cell>
-            <cell><m>2</m></cell>
-            <cell><m>3</m></cell>
-            <cell><m>4</m></cell>
-          </row>
-          <row>
-            <cell right="minor"><m>y</m></cell>
-            <cell><m>3</m></cell>
-            <cell><m>6</m></cell>
-            <cell><m>12</m></cell>
-            <cell><m>24</m></cell>
-            <cell><m>48</m></cell>
-          </row>
-        </tabular>
-        <p>
-          Show your analysis (such as first differences, second differences, or ratios) to justify your conclusion.
-        </p>
-      </statement>
-      <solution>
-        <p>The relationship is exponential. Here is the analysis that rules out the other two options.</p>
-        <p>
-          First differences: <m>6 - 3 = 3</m>, <m>12 - 6 = 6</m>, <m>24 - 12 = 12</m>, and <m>48 - 24 = 24</m>. These are not constant, so the table is not linear.
-        </p>
-        <p>
-          Second differences: <m>6 - 3 = 3</m>, <m>12 - 6 = 6</m>, and <m>24 - 12 = 12</m>. These are not constant either, so the table is not quadratic.
-        </p>
-        <p>
-          Ratios of consecutive outputs: <m>\frac{6}{3} = 2</m>, <m>\frac{12}{6} = 2</m>, <m>\frac{24}{12} = 2</m>, and <m>\frac{48}{24} = 2</m>. Every ratio is the same, and a constant ratio is the defining feature of an exponential function.
-        </p>
-        <p>
-          The growth factor is <m>b = 2</m> and the value at <m>x = 0</m> is <m>a = 3</m>, so the function is <m>y = 3(2)^x</m>.
-        </p>
-      </solution>
-    </exercise>
-  </page>
-
-  <page>
-    <exercise xml:id="pgq4-p6">
-      <title>An Expanding Rectangle Pattern</title>
-      <introduction>
-        <p>An expanding rectangle pattern grows from one case to the next. Cases 4 and 5 are shown as empty outlines for you to fill in.</p>
-        <image width="95%">
-          <shortdescription>Five cases of a growing rectangle of unit squares: 1 by 3, 2 by 4, and 3 by 5 are filled in, while 4 by 6 and 5 by 7 are shown as empty dashed outlines.</shortdescription>
-          <description>
             <p>
-              Case 1 is a rectangle 1 square wide and 3 squares tall. Case 2 is 2 squares wide and 4 squares tall. Case 3 is 3 squares wide and 5 squares tall. Cases 4 and 5 are drawn as empty dashed rectangles measuring 4 by 6 and 5 by 7.
+                Since it is a team quiz, make sure you agree on your final
+                answers; think of ways to double check your work for each
+                problem.
             </p>
-          </description>
-          <prefigure xmlns="https://prefigure.org" label="pgq4-p6-fig">
-            <diagram dimensions="(640,240)" margins="(10,25,10,10)">
-              <coordinates bbox="(-0.5,-1.5,25,7.5)">
-                <repeat parameter="col=0..0">
-                  <repeat parameter="row=0..2">
-                    <rectangle center="(col, row)" dimensions="(0.9,0.9)" fill="lightblue" stroke="black" thickness="1.5"/>
-                  </repeat>
-                </repeat>
-                <label anchor="(0,-0.9)" alignment="center"><m>\text{Case 1}</m></label>
-                <repeat parameter="col=0..1">
-                  <repeat parameter="row=0..3">
-                    <rectangle center="(col+3, row)" dimensions="(0.9,0.9)" fill="lightblue" stroke="black" thickness="1.5"/>
-                  </repeat>
-                </repeat>
-                <label anchor="(3.5,-0.9)" alignment="center"><m>\text{Case 2}</m></label>
-                <repeat parameter="col=0..2">
-                  <repeat parameter="row=0..4">
-                    <rectangle center="(col+7, row)" dimensions="(0.9,0.9)" fill="lightblue" stroke="black" thickness="1.5"/>
-                  </repeat>
-                </repeat>
-                <label anchor="(8,-0.9)" alignment="center"><m>\text{Case 3}</m></label>
-                <rectangle center="(13.5,2.5)" dimensions="(4,6)" fill="none" stroke="gray" thickness="1.5" dash="4"/>
-                <label anchor="(13.5,-0.9)" alignment="center"><m>\text{Case 4}</m></label>
-                <rectangle center="(20,3)" dimensions="(5,7)" fill="none" stroke="gray" thickness="1.5" dash="4"/>
-                <label anchor="(20,-0.9)" alignment="center"><m>\text{Case 5}</m></label>
-              </coordinates>
-            </diagram>
-          </prefigure>
-        </image>
-        <tabular halign="center">
-          <row bottom="medium">
-            <cell right="minor">Case (<m>n</m>)</cell>
-            <cell><m>0</m></cell>
-            <cell><m>1</m></cell>
-            <cell><m>2</m></cell>
-            <cell><m>3</m></cell>
-            <cell><m>4</m></cell>
-            <cell><m>5</m></cell>
-          </row>
-          <row>
-            <cell right="minor">Total Squares</cell>
-            <cell></cell>
-            <cell><m>3</m></cell>
-            <cell><m>8</m></cell>
-            <cell><m>15</m></cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-        </tabular>
-      </introduction>
-      <task xml:id="pgq4-p6-a" workspace="3in">
-        <statement>
-          <p>
-            Complete the table for Cases 0, 4, and 5. Then analyze the differences in the table to explain <em>why</em> this pattern represents a quadratic relationship.
-          </p>
-        </statement>
-        <solution>
-          <p>
-            Each case is a rectangle whose width equals the case number and whose height is two more than the case number. Case 4 is <m>4</m> by <m>6</m>, giving <m>24</m> squares. Case 5 is <m>5</m> by <m>7</m>, giving <m>35</m> squares. Case 0 would be <m>0</m> by <m>2</m>, giving <m>0</m> squares.
-          </p>
-          <tabular halign="center">
-            <row bottom="medium">
-              <cell right="minor">Case (<m>n</m>)</cell>
-              <cell><m>0</m></cell>
-              <cell><m>1</m></cell>
-              <cell><m>2</m></cell>
-              <cell><m>3</m></cell>
-              <cell><m>4</m></cell>
-              <cell><m>5</m></cell>
-            </row>
-            <row>
-              <cell right="minor">Total Squares</cell>
-              <cell><m>0</m></cell>
-              <cell><m>3</m></cell>
-              <cell><m>8</m></cell>
-              <cell><m>15</m></cell>
-              <cell><m>24</m></cell>
-              <cell><m>35</m></cell>
-            </row>
-          </tabular>
-          <p>
-            The first differences are <m>3, 5, 7, 9, 11</m>. These are not constant, so the pattern is not linear.
-          </p>
-          <p>
-            The second differences are <m>2, 2, 2, 2</m>. A constant second difference is the signature of a quadratic relationship, which tells us the total number of squares is a quadratic function of the case number.
-          </p>
-        </solution>
-      </task>
-      <task xml:id="pgq4-p6-b" workspace="3in">
-        <statement>
-          <p>
-            Find a formula for the total number of squares in Case <m>n</m>.
-          </p>
-          <p>
-            (Hint: look at the dimensions, width and height, of the rectangle in each case and how they relate to the case number <m>n</m>.)
-          </p>
-        </statement>
-        <solution>
-          <p>
-            Reading the dimensions off the pattern: Case 1 is <m>1</m> by <m>3</m>, Case 2 is <m>2</m> by <m>4</m>, and Case 3 is <m>3</m> by <m>5</m>. In every case the width is <m>n</m> and the height is <m>n + 2</m>.
-          </p>
-          <p>The total number of squares is the area of the rectangle, so</p>
-          <p><md><mrow> T(n) = n(n + 2) = n^2 + 2n </mrow></md></p>
-          <p>
-            Check with Case 3: <m>T(3) = 3^2 + 2(3) = 9 + 6 = 15</m>, which matches the table. Check with Case 5: <m>T(5) = 25 + 10 = 35</m>, which also matches.
-          </p>
-          <p>
-            Notice that the coefficient of <m>n^2</m> is <m>1</m>, and the constant second difference we found was <m>2</m>. This fits the general rule that the second difference of a quadratic equals <m>2a</m>.
-          </p>
-          <p>
-  <em>Alternative method, using the standard form.</em> If you do not spot the dimensions, you can build the formula from the table instead. Start with the general quadratic <m>T(n) = an^2 + bn + c</m>.
-</p>
-<p>
-  The constant second difference always equals <m>2a</m>. In part (a) the second difference was <m>2</m>, so <m>2a = 2</m> and <m>a = 1</m>.
-</p>
-<p>
-  The constant term <m>c</m> is the output at <m>n = 0</m>, which the table gives as <m>0</m>, so <m>c = 0</m>.
-</p>
-<p>
-  That leaves only <m>b</m>. Substitute any known point; using Case 1, where <m>T(1) = 3</m>, gives
-</p>
-<p><md><mrow> 1(1)^2 + b(1) + 0 \amp = 3 </mrow></md></p>
-<p><md><mrow> b \amp = 2 </mrow></md></p>
-<p>
-  So <m>T(n) = n^2 + 2n</m>, the same formula found from the dimensions. Checking against a different case confirms it: <m>T(4) = 16 + 8 = 24</m>, which matches the table.
-</p>
-        </solution>
-      </task>
-    </exercise>
-  </page>
 
+            <p>
+                Invite everyone to participate.
+                Try to build as much understanding for each problem.
+            </p>
+        </note>
+    </introduction>
+
+    <page>
+        <exercise xml:id="pgq4-p1">
+            <title>Matching: Functions and Inverses</title>
+
+            <introduction>
+                <p>
+                    Below are three graphs.
+                    Match each graph to the statement that best describes it by
+                    writing the correct Roman numeral (I, II, or III) in the
+                    blank.
+                </p>
+
+                <p>
+                    I.
+                    Not a function
+                </p>
+
+                <p>
+                    II.
+                    Is a function, but does <em>not</em> have an inverse
+                    function
+                </p>
+
+                <p>
+                    III.
+                    Is a function and <em>has</em> an inverse function
+                </p>
+
+                <image width="90%">
+                    <shortdescription>
+                        Three graphs: a V shape, a sideways parabola opening
+                        right, and an increasing cubic curve.
+                    </shortdescription>
+
+                    <description>
+                        <p>
+                            Graph A is a V shape with its vertex at the origin.
+                            Graph B is a parabola opening to the right with its
+                            vertex at the origin.
+                            Graph C is an increasing cubic curve passing through
+                            the origin.
+                        </p>
+                    </description>
+                    <prefigure xmlns="https://prefigure.org" label="pgq4-p1-fig">
+                        <diagram dimensions="(660,230)" margins="(10,10,10,10)">
+                            <definition>
+                                a(x) = sqrt(x^2)
+                            </definition>
+
+                            <definition>
+                                b(t) = (t^2, t)
+                            </definition>
+
+                            <definition>
+                                c(x) = x^3/3
+                            </definition>
+                            <coordinates bbox="(-3,-3,3,3)" destination="(0,0,210,210)">
+                                <grid-axes xlabel="x" ylabel="y" hspacing="(-2,1,2)" hlabels="(-2,1,2)" vspacing="(-2,1,2)" vlabels="(-2,1,2)"/>
+                                <graph function="a" stroke="navy" thickness="2" domain="(-2.5,2.5)"/>
+                            </coordinates>
+                            <coordinates bbox="(-3,-3,3,3)" destination="(225,0,435,210)">
+                                <grid-axes xlabel="x" ylabel="y" hspacing="(-2,1,2)" hlabels="(-2,1,2)" vspacing="(-2,1,2)" vlabels="(-2,1,2)"/>
+                                <parametric-curve function="b" domain="(-2.2,2.2)" stroke="navy" thickness="2"/>
+                            </coordinates>
+                            <coordinates bbox="(-3,-3,3,3)" destination="(450,0,660,210)">
+                                <grid-axes xlabel="x" ylabel="y" hspacing="(-2,1,2)" hlabels="(-2,1,2)" vspacing="(-2,1,2)" vlabels="(-2,1,2)"/>
+                                <graph function="c" stroke="navy" thickness="2" domain="(-2.2,2.2)"/>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+            </introduction>
+
+            <task xml:id="pgq4-p1-a" workspace="1in">
+                <statement>
+                    <p>
+                        Graph A (the left graph) matches
+                        <fillin characters="6"/>.
+                        Briefly explain your choice.
+                    </p>
+                </statement>
+
+                <solution>
+                    <p>
+                        Graph A matches statement II.
+                        It passes the vertical line test, so it is a function.
+                        However, a horizontal line such as <m>y = 2</m> crosses
+                        it in two places, which means two different inputs share
+                        the same output.
+                        A function has to pass the horizontal line test to have
+                        an inverse function, so this one does not.
+                    </p>
+                </solution>
+            </task>
+
+            <task xml:id="pgq4-p1-b" workspace="1in">
+                <statement>
+                    <p>
+                        Graph B (the middle graph) matches
+                        <fillin characters="6"/>.
+                        Briefly explain your choice.
+                    </p>
+                </statement>
+
+                <solution>
+                    <p>
+                        Graph B matches statement I.
+                        A vertical line such as <m>x = 1</m> crosses the curve
+                        twice, so a single input is paired with two different
+                        outputs.
+                        That fails the vertical line test, so this graph is not
+                        a function at all.
+                    </p>
+                </solution>
+            </task>
+
+            <task xml:id="pgq4-p1-c" workspace="1in">
+                <statement>
+                    <p>
+                        Graph C (the right graph) matches
+                        <fillin characters="6"/>.
+                        Briefly explain your choice.
+                    </p>
+                </statement>
+
+                <solution>
+                    <p>
+                        Graph C matches statement III.
+                        The curve is always increasing, so it passes both the
+                        vertical line test and the horizontal line test.
+                        Every output comes from exactly one input, which means
+                        the function has an inverse function.
+                    </p>
+                </solution>
+            </task>
+        </exercise>
+    </page>
+
+    <page>
+        <exercise xml:id="pgq4-p2">
+            <title>Sketching the Graph of an Inverse</title>
+
+            <introduction>
+                <p>
+                    The graph of a function <m>f(x)</m> is shown below, with
+                    three points marked.
+                    The dashed line is <m>y = x</m>.
+                </p>
+
+                <image width="60%">
+                    <shortdescription>
+                        An increasing logarithmic curve through the points
+                        negative 1 comma 1, 0 comma 2, and 2 comma 3, with a
+                        dashed line y equals x.
+                    </shortdescription>
+
+                    <description>
+                        <p>
+                            A coordinate grid running from negative 2 to 7 on
+                            both axes.
+                            A logarithmic curve rises steeply on the left near
+                            the vertical line x equals negative 2 and then
+                            flattens as it moves right, passing through the
+                            marked points negative 1 comma 1, 0 comma 2, and 2
+                            comma 3.
+                            A dashed line representing y equals x runs
+                            diagonally across the grid.
+                        </p>
+                    </description>
+                    <prefigure xmlns="https://prefigure.org" label="pgq4-p2-fig">
+                        <diagram dimensions="(360,360)" margins="(30,30,15,15)">
+                            <definition>
+                                f(x) = log(x+2)/log(2) + 1
+                            </definition>
+
+                            <definition>
+                                d(x) = x
+                            </definition>
+                            <coordinates bbox="(-2.5,-2.5,7,7)">
+                                <grid-axes xlabel="x" ylabel="y" hspacing="(-2,1,6)" hlabels="(-2,2,6)" vspacing="(-2,1,6)" vlabels="(-2,2,6)"/>
+                                <graph function="d" stroke="blue" thickness="1.5" dash="4" domain="(-2.4,6.9)"/>
+                                <graph function="f" stroke="black" thickness="2" domain="(-1.93,6.8)"/>
+                                <point p="(-1,1)" size="5" fill="black"/>
+                                <point p="(0,2)" size="5" fill="black"/>
+                                <point p="(2,3)" size="5" fill="black"/>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+            </introduction>
+
+            <task xml:id="pgq4-p2-a" workspace="2in">
+                <statement>
+                    <p>
+                        Identify the coordinates of the three marked points on
+                        the graph of <m>f(x)</m>.
+                        Then state the matching coordinates that must exist on
+                        the inverse function <m>f^{-1}(x)</m>, and plot those
+                        three corresponding points on the grid above.
+                    </p>
+                </statement>
+
+                <solution>
+                    <p>
+                        The three marked points on <m>f</m> are <m>(-1, 1)</m>,
+                        <m>(0, 2)</m>, and <m>(2, 3)</m>.
+                    </p>
+
+                    <p>
+                        An inverse function reverses the roles of input and
+                        output, so every point <m>(x, y)</m> on <m>f</m> becomes
+                        the point <m>(y, x)</m> on <m>f^{-1}</m>.
+                        Swapping each pair gives the three points on the
+                        inverse:
+                    </p>
+
+                    <p>
+                        <m>(1, -1)</m>, <m>(2, 0)</m>, and <m>(3, 2)</m>.
+                    </p>
+                </solution>
+            </task>
+
+            <task xml:id="pgq4-p2-b" workspace="1.5in">
+                <statement>
+                    <p>
+                        The dashed line represents <m>y = x</m>.
+                        Use your plotted points and the reflection line to
+                        sketch the complete graph of the inverse function
+                        <m>f^{-1}(x)</m> on the same set of axes.
+                    </p>
+                </statement>
+
+                <solution>
+                    <p>
+                        The graph of <m>f^{-1}</m> is the mirror image of the
+                        graph of <m>f</m> across the dashed line <m>y = x</m>.
+                        Because <m>f</m> is a logarithmic curve with a vertical
+                        asymptote at <m>x = -2</m>, its reflection is an
+                        exponential curve with a horizontal asymptote at
+                        <m>y = -2</m>.
+                    </p>
+
+                    <p>
+                        The sketched curve should pass through the three plotted
+                        points, rise steeply to the right, and flatten out
+                        toward the line <m>y = -2</m> as it moves to the left.
+                        Symbolically the inverse is
+                        <m>f^{-1}(x) = 2^{x-1} - 2</m>, though the sketch does
+                        not require finding this formula.
+                    </p>
+
+                    <image width="60%">
+                        <shortdescription>
+                            The logarithmic function f and its inverse, an
+                            exponential curve, reflected across the dashed line
+                            y equals x.
+                        </shortdescription>
+
+                        <description>
+                            <p>
+                                A coordinate grid from negative 2 to 7 on both
+                                axes.
+                                The function f, drawn in navy, is a logarithmic
+                                curve passing through negative 1 comma 1, then 0
+                                comma 2, then 2 comma 3, with a vertical
+                                asymptote at x equals negative 2.
+                                Its inverse, drawn in red, is an exponential
+                                curve passing through 1 comma negative 1, then 2
+                                comma 0, then 3 comma 2, with a horizontal
+                                asymptote at y equals negative 2.
+                                The two curves are mirror images across the
+                                dashed blue line y equals x.
+                            </p>
+                        </description>
+                        <prefigure xmlns="https://prefigure.org" label="pgq4-p2-solution-fig">
+                            <diagram dimensions="(360,360)" margins="(30,30,15,15)">
+                                <definition>
+                                    f(x) = log(x+2)/log(2) + 1
+                                </definition>
+
+                                <definition>
+                                    finv(x) = 2^(x-1) - 2
+                                </definition>
+
+                                <definition>
+                                    d(x) = x
+                                </definition>
+                                <coordinates bbox="(-2.5,-2.5,7,7)">
+                                    <grid-axes xlabel="x" ylabel="y" hspacing="(-2,1,6)" hlabels="(-2,2,6)" vspacing="(-2,1,6)" vlabels="(-2,2,6)"/>
+                                    <graph function="d" stroke="blue" thickness="1.5" dash="4" domain="(-2.4,6.9)"/>
+                                    <graph function="f" stroke="navy" thickness="2" domain="(-1.93,6.8)"/>
+                                    <graph function="finv" stroke="red" thickness="2" domain="(-2.4,4.15)"/>
+                                    <point p="(-1,1)" size="5" fill="navy"/>
+                                    <point p="(0,2)" size="5" fill="navy"/>
+                                    <point p="(2,3)" size="5" fill="navy"/>
+                                    <point p="(1,-1)" size="5" fill="red"/>
+                                    <point p="(2,0)" size="5" fill="red"/>
+                                    <point p="(3,2)" size="5" fill="red"/>
+                                    <label anchor="(5.2,3.9)" alignment="center">
+                                        <m>
+                                            f
+                                        </m>
+                                    </label>
+                                    <label anchor="(4.1,5.2)" alignment="center">
+                                        <m>
+                                            f^{-1}
+                                        </m>
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </solution>
+            </task>
+        </exercise>
+    </page>
+
+    <page>
+        <exercise xml:id="pgq4-p3" workspace="3in">
+            <title>Finding an Inverse Algebraically</title>
+
+            <statement>
+                <p>
+                    Find the inverse function <m>h^{-1}(x)</m> for the linear
+                    function given by <m>h(x) = -\frac{2}{3}x + 4</m>.
+                    Show all of your algebraic steps clearly.
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    Start by replacing <m>h(x)</m> with <m>y</m>.
+                </p>
+
+                <p>
+                    <md>
+                        <mrow> y \amp = -\frac{2}{3}x + 4 </mrow>
+                    </md>
+                </p>
+
+                <p>
+                    Swap the roles of the two variables, since the inverse
+                    reverses input and output.
+                </p>
+
+                <p>
+                    <md>
+                        <mrow> x \amp = -\frac{2}{3}y + 4 </mrow>
+                    </md>
+                </p>
+
+                <p>
+                    Subtract <m>4</m> from both sides to isolate the term
+                    containing <m>y</m>.
+                </p>
+
+                <p>
+                    <md>
+                        <mrow> x - 4 \amp = -\frac{2}{3}y </mrow>
+                    </md>
+                </p>
+
+                <p>
+                    Multiply both sides by <m>-\frac{3}{2}</m>, which is the
+                    reciprocal of <m>-\frac{2}{3}</m>.
+                </p>
+
+                <p>
+                    <md>
+                        <mrow> -\frac{3}{2}(x - 4) \amp = y </mrow>
+                    </md>
+                </p>
+
+                <p>
+                    So the inverse function is
+                </p>
+
+                <p>
+                    <md>
+                        <mrow> h^{-1}(x) = -\frac{3}{2}(x - 4) = -\frac{3}{2}x + 6 </mrow>
+                    </md>
+                </p>
+
+                <p>
+                    A quick check: <m>h(3) = -\frac{2}{3}(3) + 4 = 2</m>, and
+                    <m>h^{-1}(2) = -\frac{3}{2}(2) + 6 = 3</m>.
+                    The inverse returns the original input, so the answer is
+                    correct.
+                </p>
+            </solution>
+        </exercise>
+    </page>
+
+    <page>
+        <exercise xml:id="pgq4-p4">
+            <title>Solving Equations</title>
+
+            <introduction>
+                <p>
+                    Solve each of the following equations for <m>x</m>.
+                    Show your step-by-step algebraic process.
+                </p>
+            </introduction>
+
+            <task xml:id="pgq4-p4-a" workspace="2.5in">
+                <statement>
+                    <p>
+                        <m>5(3)^{x+1} = 135</m>
+                    </p>
+                </statement>
+
+                <solution>
+                    <p>
+                        Divide both sides by <m>5</m> to isolate the exponential
+                        expression.
+                    </p>
+
+                    <p>
+                        <md>
+                            <mrow> 3^{x+1} \amp = 27 </mrow>
+                        </md>
+                    </p>
+
+                    <p>
+                        Since <m>27 = 3^3</m>, both sides can be written with
+                        the same base.
+                    </p>
+
+                    <p>
+                        <md>
+                            <mrow> 3^{x+1} \amp = 3^3 </mrow>
+                        </md>
+                    </p>
+
+                    <p>
+                        When the bases match, the exponents must be equal.
+                    </p>
+
+                    <p>
+                        <md>
+                            <mrow> x + 1 \amp = 3 </mrow>
+                        </md>
+                    </p>
+
+                    <p>
+                        <md>
+                            <mrow> x \amp = 2 </mrow>
+                        </md>
+                    </p>
+
+                    <p>
+                        Taking a logarithm of both sides works just as well:
+                        <m>(x+1)\ln(3) = \ln(27)</m> gives
+                        <m>x + 1 = \frac{\ln(27)}{\ln(3)} = 3</m>, so
+                        <m>x = 2</m>.
+                    </p>
+                </solution>
+            </task>
+
+            <task xml:id="pgq4-p4-b" workspace="2.5in">
+                <statement>
+                    <p>
+                        <m>\log_2(3x + 1) = 4</m>
+                    </p>
+                </statement>
+
+                <solution>
+                    <p>
+                        Rewrite the equation in exponential form using
+                        <m>\log_b(y) = x \iff y = b^x</m>.
+                    </p>
+
+                    <p>
+                        <md>
+                            <mrow> 3x + 1 \amp = 2^4 </mrow>
+                        </md>
+                    </p>
+
+                    <p>
+                        <md>
+                            <mrow> 3x + 1 \amp = 16 </mrow>
+                        </md>
+                    </p>
+
+                    <p>
+                        Subtract <m>1</m> from both sides.
+                    </p>
+
+                    <p>
+                        <md>
+                            <mrow> 3x \amp = 15 </mrow>
+                        </md>
+                    </p>
+
+                    <p>
+                        <md>
+                            <mrow> x \amp = 5 </mrow>
+                        </md>
+                    </p>
+
+                    <p>
+                        Check: the argument of the logarithm is
+                        <m>3(5) + 1 = 16</m>, which is positive, and
+                        <m>\log_2(16) = 4</m> because <m>2^4 = 16</m>.
+                        The solution is valid.
+                    </p>
+                </solution>
+            </task>
+        </exercise>
+    </page>
+
+    <page>
+        <exercise xml:id="pgq4-p5" workspace="2.5in">
+            <title>Identifying a Pattern from a Table</title>
+
+            <statement>
+                <p>
+                    Analyze the data table below.
+                    Determine whether the relationship represents a linear,
+                    exponential, or quadratic function.
+                    If it does not fit any of these, state "None of these."
+                </p>
+
+                <tabular halign="center">
+                    <row bottom="medium">
+                        <cell right="minor"><m>x</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                    </row>
+
+                    <row>
+                        <cell right="minor"><m>y</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>12</m></cell>
+                        <cell><m>24</m></cell>
+                        <cell><m>48</m></cell>
+                    </row>
+                </tabular>
+
+                <p>
+                    Show your analysis (such as first differences, second
+                    differences, or ratios) to justify your conclusion.
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    The relationship is exponential.
+                    Here is the analysis that rules out the other two options.
+                </p>
+
+                <p>
+                    First differences: <m>6 - 3 = 3</m>, <m>12 - 6 = 6</m>,
+                    <m>24 - 12 = 12</m>, and <m>48 - 24 = 24</m>.
+                    These are not constant, so the table is not linear.
+                </p>
+
+                <p>
+                    Second differences: <m>6 - 3 = 3</m>, <m>12 - 6 = 6</m>, and
+                    <m>24 - 12 = 12</m>.
+                    These are not constant either, so the table is not
+                    quadratic.
+                </p>
+
+                <p>
+                    Ratios of consecutive outputs: <m>\frac{6}{3} = 2</m>,
+                    <m>\frac{12}{6} = 2</m>, <m>\frac{24}{12} = 2</m>, and
+                    <m>\frac{48}{24} = 2</m>.
+                    Every ratio is the same, and a constant ratio is the
+                    defining feature of an exponential function.
+                </p>
+
+                <p>
+                    The growth factor is <m>b = 2</m> and the value at
+                    <m>x = 0</m> is <m>a = 3</m>, so the function is
+                    <m>y = 3(2)^x</m>.
+                </p>
+            </solution>
+        </exercise>
+    </page>
+
+    <page>
+        <exercise xml:id="pgq4-p6">
+            <title>An Expanding Rectangle Pattern</title>
+
+            <introduction>
+                <p>
+                    An expanding rectangle pattern grows from one case to the
+                    next.
+                    Cases 4 and 5 are shown as empty outlines for you to fill
+                    in.
+                </p>
+
+                <image width="95%">
+                    <shortdescription>
+                        Five cases of a growing rectangle of unit squares: 1 by
+                        3, 2 by 4, and 3 by 5 are filled in, while 4 by 6 and 5
+                        by 7 are shown as empty dashed outlines.
+                    </shortdescription>
+
+                    <description>
+                        <p>
+                            Case 1 is a rectangle 1 square wide and 3 squares
+                            tall.
+                            Case 2 is 2 squares wide and 4 squares tall.
+                            Case 3 is 3 squares wide and 5 squares tall.
+                            Cases 4 and 5 are drawn as empty dashed rectangles
+                            measuring 4 by 6 and 5 by 7.
+                        </p>
+                    </description>
+                    <prefigure xmlns="https://prefigure.org" label="pgq4-p6-fig">
+                        <diagram dimensions="(640,240)" margins="(10,25,10,10)">
+                            <coordinates bbox="(-0.5,-1.5,25,7.5)">
+                                <repeat parameter="col=0..0">
+                                    <repeat parameter="row=0..2">
+                                        <rectangle center="(col, row)" dimensions="(0.9,0.9)" fill="lightblue" stroke="black" thickness="1.5"/>
+                                    </repeat>
+                                </repeat>
+                                <label anchor="(0,-0.9)" alignment="center">
+                                    <m>
+                                        \text{Case 1}
+                                    </m>
+                                </label>
+                                <repeat parameter="col=0..1">
+                                    <repeat parameter="row=0..3">
+                                        <rectangle center="(col+3, row)" dimensions="(0.9,0.9)" fill="lightblue" stroke="black" thickness="1.5"/>
+                                    </repeat>
+                                </repeat>
+                                <label anchor="(3.5,-0.9)" alignment="center">
+                                    <m>
+                                        \text{Case 2}
+                                    </m>
+                                </label>
+                                <repeat parameter="col=0..2">
+                                    <repeat parameter="row=0..4">
+                                        <rectangle center="(col+7, row)" dimensions="(0.9,0.9)" fill="lightblue" stroke="black" thickness="1.5"/>
+                                    </repeat>
+                                </repeat>
+                                <label anchor="(8,-0.9)" alignment="center">
+                                    <m>
+                                        \text{Case 3}
+                                    </m>
+                                </label>
+                                <rectangle center="(13.5,2.5)" dimensions="(4,6)" fill="none" stroke="gray" thickness="1.5" dash="4"/>
+                                <label anchor="(13.5,-0.9)" alignment="center">
+                                    <m>
+                                        \text{Case 4}
+                                    </m>
+                                </label>
+                                <rectangle center="(20,3)" dimensions="(5,7)" fill="none" stroke="gray" thickness="1.5" dash="4"/>
+                                <label anchor="(20,-0.9)" alignment="center">
+                                    <m>
+                                        \text{Case 5}
+                                    </m>
+                                </label>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+
+                <tabular halign="center">
+                    <row bottom="medium">
+                        <cell right="minor">Case ( <m>n</m> )</cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>5</m></cell>
+                    </row>
+
+                    <row>
+                        <cell right="minor">Total Squares</cell>
+                        <cell/>
+                        <cell><m>3</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>15</m></cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+                </tabular>
+            </introduction>
+
+            <task xml:id="pgq4-p6-a" workspace="3in">
+                <statement>
+                    <p>
+                        Complete the table for Cases 0, 4, and 5.
+                        Then analyze the differences in the table to explain
+                        <em>why</em> this pattern represents a quadratic
+                        relationship.
+                    </p>
+                </statement>
+
+                <solution>
+                    <p>
+                        Each case is a rectangle whose width equals the case
+                        number and whose height is two more than the case
+                        number.
+                        Case 4 is <m>4</m> by <m>6</m>, giving <m>24</m>
+                        squares.
+                        Case 5 is <m>5</m> by <m>7</m>, giving <m>35</m>
+                        squares.
+                        Case 0 would be <m>0</m> by <m>2</m>, giving <m>0</m>
+                        squares.
+                    </p>
+
+                    <tabular halign="center">
+                        <row bottom="medium">
+                            <cell right="minor">Case ( <m>n</m> )</cell>
+                            <cell><m>0</m></cell>
+                            <cell><m>1</m></cell>
+                            <cell><m>2</m></cell>
+                            <cell><m>3</m></cell>
+                            <cell><m>4</m></cell>
+                            <cell><m>5</m></cell>
+                        </row>
+
+                        <row>
+                            <cell right="minor">Total Squares</cell>
+                            <cell><m>0</m></cell>
+                            <cell><m>3</m></cell>
+                            <cell><m>8</m></cell>
+                            <cell><m>15</m></cell>
+                            <cell><m>24</m></cell>
+                            <cell><m>35</m></cell>
+                        </row>
+                    </tabular>
+
+                    <p>
+                        The first differences are <m>3, 5, 7, 9, 11</m>.
+                        These are not constant, so the pattern is not linear.
+                    </p>
+
+                    <p>
+                        The second differences are <m>2, 2, 2, 2</m>.
+                        A constant second difference is the signature of a
+                        quadratic relationship, which tells us the total number
+                        of squares is a quadratic function of the case number.
+                    </p>
+                </solution>
+            </task>
+
+            <task xml:id="pgq4-p6-b" workspace="3in">
+                <statement>
+                    <p>
+                        Find a formula for the total number of squares in Case
+                        <m>n</m>.
+                    </p>
+
+                    <p>
+                        (Hint: look at the dimensions, width and height, of the
+                        rectangle in each case and how they relate to the case
+                        number <m>n</m>.)
+                    </p>
+                </statement>
+
+                <solution>
+                    <p>
+                        Reading the dimensions off the pattern: Case 1 is
+                        <m>1</m> by <m>3</m>, Case 2 is <m>2</m> by <m>4</m>,
+                        and Case 3 is <m>3</m> by <m>5</m>.
+                        In every case the width is <m>n</m> and the height is
+                        <m>n + 2</m>.
+                    </p>
+
+                    <p>
+                        The total number of squares is the area of the
+                        rectangle, so
+                    </p>
+
+                    <p>
+                        <md>
+                            <mrow> T(n) = n(n + 2) = n^2 + 2n </mrow>
+                        </md>
+                    </p>
+
+                    <p>
+                        Check with Case 3:
+                        <m>T(3) = 3^2 + 2(3) = 9 + 6 = 15</m>, which matches the
+                        table.
+                        Check with Case 5: <m>T(5) = 25 + 10 = 35</m>, which
+                        also matches.
+                    </p>
+
+                    <p>
+                        Notice that the coefficient of <m>n^2</m> is <m>1</m>,
+                        and the constant second difference we found was
+                        <m>2</m>.
+                        This fits the general rule that the second difference of
+                        a quadratic equals <m>2a</m>.
+                    </p>
+
+                    <p>
+                        <em>Alternative method, using the standard form.</em> If
+                        you do not spot the dimensions, you can build the
+                        formula from the table instead.
+                        Start with the general quadratic
+                        <m>T(n) = an^2 + bn + c</m>.
+                    </p>
+
+                    <p>
+                        The constant second difference always equals <m>2a</m>.
+                        In part (a) the second difference was <m>2</m>, so
+                        <m>2a = 2</m> and <m>a = 1</m>.
+                    </p>
+
+                    <p>
+                        The constant term <m>c</m> is the output at
+                        <m>n = 0</m>, which the table gives as <m>0</m>, so
+                        <m>c = 0</m>.
+                    </p>
+
+                    <p>
+                        That leaves only <m>b</m>.
+                        Substitute any known point; using Case 1, where
+                        <m>T(1) = 3</m>, gives
+                    </p>
+
+                    <p>
+                        <md>
+                            <mrow> 1(1)^2 + b(1) + 0 \amp = 3 </mrow>
+                        </md>
+                    </p>
+
+                    <p>
+                        <md>
+                            <mrow> b \amp = 2 </mrow>
+                        </md>
+                    </p>
+
+                    <p>
+                        So <m>T(n) = n^2 + 2n</m>, the same formula found from
+                        the dimensions.
+                        Checking against a different case confirms it:
+                        <m>T(4) = 16 + 8 = 24</m>, which matches the table.
+                    </p>
+                </solution>
+            </task>
+        </exercise>
+    </page>
 </worksheet>

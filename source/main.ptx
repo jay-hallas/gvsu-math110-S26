@@ -189,6 +189,7 @@
 <xi:include href="./writing-assignments/writing-02.ptx"/>
 <xi:include href="./writing-assignments/writing-03.ptx"/>
 <xi:include href="./writing-assignments/writing-04.ptx"/>
+<xi:include href="./writing-assignments/writing-05.ptx"/>
     </chapter>
  
 
@@ -196,6 +197,7 @@
       <title>Practice for Group Quizzes</title>
       <xi:include href="./practice-quiz/group-quiz-3-practice.ptx"/>
        <xi:include href="./practice-quiz/group-quiz-4-practice.ptx"/>
+        <xi:include href="./practice-quiz/group-quiz-5-practice.ptx"/>
     </chapter>
 
     <chapter xml:id="handouts">
@@ -211,6 +213,9 @@
            <xi:include href="./practice-quiz/learning-target-10-inverse-linear.ptx"/>
    <xi:include href="./practice-quiz/learning-target-11-logarithm-solving.ptx"/>
  <xi:include href="./practice-quiz/learning-target-12-quadratic-pattern.ptx"/>
+  <xi:include href="./practice-quiz/learning-target-13-quadratic-graph.ptx"/>
+    <xi:include href="./practice-quiz/learning-target-14-quadratic-application.ptx"/>
+      <xi:include href="./practice-quiz/learning-target-15-summary-pattern.ptx"/>
     </chapter>
 
     <chapter xml:id="tech">

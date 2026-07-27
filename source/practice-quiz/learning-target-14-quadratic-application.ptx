@@ -1,0 +1,280 @@
+
+<worksheet xml:id="lt14-quadratic-context-practice">
+<title>Learning Target 14 Practice: Quadratic Situations in Context</title>
+<objectives>
+<ul>
+<li>Given a quadratic word situation and associated graph, identify and explain the meaning of x-intercepts, y-intercepts, and vertex in the context, find f(a) and explain its meaning, find x given f(a) and explain its meaning, and determine what inputs make sense.</li>
+</ul>
+</objectives>
+
+<introduction>
+<p>An object launched straight up near Earth's surface has height in feet at time <m>t</m> seconds given by <m>s(t) = -16t^2 + v_0 t + s_0</m>, where <m>v_0</m> is the initial velocity (positive if launched upward) and <m>s_0</m> is the initial height.</p>
+<note>
+<p>Every number you write down in this worksheet should come with units and a sentence. A time answer needs "seconds after launch" attached to it, and a height answer needs "feet above the ground" attached to it. Half of this learning target is the explanation, not the arithmetic.</p>
+</note>
+</introduction>
+
+<page>
+<exercise xml:id="lt14-softball-launcher">
+<title>Situation A: Softball Launcher</title>
+<introduction>
+<p>A pitching machine on the roof of a parking ramp is aimed straight up and fires a softball. The height of the softball in feet above the ground, <m>t</m> seconds after it is fired, is given by</p>
+<p><m>s(t) = -16t^2 + 64t + 80.</m></p>
+<p>The graph of <m>s</m> is shown below. The horizontal intercepts, vertical intercept, and vertex all occur at integer coordinates.</p>
+<image width="65%">
+<shortdescription>A downward opening parabola showing height in feet against time in seconds, with horizontal intercepts at negative one and five, vertical intercept at eighty, and vertex at two comma one hundred forty-four.</shortdescription>
+<description>
+<p>A parabola opening downward on a coordinate grid with time <m>t</m> on the horizontal axis and height <m>s</m> on the vertical axis. The curve crosses the horizontal axis at the points negative one comma zero and five comma zero, crosses the vertical axis at zero comma eighty, and reaches its highest point at two comma one hundred forty-four.</p>
+</description>
+<latex-image>
+\begin{tikzpicture}[x=0.8cm, y=0.028cm]
+  \draw[gray!25, very thin] (-2,-40) grid[xstep=1, ystep=20] (6,160);
+  \draw[->, thick] (-2.6,0) -- (6.6,0) node[right] {\small $t$};
+  \draw[->, thick] (0,-52) -- (0,176) node[above] {\small $s$};
+  \foreach \x in {-2,-1,1,2,3,4,5,6} \draw (\x,0) -- (\x,-10) node[below] {\scriptsize \x};
+  \foreach \y in {-40,-20,20,40,60,80,100,120,140,160} \draw (0,\y) -- (-0.15,\y) node[left] {\scriptsize \y};
+  \draw[very thick, blue, domain=-1.38:5.38, samples=100] plot (\x, {-16*(\x+1)*(\x-5)});
+  \filldraw (-1,0) circle (2pt) node[above left] {\scriptsize $(-1,0)$};
+  \filldraw (5,0) circle (2pt) node[above right] {\scriptsize $(5,0)$};
+  \filldraw (0,80) circle (2pt) node[below right] {\scriptsize $(0,80)$};
+  \filldraw (2,144) circle (2pt) node[above] {\scriptsize $(2,144)$};
+\end{tikzpicture}
+</latex-image>
+</image>
+</introduction>
+
+<task workspace="1.5in">
+<statement>
+<p>Write <m>s(t)</m> in factored form and in vertex form. Show the work that produces each one.</p>
+</statement>
+<answer>
+<p>
+For factored form, pull out the common factor of <m>-16</m> first: <m>s(t) = -16(t^2 - 4t - 5)</m>. Two numbers that multiply to <m>-5</m> and add to <m>-4</m> are <m>1</m> and <m>-5</m>, so <m>s(t) = -16(t+1)(t-5)</m>.
+</p>
+<p>
+For vertex form, the vertex is halfway between the two zeros <m>t = -1</m> and <m>t = 5</m>, so <m>t = \frac{-1+5}{2} = 2</m>. (Using <m>t = \frac{-b}{2a} = \frac{-64}{2(-16)} = 2</m> gives the same thing.) Then <m>s(2) = -16(3)(-3) = 144</m>, so <m>s(t) = -16(t-2)^2 + 144</m>. Check at <m>t = 0</m>: <m>-16(4) + 144 = 80</m>, which matches the vertical intercept.
+</p>
+</answer>
+</task>
+
+<task workspace="1.25in">
+<statement>
+<p>Identify the vertical intercept of the graph. What does it mean in this situation?</p>
+</statement>
+<answer>
+<p>
+The vertical intercept is <m>(0, 80)</m>. It is the height at time <m>t = 0</m>, which is the instant the softball leaves the machine. So the softball starts <m>80</m> feet above the ground, meaning the pitching machine sits on top of an <m>80</m>-foot parking ramp. It is also the constant term of the general form, <m>s_0 = 80</m>.
+</p>
+</answer>
+</task>
+
+<task workspace="1.5in">
+<statement>
+<p>Identify the horizontal intercepts of the graph. Explain what each one means, and say which one actually describes the softball.</p>
+</statement>
+<answer>
+<p>
+The horizontal intercepts are <m>(-1, 0)</m> and <m>(5, 0)</m>. A horizontal intercept is a time when the height is <m>0</m> feet, which means the softball is at ground level.
+</p>
+<p>
+The intercept <m>(5, 0)</m> is the meaningful one: the softball lands on the ground <m>5</m> seconds after it is fired. The intercept <m>(-1, 0)</m> would be one second before the machine fired, so it does not describe anything that happens in this situation. It is a real solution of the equation but not a real moment in the story.
+</p>
+</answer>
+</task>
+
+<task workspace="1.25in">
+<statement>
+<p>Identify the vertex. What does it mean in this situation?</p>
+</statement>
+<answer>
+<p>
+The vertex is <m>(2, 144)</m>. Since the parabola opens downward, this is the highest point on the graph. It means the softball reaches its maximum height of <m>144</m> feet above the ground <m>2</m> seconds after it is fired. Both coordinates matter here: the <m>2</m> answers "when" and the <m>144</m> answers "how high."
+</p>
+</answer>
+</task>
+
+<task workspace="1.25in">
+<statement>
+<p>Find <m>s(4)</m>. What does this value tell you about the softball?</p>
+</statement>
+<answer>
+<p>
+Using factored form, <m>s(4) = -16(4+1)(4-5) = -16(5)(-1) = 80</m> feet. (General form agrees: <m>-16(16) + 64(4) + 80 = -256 + 256 + 80 = 80</m>.)
+</p>
+<p>
+Four seconds after being fired, the softball is <m>80</m> feet above the ground. Since <m>t = 4</m> is past the vertex at <m>t = 2</m>, the ball is on its way down. Notice this is the same height it started at, which makes sense: <m>t = 0</m> and <m>t = 4</m> are the same distance from the vertex, so the parabola gives them the same output.
+</p>
+</answer>
+</task>
+
+<task workspace="1.75in">
+<statement>
+<p>Find all values of <m>t</m> for which <m>s(t) = 128</m>. Show your algebraic steps and explain what your answers mean.</p>
+</statement>
+<answer>
+<p>
+Set the general form equal to <m>128</m>: <m>-16t^2 + 64t + 80 = 128</m>. Subtract <m>128</m> from both sides to get <m>-16t^2 + 64t - 48 = 0</m>. Divide every term by <m>-16</m> to get <m>t^2 - 4t + 3 = 0</m>, which factors as <m>(t-1)(t-3) = 0</m>. The solutions are <m>t = 1</m> and <m>t = 3</m>.
+</p>
+<p>
+The softball is <m>128</m> feet above the ground twice: once at <m>1</m> second on the way up, and again at <m>3</m> seconds on the way down. Both times are meaningful here since both fall between launch and landing. The two answers are symmetric about the vertex at <m>t = 2</m>, which is exactly what a horizontal line crossing a parabola twice should give.
+</p>
+</answer>
+</task>
+
+<task workspace="1.5in">
+<statement>
+<p>What values of <m>t</m> make sense as inputs in this situation? Explain how you decided.</p>
+</statement>
+<answer>
+<p>
+The inputs that make sense are <m>0 \leq t \leq 5</m>.
+</p>
+<p>
+Negative values of <m>t</m> would be before the machine fired, and the model does not describe the softball then. Values larger than <m>5</m> would be after the ball has already landed, and the function returns negative heights there, which would mean the ball is underground. For example, <m>s(6) = -16(7)(1) = -112</m>, which is not a possible height. So even though the algebra will hand you outputs for every real number, only the times from the launch through the landing describe this softball.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt14-pumpkin-cannon">
+<title>Situation B: Pumpkin Launch</title>
+<introduction>
+<p>At a fall festival, a pumpkin is fired straight up from an air cannon set on a bluff above Lake Michigan. The height of the pumpkin in feet above the surface of the lake, <m>t</m> seconds after it is fired, is given by</p>
+<p><m>s(t) = -16t^2 + 96t + 112.</m></p>
+<p>The graph of <m>s</m> is shown below. The horizontal intercepts, vertical intercept, and vertex all occur at integer coordinates.</p>
+<image width="65%">
+<shortdescription>A downward opening parabola showing height in feet against time in seconds, with horizontal intercepts at negative one and seven, vertical intercept at one hundred twelve, and vertex at three comma two hundred fifty-six.</shortdescription>
+<description>
+<p>A parabola opening downward on a coordinate grid with time <m>t</m> on the horizontal axis and height <m>s</m> on the vertical axis. The curve crosses the horizontal axis at the points negative one comma zero and seven comma zero, crosses the vertical axis at zero comma one hundred twelve, and reaches its highest point at three comma two hundred fifty-six.</p>
+</description>
+<latex-image>
+\begin{tikzpicture}[x=0.62cm, y=0.017cm]
+  \draw[gray!25, very thin] (-2,-80) grid[xstep=1, ystep=40] (8,280);
+  \draw[->, thick] (-2.6,0) -- (8.6,0) node[right] {\small $t$};
+  \draw[->, thick] (0,-100) -- (0,308) node[above] {\small $s$};
+  \foreach \x in {-2,-1,1,2,3,4,5,6,7,8} \draw (\x,0) -- (\x,-16) node[below] {\scriptsize \x};
+  \foreach \y in {-80,-40,40,80,120,160,200,240,280} \draw (0,\y) -- (-0.15,\y) node[left] {\scriptsize \y};
+  \draw[very thick, blue, domain=-1.55:7.55, samples=100] plot (\x, {-16*(\x+1)*(\x-7)});
+  \filldraw (-1,0) circle (2pt) node[above left] {\scriptsize $(-1,0)$};
+  \filldraw (7,0) circle (2pt) node[above right] {\scriptsize $(7,0)$};
+  \filldraw (0,112) circle (2pt) node[below right] {\scriptsize $(0,112)$};
+  \filldraw (3,256) circle (2pt) node[above] {\scriptsize $(3,256)$};
+\end{tikzpicture}
+</latex-image>
+</image>
+</introduction>
+
+<task workspace="1.5in">
+<statement>
+<p>Write <m>s(t)</m> in factored form and in vertex form. Show the work that produces each one.</p>
+</statement>
+<answer>
+<p>
+Factor out <m>-16</m>: <m>s(t) = -16(t^2 - 6t - 7)</m>. Two numbers that multiply to <m>-7</m> and add to <m>-6</m> are <m>1</m> and <m>-7</m>, so <m>s(t) = -16(t+1)(t-7)</m>.
+</p>
+<p>
+The vertex sits halfway between the zeros: <m>t = \frac{-1+7}{2} = 3</m>. Then <m>s(3) = -16(4)(-4) = 256</m>, so <m>s(t) = -16(t-3)^2 + 256</m>. Check at <m>t = 0</m>: <m>-16(9) + 256 = -144 + 256 = 112</m>, matching the vertical intercept.
+</p>
+</answer>
+</task>
+
+<task workspace="1.25in">
+<statement>
+<p>Identify the vertical intercept. What does it mean in this situation?</p>
+</statement>
+<answer>
+<p>
+The vertical intercept is <m>(0, 112)</m>. At <m>t = 0</m>, the moment the cannon fires, the pumpkin is <m>112</m> feet above the surface of the lake. That is the height of the bluff where the cannon is set up.
+</p>
+</answer>
+</task>
+
+<task workspace="1.5in">
+<statement>
+<p>Identify the horizontal intercepts. Explain what each one means and which one describes the pumpkin.</p>
+</statement>
+<answer>
+<p>
+The horizontal intercepts are <m>(-1, 0)</m> and <m>(7, 0)</m>, the times when the height equals <m>0</m> feet, meaning the pumpkin is at the surface of the lake.
+</p>
+<p>
+The pumpkin splashes into the lake <m>7</m> seconds after it is fired, so <m>(7, 0)</m> is the meaningful intercept. The intercept <m>(-1, 0)</m> is one second before the cannon fired and has no meaning in this situation. Both are solutions of <m>-16(t+1)(t-7) = 0</m>, but only one of them is part of the story.
+</p>
+</answer>
+</task>
+
+<task workspace="1.25in">
+<statement>
+<p>Identify the vertex. What does it mean in this situation?</p>
+</statement>
+<answer>
+<p>
+The vertex is <m>(3, 256)</m>. Because the leading coefficient <m>-16</m> is negative, the parabola opens downward and the vertex is the maximum. The pumpkin reaches its greatest height, <m>256</m> feet above the lake, <m>3</m> seconds after being fired. It is rising before that moment and falling after it.
+</p>
+</answer>
+</task>
+
+<task workspace="1.25in">
+<statement>
+<p>Find <m>s(5)</m>. What does this value tell you about the pumpkin?</p>
+</statement>
+<answer>
+<p>
+Using factored form, <m>s(5) = -16(5+1)(5-7) = -16(6)(-2) = 192</m> feet. (General form agrees: <m>-16(25) + 96(5) + 112 = -400 + 480 + 112 = 192</m>.)
+</p>
+<p>
+Five seconds after the cannon fires, the pumpkin is <m>192</m> feet above the lake. Since <m>t = 5</m> comes after the vertex at <m>t = 3</m>, the pumpkin is falling at that moment. It is still well above the water, since it does not land until <m>t = 7</m>.
+</p>
+</answer>
+</task>
+
+<task workspace="1.75in">
+<statement>
+<p>Find all values of <m>t</m> for which <m>s(t) = 240</m>. Show your algebraic steps and explain what your answers mean.</p>
+</statement>
+<answer>
+<p>
+Set the general form equal to <m>240</m>: <m>-16t^2 + 96t + 112 = 240</m>. Subtract <m>240</m> to get <m>-16t^2 + 96t - 128 = 0</m>. Divide by <m>-16</m> to get <m>t^2 - 6t + 8 = 0</m>, which factors as <m>(t-2)(t-4) = 0</m>. The solutions are <m>t = 2</m> and <m>t = 4</m>.
+</p>
+<p>
+The pumpkin is <m>240</m> feet above the lake at <m>2</m> seconds while rising and again at <m>4</m> seconds while falling. Both are meaningful, since both happen between the launch and the splash. Reading between them, the pumpkin is higher than <m>240</m> feet for the whole interval <m>2 \lt t \lt 4</m>.
+</p>
+</answer>
+</task>
+
+<task workspace="1.5in">
+<statement>
+<p>What values of <m>t</m> make sense as inputs in this situation? Explain how you decided.</p>
+</statement>
+<answer>
+<p>
+The inputs that make sense are <m>0 \leq t \leq 7</m>, from the moment the cannon fires until the pumpkin hits the water.
+</p>
+<p>
+Times before <m>t = 0</m> are not described by the model, and times after <m>t = 7</m> produce negative outputs, which would put the pumpkin below the surface of the lake. For instance, <m>s(8) = -16(9)(1) = -144</m>, and a height of <m>-144</m> feet is not something this situation can produce.
+</p>
+</answer>
+</task>
+
+<task workspace="1.5in">
+<statement>
+<p>A festival organizer claims the pumpkin passed <m>300</m> feet above the lake. Use both the graph and the algebra to explain why that cannot be true.</p>
+</statement>
+<answer>
+<p>
+On the graph, the highest point on the curve is the vertex at a height of <m>256</m> feet. A horizontal line at <m>s = 300</m> would sit entirely above the parabola and never touch it, so there is no time when the height equals <m>300</m> feet.
+</p>
+<p>
+Algebraically, setting <m>-16t^2 + 96t + 112 = 300</m> gives <m>-16t^2 + 96t - 188 = 0</m>. Dividing by <m>-4</m> gives <m>4t^2 - 24t + 47 = 0</m>, and the discriminant is <m>(-24)^2 - 4(4)(47) = 576 - 752 = -176</m>. A negative discriminant means there are no real solutions, which is the algebra's way of saying the same thing the graph says: the pumpkin never gets that high.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<conclusion>
+<p>Look back at your two answers about which inputs make sense. Write one or two sentences explaining, in your own words, the difference between a value of <m>t</m> that solves the equation and a value of <m>t</m> that describes something that really happened.</p>
+</conclusion>
+</worksheet>

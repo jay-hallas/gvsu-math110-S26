@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="practice-group-quiz-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Practice Group Quiz 5: Distributing, Factoring, Quadratics, and Growth Patterns</title>
+
+  <introduction>
+    <p>
+      Work together as a group. Each problem is worth 6 points.
+    </p>
+    <p>
+      1. Explain your reasoning in complete sentences where asked.
+    </p>
+    <p>
+      2. Show your work for any calculations in as much detail as possible.
+    </p>
+    <p>
+      3. Since this is a team quiz, make sure you agree on your final answers; think of ways to double check your work on each problem.
+    </p>
+    <p>
+      4. Invite everyone to participate, and try to build as much understanding as you can for each problem.
+    </p>
+    <note>
+      <p>
+        This is a practice version, so solutions are included. Try every problem as a group before you look at them.
+      </p>
+    </note>
+  </introduction>
+
+  <!-- ===================================================== -->
+  <!-- PROBLEM 1: Distributive property                      -->
+  <!-- ===================================================== -->
+  <page>
+    <exercise xml:id="pgq5-distribute">
+      <title>Multiplying and Expanding</title>
+      <introduction>
+        <p>
+          Use the distributive property to multiply and expand each expression. Combine all like terms and write your final answer in general form.
+        </p>
+      </introduction>
+
+      <task workspace="1.75in">
+        <statement>
+          <p>
+            <m>(3x - 4)(x + 5)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>3x^2 + 11x - 20</m>
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Distribute each term of the first factor across the second factor:
+            <md>
+              <mrow>(3x - 4)(x + 5) \amp = 3x(x + 5) - 4(x + 5)</mrow>
+              <mrow>\amp = 3x^2 + 15x - 4x - 20</mrow>
+              <mrow>\amp = 3x^2 + 11x - 20</mrow>
+            </md>
+          </p>
+          <p>
+            A quick check: substitute <m>x = 1</m>. The original gives <m>(3 - 4)(1 + 5) = -6</m>, and the expanded form gives <m>3 + 11 - 20 = -6</m>. They agree.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.75in">
+        <statement>
+          <p>
+            <m>(2x + 5)^2</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>4x^2 + 20x + 25</m>
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The square means the factor is multiplied by itself. Write it out first so you do not forget the middle terms:
+            <md>
+              <mrow>(2x + 5)^2 \amp = (2x + 5)(2x + 5)</mrow>
+              <mrow>\amp = 2x(2x + 5) + 5(2x + 5)</mrow>
+              <mrow>\amp = 4x^2 + 10x + 10x + 25</mrow>
+              <mrow>\amp = 4x^2 + 20x + 25</mrow>
+            </md>
+          </p>
+          <p>
+            Notice that <m>(2x+5)^2</m> is not <m>4x^2 + 25</m>. The two middle terms are each <m>10x</m>, and together they give the <m>20x</m>.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="2in">
+        <statement>
+          <p>
+            <m>(x^2 - 2x + 5)(3x - 2)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>3x^3 - 8x^2 + 19x - 10</m>
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Every term in the first factor has to meet every term in the second factor, so there are six products in all:
+            <md>
+              <mrow>(x^2 - 2x + 5)(3x - 2) \amp = x^2(3x - 2) - 2x(3x - 2) + 5(3x - 2)</mrow>
+              <mrow>\amp = 3x^3 - 2x^2 - 6x^2 + 4x + 15x - 10</mrow>
+              <mrow>\amp = 3x^3 - 8x^2 + 19x - 10</mrow>
+            </md>
+          </p>
+          <p>
+            Combining like terms: the <m>x^2</m> terms give <m>-2x^2 - 6x^2 = -8x^2</m>, and the <m>x</m> terms give <m>4x + 15x = 19x</m>.
+          </p>
+        </solution>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ===================================================== -->
+  <!-- PROBLEM 2: Factoring                                  -->
+  <!-- ===================================================== -->
+  <page>
+    <exercise xml:id="pgq5-factor">
+      <title>Factoring Completely</title>
+      <introduction>
+        <p>
+          Factor each expression completely. Check your answer by multiplying your factors back out.
+        </p>
+      </introduction>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            <m>x^2 - 9x + 18</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(x - 3)(x - 6)</m>
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The leading coefficient is <m>1</m>, so look for two numbers that multiply to <m>18</m> and add to <m>-9</m>. Since the product is positive and the sum is negative, both numbers are negative. The pairs that multiply to <m>18</m> are <m>1</m> and <m>18</m>, <m>2</m> and <m>9</m>, and <m>3</m> and <m>6</m>. Only <m>-3</m> and <m>-6</m> add to <m>-9</m>.
+            <md>
+              <mrow>x^2 - 9x + 18 = (x - 3)(x - 6)</mrow>
+            </md>
+          </p>
+          <p>
+            Check: <m>(x-3)(x-6) = x^2 - 6x - 3x + 18 = x^2 - 9x + 18</m>.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            <m>x^2 - 49</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(x - 7)(x + 7)</m>
+          </p>
+        </answer>
+        <solution>
+          <p>
+            This is a difference of two squares, since <m>x^2 - 49 = x^2 - 7^2</m>. That pattern always factors as
+            <md>
+              <mrow>a^2 - b^2 = (a - b)(a + b)</mrow>
+            </md>
+            so here <m>x^2 - 49 = (x - 7)(x + 7)</m>.
+          </p>
+          <p>
+            If you did not spot the pattern, you could still ask for two numbers that multiply to <m>-49</m> and add to <m>0</m>, which gives <m>7</m> and <m>-7</m>. Multiplying back out, the middle terms <m>7x</m> and <m>-7x</m> cancel.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.75in">
+        <statement>
+          <p>
+            <m>2x^2 + 10x - 48</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>2(x + 8)(x - 3)</m>
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Always look for a common factor first. Every term is divisible by <m>2</m>:
+            <md>
+              <mrow>2x^2 + 10x - 48 = 2(x^2 + 5x - 24)</mrow>
+            </md>
+          </p>
+          <p>
+            Now factor <m>x^2 + 5x - 24</m>. We need two numbers that multiply to <m>-24</m> and add to <m>5</m>. Since the product is negative, one number is positive and the other is negative, and the positive one is larger in size. The pair <m>8</m> and <m>-3</m> works, since <m>8 \cdot (-3) = -24</m> and <m>8 + (-3) = 5</m>. So
+            <md>
+              <mrow>2x^2 + 10x - 48 = 2(x + 8)(x - 3)</mrow>
+            </md>
+          </p>
+          <p>
+            "Completely" means the <m>2</m> stays out front as part of the answer. Check: <m>2(x^2 - 3x + 8x - 24) = 2(x^2 + 5x - 24) = 2x^2 + 10x - 48</m>.
+          </p>
+        </solution>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ===================================================== -->
+  <!-- PROBLEM 3: Graph to equations                         -->
+  <!-- ===================================================== -->
+  <page>
+    <exercise xml:id="pgq5-three-forms">
+      <title>From a Graph to Three Forms</title>
+      <introduction>
+        <p>
+          The graph of a quadratic function is shown below. The <m>x</m>-intercepts, the <m>y</m>-intercept, and the vertex are all labeled.
+        </p>
+        <image width="60%">
+          <shortdescription>A downward opening parabola with x-intercepts at negative two and four, a y-intercept at zero comma eight, and a vertex at one comma nine.</shortdescription>
+          <description>
+            <p>
+              A parabola opening downward on a coordinate grid. It crosses the horizontal axis at the points negative two comma zero and four comma zero, crosses the vertical axis at zero comma eight, and turns around at its highest point, one comma nine.
+            </p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="pgq5-parabola">
+            <diagram dimensions="(300,480)" margins="5">
+              <definition>f(x) = -(x+2)*(x-4)</definition>
+              <coordinates bbox="(-4,-4,6,12)">
+                <grid-axes xlabel="x" ylabel="y" spacings="((-4,1,6),(-4,1,12))"/>
+                <graph function="f" domain="(-2.6,4.6)" stroke="blue" thickness="2"/>
+                <point p="(-2,0)" alignment="nw">
+                  <m>(-2,0)</m>
+                </point>
+                <point p="(4,0)" alignment="ne">
+                  <m>(4,0)</m>
+                </point>
+                <point p="(0,8)" alignment="nw">
+                  <m>(0,8)</m>
+                </point>
+                <point p="(1,9)" alignment="ne">
+                  <m>(1,9)</m>
+                </point>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+        <p>
+          Using the points provided on the graph, write the equation of this parabola in each of the three forms. For each form, show which point you substituted to find the leading coefficient.
+        </p>
+      </introduction>
+
+      <task workspace="1.75in">
+        <statement>
+          <p>
+            Factored form: <fillin characters="20"/>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>y = -(x + 2)(x - 4)</m>
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The <m>x</m>-intercepts are <m>x = -2</m> and <m>x = 4</m>, so the factors are <m>(x + 2)</m> and <m>(x - 4)</m>. That gives the skeleton
+            <md>
+              <mrow>y = a(x + 2)(x - 4)</mrow>
+            </md>
+          </p>
+          <p>
+            To find <m>a</m>, substitute a point that is not an <m>x</m>-intercept. Using the <m>y</m>-intercept <m>(0, 8)</m>:
+            <md>
+              <mrow>8 \amp = a(0 + 2)(0 - 4)</mrow>
+              <mrow>8 \amp = a(2)(-4)</mrow>
+              <mrow>8 \amp = -8a</mrow>
+              <mrow>a \amp = -1</mrow>
+            </md>
+          </p>
+          <p>
+            So <m>y = -(x + 2)(x - 4)</m>. The negative value of <m>a</m> matches the fact that the parabola opens downward.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.75in">
+        <statement>
+          <p>
+            Vertex form: <fillin characters="20"/>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>y = -(x - 1)^2 + 9</m>
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Vertex form is <m>y = a(x - h)^2 + k</m>, where <m>(h, k)</m> is the vertex. The vertex is <m>(1, 9)</m>, so
+            <md>
+              <mrow>y = a(x - 1)^2 + 9</mrow>
+            </md>
+          </p>
+          <p>
+            Substitute the <m>y</m>-intercept <m>(0, 8)</m> to find <m>a</m>:
+            <md>
+              <mrow>8 \amp = a(0 - 1)^2 + 9</mrow>
+              <mrow>8 \amp = a(1) + 9</mrow>
+              <mrow>-1 \amp = a</mrow>
+            </md>
+          </p>
+          <p>
+            So <m>y = -(x - 1)^2 + 9</m>. The value of <m>a</m> is the same as in part (a), which it has to be; the three forms are the same function written three ways.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.75in">
+        <statement>
+          <p>
+            General form: <fillin characters="20"/>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>y = -x^2 + 2x + 8</m>
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Expand either of the previous forms. From factored form:
+            <md>
+              <mrow>y \amp = -(x + 2)(x - 4)</mrow>
+              <mrow>\amp = -(x^2 - 4x + 2x - 8)</mrow>
+              <mrow>\amp = -(x^2 - 2x - 8)</mrow>
+              <mrow>\amp = -x^2 + 2x + 8</mrow>
+            </md>
+          </p>
+          <p>
+            From vertex form, as a double check:
+            <md>
+              <mrow>y \amp = -(x - 1)^2 + 9</mrow>
+              <mrow>\amp = -(x^2 - 2x + 1) + 9</mrow>
+              <mrow>\amp = -x^2 + 2x - 1 + 9</mrow>
+              <mrow>\amp = -x^2 + 2x + 8</mrow>
+            </md>
+          </p>
+          <p>
+            The constant term <m>8</m> is the <m>y</m>-intercept, which is another way to confirm the answer against the graph.
+          </p>
+        </solution>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ===================================================== -->
+  <!-- PROBLEM 4: Falling object                             -->
+  <!-- ===================================================== -->
+  <page>
+    <exercise xml:id="pgq5-rocket">
+      <title>A Rocket in the Air</title>
+      <introduction>
+        <p>
+          A model rocket is fired upward from a platform above the ground. Its height in feet, <m>s</m>, above the ground <m>t</m> seconds after it is fired is given by
+          <md>
+            <mrow>s(t) = -16t^2 + 48t + 160.</mrow>
+          </md>
+        </p>
+        <p>
+          Answer the following questions and then verify your solutions using Desmos.
+        </p>
+      </introduction>
+
+      <task workspace="2in">
+        <statement>
+          <p>
+            Write the function in factored form and in vertex form.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Factored: <m>s(t) = -16(t - 5)(t + 2)</m>. Vertex: <m>s(t) = -16(t - 1.5)^2 + 196</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Factor out the common factor of <m>-16</m> first:
+            <md>
+              <mrow>s(t) \amp = -16t^2 + 48t + 160</mrow>
+              <mrow>\amp = -16(t^2 - 3t - 10)</mrow>
+              <mrow>\amp = -16(t - 5)(t + 2)</mrow>
+            </md>
+            since <m>-5</m> and <m>2</m> multiply to <m>-10</m> and add to <m>-3</m>.
+          </p>
+          <p>
+            For vertex form, the vertex sits halfway between the two zeros <m>t = 5</m> and <m>t = -2</m>:
+            <md>
+              <mrow>t = \frac{5 + (-2)}{2} = \frac{3}{2} = 1.5</mrow>
+            </md>
+            You could also use <m>t = -\frac{b}{2a} = -\frac{48}{2(-16)} = 1.5</m>.
+          </p>
+          <p>
+            Now find the height there:
+            <md>
+              <mrow>s(1.5) \amp = -16(1.5 - 5)(1.5 + 2)</mrow>
+              <mrow>\amp = -16(-3.5)(3.5)</mrow>
+              <mrow>\amp = -16(-12.25) = 196</mrow>
+            </md>
+            so the vertex is <m>(1.5, 196)</m> and
+            <md>
+              <mrow>s(t) = -16(t - 1.5)^2 + 196.</mrow>
+            </md>
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>
+            What are the initial height and the initial velocity of the rocket?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Initial height <m>160</m> feet; initial velocity <m>48</m> feet per second upward.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The initial height is the height when <m>t = 0</m>:
+            <md>
+              <mrow>s(0) = -16(0)^2 + 48(0) + 160 = 160</mrow>
+            </md>
+            so the rocket starts <m>160</m> feet above the ground, which makes sense with the platform in the story.
+          </p>
+          <p>
+            In the model <m>s(t) = -16t^2 + v_0 t + s_0</m>, the coefficient of <m>t</m> is the initial velocity. Here <m>v_0 = 48</m>, so the rocket is launched at <m>48</m> feet per second straight up. The <m>-16</m> comes from gravity and is the same in every problem of this type measured in feet.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            When does the rocket return to the ground?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            After <m>5</m> seconds.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Hitting the ground means the height is zero, so solve <m>s(t) = 0</m> using the factored form:
+            <md>
+              <mrow>-16(t - 5)(t + 2) = 0</mrow>
+            </md>
+            The product is zero when <m>t - 5 = 0</m> or <m>t + 2 = 0</m>, so <m>t = 5</m> or <m>t = -2</m>.
+          </p>
+          <p>
+            Time cannot be negative here, so we discard <m>t = -2</m>. The rocket lands <m>5</m> seconds after it is fired. This is why factored form is worth having: the zeros are visible without any extra work.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>
+            How long does it take the rocket to reach its maximum height?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>1.5</m> seconds.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The maximum happens at the vertex, and the <m>t</m>-coordinate of the vertex was found in part (a) to be <m>t = 1.5</m> seconds. On the graph this is the horizontal position of the highest point, halfway between the two zeros.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>
+            What is the maximum height it reaches?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>196</m> feet.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The maximum height is the <m>s</m>-coordinate of the vertex, which is <m>196</m> feet. From vertex form <m>s(t) = -16(t - 1.5)^2 + 196</m> you can read it off directly: the squared term is never positive after multiplying by <m>-16</m>, so the largest possible output is <m>196</m>, reached exactly when <m>t = 1.5</m>.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            For what values of <m>t</m> is the height <m>s(t)</m> decreasing?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            For <m>1.5 \lt t \lt 5</m> in this situation.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The rocket rises until it reaches the vertex and falls afterward, so the height is decreasing for <m>t \gt 1.5</m>. In the context of the problem the story ends when the rocket lands, so the answer we care about is
+            <md>
+              <mrow>1.5 \lt t \lt 5.</mrow>
+            </md>
+          </p>
+          <p>
+            Purely as a function, <m>s</m> keeps decreasing for all <m>t \gt 1.5</m>, but those outputs are negative heights, which do not describe anything physical.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>
+            Is the parabola concave up or concave down? How can you tell without graphing?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Concave down, because the leading coefficient <m>-16</m> is negative.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The leading coefficient is <m>a = -16</m>. When <m>a \lt 0</m> the parabola opens downward, so it is concave down and the vertex is a maximum. That also fits the story: an object thrown upward goes up, slows down, and comes back.
+          </p>
+        </solution>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ===================================================== -->
+  <!-- PROBLEM 5: Growth patterns in tables                  -->
+  <!-- ===================================================== -->
+  <page>
+    <exercise xml:id="pgq5-patterns">
+      <title>Reading Growth Patterns from a Table</title>
+      <introduction>
+        <p>
+          For each table, decide whether the relationship is linear, exponential, quadratic, or none of these. Explain how you know. If it is linear, exponential, or quadratic, write an equation for <m>y</m> in terms of <m>x</m>.
+        </p>
+        <p>
+          Remember the three tests: constant first differences means linear, constant second differences means quadratic, and a constant ratio between consecutive outputs means exponential.
+        </p>
+      </introduction>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            Type (linear, exponential, quadratic, or neither): <fillin characters="14"/>
+          </p>
+          <tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+            <row header="yes">
+              <cell><m>x</m></cell>
+              <cell><m>0</m></cell>
+              <cell><m>1</m></cell>
+              <cell><m>2</m></cell>
+              <cell><m>3</m></cell>
+              <cell><m>4</m></cell>
+            </row>
+            <row>
+              <cell><m>y</m></cell>
+              <cell><m>14</m></cell>
+              <cell><m>11</m></cell>
+              <cell><m>8</m></cell>
+              <cell><m>5</m></cell>
+              <cell><m>2</m></cell>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <p>
+            Linear, decreasing: <m>y = -3x + 14</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The <m>x</m>-values go up by <m>1</m> each time, so compare the first differences of the outputs:
+            <md>
+              <mrow>11 - 14 = -3, \quad 8 - 11 = -3, \quad 5 - 8 = -3, \quad 2 - 5 = -3</mrow>
+            </md>
+            The first differences are constant, so the relationship is linear and decreasing.
+          </p>
+          <p>
+            The slope is the constant difference, <m>m = -3</m>. The output at <m>x = 0</m> is the vertical intercept, <m>b = 14</m>. So
+            <md>
+              <mrow>y = -3x + 14.</mrow>
+            </md>
+          </p>
+          <p>
+            Check at <m>x = 3</m>: <m>-3(3) + 14 = 5</m>, which matches the table. Notice the ratios are not constant (<m>11/14</m> is not <m>8/11</m>), so it is not exponential.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            Type (linear, exponential, quadratic, or neither): <fillin characters="14"/>
+          </p>
+          <tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+            <row header="yes">
+              <cell><m>x</m></cell>
+              <cell><m>0</m></cell>
+              <cell><m>1</m></cell>
+              <cell><m>2</m></cell>
+              <cell><m>3</m></cell>
+              <cell><m>4</m></cell>
+            </row>
+            <row>
+              <cell><m>y</m></cell>
+              <cell><m>81</m></cell>
+              <cell><m>54</m></cell>
+              <cell><m>36</m></cell>
+              <cell><m>24</m></cell>
+              <cell><m>16</m></cell>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <p>
+            Exponential decay: <m>y = 81\left(\frac{2}{3}\right)^x</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The first differences are <m>-27, -18, -12, -8</m>, which are not constant, so it is not linear. The second differences are <m>9, 6, 4</m>, which are also not constant, so it is not quadratic.
+          </p>
+          <p>
+            Now check ratios:
+            <md>
+              <mrow>\frac{54}{81} = \frac{2}{3}, \quad \frac{36}{54} = \frac{2}{3}, \quad \frac{24}{36} = \frac{2}{3}, \quad \frac{16}{24} = \frac{2}{3}</mrow>
+            </md>
+            The ratio is constant, so the relationship is exponential. Since the ratio is less than <m>1</m>, this is decay.
+          </p>
+          <p>
+            The initial value at <m>x = 0</m> is <m>81</m>, so
+            <md>
+              <mrow>y = 81\left(\frac{2}{3}\right)^x.</mrow>
+            </md>
+            Check at <m>x = 2</m>: <m>81 \cdot \frac{4}{9} = 36</m>, which matches. Each step keeps two thirds of the previous amount, a loss of about <m>33.3\%</m> per step.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            Type (linear, exponential, quadratic, or neither): <fillin characters="14"/>
+          </p>
+          <tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+            <row header="yes">
+              <cell><m>x</m></cell>
+              <cell><m>0</m></cell>
+              <cell><m>1</m></cell>
+              <cell><m>2</m></cell>
+              <cell><m>3</m></cell>
+              <cell><m>4</m></cell>
+            </row>
+            <row>
+              <cell><m>y</m></cell>
+              <cell><m>3</m></cell>
+              <cell><m>4</m></cell>
+              <cell><m>7</m></cell>
+              <cell><m>12</m></cell>
+              <cell><m>19</m></cell>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <p>
+            Quadratic: <m>y = x^2 + 3</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            First differences: <m>1, 3, 5, 7</m>. Not constant, so not linear. Second differences:
+            <md>
+              <mrow>3 - 1 = 2, \quad 5 - 3 = 2, \quad 7 - 5 = 2</mrow>
+            </md>
+            Constant second differences means the relationship is quadratic.
+          </p>
+          <p>
+            When the <m>x</m>-values step by <m>1</m>, the leading coefficient is half the constant second difference:
+            <md>
+              <mrow>a = \frac{2}{2} = 1</mrow>
+            </md>
+            so the equation has the form <m>y = x^2 + bx + c</m>.
+          </p>
+          <p>
+            At <m>x = 0</m> the output is <m>3</m>, so <m>c = 3</m>. At <m>x = 1</m> the output is <m>4</m>:
+            <md>
+              <mrow>1 + b + 3 \amp = 4</mrow>
+              <mrow>b \amp = 0</mrow>
+            </md>
+            So <m>y = x^2 + 3</m>. Check at <m>x = 4</m>: <m>16 + 3 = 19</m>, which matches.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            Type (linear, exponential, quadratic, or neither): <fillin characters="14"/>
+          </p>
+          <tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+            <row header="yes">
+              <cell><m>x</m></cell>
+              <cell><m>0</m></cell>
+              <cell><m>1</m></cell>
+              <cell><m>2</m></cell>
+              <cell><m>3</m></cell>
+              <cell><m>4</m></cell>
+            </row>
+            <row>
+              <cell><m>y</m></cell>
+              <cell><m>4</m></cell>
+              <cell><m>12</m></cell>
+              <cell><m>36</m></cell>
+              <cell><m>108</m></cell>
+              <cell><m>324</m></cell>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <p>
+            Exponential growth: <m>y = 4 \cdot 3^x</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The first differences are <m>8, 24, 72, 216</m>, which are not constant, and the second differences are <m>16, 48, 144</m>, also not constant. So it is neither linear nor quadratic.
+          </p>
+          <p>
+            Ratios:
+            <md>
+              <mrow>\frac{12}{4} = 3, \quad \frac{36}{12} = 3, \quad \frac{108}{36} = 3, \quad \frac{324}{108} = 3</mrow>
+            </md>
+            The constant ratio of <m>3</m> means exponential growth, tripling at every step.
+          </p>
+          <p>
+            The initial value is <m>4</m>, so
+            <md>
+              <mrow>y = 4 \cdot 3^x.</mrow>
+            </md>
+            Check at <m>x = 3</m>: <m>4 \cdot 27 = 108</m>, which matches. A ratio greater than <m>1</m> means growth, in this case a <m>200\%</m> increase per step.
+          </p>
+        </solution>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            Type (linear, exponential, quadratic, or neither): <fillin characters="14"/>
+          </p>
+          <tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+            <row header="yes">
+              <cell><m>x</m></cell>
+              <cell><m>1</m></cell>
+              <cell><m>2</m></cell>
+              <cell><m>3</m></cell>
+              <cell><m>4</m></cell>
+              <cell><m>5</m></cell>
+            </row>
+            <row>
+              <cell><m>y</m></cell>
+              <cell><m>1</m></cell>
+              <cell><m>8</m></cell>
+              <cell><m>27</m></cell>
+              <cell><m>64</m></cell>
+              <cell><m>125</m></cell>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <p>
+            None of the three. There is a pattern (each output is <m>x^3</m>), but it is not linear, exponential, or quadratic.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Run all three tests. First differences:
+            <md>
+              <mrow>8 - 1 = 7, \quad 27 - 8 = 19, \quad 64 - 27 = 37, \quad 125 - 64 = 61</mrow>
+            </md>
+            Not constant, so not linear.
+          </p>
+          <p>
+            Second differences:
+            <md>
+              <mrow>19 - 7 = 12, \quad 37 - 19 = 18, \quad 61 - 37 = 24</mrow>
+            </md>
+            Not constant, so not quadratic.
+          </p>
+          <p>
+            Ratios:
+            <md>
+              <mrow>\frac{8}{1} = 8, \quad \frac{27}{8} = 3.375, \quad \frac{64}{27} \approx 2.37</mrow>
+            </md>
+            Not constant, so not exponential.
+          </p>
+          <p>
+            So the answer is none of the three. There is still a rule here: the outputs are <m>1^3, 2^3, 3^3, 4^3, 5^3</m>, so <m>y = x^3</m>. This is a good reminder that "not linear, exponential, or quadratic" does not mean "no pattern"; it just means the pattern is not one of the three families we have tools for.
+          </p>
+        </solution>
+      </task>
+    </exercise>
+  </page>
+
+  <conclusion>
+    <p>
+      As a group, pick the one problem that caused the most disagreement. Write one or two sentences describing what the sticking point was and how you resolved it.
+    </p>
+  </conclusion>
+</worksheet>
