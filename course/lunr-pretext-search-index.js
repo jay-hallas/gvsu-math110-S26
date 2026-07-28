@@ -1702,6 +1702,78 @@ var ptx_lunr_docs = [
   "body": " Exponential Decay Graph   Use the graph of the exponential function below to answer the questions. Read values directly from the graph.   A decreasing exponential curve passing through (0,125), (1,75), (2,45), and (3,27), with the first two points labeled.   A coordinate grid with x-values from 0 to 4 and y-values from 0 to 130. The curve passes through (0,125), (1,75), (2,45), and (3,27). Points (0,125) and (1,75) are explicitly labeled.     f(x) = 125 * (0.6^x)      (0, 125)   (1, 75)          Find the decay rate.  The decay factor is , so the value decreases by for each increase of in . The decay rate is .    Find the vertical intercept.  The graph crosses the -axis at , so the vertical intercept is .    Evaluate .  At , the graph has value , so .    Find the value of for which .  The graph has value when .    Write an equation for the curve.  The vertical intercept is and the decay factor is , so the equation is .   "
 },
 {
+  "id": "lt9-practice-quiz",
+  "level": "1",
+  "url": "lt9-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Learning Target 9: Exponential Applications",
+  "body": " Learning Target 9: Exponential Applications    Given an exponential word situation (half-life, compound interest, depreciation, or simple growth\/decay), make an equation.  Identify and explain the meaning of the growth\/decay rate and the y-intercept in the context of the problem.  Evaluate and explain its meaning, find given and explain its meaning, and determine what inputs make sense.      Caffeine Elimination   A person drinks a large coffee containing milligrams of caffeine. The amount of caffeine in their body decreases by each hour.     Write an exponential function to model the amount of caffeine remaining in the body after hours.    The initial amount is and the decay factor is . The equation is .      Identify the y-intercept and the decay rate. Explain their meanings in the context of this situation.    The y-intercept is , which represents the initial mg of caffeine in the body at the moment the coffee is consumed ( ). The decay rate is , meaning the body metabolizes and eliminates of the remaining caffeine every hour.      Find and explain its meaning in context. Round to the nearest tenth.     . This means there are approximately milligrams of caffeine left in the person's body hours after drinking the coffee.      Set up an equation to find when the caffeine level reaches mg. Explain what the solution to this equation represents. (You do not need to solve it).     . The solution represents the exact number of hours it will take for the caffeine in the body to drop to milligrams.      What inputs for make sense in this context?    Time cannot be negative, so . The inputs make sense for positive values of until the caffeine approaches zero and is effectively eliminated from the bloodstream.        Viral Video Growth   A new video is uploaded to a channel and initially has views. For the first week it is released, the total number of views grows by every hour.     Write an exponential function to model the total number of views after hours.    The initial amount is and the growth factor is . The equation is .      Find and explain its meaning in context. Round to the nearest whole number.     . This means that hours (one full day) after the video was uploaded, it will have approximately total views.      What domain of inputs for makes sense based on the problem description?    The problem states the model applies for \"the first week\". A week has hours. Therefore, the valid inputs are .      AI Assistant Reliability   Researchers are testing a new AI assistant. As a simplified model, they assume the probability that a response is entirely correct starts at (or ) and decreases by for every additional words generated in a single session.     Write an exponential function to model the probability of a correct response based on , the number of words generated. (Hint: Use in your exponent to scale the words into -word blocks).    The initial probability is . The decay factor is . Because this decay happens every words, the exponent is . The equation is .      Evaluate and explain what it means in context.     . This means that if the AI generates a -word response, there is approximately a probability that the response is entirely correct.        Annual Compound Interest   An investor deposits into a retirement account that earns annual interest, compounded yearly.     Write an equation for the balance after years. Then, identify the y-intercept and explain its meaning.    The equation is . The y-intercept is , which represents the initial principal deposited into the account at year .      Evaluate and explain its meaning. (Round to the nearest cent).     . This means that after years, the account balance will have grown to .      Monthly Compound Interest   Suppose instead the is deposited into an account that earns annual interest, but it is compounded monthly .     Write an equation for the balance after years. (Recall the formula ).    Here, , , and (since there are months in a year). The equation is , which simplifies to .      Set up an equation to find how long it takes for the account balance to reach . What does this solution represent?     . The solution represents the number of years it will take for the initial investment to double in value.      Daily Compound Interest   Finally, suppose the is deposited into an account earning annual interest, compounded daily (assume days in a year).     Write an equation for the balance after years.    Here, . The equation is .      Evaluate for this daily compounding account. How does it compare to the annual compounding from the earlier question?     . After years, the daily compounding account yields , which is more than the earned from annual compounding. More frequent compounding results in a higher final balance.      "
+},
+{
+  "id": "lt9-practice-quiz-2",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Given an exponential word situation (half-life, compound interest, depreciation, or simple growth\/decay), make an equation.  Identify and explain the meaning of the growth\/decay rate and the y-intercept in the context of the problem.  Evaluate and explain its meaning, find given and explain its meaning, and determine what inputs make sense.   "
+},
+{
+  "id": "lt9-caffeine",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-caffeine",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Caffeine Elimination.",
+  "body": " Caffeine Elimination   A person drinks a large coffee containing milligrams of caffeine. The amount of caffeine in their body decreases by each hour.     Write an exponential function to model the amount of caffeine remaining in the body after hours.    The initial amount is and the decay factor is . The equation is .      Identify the y-intercept and the decay rate. Explain their meanings in the context of this situation.    The y-intercept is , which represents the initial mg of caffeine in the body at the moment the coffee is consumed ( ). The decay rate is , meaning the body metabolizes and eliminates of the remaining caffeine every hour.      Find and explain its meaning in context. Round to the nearest tenth.     . This means there are approximately milligrams of caffeine left in the person's body hours after drinking the coffee.      Set up an equation to find when the caffeine level reaches mg. Explain what the solution to this equation represents. (You do not need to solve it).     . The solution represents the exact number of hours it will take for the caffeine in the body to drop to milligrams.      What inputs for make sense in this context?    Time cannot be negative, so . The inputs make sense for positive values of until the caffeine approaches zero and is effectively eliminated from the bloodstream.    "
+},
+{
+  "id": "lt9-youtube",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-youtube",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Viral Video Growth.",
+  "body": " Viral Video Growth   A new video is uploaded to a channel and initially has views. For the first week it is released, the total number of views grows by every hour.     Write an exponential function to model the total number of views after hours.    The initial amount is and the growth factor is . The equation is .      Find and explain its meaning in context. Round to the nearest whole number.     . This means that hours (one full day) after the video was uploaded, it will have approximately total views.      What domain of inputs for makes sense based on the problem description?    The problem states the model applies for \"the first week\". A week has hours. Therefore, the valid inputs are .    "
+},
+{
+  "id": "lt9-ai-reliability",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-ai-reliability",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "AI Assistant Reliability.",
+  "body": " AI Assistant Reliability   Researchers are testing a new AI assistant. As a simplified model, they assume the probability that a response is entirely correct starts at (or ) and decreases by for every additional words generated in a single session.     Write an exponential function to model the probability of a correct response based on , the number of words generated. (Hint: Use in your exponent to scale the words into -word blocks).    The initial probability is . The decay factor is . Because this decay happens every words, the exponent is . The equation is .      Evaluate and explain what it means in context.     . This means that if the AI generates a -word response, there is approximately a probability that the response is entirely correct.    "
+},
+{
+  "id": "lt9-compound-annual",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-compound-annual",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Annual Compound Interest.",
+  "body": " Annual Compound Interest   An investor deposits into a retirement account that earns annual interest, compounded yearly.     Write an equation for the balance after years. Then, identify the y-intercept and explain its meaning.    The equation is . The y-intercept is , which represents the initial principal deposited into the account at year .      Evaluate and explain its meaning. (Round to the nearest cent).     . This means that after years, the account balance will have grown to .    "
+},
+{
+  "id": "lt9-compound-monthly",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-compound-monthly",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Monthly Compound Interest.",
+  "body": " Monthly Compound Interest   Suppose instead the is deposited into an account that earns annual interest, but it is compounded monthly .     Write an equation for the balance after years. (Recall the formula ).    Here, , , and (since there are months in a year). The equation is , which simplifies to .      Set up an equation to find how long it takes for the account balance to reach . What does this solution represent?     . The solution represents the number of years it will take for the initial investment to double in value.    "
+},
+{
+  "id": "lt9-compound-daily",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-compound-daily",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Daily Compound Interest.",
+  "body": " Daily Compound Interest   Finally, suppose the is deposited into an account earning annual interest, compounded daily (assume days in a year).     Write an equation for the balance after years.    Here, . The equation is .      Evaluate for this daily compounding account. How does it compare to the annual compounding from the earlier question?     . After years, the daily compounding account yields , which is more than the earned from annual compounding. More frequent compounding results in a higher final balance.    "
+},
+{
   "id": "lt10-practice-quiz",
   "level": "1",
   "url": "lt10-practice-quiz.html",
